@@ -13,14 +13,15 @@
     "not_found_handling": "single-page-application"
   },
   "vars": {
-    "DATA_MODE": "sample",
+    "DATA_MODE": "live",
     "APP_ORIGIN": "https://news-pocket.iori-sato-4637.workers.dev",
     "GOOGLE_CLIENT_ID": "517654153739-sb0r0o27amm7do0orjapkr3u178bble7.apps.googleusercontent.com",
     "AUTH_ENABLED": "true",
     "AI_ENABLED": "false",
     "FREE_PLAN_CONFIRMED": "true",
     "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
-    "CONTACT_URL": ""
+    "CONTACT_URL": "https://news-pocket.iori-sato-4637.workers.dev/contact.html",
+    "COLLECTION_ENABLED": "false"
   },
   "d1_databases": [
     {
