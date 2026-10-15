@@ -7,7 +7,7 @@ test('real local D1 applies schema, enforces quota triggers, and cleans capacity
   const mf=new Miniflare(convertV4MiniflareOptions({modules:true,script:'export default {fetch(){return new Response("ok")}}',d1Databases:['DB'],compatibilityDate:'2026-10-14'}));
   try{
     const db=await mf.getD1Database('DB');
-    const sql=(await readFile(new URL('../migrations/0001_initial.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0002_connections.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0003_ai_model.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0004_input_cache.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0005_summary_limits.sql',import.meta.url),'utf8'));
+    const sql=(await readFile(new URL('../migrations/0001_initial.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0002_connections.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0003_ai_model.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0004_input_cache.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0005_summary_limits.sql',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../migrations/0006_editorial_briefings.sql',import.meta.url),'utf8'));
     // D1 exec requires one whole SQL command per line, including trigger bodies.
     const commands=sql.replace(/^--.*$/gm,'').split(/;(?=\s*(?:PRAGMA|CREATE|ALTER|DROP|$))/).map(s=>s.trim()).filter(Boolean);
     for(const command of commands)await db.exec(command.replace(/\s+/g,' ')+';');

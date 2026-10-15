@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-15",
+  "generator": "この会話のAIが作成した確認用要約案。本番のWorkers AI・Qwenによる生成ではありません。",
+  "examples": [
+    {
+      "id": "elyza",
+      "topic": "ELYZAの日本語向けAIモデル",
+      "state": "draft",
+      "label": "要約案あり・利用範囲に注意",
+      "original": { "name": "ITmedia AI＋", "date": "2026-10-02", "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/" },
+      "source": { "name": "ELYZA公式モデル説明書", "date": "説明書の公開日としては未確認", "url": "https://huggingface.co/elyza/ELYZA-Thinking-1.0-llm-jp-4-33b", "termsUrl": "https://huggingface.co/elyza/ELYZA-Thinking-1.0-llm-jp-4-33b/blob/6ca556b2ddc4642580752b3a1ae2d7e7681106fc/LICENSE" },
+      "match": "開発元ELYZAと33bモデルの名称が一致。元記事にあるもう一方の32b-a3bモデルや研究組織の話は、この説明書の要約に混ぜません。",
+      "readRange": "公式リポジトリのREADME.mdのHighlights節。モデルを実行したり、重みをダウンロードしたりしていません。",
+      "rights": "公式リポジトリのApache-2.0表記、LICENSE・NOTICEを確認。今回の説明書の短い加工案に範囲を限定。企業サイトの発表文全体、ITmedia記事、写真まで許諾済みとは扱いません。継続利用前に文書への適用範囲を最終確認します。",
+      "summary": "ELYZAは、LLM-jpの33bモデルに追加学習を施したAIモデルを公開している。開発元は、日本語の推論や指示への対応、日本固有の知識の扱いを重視したと説明している。性能についての独立した実測は、この見本では行っていない。",
+      "credit": "ELYZAの公式モデル説明書をもとにニュースポケットの確認用要約案を作成。Copyright 2026 ELYZA, Inc.／Apache License 2.0。原文の変更・日本語への要約を含みます。",
+      "caution": "国内で開発されたことから『すべての材料・工程が完全国産』とは言い換えません。元記事には関連する表現の訂正もあるため、その推論を要約から除きました。"
+    },
+    {
+      "id": "android",
+      "topic": "Androidのマイナンバーカード",
+      "state": "held",
+      "label": "本文・利用範囲の確認待ち",
+      "original": { "name": "ITmedia NEWS", "date": "2026-10-02", "url": "https://www.itmedia.co.jp/news/article/2610/02/2000001968/" },
+      "source": { "name": "デジタル庁の公式告知", "date": "2026-10-02", "url": "https://www.digital.go.jp/news/482b21c3-146e-41dc-ab63-6c06c4a153bf", "termsUrl": "https://www.digital.go.jp/copyright-policy", "linkedUrl": "https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/" },
+      "match": "サービス名と2026年10月20日開始予定の告知が一致。ただし開始済みとは表現しません。",
+      "readRange": "www.digital.go.jp側で告知の見出し・日付・案内先リンクを確認。案内先はHTTP 200だが、今回のHTML本文抽出と検索ツールでは本文を確認できませんでした。HTTP 200は本文取得成功の証明になりません。",
+      "rights": "www.digital.go.jpのPDL1.0と加工表示の条件を確認。別ホストservices.digital.go.jpの本文に同じ条件が適用されることは未確認です。",
+      "summary": null,
+      "credit": "要約は未作成。公式告知へのリンクのみ。",
+      "caution": "ITmedia本文で読めた機能説明を公式本文の取得結果として流用しません。案内先の本文・利用条件を確認するまで、対象機種や使い方を補った要約は掲載しません。"
+    },
+    {
+      "id": "soundcore",
+      "topic": "Soundcore 3の事故と回収案内",
+      "state": "draft",
+      "label": "要約案あり・過去の公表資料",
+      "original": { "name": "ITmedia NEWS", "date": "2026-08-17（記事更新：2026-09-03）", "url": "https://www.itmedia.co.jp/news/article/2608/17/2000000562/" },
+      "source": { "name": "消費者庁の公表資料", "date": "2026-08-14", "url": "https://www.caa.go.jp/notice/entry/047197/", "termsUrl": "https://www.caa.go.jp/terms_of_use/", "documentUrl": "https://www.caa.go.jp/notice/assets/consumer_safety_cms202_260814_01.pdf" },
+      "match": "メーカー、製品名Soundcore 3、2026年6月15日の事故、8月14日の公表が一致。PDFの管理番号A202600516も照合しました。",
+      "readRange": "公式HTMLとPDFの1・2・4・6ページ。製品名・回収対象表はPDFの2ページを画像でも確認。写真・ロゴは転載しません。",
+      "rights": "消費者庁の利用規約にあるPDL1.0、出典・加工主体の記載、第三者権利と適用除外の注意を確認。今回は事故の公式説明文だけを使う案で、写真や企業ロゴを含めません。",
+      "summary": "消費者庁は2026年8月14日、Soundcore 3を車内に置いていた際の火災を公表した。原因は当時調査中で、既存のリコール事象との関係も未確定。対象製品を持ち、回収・交換を受けていない人には、使用をやめて事業者へ連絡するよう案内している。",
+      "credit": "消費者庁の2026年8月14日公表資料を加工してニュースポケットの確認用AI要約案を作成。PDL1.0。消費者庁が作成した要約ではありません。",
+      "caution": "これは過去資料を使った検証です。現在の回収状況や調査結果は未確認。公表された11件全体を『このスピーカーの事故11件』とは扱いません。"
+    }
+  ]
+}

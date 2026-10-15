@@ -3,6 +3,7 @@ import { SAMPLE_ARTICLES } from './samples.mjs';
 import { LIMITS, FREE_MODEL, THEMES, sourcePublic, sourceAI, japanDay, utcDay, canonicalUrl } from './model.mjs';
 import { fetchFeed } from './feed.mjs';
 import { contactApi, contactConfigured, isOperator } from './contact.mjs';
+import { EDITORIAL_SOURCE, editorialArticle, briefingState, ingestBriefing } from './briefings.mjs';
 import { authConfigured, startAuth, finishAuth, currentUser, cookie, cookieValue, hash, randomToken, equal } from './auth.mjs';
 const visible = () => sources.filter(sourcePublic);
 const sourceFor = id => sources.find(s => s.id === id);
@@ -14,8 +15,8 @@ function originCheck(request,env) { if(request.headers.get('Origin') !== env.APP
 async function authenticated(request,env) { if(!env.DB)fail(503,'データベースが未接続です。'); const user=await currentUser(request,env); if(!user) fail(401,'Googleログインが必要です。'); return user; }
 async function readJson(request, max=200000) { if(!request.headers.get('content-type')?.startsWith('application/json')) fail(415,'JSON形式が必要です。'); const body=await request.text(); if(body.length>max) fail(413,'送信内容が大きすぎます。'); try{return JSON.parse(body);}catch{fail(400,'JSONを読み取れません。');} }
 const sampleFor=id=>SAMPLE_ARTICLES.find(a=>a.id===id);
-const articleVisible=(env,row)=>row.source_id==='sample'?env.DATA_MODE!=='live'&&!!sampleFor(row.id):sourcePublic(sourceFor(row.source_id)??{});
-function formatArticle(row, summary=null) { if(row.source_id==='sample')return sampleFor(row.id); const source=sourceFor(row.source_id); return {id:row.id,title:row.title,sourceId:row.source_id,source:source.name,url:row.url,themes:JSON.parse(row.themes),publishedAt:row.published_at,collectedAt:row.collected_at,isSample:false,summary,inputScope:source.inputScope??null,attribution:row.attribution??'',canGenerate:sourceAI(source),license:source.licenseName?{name:source.licenseName,url:source.licenseUrl}:null}; }
+const articleVisible=(env,row)=>row.source_id===EDITORIAL_SOURCE?env.EDITORIAL_ENABLED==='true'&&!!row.editorial_json:row.source_id==='sample'?env.DATA_MODE!=='live'&&!!sampleFor(row.id):sourcePublic(sourceFor(row.source_id)??{});
+function formatArticle(row, summary=null) { if(row.source_id===EDITORIAL_SOURCE)return editorialArticle(row); if(row.source_id==='sample')return sampleFor(row.id); const source=sourceFor(row.source_id); return {id:row.id,title:row.title,sourceId:row.source_id,source:source.name,url:row.url,themes:JSON.parse(row.themes),publishedAt:row.published_at,collectedAt:row.collected_at,isSample:false,summary,inputScope:source.inputScope??null,attribution:row.attribution??'',canGenerate:sourceAI(source),license:source.licenseName?{name:source.licenseName,url:source.licenseUrl}:null}; }
 async function articleById(env,id) {
   const sample=env.DATA_MODE!=='live'&&sampleFor(id);
   // Original fictional fixtures can be saved to D1 without enabling a news source.
@@ -25,19 +26,20 @@ async function articleById(env,id) {
   }
   const row=await env.DB.prepare('SELECT * FROM articles WHERE id = ?').bind(id).first(); if(!row || !articleVisible(env,row)) fail(404,'記事が見つからないか、公開条件により非表示です。'); return row;
 }
-async function getSummary(env,row) { if(!sourceAI(sourceFor(row.source_id))) return null; const s=await env.DB.prepare('SELECT text,scope,created_at,content_hash,model FROM summaries WHERE article_id = ?').bind(row.id).first(); return s && s.content_hash===row.content_hash && s.model===FREE_MODEL ? {text:s.text,scope:s.scope,createdAt:s.created_at,kind:'ai'} : null; }
+async function getSummary(env,row) { if(row.source_id===EDITORIAL_SOURCE)return editorialArticle(row).summary; if(!sourceAI(sourceFor(row.source_id))) return null; const s=await env.DB.prepare('SELECT text,scope,created_at,content_hash,model FROM summaries WHERE article_id = ?').bind(row.id).first(); return s && s.content_hash===row.content_hash && s.model===FREE_MODEL ? {text:s.text,scope:s.scope,createdAt:s.created_at,kind:'ai'} : null; }
 async function status(env) {
   let database=false, state={},databaseBytes=null;
   try { if(env.DB) { await env.DB.prepare('SELECT 1').first(); database=true; if(env.DATA_MODE==='live') { const rows=await env.DB.prepare('SELECT key,value FROM app_state').all(); state=Object.fromEntries(rows.results.map(r=>[r.key,r.value]));databaseBytes=Number.isFinite(rows.meta?.size_after)?rows.meta.size_after:null; } } } catch { database=false; }
   let siteUsage=null,aiUsage=null;
   if(database&&env.DATA_MODE==='live')siteUsage=await env.DB.prepare("SELECT count(*) AS n FROM summary_jobs WHERE day=? AND state='succeeded'").bind(japanDay()).first('n');
   if(database&&env.DATA_MODE==='live')aiUsage=await env.DB.prepare('SELECT count(*) AS attempts,coalesce(sum(j.reserved_neurons),0) AS reservedNeurons,sum(m.estimated_neurons) AS estimatedNeurons,count(m.job_id) AS measurements,avg(m.duration_ms) AS avgDurationMs FROM summary_jobs j LEFT JOIN summary_metrics m ON m.job_id=j.id WHERE j.ai_day=?').bind(utcDay()).first();
-  return {mode:env.DATA_MODE==='live'?'live':'sample',database:database?'available':'unavailable',databaseBytes,estimatedDatabaseBytes:state.database_bytes?Number(state.database_bytes):null,google:authConfigured(env)&&database?'configured':'unconfigured',ai:env.AI_ENABLED==='true'&&env.AI&&env.FREE_PLAN_CONFIRMED==='true'&&env.AI_MODEL===FREE_MODEL?'configured':'disabled',siteUsage,aiUsage,aiStopped:state[`ai_stopped_${utcDay()}`]==='true',privateContact:contactConfigured(env),lastScheduleSuccess:state.last_schedule_success??null,lastScheduleRun:state.last_schedule_run??null,lastSuccess:state.last_success ?? null,lastAttempt:state.last_attempt ?? null,collectionState:state.collection_state ?? 'never',collectionScheduled:env.COLLECTION_ENABLED==='true',sourceCount:visible().length,sources:sources.map(({id,name,enabled,note,rights,evidenceUrl,reviewedAt})=>({id,name,enabled:!!(enabled&&sourcePublic(sourceFor(id))),note,rights,evidenceUrl,reviewedAt})),limits:LIMITS,contactUrl:env.CONTACT_URL?.startsWith('https://')?env.CONTACT_URL:null};
+  return {briefing:database?await briefingState(env):{enabled:false,latest:null,automaticPublication:false},mode:env.DATA_MODE==='live'?'live':'sample',database:database?'available':'unavailable',databaseBytes,estimatedDatabaseBytes:state.database_bytes?Number(state.database_bytes):null,google:authConfigured(env)&&database?'configured':'unconfigured',ai:env.AI_ENABLED==='true'&&env.AI&&env.FREE_PLAN_CONFIRMED==='true'&&env.AI_MODEL===FREE_MODEL?'configured':'disabled',siteUsage,aiUsage,aiStopped:state[`ai_stopped_${utcDay()}`]==='true',privateContact:contactConfigured(env),lastScheduleSuccess:state.last_schedule_success??null,lastScheduleRun:state.last_schedule_run??null,lastSuccess:state.last_success ?? null,lastAttempt:state.last_attempt ?? null,collectionState:state.collection_state ?? 'never',collectionScheduled:env.COLLECTION_ENABLED==='true',sourceCount:visible().length,sources:sources.map(({id,name,enabled,note,rights,evidenceUrl,reviewedAt})=>({id,name,enabled:!!(enabled&&sourcePublic(sourceFor(id))),note,rights,evidenceUrl,reviewedAt})),limits:LIMITS,contactUrl:env.CONTACT_URL?.startsWith('https://')?env.CONTACT_URL:null};
 }
 export async function maintenance(env) {
   const cutoff=new Date(Date.now()-90*86400000).toISOString();
   const now=new Date().toISOString();
   await env.DB.batch([
+    env.DB.prepare('DELETE FROM editorial_editions WHERE created_at < ?').bind(cutoff),
     env.DB.prepare('DELETE FROM article_inputs WHERE expires_at < ?').bind(now),
     env.DB.prepare('DELETE FROM contacts WHERE created_at < ?').bind(new Date(Date.now()-30*86400000).toISOString()),
     env.DB.prepare('DELETE FROM contact_quota WHERE day < ?').bind(new Date(Date.now()-2*86400000).toISOString().slice(0,10)),
@@ -47,8 +49,9 @@ export async function maintenance(env) {
     env.DB.prepare('DELETE FROM articles WHERE collected_at < ? AND NOT EXISTS(SELECT 1 FROM bookmarks WHERE bookmarks.article_id=articles.id) AND NOT EXISTS(SELECT 1 FROM summary_jobs WHERE summary_jobs.article_id=articles.id AND state=?)').bind(cutoff,'pending')
   ]);
   const publicSources=visible();
+  const retainedSourceIds=[...publicSources.map(s=>s.id),EDITORIAL_SOURCE];
   if(publicSources.length) {
-    await env.DB.prepare(`DELETE FROM articles WHERE source_id NOT IN (${publicSources.map(()=>'?').join(',')}) AND NOT EXISTS(SELECT 1 FROM bookmarks WHERE bookmarks.article_id=articles.id)`).bind(...publicSources.map(s=>s.id)).run();
+    await env.DB.prepare(`DELETE FROM articles WHERE source_id NOT IN (${retainedSourceIds.map(()=>'?').join(',')}) AND NOT EXISTS(SELECT 1 FROM bookmarks WHERE bookmarks.article_id=articles.id)`).bind(...retainedSourceIds).run();
     for(const source of publicSources) {
       const days=Math.min(90,Math.max(1,Number(source.retentionDays)||90));
       await env.DB.prepare(`DELETE FROM articles WHERE source_id=? AND collected_at < ? ${source.retainSaved!==false?'AND NOT EXISTS(SELECT 1 FROM bookmarks WHERE bookmarks.article_id=articles.id)':''} AND NOT EXISTS(SELECT 1 FROM summary_jobs WHERE summary_jobs.article_id=articles.id AND state='pending')`).bind(source.id,new Date(Date.now()-days*86400000).toISOString()).run();
@@ -58,13 +61,14 @@ export async function maintenance(env) {
   // D1 does not authorize page_count/page_size/freelist_count. Estimate stored
   // content with a 3x margin for indexes/pages, and expose the estimate honestly.
   const storage=await env.DB.prepare(`SELECT
-    coalesce((SELECT sum(length(CAST(title || url || themes || content_hash AS BLOB))+256) FROM articles),0)
+    coalesce((SELECT sum(length(CAST(title || url || themes || content_hash || coalesce(editorial_json,'') AS BLOB))+256) FROM articles),0)
     + coalesce((SELECT sum(length(CAST(text || scope AS BLOB))+256) FROM summaries),0)
     + (SELECT count(*) FROM users)*192 + (SELECT count(*) FROM sessions)*256
     + coalesce((SELECT sum(length(CAST(subject || message || reply_email AS BLOB))+256) FROM contacts),0)
     + coalesce((SELECT sum(length(CAST(text AS BLOB))+192) FROM article_inputs),0)
     + (SELECT count(*) FROM contact_quota)*192 + (SELECT count(*) FROM summary_metrics)*128
-    + (SELECT count(*) FROM bookmarks)*192 + (SELECT count(*) FROM summary_jobs)*384 AS n`).all();
+    + (SELECT count(*) FROM bookmarks)*192 + (SELECT count(*) FROM summary_jobs)*384
+    + (SELECT count(*) FROM editorial_editions)*768 AS n`).all();
   const bytes=Number(storage.results[0].n)*3;
   const actualBytes=Number.isFinite(storage.meta?.size_after)?storage.meta.size_after:null;
   const count=await env.DB.prepare('SELECT count(*) AS n FROM articles').first('n');
@@ -78,6 +82,7 @@ export async function maintenance(env) {
   return {estimatedBytes:bytes,actualBytes,deletedForCapacity:deleted};
 }
 async function generateSummary(env,user,row) {
+  if(row.source_id===EDITORIAL_SOURCE)fail(422,'編集便は作成済みの独自解説です。閲覧時のAI再生成は行いません。');
   if(row.source_id==='sample')fail(422,'サンプルの説明文は手作業で作成済みです。AI生成は行いません。');
   const source=sourceFor(row.source_id);
   if(!sourceAI(source)) fail(403,'この情報源は本文取得・AI入力・要約提供の条件が未確認です。');
@@ -134,7 +139,7 @@ async function handle(request,env) {
   if(path==='/api/contact'||path.startsWith('/api/operator/'))return json(await contactApi(request,env,{fail,readJson,originCheck}));
   if(path==='/api/articles'&&method==='GET') {
     if(env.DATA_MODE!=='live') return json({articles:SAMPLE_ARTICLES,nextCursor:null,mode:'sample'});
-    requireLive(env); const ids=visible().map(s=>s.id); if(!ids.length) return json({articles:[],nextCursor:null,mode:'live'});
+    requireLive(env); const ids=[...visible().map(s=>s.id),...(env.EDITORIAL_ENABLED==='true'?[EDITORIAL_SOURCE]:[])]; if(!ids.length) return json({articles:[],nextCursor:null,mode:'live'});
     const theme=url.searchParams.get('theme'); if(theme&&!THEMES.includes(theme)) fail(400,'テーマが不正です。');
     let params=[...ids],where=`source_id IN (${ids.map(()=>'?').join(',')})`;
     if(theme){where+=' AND EXISTS(SELECT 1 FROM json_each(articles.themes) WHERE value=?)';params.push(theme);}
@@ -167,6 +172,12 @@ async function handle(request,env) {
       if(!sourcePublic(source??{})||!source.cacheInput)fail(400,'取得許可を管理する情報源ではありません。');
       const now=Date.now();const result=await env.DB.prepare('INSERT INTO app_state(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value WHERE CAST(app_state.value AS INTEGER) < ?').bind(`source_lease_${source.id}`,String(now),now-3000).run();
       if(!result.meta.changes)fail(429,'配信元の制限を守るため、3秒以上あけてください。');return json({ok:true});
+    }
+    if(path==='/api/admin/briefings'&&method==='POST') {
+      if(env.EDITORIAL_ENABLED!=='true')fail(503,'編集便の受信は未接続です。');
+      const data=await readJson(request,100000);
+      let result;try{result=await ingestBriefing(env,data,data.trigger==='schedule'&&/^\d{1,20}$/.test(data.runId??'')?'schedule':data.trigger==='push'&&/^\d{1,20}$/.test(data.runId??'')?'push':'manual');}catch(error){if(/D1|SQLITE|database/i.test(String(error.message)))throw error;fail(400,error.message);}
+      return json(result);
     }
     if(path==='/api/admin/maintenance'&&method==='POST') return json(await maintenance(env));
     if(path==='/api/admin/ingest'&&method==='POST') {

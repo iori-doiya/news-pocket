@@ -1,0 +1,27 @@
+// 外部通信・本番への書き込みを行わず、ローカルの確認用画面だけを生成する。
+import { readFile, writeFile } from 'node:fs/promises';
+const data = JSON.parse(await readFile(new URL('./examples.json', import.meta.url), 'utf8'));
+const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const link = (url, label) => `<a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)} ↗</a>`;
+const cards = data.examples.map(item => `<article data-state="${item.state}" id="${item.id}">
+  <div class="meta">${escape(item.label)}</div><h2>${escape(item.topic)}</h2>
+  <div class="sources"><section><span>話題の発見元</span><p>${link(item.original.url,item.original.name)}</p><small>${escape(item.original.date)}</small></section>
+  <section><span>要約の出典候補</span><p>${link(item.source.url,item.source.name)}</p><small>${escape(item.source.date)}</small></section></div>
+  <div class="summary"><span>${item.summary ? '確認用AI要約案' : '要約は保留'}</span><p>${escape(item.summary ?? '公式本文と利用条件を確認できるまで、推測した説明は作りません。元記事と公式告知へのリンクを残します。')}</p></div>
+  <p class="note">${escape(item.credit)}</p>
+  <details><summary>同じ出来事か・利用条件・確認範囲を見る</summary><dl>
+  <dt>出来事の照合</dt><dd>${escape(item.match)}</dd><dt>実際に読めた範囲</dt><dd>${escape(item.readRange)}</dd>
+  <dt>利用条件</dt><dd>${escape(item.rights)} ${link(item.source.termsUrl,'条件の根拠')}</dd>
+  <dt>取り違えを防ぐ点</dt><dd>${escape(item.caution)}</dd></dl>
+  ${item.source.documentUrl ? link(item.source.documentUrl,'確認したPDF') : ''}
+  ${item.source.linkedUrl ? link(item.source.linkedUrl,'本文を未確認の案内先') : ''}</details></article>`).join('');
+const html = `<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ニュースポケット｜話題別まとめの確認</title>
+<style>:root{color-scheme:dark;--bg:#080f20;--panel:#101c33;--line:#293956;--text:#edf4ff;--muted:#aabbd6;--accent:#8ac5ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#173f76 0,transparent 48%),var(--bg);color:var(--text);font:16px/1.85 system-ui,"Yu Gothic",sans-serif}main{max-width:1050px;margin:auto;padding:48px 24px 80px}.eyebrow{color:var(--accent);font-size:14px;letter-spacing:.1em}h1{font-size:clamp(27px,5vw,40px);line-height:1.45;margin:12px 0}h2{font-size:23px;margin:7px 0 22px}p{margin:10px 0}a{color:#a6d4ff;text-underline-offset:4px;overflow-wrap:anywhere}a:hover{color:white}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #8ac5ff;outline-offset:5px}.lead{color:var(--muted);max-width:800px}.notice{border:1px solid #42648d;background:#152d4d;padding:16px 20px;border-radius:14px;margin:24px 0}.tabs{display:flex;gap:10px;overflow-x:auto;white-space:nowrap;padding:4px 2px 14px;margin:24px 0 6px}button{font:inherit;border:1px solid var(--line);border-radius:999px;padding:8px 18px;background:#111e36;color:var(--text);cursor:pointer}button[aria-pressed=true]{background:linear-gradient(100deg,#1764c9,#308bc7);border-color:#72b9fa}article{background:linear-gradient(135deg,#132440,#0e192d);border:1px solid var(--line);border-radius:20px;padding:28px;margin:18px 0 26px;box-shadow:0 14px 40px #0002}.meta{font-size:13px;color:#a3d1ff}.sources{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:22px}.sources section{border-left:2px solid #38659a;padding-left:16px}.sources p{margin:4px 0}small,.note{color:var(--muted);font-size:13px}.sources span,.summary span{font-size:13px;color:var(--muted)}.summary{background:#081526;border:1px solid #29476d;border-radius:12px;padding:18px 20px}.summary p{margin:6px 0 0}.note{margin:14px 0 22px}details{border-top:1px solid var(--line);padding-top:16px}summary{cursor:pointer;color:var(--accent)}dt{font-weight:700;margin-top:16px}dd{color:#c4d2e7;margin:6px 0}footer{color:var(--muted);font-size:14px;padding-top:16px}[hidden]{display:none!important}@media(max-width:620px){main{padding:28px 16px 50px}article{padding:20px}.sources{grid-template-columns:1fr;gap:14px}h2{font-size:21px}}</style></head>
+<body><main><div class="eyebrow">ニュースポケット / LOCAL REVIEW</div><h1>同じ話題を、別の出典から読む</h1><p class="lead">指定6媒体で見つけた話題について、発表元などの資料を照合する方式の見本です。元媒体の記事そのものの要約ではありません。</p>
+<div class="notice"><strong>ローカルの確認用・本番未掲載</strong><br>${escape(data.generator)}<br>継続収集の情報源は追加していません。確認日：${escape(data.checkedAt)}</div>
+<nav class="tabs" aria-label="確認状態で絞り込み"><button type="button" data-filter="all" aria-pressed="true">すべて 3件</button><button type="button" data-filter="draft" aria-pressed="false">要約案あり 2件</button><button type="button" data-filter="held" aria-pressed="false">確認待ち 1件</button></nav>
+<p id="count" class="note" role="status" aria-live="polite">3件を表示</p>${cards}
+<footer><p>次の段階：見本の内容を確認 → 出典ごとの利用範囲を確定 → 収集・照合・要約処理を実装 → 本番検証。検索の自動化と無料枠は未検証です。</p><p>本番の新規要約上限は1人30件・全体50件／日。今回の見本は本番AIを呼び出していないため、この枠を消費していません。</p></footer></main>
+<script>document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));let count=0;document.querySelectorAll('article').forEach(card=>{card.hidden=button.dataset.filter!=='all'&&card.dataset.state!==button.dataset.filter;if(!card.hidden)count++;});document.querySelector('#count').textContent=count+'件を表示';}));</script></body></html>`;
+await writeFile(new URL('./index.html', import.meta.url), html);
+console.log(`確認用HTMLを生成：${data.examples.length}件。本番通信なし。`);
