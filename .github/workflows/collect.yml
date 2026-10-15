@@ -1,5 +1,6 @@
 name: Collect news
 on:
+  # With no enabled sources, this schedule only cleans expired private records.
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
@@ -10,7 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    if: github.event.repository.visibility == 'public' && (github.event_name == 'workflow_dispatch' || vars.COLLECTION_ENABLED == 'true')
+    if: github.event.repository.visibility == 'public'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -23,5 +24,6 @@ jobs:
       - run: npm ci --no-audit --no-fund
       - run: npm run collect
         env:
+          COLLECTION_ENABLED: ${{ vars.COLLECTION_ENABLED }}
           SITE_URL: ${{ vars.SITE_URL }}
           INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}

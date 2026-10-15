@@ -21,7 +21,7 @@
     "FREE_PLAN_CONFIRMED": "true",
     "AI_MODEL": "@cf/qwen/qwen3-30b-a3b-fp8",
     "CONTACT_URL": "https://news-pocket.iori-sato-4637.workers.dev/contact.html",
-    "COLLECTION_ENABLED": "true"
+    "COLLECTION_ENABLED": "false"
   },
   "d1_databases": [
     {
