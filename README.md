@@ -55,7 +55,7 @@ Google接続の進捗：専用プロジェクト`news-pocket-511705`、Google Au
 
 ## Cloudflareで公開する順序
 
-GitHub接続の進捗：コードと手順書の一般公開を本人が承認した後、公開リポジトリを作り40ファイルを登録しました。指定のnews-pocketフォルダにもGit履歴・origin・mainを接続済みです。定期収集はCOLLECTION_ENABLED=trueの場合だけ動く設計で、現在は未設定のため停止。SITE_URL・INGEST_TOKENもGitHubへ未登録です。情報源の許諾を確認してから接続します。GitHubへコードを保存するだけでは、Cloudflareのサイトは更新されません。
+GitHub接続の進捗：コードと手順書の一般公開を本人が承認した後、公開リポジトリを作り40ファイルを登録しました。指定のnews-pocketフォルダにもGit履歴・origin・mainを接続済みです。[PR #1の自動検査](https://github.com/iori-doiya/news-pocket/actions/runs/38691068969)で構文確認・14テスト・公開前ビルドが成功しました。VariablesにはCOLLECTION_ENABLED=falseとSITE_URLを登録済み。収集用INGEST_TOKENは未登録で、定期収集は停止中です。情報源の許諾を確認してから接続します。GitHubへコードを保存するだけでは、Cloudflareのサイトは更新されません。
 
 Cloudflare認証・D1作成・初期化・サンプル公開は今回実施済みです。既存DBを再作成せず、更新時は保存した設定を使ってください。
 
