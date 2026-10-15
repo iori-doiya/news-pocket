@@ -18,4 +18,4 @@ $env:CI = 'true'
 & $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' d1 migrations apply news-pocket-db --local
 if ($LASTEXITCODE -ne 0) { throw 'ローカルDBの初期化に失敗しました。' }
 Write-Host 'ニュースポケット: http://localhost:8787 / 終了: Ctrl+C'
-& $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' dev --local --port 8787
+& $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' dev --local --port 8787 --var DATA_MODE:sample --var COLLECTION_ENABLED:false
