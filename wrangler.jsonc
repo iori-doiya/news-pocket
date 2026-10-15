@@ -1,0 +1,34 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "news-pocket",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-10-14",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ],
+    "not_found_handling": "single-page-application"
+  },
+  "vars": {
+    "DATA_MODE": "sample",
+    "APP_ORIGIN": "https://news-pocket.iori-sato-4637.workers.dev",
+    "GOOGLE_CLIENT_ID": "517654153739-sb0r0o27amm7do0orjapkr3u178bble7.apps.googleusercontent.com",
+    "AUTH_ENABLED": "true",
+    "AI_ENABLED": "false",
+    "FREE_PLAN_CONFIRMED": "true",
+    "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "CONTACT_URL": ""
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "news-pocket-db",
+      "database_id": "eae44fad-6333-4049-8ffd-1bdfa8685789",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "account_id": "4ae1522bad207d759fccd6882ff74554"
+}

@@ -1,0 +1,5 @@
+# Copy to .dev.vars for LOCAL testing only. Never commit .dev.vars.
+# Google client secret is registered in Google Auth Platform > Clients.
+# GOOGLE_CLIENT_SECRET=
+# SESSION_SECRET=
+# INGEST_TOKEN=
