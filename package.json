@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "dev": "wrangler dev --local --port 8787 --var DATA_MODE:sample --var COLLECTION_ENABLED:false",
-    "db:local": "wrangler d1 migrations apply news-pocket-db --local",
+    "dev": "wrangler dev --config wrangler.local.jsonc --local --port 8787",
+    "db:local": "wrangler d1 migrations apply news-pocket-db --config wrangler.local.jsonc --local",
     "db:remote": "wrangler d1 migrations apply news-pocket-db --remote",
     "check": "node scripts/check.mjs",
     "test": "node --test tests/*.test.mjs",
@@ -14,8 +16,15 @@
     "deploy": "node scripts/deploy.mjs",
     "collect": "node scripts/collect.mjs",
     "connect:google": "node scripts/connect-google.mjs",
-    "connect:collection": "node scripts/connect-collection.mjs"
+    "connect:collection": "node scripts/connect-collection.mjs",
+    "connect:operator": "node scripts/connect-operator.mjs"
   },
-  "dependencies": { "jose": "^6.1.0", "fast-xml-parser": "^5.3.0" },
-  "devDependencies": { "wrangler": "^4.0.0", "miniflare": "5.20261012.0-beta" }
+  "dependencies": {
+    "jose": "^6.1.0",
+    "fast-xml-parser": "^5.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0",
+    "miniflare": "5.20261012.0-beta"
+  }
 }

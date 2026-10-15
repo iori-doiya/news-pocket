@@ -5,7 +5,7 @@ export function randomToken() { return Array.from(crypto.getRandomValues(new Uin
 export async function hash(value) { return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', encoder.encode(value))), b => b.toString(16).padStart(2,'0')).join(''); }
 export function cookie(request, name) { return (request.headers.get('cookie') ?? '').split(';').map(s => s.trim()).find(s => s.startsWith(`${name}=`))?.slice(name.length + 1) ?? ''; }
 export function cookieValue(name, value, maxAge, origin, path = '/') { return `${name}=${value}; HttpOnly; SameSite=Lax; Path=${path}; Max-Age=${maxAge}${new URL(origin).protocol === 'https:' ? '; Secure' : ''}`; }
-async function sign(value, secret) {
+export async function sign(value, secret) {
   const key = await crypto.subtle.importKey('raw', encoder.encode(secret), { name:'HMAC', hash:'SHA-256' }, false, ['sign']);
   return Array.from(new Uint8Array(await crypto.subtle.sign('HMAC', key, encoder.encode(value))), b => b.toString(16).padStart(2,'0')).join('');
 }
@@ -14,7 +14,7 @@ export function authConfigured(env) { return !!(env.DB && env.GOOGLE_CLIENT_ID &
 export async function currentUser(request, env) {
   const token = cookie(request, 'np_session');
   if (!token || !env.DB || env.AUTH_ENABLED !== 'true') return null;
-  return env.DB.prepare('SELECT users.id, sessions.created_at FROM sessions JOIN users ON users.id = sessions.user_id WHERE sessions.token_hash = ? AND sessions.expires_at > ?').bind(await hash(token), new Date().toISOString()).first();
+  return env.DB.prepare('SELECT users.id, users.google_sub, sessions.created_at FROM sessions JOIN users ON users.id = sessions.user_id WHERE sessions.token_hash = ? AND sessions.expires_at > ?').bind(await hash(token), new Date().toISOString()).first();
 }
 export async function startAuth(env, reauth = false) {
   const payload = { state:randomToken(), nonce:randomToken(), verifier:randomToken(), expires:Date.now()+600000, reauth };

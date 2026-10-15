@@ -17,9 +17,9 @@
     "APP_ORIGIN": "https://news-pocket.iori-sato-4637.workers.dev",
     "GOOGLE_CLIENT_ID": "517654153739-sb0r0o27amm7do0orjapkr3u178bble7.apps.googleusercontent.com",
     "AUTH_ENABLED": "true",
-    "AI_ENABLED": "false",
+    "AI_ENABLED": "true",
     "FREE_PLAN_CONFIRMED": "true",
-    "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "AI_MODEL": "@cf/qwen/qwen3-30b-a3b-fp8",
     "CONTACT_URL": "https://news-pocket.iori-sato-4637.workers.dev/contact.html",
     "COLLECTION_ENABLED": "true"
   },
@@ -31,5 +31,8 @@
       "migrations_dir": "migrations"
     }
   ],
-  "account_id": "4ae1522bad207d759fccd6882ff74554"
+  "account_id": "4ae1522bad207d759fccd6882ff74554",
+  "ai": {
+    "binding": "AI"
+  }
 }

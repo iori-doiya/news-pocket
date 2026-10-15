@@ -56,7 +56,7 @@ $newsPocketNode = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\
 
 すべて`news-pocket`フォルダで実行する。順に秘密登録、構文検査、動作テスト、公開せずビルド、実際の公開を行う。失敗したら次へ進まず、エラーを解決する。Node.js 24が通常インストール済みなら`npm run check`→`npm test`→`npm run build`→`npm run deploy`でもよい。
 
-設定項目の意味：`GOOGLE_CLIENT_ID`は公開してよい登録番号、`GOOGLE_CLIENT_SECRET`は公開しない本人確認用の秘密、`SESSION_SECRET`はCookieの改ざん防止用の秘密。`AUTH_ENABLED=true`は認証を有効化するフラグで、DATA_MODEとは別。サンプル記事・AI無効・実情報源0件の設定は維持する。
+設定項目の意味：`GOOGLE_CLIENT_ID`は公開してよい登録番号、`GOOGLE_CLIENT_SECRET`は公開しない本人確認用の秘密、`SESSION_SECRET`はCookieの改ざん防止用の秘密。`AUTH_ENABLED=true`は認証を有効化するフラグで、DATA_MODEとは別。現在の本番は実データ・4情報源・AI有効。ローカルのサンプル専用設定はwrangler.local.jsoncに分離している。
 
 Cloudflareの「Workers & Pages → news-pocket → Settings → Variables and Secrets」で秘密項目の名前だけ確認できる。実際の値を画面や文書へ出さない。接続用JSONを失った場合はGoogleのクライアント画面の案内に従い、新しい秘密を登録してから旧秘密を廃止する。
 
@@ -64,11 +64,19 @@ Cloudflareの「Workers & Pages → news-pocket → Settings → Variables and S
 
 1. 公開URLの「設定」で、Googleが「接続設定あり・ログイン前」になる。これは登録情報がそろったという意味。
 2. 「Googleでログイン」を押す。Googleのアカウント選択・同意を行う。サイトへ戻って「Googleでログインしています」「本人確認済み」と出れば認証成功。
-3. サンプルを1件保存し、あとで読むで表示されること、再読み込みでも残ることを確認する。端末内デモの保存は自動移行しない。
+3. 公開されている実記事を1件保存し、あとで読むで表示されること、再読み込みでも残ることを確認する。端末内デモの保存は自動移行しない。
 4. ログアウト→再ログインして保存が残ること、同じGoogleアカウントの別端末でも見えること、別アカウントには見えないことを確認する。実際に行った確認だけ記録する。
 5. サンプルの説明文が「AI生成ではありません」のままであることを確認する。情報源とAIの接続は別工程。
 
 `redirect_uri_mismatch`は、Googleに登録したURIとAPP_ORIGIN＋`/api/auth/callback`の不一致。ログイン後に失敗する場合はクライアントIDと秘密の組み合わせ、Cookie、テストモード、Googleが表示するエラーを確認する。共有するときは認証コード・Cookie・秘密・メールを隠す。
+
+## 本番環境への変更（今回実施）
+
+1. [対象者](https://console.cloud.google.com/auth/audience?project=news-pocket-511705)を開く。「アプリを公開」が無効なら、左のブランディングを開く。
+2. アプリ名「ニュースポケット」、本人が承認したGoogleアカウントのサポートメール・開発者連絡先を確認する。ロゴは任意で、今回アップロードしていない。
+3. ホームに https://news-pocket.iori-sato-4637.workers.dev/ 、プライバシーに https://news-pocket.iori-sato-4637.workers.dev/privacy.html 、利用案内に https://news-pocket.iori-sato-4637.workers.dev/terms.html を入力して保存する。
+4. 対象へ戻り「アプリを公開」から確認する。「公開ステータス：本番環境」になれば切り替え成功。今回、本人が普段のChromeで保存・本番環境への変更を確認した。操作用ブラウザは読み込みエラーが続いたため、こちらによる独立した管理画面確認ではない。
+5. 要求範囲はopenidのみを維持する。Gmail・Drive等の権限を追加しない。公開対象者とブランド審査は別であり、ブランド審査完了は確認していない。
 
 ## 未完了の確認
 
