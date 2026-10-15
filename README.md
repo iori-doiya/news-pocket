@@ -4,6 +4,8 @@
 
 公開URL：[https://news-pocket.iori-sato-4637.workers.dev](https://news-pocket.iori-sato-4637.workers.dev)
 
+コード保存先：[iori-doiya/news-pocket](https://github.com/iori-doiya/news-pocket)（公開リポジトリ）。reference原本・秘密情報・実データは含めません。
+
 公開版はPCの起動に依存せず、スマホからも開けます。以下の起動手順は、自分のPCで修正・検証するときに使います。
 
 ## 起動
@@ -35,7 +37,7 @@ npm run dev
 | 収集・分類・重複処理・失敗時の成功時刻据え置き | 実装・架空データで検証済み。実RSS収集は未実施 |
 | Workers AI・共通要約・同時生成・回数制限 | 実装・模擬AIで検証済み。実モデルの品質・速度・無料枠は未測定 |
 | 保存期間・容量整理・本人確認後のアカウント削除 | 実装・テスト確認済み。本番環境は未確認 |
-| Cloudflare・GitHub・Googleのアカウント接続 | CloudflareとGoogleの接続完了。Googleはテスト段階。GitHubは未接続 |
+| Cloudflare・GitHub・Googleのアカウント接続 | CloudflareとGoogleの接続完了。GitHubへ40ファイルを保存済み。Googleはテスト段階、定期収集は未接続・停止中 |
 | 候補7情報源 | 全件無効。公開表示とAI利用の許諾は未確認 |
 
 ## 詳しい説明
@@ -49,9 +51,11 @@ Google接続の進捗：専用プロジェクト`news-pocket-511705`、Google Au
 
 追加実装では、記事モードとは別の`AUTH_ENABLED`を導入し、現在はtrueです。サンプル表示のままGoogleログイン・利用者別D1保存が使えます。`npm run connect:google`は`.secrets/google-oauth.json`から秘密をCloudflareへ直接登録し、公開コードにはクライアントIDだけを保存します。GOOGLE_CLIENT_SECRETとSESSION_SECRETはCloudflare Secretsに登録済みです。
 
-この変更は14件のテストと公開前ビルドに成功。Cloudflareへの更新は一度通信エラーで止まりましたが、再試行で公開に成功しました。公開版はサンプル6件・DB応答あり・Google未接続・AI無効・有効情報源0件です。[プライバシーポリシー](https://news-pocket.iori-sato-4637.workers.dev/privacy.html)と[利用案内](https://news-pocket.iori-sato-4637.workers.dev/terms.html)もHTTP 200を確認しました。
+この変更は14件のテストと公開前ビルドに成功。Cloudflareへの更新は一度通信エラーで止まりましたが、再試行で公開に成功しました。最新の公開版はサンプル6件・DB応答あり・Google接続設定あり・AI無効・有効情報源0件です。[プライバシーポリシー](https://news-pocket.iori-sato-4637.workers.dev/privacy.html)と[利用案内](https://news-pocket.iori-sato-4637.workers.dev/terms.html)もHTTP 200を確認しました。
 
 ## Cloudflareで公開する順序
+
+GitHub接続の進捗：コードと手順書の一般公開を本人が承認した後、公開リポジトリを作り40ファイルを登録しました。指定のnews-pocketフォルダにもGit履歴・origin・mainを接続済みです。[PR #1の自動検査](https://github.com/iori-doiya/news-pocket/actions/runs/38691068969)で構文確認・14テスト・公開前ビルドが成功しました。VariablesにはCOLLECTION_ENABLED=falseとSITE_URLを登録済み。収集用INGEST_TOKENは未登録で、定期収集は停止中です。情報源の許諾を確認してから接続します。GitHubへコードを保存するだけでは、Cloudflareのサイトは更新されません。
 
 Cloudflare認証・D1作成・初期化・サンプル公開は今回実施済みです。既存DBを再作成せず、更新時は保存した設定を使ってください。
 
