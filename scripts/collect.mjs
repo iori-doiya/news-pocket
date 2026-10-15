@@ -11,7 +11,7 @@ async function run(){
   if(!origin||!token){if(!enabled.length){console.log('有効な情報源は0件。収集は行っていません。接続設定も未確認です。');return;}throw new Error('SITE_URLとINGEST_TOKENをGitHub Secrets/Variablesに登録してください。');}
   const url=new URL(origin);if(url.protocol!=='https:'||url.username||url.password||url.pathname!=='/'||url.search||url.hash)throw new Error('SITE_URLにはHTTPSのサイトのルートURLを指定してください。');
   await post('/api/admin/maintenance',{});
-  if(!enabled.length){console.log('容量整理のみ実行。情報源0件のため収集成功時刻は変更しません。');return;}
+  if(!enabled.length||process.env.COLLECTION_ENABLED==='false'){console.log('ニュース収集は停止中。期限切れデータの整理のみ実行し、記事の収集成功時刻は変更しません。');return;}
   const articles=[],successSources=[],failedSources=[];
   for(const source of enabled){
     try{

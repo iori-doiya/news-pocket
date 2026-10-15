@@ -1,5 +1,5 @@
 export const THEMES = ['AI', '日本経済', '株式投資', '国際情勢', '芸能ニュース', '日本政治'];
-export const LIMITS = Object.freeze({ userDaily: 5, siteDaily: 20, attemptsDaily: 30, neuronsReserve: 250, neuronsBudget: 7500, bodyCharacters: 8000, outputTokens: 900, articleCount: 10000, databaseBytes: 350 * 1024 * 1024 });
+export const LIMITS = Object.freeze({ userDaily: 30, siteDaily: 50, attemptsDaily: 50, neuronsReserve: 150, neuronsBudget: 7500, bodyCharacters: 8000, outputTokens: 900, articleCount: 10000, databaseBytes: 350 * 1024 * 1024 });
 export const FREE_MODEL = '@cf/qwen/qwen3-30b-a3b-fp8';
 export function japanDay(date = new Date()) { return new Date(date.getTime() + 9 * 3600000).toISOString().slice(0, 10); }
 export function utcDay(date = new Date()) { return date.toISOString().slice(0, 10); }

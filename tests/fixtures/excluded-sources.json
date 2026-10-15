@@ -1,0 +1,118 @@
+[
+  {
+    "id": "mof",
+    "name": "財務省",
+    "feedUrl": "https://www.mof.go.jp/news.rss",
+    "articleHosts": [
+      "www.mof.go.jp"
+    ],
+    "themes": [
+      "日本経済"
+    ],
+    "evidenceUrl": "https://www.mof.go.jp/about_mof/notice/index.html",
+    "feedInfoUrl": "https://www.mof.go.jp/about_mof/rss/index.html",
+    "enabled": true,
+    "rights": {
+      "collect": true,
+      "display": true,
+      "body": false,
+      "aiInput": false,
+      "summary": false
+    },
+    "licenseName": "PDL1.0",
+    "licenseUrl": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+    "reviewedAt": "2026-10-15",
+    "retentionDays": 90,
+    "retainSaved": true,
+    "note": "公式RSSの見出し・URL・日時のみ。公共データ利用規約に基づき、出典と元ページのリンクを表示します。本文・画像・PDF・AI入力・AI要約は対象外です。分類と並べ替えはニュースポケットが行います。"
+  },
+  {
+    "id": "fsa",
+    "name": "金融庁",
+    "feedUrl": "https://www.fsa.go.jp/fsaNewsListAll_rss2.xml",
+    "articleHosts": [
+      "www.fsa.go.jp"
+    ],
+    "themes": [],
+    "evidenceUrl": "https://www.fsa.go.jp/rules/index.html",
+    "feedInfoUrl": "https://www.fsa.go.jp/kouhou/rss.html",
+    "enabled": true,
+    "rights": {
+      "collect": true,
+      "display": true,
+      "body": false,
+      "aiInput": false,
+      "summary": false
+    },
+    "licenseName": "PDL1.0",
+    "licenseUrl": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+    "reviewedAt": "2026-10-15",
+    "retentionDays": 90,
+    "retainSaved": true,
+    "note": "公式RSSの見出し・URL・日時のみ。公共データ利用規約に基づき、出典と元ページのリンクを表示します。本文・画像・PDF・AI入力・AI要約は対象外です。分類と並べ替えはニュースポケットが行います。"
+  },
+  {
+    "id": "globalvoices",
+    "name": "Global Voices 日本語",
+    "enabled": true,
+    "feedUrl": "https://jp.globalvoices.org/feed/",
+    "feedUrls": [
+      "https://jp.globalvoices.org/feed/",
+      "https://jp.globalvoices.org/category/topics/technology/feed/",
+      "https://jp.globalvoices.org/category/topics/music/feed/",
+      "https://jp.globalvoices.org/category/topics/film/feed/",
+      "https://jp.globalvoices.org/category/world/east-asia/japan/feed/"
+    ],
+    "articleHosts": [
+      "jp.globalvoices.org"
+    ],
+    "themes": [],
+    "international": true,
+    "bodyField": "description",
+    "attribution": "gv-rss",
+    "rights": {
+      "collect": true,
+      "display": true,
+      "body": true,
+      "aiInput": true,
+      "summary": true
+    },
+    "evidenceUrl": "https://jp.globalvoices.org/about/記事の転載について/",
+    "reviewedAt": "2026-10-15",
+    "licenseName": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.ja",
+    "retentionDays": 90,
+    "retainSaved": true,
+    "note": "転載・加工の条件を確認。媒体・原記事リンク・著者・翻訳者・CC BY 3.0とAI加工を表示。AIはRSS説明文だけ。映画・音楽・AI分野は更新が古い場合があります。"
+  },
+  {
+    "id": "arxiv-ai",
+    "name": "arXiv AI研究（英語・査読未確認）",
+    "enabled": true,
+    "feedUrl": "https://export.arxiv.org/api/query?search_query=cat:cs.AI&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
+    "articleHosts": [
+      "arxiv.org"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "bodyField": "summary",
+    "attribution": "atom-authors",
+    "cacheInput": true,
+    "inputScope": "arXiv公式APIの要旨（abstract）のみ。論文PDF・全文は取得しません。研究結果は査読済みとは限りません。",
+    "rights": {
+      "collect": true,
+      "display": true,
+      "body": true,
+      "aiInput": true,
+      "summary": true
+    },
+    "evidenceUrl": "https://info.arxiv.org/help/api/tou.html",
+    "reviewedAt": "2026-10-15",
+    "licenseName": "CC0 1.0（メタデータ）",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.ja",
+    "retentionDays": 90,
+    "retainSaved": true,
+    "note": "公式API規約でタイトル・要旨・著者等をCC0と明示。論文全文の許諾とは別。全収集共通の3秒間隔と単一接続を守り、取得は10件/回。要旨だけを24時間一時保存してAIへ入力し、論文PDFは取得しません。"
+  }
+]
