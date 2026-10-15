@@ -1,0 +1,11 @@
+{
+  "purpose": "時間を置いた後の1回の再確認。本番登録・本文取得・AI送信なし。",
+  "result": {
+    "id": "gdelt-doc-followup",
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28Gemini+OR+%22artificial+intelligence%22%29+sourcelang%3Ajapanese&mode=artlist&format=json&timespan=3d&maxrecords=5&sort=datedesc",
+    "checkedAt": "2026-10-15T16:15:18.109Z",
+    "milliseconds": 10631,
+    "error": "TypeError",
+    "note": "取得成功とは扱わない"
+  }
+}

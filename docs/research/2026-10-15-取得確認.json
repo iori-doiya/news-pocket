@@ -1,0 +1,40 @@
+{
+  "purpose": "調査用の単発確認。本番収集・AI送信・一般公開なし。",
+  "results": [
+    {
+      "id": "gdelt-doc",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%28Gemini+OR+%22artificial+intelligence%22%29+sourcelang%3Ajapanese&mode=artlist&format=json&timespan=3d&maxrecords=5&sort=datedesc",
+      "checkedAt": "2026-10-15T14:09:16.345Z",
+      "httpStatus": 429,
+      "contentType": null,
+      "milliseconds": 10784,
+      "characters": 444,
+      "note": "JSON応答は得られず",
+      "responseBeginning": "Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltp"
+    },
+    {
+      "id": "google-blog-page",
+      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-4-argon-gemini/",
+      "checkedAt": "2026-10-15T14:09:06.361Z",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "milliseconds": 734,
+      "characters": 888580,
+      "title": "Gemini 4 Argon が Gemini アプリに登場",
+      "discoveredFeeds": [],
+      "note": "公開ページへの1回のHTTP応答確認。自動利用・AI公開の許諾確認とは別。"
+    },
+    {
+      "id": "tsr-article",
+      "url": "https://www.tsr-net.co.jp/data/detail/1203338_1527.html",
+      "checkedAt": "2026-10-15T14:09:05.778Z",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "milliseconds": 150,
+      "characters": 81539,
+      "title": "「最低賃金」改定で、51.3％の企業が「給与変更」　2020年代の1,500円 「対応不可能」が4割切る | TSRデータインサイト | 東京商工リサーチ",
+      "discoveredFeeds": [],
+      "note": "公開ページへの1回のHTTP応答確認。自動利用・AI公開の許諾確認とは別。"
+    }
+  ]
+}
