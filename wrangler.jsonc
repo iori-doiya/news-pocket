@@ -21,7 +21,7 @@
     "FREE_PLAN_CONFIRMED": "true",
     "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
     "CONTACT_URL": "https://news-pocket.iori-sato-4637.workers.dev/contact.html",
-    "COLLECTION_ENABLED": "false"
+    "COLLECTION_ENABLED": "true"
   },
   "d1_databases": [
     {
