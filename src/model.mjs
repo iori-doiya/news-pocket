@@ -16,7 +16,7 @@ export function sourcePublic(source) {
 export function sourceAI(source) { return sourcePublic(source) && source.rights.body && source.rights.aiInput && source.rights.summary; }
 export function classify(title, categories = [], defaults = []) {
   const text = [title, ...categories].join(' ');
-  const rules = { AI: /\bAI\b|人工知能|生成AI|機械学習/i, 日本経済: /物価|消費|日本経済|日銀|円安|賃金/, 株式投資: /株式|株価|決算|上場|投資|証券/, 国際情勢: /外交|国際|紛争|首脳|海外|国連/, 芸能ニュース: /芸能|映画|俳優|音楽|歌手|出演/, 日本政治: /国会|日本政治|政党|選挙|政策|内閣/ };
+  const rules = { AI: /\bAI\b|人工知能|生成AI|機械学習/i, 日本経済: /物価|消費|日本経済|日銀|円安|賃金/, 株式投資: /株式(?!会社)|株価|決算|上場|投資|証券/, 国際情勢: /外交|国際|紛争|首脳|海外|国連/, 芸能ニュース: /芸能|映画|俳優|音楽|歌手|出演/, 日本政治: /国会|日本政治|政党|選挙|政策|内閣/ };
   return THEMES.filter(t => defaults.includes(t) || rules[t].test(text));
 }
 export function cleanText(value) { return String(value ?? '').replace(/<[^>]*>/g, ' ').replace(/&(?:nbsp|amp|lt|gt|quot|apos);/g, m => ({'&nbsp;':' ', '&amp;':'&', '&lt;':'<', '&gt;':'>', '&quot;':'"', '&apos;':"'"}[m])).replace(/\s+/g, ' ').trim(); }

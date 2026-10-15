@@ -5,6 +5,7 @@ const text = value => typeof value === 'object' ? value?.['#text'] ?? '' : value
 export function parseFeed(xml, source, now = new Date().toISOString()) {
   if (xml.length > 1_000_000 || /<!DOCTYPE|<!ENTITY/i.test(xml) || XMLValidator.validate(xml) !== true) throw new Error('RSS形式または容量が不正です');
   const data = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_', processEntities: false, parseTagValue: false }).parse(xml);
+  if (!data.rss?.channel && !data.feed && !data['rdf:RDF']) throw new Error('RSS/Atomの文書ではありません');
   const entries = array(data.rss?.channel?.item ?? data.feed?.entry ?? data['rdf:RDF']?.item);
   return entries.slice(0, 100).flatMap(entry => {
     try {
@@ -14,7 +15,8 @@ export function parseFeed(xml, source, now = new Date().toISOString()) {
       if (!source.articleHosts.includes(new URL(url).hostname)) return [];
       const title = cleanText(text(entry.title)).slice(0, 300);
       if (!title) return [];
-      const rawDate = text(entry.pubDate ?? entry.published ?? entry.updated ?? entry['dc:date']);
+      // FSA uses JST, which V8 does not parse. Convert only that explicit suffix.
+      const rawDate = String(text(entry.pubDate ?? entry.published ?? entry.updated ?? entry['dc:date']) ?? '').replace(/\sJST$/i, ' +0900');
       const date = rawDate && Number.isFinite(Date.parse(rawDate)) && Date.parse(rawDate) <= Date.parse(now) + 86400000 ? new Date(rawDate).toISOString() : null;
       const categories = array(entry.category).map(c => text(c) || c?.['@_term'] || '');
       const body = source.rights.body ? cleanText(text(entry['content:encoded'] ?? entry.content ?? entry.description ?? entry.summary)) : '';

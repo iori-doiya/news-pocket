@@ -16,6 +16,7 @@ async function run(){
   for(const source of enabled){
     try{
       const feed=await fetchFeed(source);
+      if(!feed.length)throw new Error('公開可能な項目が0件です');
       successSources.push(source.id);
       for(const {body,scope,...entry} of feed){articles.push({...entry,contentHash:createHash('sha256').update(body).digest('hex')});}
       console.log(`${source.id}: ${feed.length}件取得（本文は送信・保存しません）`);
