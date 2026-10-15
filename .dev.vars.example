@@ -3,3 +3,6 @@
 # GOOGLE_CLIENT_SECRET=
 # SESSION_SECRET=
 # INGEST_TOKEN=
+
+# ADMIN_SUB_HASH=
+# Default local sample uses wrangler.local.jsonc and no external bindings.

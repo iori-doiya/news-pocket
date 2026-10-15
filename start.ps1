@@ -15,7 +15,7 @@ if (-not (Test-Path -LiteralPath 'node_modules/wrangler/bin/wrangler.js')) {
 $env:XDG_CONFIG_HOME = Join-Path $PSScriptRoot '.wrangler/config'
 $env:WRANGLER_SEND_METRICS = 'false'
 $env:CI = 'true'
-& $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' d1 migrations apply news-pocket-db --local
+& $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' d1 migrations apply news-pocket-db --config wrangler.local.jsonc --local
 if ($LASTEXITCODE -ne 0) { throw 'ローカルDBの初期化に失敗しました。' }
 Write-Host 'ニュースポケット: http://localhost:8787 / 終了: Ctrl+C'
-& $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' dev --local --port 8787 --var DATA_MODE:sample --var COLLECTION_ENABLED:false
+& $nodeCandidate 'node_modules/wrangler/bin/wrangler.js' dev --config wrangler.local.jsonc --local --port 8787
