@@ -29,7 +29,7 @@ npm run dev
 
 ## 公開・更新
 
-Cloudflare Workers・D1・Workers AI、Google OpenID Connect、GitHub Actionsを使用。無料workers.dev URLを使い、有料契約は追加していません。GitHubへ保存するだけではCloudflareは更新されません。実際のサイトはPCを止めても利用できます。
+Cloudflare Workers・D1・Workers AI、Google OpenID Connect、GitHub Actionsを使用。無料workers.dev URLを使い、有料契約は追加していません。コードのGitHub保存だけではWorkerプログラムは更新されません。当日の編集便JSONはActionsで記事データへ反映します。[初回push実行の成功](https://github.com/iori-doiya/news-pocket/actions/runs/38771752234)を確認済みで、同じ6件が重複しないことも確認しました。朝の記事作成とscheduleの実績とは区別します。サイトの閲覧はPCを止めても可能です。
 
 news-pocketフォルダで `npm run db:remote` → `npm run check` → `npm test` → `npm run build` → `npm run deploy`。既存D1を再作成しないでください。上限移行は0005、編集便の追加は0006です。許諾未確認の6媒体を有効にして公開しないでください。
 
