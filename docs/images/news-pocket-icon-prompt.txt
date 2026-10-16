@@ -1,0 +1,5 @@
+Mode: built-in image_gen
+Generated: 2026-10-16
+Export: Sharpで180・192・512・32pxへ縮小。生成画像の内容変更は行っていません。
+
+Use case: logo-brand. Create a finished square app icon for a Japanese personal news reader called ニュースポケット. No text or letters. Calm, polished, minimal navy and blue brand. A bold white folded news sheet partially tucked into a vivid cobalt-blue pocket, subtle cyan highlight along the pocket lip. The pocket has a clear U-shaped rounded bottom and a small diagonal fold on the paper; two broad navy lines imply news headlines. One centered recognizable symbol, readable at 32 pixels. Solid deep midnight navy background fills the entire square edge to edge, not a phone mockup, no outer white margin, no pre-rounded canvas corners (the operating system adds its own mask). Clean flat vector-like design with a restrained blue gradient on pocket only. Keep all important artwork within the central 70 percent. No micro details, no shadows outside the symbol, no photographic texture, no watermark.
