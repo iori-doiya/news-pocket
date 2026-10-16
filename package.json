@@ -18,7 +18,8 @@
     "connect:google": "node scripts/connect-google.mjs",
     "connect:collection": "node scripts/connect-collection.mjs",
     "connect:operator": "node scripts/connect-operator.mjs",
-    "publish:briefing": "node scripts/publish-briefing.mjs"
+    "publish:briefing": "node scripts/publish-briefing.mjs",
+    "diagrams:render": "node scripts/render-architecture.mjs"
   },
   "dependencies": {
     "jose": "^6.1.0",
