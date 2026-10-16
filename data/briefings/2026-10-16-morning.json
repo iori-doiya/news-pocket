@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "2026-10-16-morning",
+  "issueDate": "2026-10-16",
+  "cutoffAt": "2026-10-16T05:04:52.203Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "figma-specs-launch",
+      "theme": "AI",
+      "title": "Figmaに仕様を置く「Specs」。デザインの意図をAIへ渡しやすく",
+      "summary": "Figmaは10月15日、文章で書いた仕様をデザインと同じ画面で扱う「Specs」を発表しました。Markdownファイルを取り込め、FigmaのMCPサーバーを通じてコーディング用AIへ仕様を渡せます。有料プラン向けにオープンベータの提供を順次始めています。",
+      "whyItMatters": "画面の見た目だけでは伝わりにくい、動作の条件や制作の意図をAIと共有するための機能です。デザインと実装をつなぐ情報の置き方が変わる発表です。",
+      "impact": "Web制作では、画面案の横にボタンの動作やスマホ対応の条件を置いて、実装時に参照する使い方が考えられます。手戻りを減らせるかは、実際の制作工程で確かめる必要があります。",
+      "caution": "発表元の説明に基づく機能紹介で、性能を検証した結果ではありません。順次提供のベータ版のため、利用可能な時期・プラン・連携条件は自分のアカウントで確認してください。",
+      "references": [
+        {
+          "name": "Figma公式ブログ・Specsの発表",
+          "url": "https://www.figma.com/blog/introducing-figma-specs/",
+          "publishedAt": null,
+          "accessedAt": "2026-10-16T05:04:52.203Z",
+          "usage": "facts-only",
+          "reviewNote": "公開された公式ブログで10月15日の発表、Markdown取込み、MCP連携、有料プランへの順次ベータ提供を確認。公開時刻は不明なのでnull。公式利用規約の複製・改変制限も確認し、本文・画像・見出しは転載せず機能の事実のみを独自記述。全文要約や再配信の許諾がある扱いにはしない。"
+        }
+      ]
+    }
+  ]
+}
