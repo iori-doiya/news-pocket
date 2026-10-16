@@ -37,6 +37,7 @@ news-pocketフォルダで `npm run db:remote` → `npm run check` → `npm test
 
 ## 記録・操作手順
 
+- [iPhoneのホーム画面に追加する](docs/ホーム画面への追加.md)（Safariの共有→ホーム画面に追加→追加）
 - [ChatGPTの毎日更新・接続と運用](docs/ChatGPTの毎日更新・運用手順.md)
 - [全体の構造図](docs/diagrams/architecture.png)・[毎日更新の仕組み](docs/diagrams/daily-flow.png)（黄色の箇所は未確認。設計と実績を区別）
 - [6カテゴリーの実記事候補・取得経路の調査](docs/6カテゴリーのニュース取得候補調査.md)（日経・SmartNewsで知りたいような主要ニュースを選ぶ方針。接続は未実施）
