@@ -5,6 +5,7 @@ import { fetchFeed } from './feed.mjs';
 import { contactApi, contactConfigured, isOperator } from './contact.mjs';
 import { EDITORIAL_SOURCE, editorialArticle, briefingState, ingestBriefing } from './briefings.mjs';
 import { authConfigured, startAuth, finishAuth, currentUser, cookie, cookieValue, hash, randomToken, equal } from './auth.mjs';
+import { legacyRedirect } from './site-origin.mjs';
 const visible = () => sources.filter(sourcePublic);
 const sourceFor = id => sources.find(s => s.id === id);
 class ApiError extends Error { constructor(status,message) { super(message); this.status=status; } }
@@ -135,6 +136,8 @@ async function generateSummary(env,user,row) {
   }
 }
 async function handle(request,env) {
+  const redirect=legacyRedirect(request,env);
+  if(redirect)return redirect;
   const url=new URL(request.url),path=url.pathname,method=request.method;
   if(path==='/api/status'&&method==='GET') return json(await status(env));
   if(path==='/api/contact'||path.startsWith('/api/operator/'))return json(await contactApi(request,env,{fail,readJson,originCheck}));

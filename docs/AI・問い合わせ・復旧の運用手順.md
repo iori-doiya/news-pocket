@@ -71,8 +71,8 @@ npm run deploy
 
 ## 非公開問い合わせを読む
 
-1. [公開サイト](https://news-pocket.iori-sato-4637.workers.dev)で、今回の運営者のGoogleアカウントにログインする。
-2. 設定 → 問い合わせ先、または [問い合わせフォーム](https://news-pocket.iori-sato-4637.workers.dev/contact.html) を開く。
+1. [公開サイト](https://my-news-pocket.com)で、今回の運営者のGoogleアカウントにログインする。
+2. 設定 → 問い合わせ先、または [問い合わせフォーム](https://my-news-pocket.com/contact.html) を開く。
 3. フォームの下の「運営者専用の受信箱」を確認し、「受信箱を更新」を押す。件名・本文・任意の返信先・送信時刻が表示される。「既読にする」で状態を変えられる。
 4. 返信が必要なら自身のメール等から個別に対応する。このサイトはメールを送らず、自動通知もしない。受信箱は運営者自身が定期的に開く。
 

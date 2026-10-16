@@ -1,10 +1,12 @@
 # ニュースポケット
 
-[公開サイト](https://news-pocket.iori-sato-4637.workers.dev) · [公開コード](https://github.com/iori-doiya/news-pocket)
+[公開サイト](https://my-news-pocket.com) · [公開コード](https://github.com/iori-doiya/news-pocket)
 
 ## 画面とアイコンの更新（2026年10月16日）
 
-落ち着いた紺・青の新しいアイコンと、見出しを読みやすくした記事一覧を公開サイトへ反映しました。設定はアカウント・ニュースの更新・使い方とサポートに整理し、使っていないAI要約・利用上限・接続情報は画面から外しました。API側の保護や保存・ログインは維持しています。独自ドメインはmy-news-pocket.comを候補として検討中で、未購入・未接続です。[費用確認と切替手順](docs/独自ドメインの検討と切替手順.md)。
+落ち着いた紺・青の新しいアイコンと、見出しを読みやすくした記事一覧を公開サイトへ反映しました。設定はアカウント・ニュースの更新・使い方とサポートに整理し、使っていないAI要約・利用上限・接続情報は画面から外しました。API側の保護や保存・ログインは維持しています。独自ドメインmy-news-pocket.comの購入・接続も完了しました。新URLのGoogleログイン・保存・Actions配信・旧URLからの転送を確認済みです。[費用確認と切替手順](docs/独自ドメインの検討と切替手順.md)。
+
+独自ドメイン移行の確認：[Actions手動配信成功](https://github.com/iori-doiya/news-pocket/actions/runs/38901453716)。構文29ファイル・30テスト成功。詳細は[検証報告](docs/実装・検証報告.md)へ記録しました。
 
 ## 現在の状態
 
@@ -31,7 +33,7 @@ npm run dev
 
 ## 公開・更新
 
-Cloudflare Workers・D1・Workers AI、Google OpenID Connect、GitHub Actionsを使用。無料workers.dev URLを使い、有料契約は追加していません。コードのGitHub保存だけではWorkerプログラムは更新されません。当日の編集便JSONはActionsで記事データへ反映します。[初回push実行の成功](https://github.com/iori-doiya/news-pocket/actions/runs/38771752234)を確認済みで、同じ6件が重複しないことも確認しました。朝の記事作成とscheduleの実績とは区別します。サイトの閲覧はPCを止めても可能です。
+Cloudflare Workers・D1・Workers AI、Google OpenID Connect、GitHub Actionsを使用。公開URLはhttps://my-news-pocket.com。WorkersはFreeのままです。ドメインだけは本人が年額費用を承認して取得し、今回10.46米ドル・自動更新オン。11月1日以降の通常料金は11.17米ドルへ改定予定で、翌年は更新時の料金です。コードのGitHub保存だけではWorkerプログラムは更新されません。当日の編集便JSONはActionsで記事データへ反映します。[初回push実行の成功](https://github.com/iori-doiya/news-pocket/actions/runs/38771752234)を確認済みで、同じ6件が重複しないことも確認しました。朝の記事作成とscheduleの実績とは区別します。サイトの閲覧はPCを止めても可能です。
 
 news-pocketフォルダで `npm run db:remote` → `npm run check` → `npm test` → `npm run build` → `npm run deploy`。既存D1を再作成しないでください。上限移行は0005、編集便は0006です。検索API試作の0007・採用取りやめの0008も移行履歴に残しています。許諾未確認の6媒体を有効にして公開しないでください。
 

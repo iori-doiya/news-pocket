@@ -1,11 +1,12 @@
 import {readFile} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import {sourcePublic,FREE_MODEL} from '../src/model.mjs';
+import {deploymentOrigin} from '../src/site-origin.mjs';
 // This configuration file intentionally uses JSON syntax (JSONC extension for Wrangler).
 const config=JSON.parse(await readFile('wrangler.jsonc','utf8'));
 const sources=JSON.parse(await readFile('config/sources.json','utf8'));
 if(config.vars.FREE_PLAN_CONFIRMED!=='true')throw new Error('CloudflareのFreeプランを画面で確認後、FREE_PLAN_CONFIRMEDをtrueにしてください。');
-if(!/^https:\/\/[^/]+\.workers\.dev$/.test(config.vars.APP_ORIGIN))throw new Error('APP_ORIGINを末尾スラッシュなしの無料workers.dev URLに設定してください。');
+deploymentOrigin(config);
 if(config.d1_databases[0].database_id==='00000000-0000-0000-0000-000000000000')throw new Error('D1を作成し、実際のdatabase_idを設定してください。');
 if(config.vars.DATA_MODE==='live'){
   if(!sources.some(sourcePublic)&&config.vars.COLLECTION_ENABLED!=='false')throw new Error('有効な情報源がない場合はCOLLECTION_ENABLED=falseで収集を停止してください。');

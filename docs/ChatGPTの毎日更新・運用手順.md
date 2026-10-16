@@ -8,6 +8,10 @@
 
 [構造図](diagrams/architecture.png)と[毎日更新の流れ](diagrams/daily-flow.png)を用意しました。全体図はscripts/simple-architecture.mjs、日次フローはscripts/render-architecture.mjsを編集し、`npm run diagrams:render`でSVGを作り直します。PNGはそのSVGのブラウザ表示を保存した画像です。コード変更時には両方の内容を合わせます。
 
+## 現在の公開先（独自ドメイン移行済み）
+
+正規URLは https://my-news-pocket.com 。GitHub ActionsのVariables → SITE_URLを同じ値へ保存し、[手動配信38901453716](https://github.com/iori-doiya/news-pocket/actions/runs/38901453716)の成功を確認しました。INGEST_TOKENは同じです。定期タスク自身の保存済み指示に含まれる旧URLは変更せず、旧GET APIは重複確認等の互換性のため残しています。新しい記事は従来どおりGitHub mainのJSONへ保存すれば、新URLへ届きます。旧ページとログイン開始は新住所へ転送します。予定時刻の実行結果はまだ未確認です。
+
 ## ChatGPTとGitHub Actions、どちらがニュースを集めるか
 
 | 比較 | ChatGPTがWebを調査する方式 | ActionsでRSS・APIを収集する方式 |

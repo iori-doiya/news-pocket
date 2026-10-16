@@ -8,22 +8,33 @@
     "directory": "./public",
     "binding": "ASSETS",
     "run_worker_first": [
-      "/api/*"
+      "/api/*",
+      "/",
+      "/index.html",
+      "/contact.html",
+      "/privacy.html",
+      "/terms.html",
+      "/home-screen.html",
+      "/contact",
+      "/privacy",
+      "/terms",
+      "/home-screen"
     ],
     "not_found_handling": "single-page-application"
   },
   "vars": {
     "DATA_MODE": "live",
-    "APP_ORIGIN": "https://news-pocket.iori-sato-4637.workers.dev",
+    "APP_ORIGIN": "https://my-news-pocket.com",
     "GOOGLE_CLIENT_ID": "517654153739-sb0r0o27amm7do0orjapkr3u178bble7.apps.googleusercontent.com",
     "AUTH_ENABLED": "true",
     "AI_ENABLED": "true",
     "FREE_PLAN_CONFIRMED": "true",
     "AI_MODEL": "@cf/qwen/qwen3-30b-a3b-fp8",
-    "CONTACT_URL": "https://news-pocket.iori-sato-4637.workers.dev/contact.html",
+    "CONTACT_URL": "https://my-news-pocket.com/contact.html",
     "COLLECTION_ENABLED": "false",
     "EDITORIAL_ENABLED": "true",
-    "CHATGPT_DAILY_CONFIRMED": "true"
+    "CHATGPT_DAILY_CONFIRMED": "true",
+    "LEGACY_APP_ORIGIN": "https://news-pocket.iori-sato-4637.workers.dev"
   },
   "d1_databases": [
     {
@@ -36,5 +47,11 @@
   "account_id": "4ae1522bad207d759fccd6882ff74554",
   "ai": {
     "binding": "AI"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "my-news-pocket.com",
+      "custom_domain": true
+    }
+  ]
 }

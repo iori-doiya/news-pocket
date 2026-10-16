@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { randomBytes,createHash } from 'node:crypto';
-const origin='https://news-pocket.iori-sato-4637.workers.dev',production='news-pocket-db';
+const origin=JSON.parse(fs.readFileSync('wrangler.jsonc','utf8')).vars.APP_ORIGIN,production='news-pocket-db';
 const dir='.secrets';fs.mkdirSync(dir,{recursive:true});
 const stateFile=`${dir}/recovery-drill.json`;
 const wrangler=args=>{const r=spawnSync(process.execPath,['node_modules/wrangler/bin/wrangler.js',...args],{encoding:'utf8',maxBuffer:10_000_000,env:{...process.env,WRANGLER_SEND_METRICS:'false'}});if(r.status!==0)throw new Error(`Wrangler失敗: ${args.slice(0,2).join(' ')}。詳細には個人情報が含まれる場合があるため表示しません。`);return r.stdout;};
