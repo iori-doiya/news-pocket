@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-16-morning",
   "issueDate": "2026-10-16",
-  "cutoffAt": "2026-10-16T05:04:52.203Z",
+  "cutoffAt": "2026-10-16T05:12:35.857Z",
   "producer": "ChatGPT ニュースポケット毎日更新",
   "review": {
     "kind": "chatgpt-web",
@@ -26,9 +26,9 @@
           "name": "Figma公式ブログ・Specsの発表",
           "url": "https://www.figma.com/blog/introducing-figma-specs/",
           "publishedAt": null,
-          "accessedAt": "2026-10-16T05:04:52.203Z",
+          "accessedAt": "2026-10-16T05:12:35.857Z",
           "usage": "facts-only",
-          "reviewNote": "公開された公式ブログで10月15日の発表、Markdown取込み、MCP連携、有料プランへの順次ベータ提供を確認。公開時刻は不明なのでnull。公式利用規約の複製・改変制限も確認し、本文・画像・見出しは転載せず機能の事実のみを独自記述。全文要約や再配信の許諾がある扱いにはしない。"
+          "reviewNote": "復旧再実行に際し公式ブログの公開本文を読み直し、10月15日の発表、Markdown取込み、MCPによる仕様共有、有料プランへの順次ベータ提供を再確認。公開時刻は不明なのでnull。公式利用規約の複製・改変制限も再確認。本文・画像・見出しを転載せず事実のみを独自記述し、全文要約・再配信の許諾とは扱わない。"
         }
       ]
     }
