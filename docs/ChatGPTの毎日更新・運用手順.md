@@ -6,7 +6,7 @@
 
 専用スケジュールの識別子は `6ad1b04e366c8191bf4c9ab71517bc8f`。設定の作成と再読取りで有効状態を確認し、再実行でも再確認しました。初回記事の確認時刻は14:12:35、サイト反映は14:12:52（日本時間）。[記事の保存](https://github.com/iori-doiya/news-pocket/commit/5ed3203277c38a9d1b402daeac7b4c4f00ca37d7)・[配信成功](https://github.com/iori-doiya/news-pocket/actions/runs/38854587427)が証拠です。今回、書込みの追加承認による停止はありませんでした。将来の利用枠や接続承認で停止しないとの保証はしません。
 
-[構造図](diagrams/architecture.png)と[毎日更新の流れ](diagrams/daily-flow.png)を用意しました。図を直すときはscripts/render-architecture.mjsを編集し、`npm run diagrams:render`でSVGを作り直します。PNGはそのSVGのブラウザ表示を保存した画像です。コード変更時には両方の内容を合わせます。
+[構造図](diagrams/architecture.png)と[毎日更新の流れ](diagrams/daily-flow.png)を用意しました。全体図はscripts/simple-architecture.mjs、日次フローはscripts/render-architecture.mjsを編集し、`npm run diagrams:render`でSVGを作り直します。PNGはそのSVGのブラウザ表示を保存した画像です。コード変更時には両方の内容を合わせます。
 
 ## ChatGPTとGitHub Actions、どちらがニュースを集めるか
 
