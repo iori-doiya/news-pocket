@@ -1,0 +1,29 @@
+Mode: built-in image_gen. New image; no CLI/API key.
+Use case: infographic-diagram
+Create ONE polished Japanese instruction infographic, a matching companion to a Safari guide, for the existing website 「ニュースポケット」. Landscape 1536x1024 or larger same aspect. White background, very pale ice-blue blobs, dark navy text, blue numbered circles and capsule headings, large rounded illustrated Android phones with subtle realistic depth, friendly blue handwritten arrows/callouts. Pop but calm professional editorial design. Main 3-column Android guide occupies upper ~80%, compact iPhone alternative strip at bottom. Clean legible Japanese typography, generous spacing, no desktop screenshot, no characters, no unrelated apps.
+
+Title verbatim: 「ニュースポケットをホーム画面に追加」
+Subtitle badge verbatim: 「Google Chrome｜Android」
+URL strip verbatim: 「まず Chrome で https://my-news-pocket.com/ を開く」
+
+Three numbered columns with clear arrows between:
+1. Heading 「メニューを開く」
+Description 「サイトを開き、右上の『︙』をタップ」
+Phone 1: Android Chrome top address bar my-news-pocket.com, vertical three-dot menu at right prominently blue circled. Website inside has dark navy background, blue gradient header, small icon, ニュースポケット name, horizontal theme tabs 新着 / AI / 日本経済, separate rounded headline cards with visible gaps and tiny bookmark controls. Use generic placeholder titles, not real current news claims. App icon precisely described: white newspaper sheet with two dark horizontal lines and folded upper-right corner emerging from a bright blue pocket with cyan rim, navy rounded-square background.
+Callout 「ここをタップ！」
+
+2. Heading 「追加メニューを選ぶ」
+Description 「『インストールしてショートカットを作成』へ」
+Phone 2: Android Chrome overflow menu with relevant highlighted row 「インストールしてショートカットを作成」 and submenu visible as an enlarged callout 「ショートカットを作成」. If needed wrap long Japanese label across 2 lines for legibility; never truncate. Below this phone, short note 「『ホーム画面に追加』と表示される場合もあります」. Do not depict iOS share sheet for Android main guide.
+
+3. Heading 「追加して完了！」
+Description 「名前を確認し、『追加』をタップ」
+Phone 3: Android dialog titled 「ショートカットを作成」, pocket icon, name 「ニュースポケット」, small my-news-pocket.com, Cancel and prominent blue 「追加」 button circled. Secondary small Android home-screen inset shows the same pocket icon and label ニュースポケット, callout 「次からはアイコンをタップ」.
+A small note under main guide: 「『インストール』と表示された場合は、画面の案内に沿って進めます。」
+
+Bottom pale blue strip clearly separated:
+Heading 「iPhoneのChromeを使う場合」
+Flow 「アドレスバー横の共有 → ホーム画面に追加 → 追加」
+Include small share square-up-arrow icon, not the Android three-dot symbol, in this alternative strip.
+Footer verbatim: 「※ 操作イメージです。端末やChromeのバージョンにより位置・表記が異なります。」
+No promises about offline mode, push notifications, app-store installs, actual device testing, or fees. Correct readable Japanese, exact website URL, do not replace web-app icon with Chrome logo. Keep Android and iPhone operations visibly separate.

@@ -1,0 +1,27 @@
+Mode: built-in image_gen. New image; no CLI/API key.
+Use case: infographic-diagram
+Create ONE polished Japanese instruction infographic for the existing real website 「ニュースポケット」. Landscape 1536x1024 or larger same aspect. A cheerful yet sophisticated guide, white paper background, pale ice-blue blobs, dark navy typography, royal-blue numbered circles, light blue pill headings, rounded realistic illustrated iPhones, blue hand-drawn arrows and tap rings, small friendly handwritten callouts. Spacious professional Japanese editorial layout, easy to read, no characters, no screenshot of a desktop, no irrelevant branding.
+
+Title verbatim: 「ニュースポケットをホーム画面に追加」
+Subtitle badge verbatim: 「Safari｜iPhone」
+URL strip verbatim: 「まず Safari で https://my-news-pocket.com/ を開く」
+Three equal columns, each with number, heading, short description and a large upright iPhone illustration. Clear left-to-right arrows.
+
+Step 1 heading: 「共有を開く」
+Description: 「サイトを開き、共有ボタンをタップ」
+Phone 1: Safari classic bottom toolbar layout, address bar my-news-pocket.com, square-with-up-arrow share button clearly drawn and circled in bright blue. Show the news website: dark navy background, blue gradient top banner, small app icon, title ニュースポケット, horizontal tabs 新着 / AI / 日本経済, distinct separate rounded navy headline cards with gaps. Use generic short placeholder headlines rather than real news facts. App icon MUST depict a white newspaper sheet, two dark horizontal lines, folded top right corner, sticking out of a bright blue pocket with cyan rim, on navy rounded square.
+Callout: 「ここをタップ！」
+
+Step 2 heading: 「ホーム画面に追加」
+Description: 「共有メニューを下へスクロール」
+Phone 2: iOS share sheet over the site. Minimal legible share menu rows such as コピー, ブックマークを追加, ホーム画面に追加. Highlight 「ホーム画面に追加」 row with blue outline and arrow. Real share icon means share only, do not confuse browser home or saved bookmark with adding home-screen app.
+
+Step 3 heading: 「追加して完了！」
+Description: 「名前を確認して、右上の『追加』」
+Phone 3: iOS confirmation sheet with title ホーム画面に追加, top-right blue button 「追加」 clearly circled, our pocket app icon and name ニュースポケット, URL my-news-pocket.com, row 「Webアプリとして開く」 with green ON toggle. Beneath/next to phone 3 show a small home-screen inset containing the same app icon and label ニュースポケット, with friendly callout 「次からはアイコンをタップ」. This inset must be secondary and not replace the confirmation action.
+
+Small clear footer text, verbatim:
+「共有ボタンが見えない場合は『…』→『共有』」
+「『Webアプリとして開く』が表示されたらオンにします」
+「※ 操作イメージです。iOSや表示設定により位置・表記が異なります。」
+No claims of offline use, notifications, app store installation, costs, or actual device testing. All essential Japanese text and URL correctly spelled, no truncated content. Keep chrome and android out of this Safari-specific poster.
