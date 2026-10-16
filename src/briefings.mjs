@@ -16,7 +16,8 @@ export function validateBriefing(data,now=new Date()) {
   const cutoff=Date.parse(data.cutoffAt);
   if(!Number.isFinite(cutoff)||cutoff>now.getTime()+60000||now.getTime()-cutoff>48*3600000||japanDay(new Date(cutoff))!==data.issueDate)bad('確認基準時刻は当日かつ48時間以内にしてください');
   if(!text(data.producer,1,80)||!Array.isArray(data.items)||!data.items.length||data.items.length>24)bad('作成者・記事数が不正です');
-  if(data.review?.factsChecked!==true || data.review?.originalWriting!==true || data.review?.sourceTermsChecked!==true || data.review?.noRestrictedText!==true)bad('事実・独自執筆・出典の利用条件・制限本文不使用の確認が必要です');
+  const automatic=['automated-search','chatgpt-web'].includes(data.review?.kind);
+  if((automatic?(data.review.factsChecked!==false||data.review.automatedEvidenceChecked!==true):data.review?.factsChecked!==true) || data.review?.originalWriting!==true || data.review?.sourceTermsChecked!==true || data.review?.noRestrictedText!==true)bad('事実・独自執筆・出典の利用条件・制限本文不使用の確認が必要です');
   const ids=new Set();
   const items=data.items.map(item=>{
     if(!/^[a-z0-9][a-z0-9-]{0,70}$/.test(item.id??'')||ids.has(item.id))bad('記事IDが不正または重複しています');ids.add(item.id);
@@ -30,17 +31,19 @@ export function validateBriefing(data,now=new Date()) {
     });
     return {id:item.id,theme:item.theme,title:item.title.trim(),summary:item.summary.trim(),whyItMatters:item.whyItMatters.trim(),impact:item.impact.trim(),caution:item.caution.trim(),references};
   });
-  return {version:1,id:data.id,issueDate:data.issueDate,cutoffAt:new Date(cutoff).toISOString(),producer:data.producer.trim(),review:{factsChecked:true,originalWriting:true,sourceTermsChecked:true,noRestrictedText:true},items,missingThemes:THEMES.filter(t=>!items.some(i=>i.theme===t))};
+  return {version:1,id:data.id,issueDate:data.issueDate,cutoffAt:new Date(cutoff).toISOString(),producer:data.producer.trim(),review:{...(automatic?{kind:data.review.kind,factsChecked:false,automatedEvidenceChecked:true}:{factsChecked:true}),originalWriting:true,sourceTermsChecked:true,noRestrictedText:true},items,missingThemes:THEMES.filter(t=>!items.some(i=>i.theme===t))};
 }
 export function editorialArticle(row) {
   const entry=JSON.parse(row.editorial_json);
-  return {id:row.id,title:row.title,sourceId:EDITORIAL_SOURCE,source:'ニュースポケット編集便',url:entry.references[0].url,themes:JSON.parse(row.themes),publishedAt:row.published_at,collectedAt:row.collected_at,isSample:false,canGenerate:false,isEditorial:true,attribution:`${entry.producer}のAI支援による独自解説`,inputScope:scope,license:null,summary:{kind:'editorial',text:entry.summary,scope,createdAt:row.collected_at},editorial:entry};
+  const inputScope=entry.verification==='chatgpt-web'?'ChatGPTのWeb検索と公開情報に基づく短い独自解説。人による全件確認・特定媒体の全文要約ではありません。':entry.verification==='automated-search'?'検索結果の短い抜粋に基づくAI自動整理。人による全件確認・記事全文の確認は未実施です。':scope;
+  return {id:row.id,title:row.title,sourceId:EDITORIAL_SOURCE,source:'ニュースポケット編集便',url:entry.references[0].url,themes:JSON.parse(row.themes),publishedAt:row.published_at,collectedAt:row.collected_at,isSample:false,canGenerate:false,isEditorial:true,attribution:entry.verification?'ニュースポケットのAI自動整理':`${entry.producer}のAI支援による独自解説`,inputScope,license:null,summary:{kind:'editorial',text:entry.summary,scope:inputScope,createdAt:row.collected_at},editorial:entry};
 }
 export async function briefingState(env) {
   if(env.EDITORIAL_ENABLED!=='true'||!env.DB)return {enabled:false,latest:null,automaticPublication:false};
   const row=await env.DB.prepare('SELECT id,issue_date,cutoff_at,created_at,producer,trigger,article_count,missing_themes FROM editorial_editions ORDER BY created_at DESC LIMIT 1').first();
+  const cloud=await env.DB.prepare("SELECT created_at FROM editorial_editions WHERE producer LIKE 'ChatGPT%' AND trigger='push' ORDER BY created_at DESC LIMIT 1").first('created_at');
   const scheduled=await env.DB.prepare("SELECT created_at FROM editorial_editions WHERE trigger='schedule' ORDER BY created_at DESC LIMIT 1").first('created_at');
-  return {enabled:true,latest:row?{id:row.id,issueDate:row.issue_date,cutoffAt:row.cutoff_at,publishedAt:row.created_at,producer:row.producer,trigger:row.trigger,count:row.article_count,missingThemes:JSON.parse(row.missing_themes)}:null,automaticPublication:!!scheduled,lastScheduledPublication:scheduled??null};
+  return {enabled:true,cloudDailyConfigured:env.CHATGPT_DAILY_CONFIRMED==='true',cloudLastPublication:cloud??null,latest:row?{id:row.id,issueDate:row.issue_date,cutoffAt:row.cutoff_at,publishedAt:row.created_at,producer:row.producer,trigger:row.trigger,count:row.article_count,missingThemes:JSON.parse(row.missing_themes)}:null,automaticPublication:!!scheduled,lastScheduledPublication:scheduled??null};
 }
 export async function ingestBriefing(env,data,trigger='manual',now=new Date()) {
   const edition=validateBriefing(data,now),payloadHash=await hash(JSON.stringify(edition));
@@ -50,7 +53,7 @@ export async function ingestBriefing(env,data,trigger='manual',now=new Date()) {
   // The publisher sends original briefs only. This endpoint never fetches a reference URL.
   for(const item of edition.items){
     const id=await hash(`editorial:${edition.id}:${item.id}`);
-    const original={...item,editionId:edition.id,issueDate:edition.issueDate,cutoffAt:edition.cutoffAt,producer:edition.producer};
+    const original={...item,editionId:edition.id,issueDate:edition.issueDate,cutoffAt:edition.cutoffAt,producer:edition.producer,...(['automated-search','chatgpt-web'].includes(edition.review.kind)?{verification:edition.review.kind}:{})};
     statements.push(env.DB.prepare('INSERT INTO articles(id,source_id,url,title,themes,published_at,collected_at,sort_at,content_hash,editorial_json) VALUES(?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET title=excluded.title,themes=excluded.themes,published_at=excluded.published_at,collected_at=excluded.collected_at,sort_at=excluded.sort_at,content_hash=excluded.content_hash,editorial_json=excluded.editorial_json').bind(id,EDITORIAL_SOURCE,`${env.APP_ORIGIN}/briefs/${edition.id}/${item.id}`,item.title,JSON.stringify([item.theme]),edition.cutoffAt,stored,edition.cutoffAt,await hash(JSON.stringify(original)),JSON.stringify(original)));
   }
   // Remove withdrawn entries from this edition atomically; other editions are unaffected.

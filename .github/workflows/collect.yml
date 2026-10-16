@@ -1,8 +1,8 @@
-name: Collect news
+name: Daily maintenance
 on:
-  # With no enabled sources, this schedule only cleans expired private records.
+  # Daily 08:35 JST. With no enabled feeds, only maintenance runs.
   schedule:
-    - cron: '17 * * * *'
+    - cron: '35 23 * * *'
   workflow_dispatch:
 permissions:
   contents: read

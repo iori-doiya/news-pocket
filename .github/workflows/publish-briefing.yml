@@ -3,9 +3,6 @@ on:
   push:
     branches: [main]
     paths: ['data/briefings/*.json']
-  schedule:
-    # 08:20 JST. Publishes only today's checked input; does not generate news.
-    - cron: '20 23 * * *'
   workflow_dispatch:
 permissions:
   contents: read

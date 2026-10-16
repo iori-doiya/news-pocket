@@ -39,6 +39,7 @@ export async function maintenance(env) {
   const cutoff=new Date(Date.now()-90*86400000).toISOString();
   const now=new Date().toISOString();
   await env.DB.batch([
+    env.DB.prepare('DELETE FROM daily_news_jobs WHERE created_at < ?').bind(cutoff),
     env.DB.prepare('DELETE FROM editorial_editions WHERE created_at < ?').bind(cutoff),
     env.DB.prepare('DELETE FROM article_inputs WHERE expires_at < ?').bind(now),
     env.DB.prepare('DELETE FROM contacts WHERE created_at < ?').bind(new Date(Date.now()-30*86400000).toISOString()),
@@ -68,7 +69,7 @@ export async function maintenance(env) {
     + coalesce((SELECT sum(length(CAST(text AS BLOB))+192) FROM article_inputs),0)
     + (SELECT count(*) FROM contact_quota)*192 + (SELECT count(*) FROM summary_metrics)*128
     + (SELECT count(*) FROM bookmarks)*192 + (SELECT count(*) FROM summary_jobs)*384
-    + (SELECT count(*) FROM editorial_editions)*768 AS n`).all();
+    + (SELECT count(*) FROM editorial_editions)*768 + coalesce((SELECT sum(length(CAST(coalesce(results_json,'') AS BLOB))+512) FROM daily_news_jobs),0) AS n`).all();
   const bytes=Number(storage.results[0].n)*3;
   const actualBytes=Number.isFinite(storage.meta?.size_after)?storage.meta.size_after:null;
   const count=await env.DB.prepare('SELECT count(*) AS n FROM articles').first('n');
