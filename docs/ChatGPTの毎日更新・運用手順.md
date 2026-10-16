@@ -1,40 +1,87 @@
-# ChatGPTの毎日更新・運用手順
+# ChatGPTで毎日ニュースを作り、既存サイトへ届ける
 
-## 運用仕様
-ニュースポケット専用のクラウド更新を1回実行する。ユーザーは本専用タスクの新規作成と、iori-doiya/news-pocket のmainへの日次便書込みを明示許可済み。既存「朝の重要ニュース」その他タスクは変更禁止。PC/Codexアプリ停止中でも接続ツールだけで動かす。ローカル自動化・PC常時起動・Tavily・有料OpenAI API・Workers AIへの置換禁止。秘密・個人データ・アプリコードには触れない。
-まずGitHub mainの現在head、docs/ニュースの選定方針.md、docs/ChatGPTの毎日更新・運用手順.md、src/briefings.mjs、最近のdata/briefingsと公開 https://news-pocket.iori-sato-4637.workers.dev/api/articles を読む。手順書欠落時は本指示を使用する。旧バリデータがfactsChecked:true必須なら値を偽らず指定形式で準備・保存し、配信失敗を明示。コードは変更しない。
-Webで最新の信頼できる公開情報を実際に調べ、新しい事実・続報を優先して短い独自解説を作る。同じニュースの単純再掲禁止。日経電子版・SmartNews・Yahoo!ニュースのような重要性・話題性を軸にするが、媒体を固定せず一次発表・信頼できる公開報道で照合する。政治・経済等の重要情報は一次発表や複数情報で照合。提案と決定を区別し未確認の噂は不採用。有料本文・制限の回避、未許諾RSS大量取得、本文・画像・見出しのコピー配信は禁止。読めない本文を読んだ扱いにしない。特定記事全文の要約ではなく、少数の事実を自分の言葉で説明し確認済み出典URLを付ける。利用条件は事実のみの利用範囲を確認し全文要約許諾と混同しない。
-テーマは正確に6つ：AI（仕事で使えるサービス・新機能・新モデル・新AI）、日本経済（物価・税金・給料・企業・市場・家計影響）、株式投資（企業・市場・決算の事実、個別売買推奨と断定予測禁止）、国際情勢（世界を動かす重大ニュース、日本影響）、日本政治（重要な決定・制度・政策）、芸能ニュース（日本で話題の芸能人・番組・作品等、小さな雑ニュースや噂は除外）。各0～3件、全体1～18件、無理に全テーマを埋めない。新しい確認済み記事が0なら公開せず失敗・見送り理由を報告。古い記事の日付だけ更新しない。
-JSON version:1,id:"YYYY-MM-DD-morning",issueDate:実行時の日本日付,cutoffAt:実際の確認締切ISO日時（同じ日本日付、48h以内、未来禁止）,producer:"ChatGPT ニュースポケット毎日更新"。
-review:{"kind":"chatgpt-web","factsChecked":false,"automatedEvidenceChecked":true,"originalWriting":true,"sourceTermsChecked":true,"noRestrictedText":true}。人間の全件確認ではないのでfactsCheckedはfalse。他のtrueも実際の確認を満たした場合のみ。満たせなければ公開せず理由を報告。
-items各項目：id（小文字英数ハイフン、先頭英数、1～71字、重複禁止）、theme（上記正確名）、title（独自3～120字）、summary（独自20～600字）、whyItMatters（10～400字）、impact（10～400字）、caution（1～300字）、references（1～5件）。各出典はname（1～100字）,url（実在公開HTTPS）,publishedAt（正確ISOまたは不明ならnull）,accessedAt（実際の確認時刻ISO、48h以内、未来禁止）,usage:"facts-only",reviewNote（読めた範囲、照合、表現・画像転載なし等の実際の確認10～400字）。
-mainの data/briefings/YYYY-MM-DD-morning.json に接続GitHubツールで作成・更新する。同日訂正は同じ便と安定記事IDを使用。書込み直前にheadと対象ファイルを再確認し競合を避ける。既存ファイル更新時は現在blob SHAを使用。Secrets・INGEST_TOKENは読まない。GitHub Actionsが既存の秘密キーで受信APIへ配信する。
-保存後は当該コミットのpushイベントのActions「Publish news briefing」を確認し、結果と実行URLを取得。fetch_commit_workflow_runsはPR限定なのでpush確認に使わずGitHub fetchでactions/runs?event=push&head_sha=...を使用できる。公開/api/articlesまたは/api/statusで当該便・記事IDと実記事数が反映されたことを読取り確認。ファイル保存だけで配信成功としない。失敗時は具体的な段階・理由を報告し秘密は表示しない。毎回承認で停止したら無人運転成功と報告しない。
-最後に日本日付・確認締切・記事数・コミットURL・Actions URLと結果・公開反映・未完了事項を簡潔に報告。設定済み／手動実行成功／実際の定期実行成功を区別。利用枠・権限不足は明示し成功実績を捏造しない。関係する説明文は方針や指示の変更時に整合させる。
+2026年10月16日。既存の「朝の重要ニュース」は変更しません。ニュースポケット専用のクラウド定期タスクを使う構成です。設定できたこと・実際に動いたことは[検証報告](実装・検証報告.md)で区別します。Tavilyの登録・検索キーは不要です。
 
-## 2026-10-16 接続・初回検証記録
+**接続と初回の通し確認は完了しました。** 毎日8:00 Asia/Tokyoの専用タスクは有効。10月16日14:12の再実行で新記事1件がGitHubへ保存され、Actions成功と公開サイトの合計7件を確認しました。PCのローカルスケジューラは使用していません。実際の定期実行の初回は10月17日以降のため、その実績だけは未確認です。
 
-- 専用クラウドタスク「ニュースポケット 毎日更新」を新規作成し、読取りで有効状態を再確認。既存タスクは変更していない。
-- 識別子：6ad1b04e366c8191bf4c9ab71517bc8f
-- タイムゾーン：Asia/Tokyo
-- 保存スケジュール：
+専用スケジュールの識別子は `6ad1b04e366c8191bf4c9ab71517bc8f`。設定の作成と再読取りで有効状態を確認し、再実行でも再確認しました。初回記事の確認時刻は14:12:35、サイト反映は14:12:52（日本時間）。[記事の保存](https://github.com/iori-doiya/news-pocket/commit/5ed3203277c38a9d1b402daeac7b4c4f00ca37d7)・[配信成功](https://github.com/iori-doiya/news-pocket/actions/runs/38854587427)が証拠です。今回、書込みの追加承認による停止はありませんでした。将来の利用枠や接続承認で停止しないとの保証はしません。
+
+[構造図](diagrams/architecture.png)と[毎日更新の流れ](diagrams/daily-flow.png)を用意しました。図を直すときはscripts/render-architecture.mjsを編集し、`npm run diagrams:render`でSVGを作り直します。PNGはそのSVGのブラウザ表示を保存した画像です。コード変更時には両方の内容を合わせます。
+
+## ChatGPTとGitHub Actions、どちらがニュースを集めるか
+
+| 比較 | ChatGPTがWebを調査する方式 | ActionsでRSS・APIを収集する方式 |
+|---|---|---|
+| 向く内容 | 複数サイトを調べ、重要性や身近な影響を説明する | 接続・利用条件を確認した固定の情報源を定期取得する |
+| 判断する役割 | ニュースの選定と短い独自解説をChatGPTが担当 | Actions自体は実行係。選定・解説には別の実装やAI接続が必要 |
+| 今回の希望への適合 | 日経やSmartNewsで知りたいような重要ニュースを、媒体に固定せず選ぶ方針に合う | 許諾済みのRSS・APIに絞る場合は安定した処理を作りやすい |
+| 残っている確認 | PC停止中のスケジュール実行とGitHub書込みを実証する | 指定媒体の本文取得・AI利用は未確認のため有効化できない |
+
+今回採用する設計は **ChatGPTが調査・選定・解説、Actionsが形式検査・サイト配信** です。Actionsでも収集処理は動かせますが、この役割分担では別のニュース検索を重ねません。
+
+## 役割
+
+- ChatGPT：クラウドで毎日8:00ごろ、Webを調べて6テーマの重要ニュースを選び、短い独自解説と出典を作ります。使用するのは既存のChatGPT契約の利用枠です。無制限ではありません。
+- GitHub：`iori-doiya/news-pocket` の `data/briefings/YYYY-MM-DD-morning.json` に記事データを保存します。秘密・原文・個人情報を入れません。
+- GitHub Actions：JSONがmainに保存されたら **Publish news briefing** が形式を検査し、既存のINGEST_TOKENでWorkerへ届けます。この方式でActionsは別途ニュースを検索しません。
+- Cloudflare Workers：既存サイトのAPI・ログイン・保存操作・記事の受信と表示を処理します。
+- D1：記事、出典、便ごとの日時、利用者別の保存、非公開問い合わせを保持します。
+- Workers AI：今回の毎日更新では使いません。従来の本文要約機能の基盤は残っていますが、対象媒体の許諾確認中で停止しています。
+
+追加の検索API・有料OpenAI API・常時起動PCは使用しません。Cloudflareの無料枠保護は維持します。ChatGPTのタスク数・利用量の上限、接続先の承認待ち等で止まることはあり、毎日8:00ちょうどを保証しません。
+
+## 毎日作るデータ
+
+テーマはAI、日本経済、株式投資、国際情勢、芸能ニュース、日本政治です。[選定方針](ニュースの選定方針.md)に従い、1テーマ0〜3件、全体最大18件を目安にします。条件を満たさない話で件数を埋めません。前日の単純な再掲を避け、新しい事実や進展を優先します。
+
+`data/briefings/2026-10-16-update.json` は形式の見本です。見本の古い記事や日付を新しいニュースとして流用しません。`cutoffAt` は実際に確認を締めた時刻、`issueDate` は日本の日付です。公開時刻不明の出典はnullを指定します。出典の本文を確認できなかった場合は、全文を読んだとは書きません。
+
+自動作成用の確認欄は次を使います。人が全件確認済みであるとの扱いにはしません。
+
+```json
+"review": {
+  "kind": "chatgpt-web",
+  "factsChecked": false,
+  "automatedEvidenceChecked": true,
+  "originalWriting": true,
+  "sourceTermsChecked": true,
+  "noRestrictedText": true
+}
 ```
-BEGIN:VEVENT
-DTSTART;TZID=Asia/Tokyo:20261017T080000
-RRULE:FREQ=DAILY;BYHOUR=8;BYMINUTE=0;BYSECOND=0
-END:VEVENT
-```
-- 作成結果 success:true、読取り is_enabled:true。next_run_time:null、last_run_time:null。開始日時は設定値であり、将来の起動成功の証拠ではない。PC/Codexアプリのローカルスケジューラは使っていない。
-- GitHub接続による資料読取りに成功。書込み直前のmain headは 0f7a9e4c6cb082afeddc6f3a03f12f03278ea684。対象朝便が存在しないことも確認。
-- Figma公式発表のSpecsの機能・対象プランを新規確認し、公開APIの既存6件と重複しない実記事1件を独自執筆。
-- 初回手動実行の確認締切：2026-10-16T05:04:52.203Z
-- 作成便：data/briefings/2026-10-16-morning.json。review.factsChecked:false、kind:chatgpt-web、automatedEvidenceChecked:true。
-- GitHub書込み成功。今回の書込みは追加承認で停止しなかった。コミットの親が確認済みheadと一致することも読取りで確認：
-  https://github.com/iori-doiya/news-pocket/commit/618359ff8d1b5f7fd9b88238fc18f37acfc5e46a
-- 当該pushの「Publish news briefing」は completed / failure：
-  https://github.com/iori-doiya/news-pocket/actions/runs/38853920988
-- publishジョブの配信スクリプトが終了コード1。「事実・独自執筆・出典の利用条件・制限本文不使用の確認が必要です」で停止。秘密の値は読まず、ログ中の値は転記していない。
-- 現在mainのsrc/briefings.mjs（blob ddb46344c72cc5fa766dafe2d39d7f378256b9d5）はfactsChecked:true必須の旧仕様。指定された自動確認形式に未対応であることを再読取りで確認。手順書も本作成前は404だった。
-- 未完了：公開反映、初回全工程成功、将来の実際の定期実行成功、無人の全工程成功の実証。今回のGitHub書込み成功だけで将来の権限承認不要を保証しない。
-- 制作元で必要な対応：人間の全件確認と自動根拠確認を区別したchatgpt-web形式を、GitHub側検証と公開受信側の両方が受け付けることを確認する。今回はアプリコード変更禁止のため修正していない。falseをtrueに偽装して通さない。
-- 仕様対応後に再実行する場合、当日便と記事IDを維持し、出典を再確認して実際の確認日時に更新する。過去日の便や確認日時を流用して成功扱いにしない。
+
+確認欄は実際の確認を記録するためのものです。trueにするだけで権利や内容が保証されるわけではありません。政治・経済等の重大ニュースは複数の信頼できる情報や一次発表を照合し、独自の短い事実整理とリンクに限定します。本文・画像・有料部分を転載せず、利用できない情報は省きます。指定6媒体のRSS・本文AI利用を許諾済みとして有効化しません。
+
+各記事は `id`、`theme`、`title`、`summary`、`whyItMatters`、`impact`、`caution`、`references` を持ちます。出典は1〜5件で、名前・公開HTTPS URL・確認日時・利用範囲・実際の確認メモを保存します。自動記事は「AI自動整理」と表示し、要点・重要な理由・自分への影響・出典は記事詳細で読めます。一覧には見出しと保存ボタンだけを表示します。
+
+## 初回設定・実行確認
+
+1. ChatGPTのクラウドで「ニュースポケット毎日更新」を作成します。ローカルCodex自動化とは違い、PCを止めて実行する方式です。
+2. 利用できるGitHub接続で、公開リポジトリの記事データへ書き込めるかを実行して確認します。接続しているという表示だけで成功扱いにしません。承認が必要なら、その内容と対象を確認します。
+3. まず現在のニュースで1回実行し、GitHubへの保存 → Actions成功 → 公開サイトへの反映を確認します。その後の日次実行の実績は別に確認します。
+4. 確認後、`wrangler.jsonc` の `CHATGPT_DAILY_CONFIRMED` をtrueにして公開し、設定画面で接続設定と最終反映を区別します。受信した記事がないのに成功日時を埋めません。
+
+## 自分で確認・変更する
+
+ChatGPTの **Scheduled／スケジュール済み** で専用の「ニュースポケット 毎日更新」を開き、指示・時刻・実行履歴を確認します。作成・再実行を記録したチャット名は「ニュースポケット毎日更新」です。GitHubへの書き込みが承認待ちで止まった場合もここで確認します。既存の朝ニュースを編集する必要はありません。
+
+ニュースの傾向を変えるときは、`docs/ニュースの選定方針.md` と専用定期タスクの指示を合わせて更新します。配色や行間は `public/styles.css`、見出し行は `public/headline-list.js`、詳細は `public/briefings-ui.js` です。タブは `public/app.js` のTHEMESと、サーバー側の `src/model.mjs` を合わせて変更します。
+
+GitHubの **Actions → Publish news briefing** を開き、当日の実行が緑の成功になっているか確認します。完了ログは「N件反映」「同じ便は反映済み」を区別します。0件・入力不正・通信失敗で反映日時を進めません。ニュースの作成に失敗した場合は、過去の記事を新しい日時で再登録しません。
+
+自動更新を止めるときはChatGPT側の専用タスクを一時停止します。記事の公開も止めたいときは、`EDITORIAL_ENABLED` をfalseにしてWorkerを公開します。データや利用者の保存を削除せず非表示にできます。
+
+## コードの公開と復旧
+
+`news-pocket` フォルダで `npm run check`、`npm test`、`npm run build`、`npm run deploy` を使います。新しい移行がある場合は先に非公開バックアップを取り、`npm run db:remote` を実行します。既存DBを作り直しません。今回の移行0007は検索API方式の試作、0008はその方式を採用しないことに伴う本文AI上限トリガーの整理です。空の試作管理表は履歴として残し、ユーザーデータの削除は行いません。
+
+同じ便ID・記事IDの修正は既存の保存に対応したまま反映できます。便から記事を外すと、その記事と保存参照も削除されます。公開GitHubのファイル削除だけではD1の記事は消えません。過去のWorkerへ戻す場合もDB列・表をむやみに削除せず、既存の[復旧手順](AI・問い合わせ・復旧の運用手順.md)を使います。
+
+この手順は[OpenAIの定期タスク案内](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt)と、実際に作ったJSON受信・Actions反映処理に対応します。クラウドからの実行結果・未完了事項は検証報告へ追記し、コードや設定を変えたら関係する説明も更新します。
+
+## 今回の失敗と直し方
+
+10月16日の初回クラウド実行では、記事の保存は成功しましたが、配信が[失敗](https://github.com/iori-doiya/news-pocket/actions/runs/38853920988)しました。mainの旧検証コードが「人による事実確認済み」のtrueだけを許可していたためです。falseをtrueへ偽装せず、src/briefings.mjsをchatgpt-web形式に対応させ、受信側WorkerとGitHub側の両方を更新しました。D1には0008を適用しました。[PR #6](https://github.com/iori-doiya/news-pocket/pull/6)の検査成功・マージ後、クラウド側で出典を実際に読み直し、同じ便ID・記事IDで再送して成功しました。
+
+途中でCloudflare・GitHubのDNS接続が失敗し、D1でも一時的に7403の権限エラーが出ました。現在のアカウントと既存d1権限の一致を確認し、通信回復後に再実行すると成功しました。秘密や権限の再発行・拡大は行っていません。古い失敗のActionsをそのまま再実行すると旧コミットの検証コードが使われるため、修正後mainで当日の出典を再確認して保存する方法を採りました。
+
+残る確認は、10月17日以降の予定時刻での自動実行結果です。GitHub Actionsとサイトの最終反映を合わせて見ます。サイトの旧RSS schedule成功を、この新しいクラウド作成の実績に読み替えないでください。

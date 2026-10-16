@@ -1,0 +1,3 @@
+import {createServer} from 'node:http';import {readFile} from 'node:fs/promises';
+const allowed=new Set(['architecture.html','architecture.svg','daily-flow.html','daily-flow.svg']);
+createServer(async(req,res)=>{const name=new URL(req.url,'http://localhost').pathname.slice(1);if(!allowed.has(name)){res.writeHead(404).end();return;}try{res.setHeader('Content-Type',name.endsWith('.svg')?'image/svg+xml':'text/html; charset=utf-8');res.end(await readFile(new URL('../docs/diagrams/'+name,import.meta.url)));}catch{res.writeHead(404).end();}}).listen(8792,'127.0.0.1',()=>console.log('Diagram preview http://localhost:8792/architecture.html'));

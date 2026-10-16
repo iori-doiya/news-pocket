@@ -23,7 +23,7 @@
     "CONTACT_URL": "https://news-pocket.iori-sato-4637.workers.dev/contact.html",
     "COLLECTION_ENABLED": "false",
     "EDITORIAL_ENABLED": "true",
-    "CHATGPT_DAILY_CONFIRMED": "false"
+    "CHATGPT_DAILY_CONFIRMED": "true"
   },
   "d1_databases": [
     {
