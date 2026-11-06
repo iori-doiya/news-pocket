@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "id": "2026-11-07-morning",
+  "issueDate": "2026-11-07",
+  "cutoffAt": "2026-11-06T23:11:04Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "claude-enterprise-security-nov05",
+      "theme": "AI",
+      "title": "Claude Enterpriseに設定の点検機能",
+      "summary": "Anthropicは11月5日、Claude Enterprise向けにセキュリティ設定を確認する機能などを発表した。管理者は自社の設定を同社の推奨構成と照らし合わせられる。Coworkなどでは端末の脅威検知ツールとの連携もベータで提供する。",
+      "whyItMatters": "組織内でAIの利用を広げる際、どの安全設定が不足しているか把握しやすくなる。",
+      "impact": "社内でAIを導入する担当者は、権限と監視の設定を見直す材料にできる。",
+      "caution": "機能によって提供段階、対象プランや対応する管理ツールが異なる。",
+      "references": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で設定の確認方法と端末監視連携の提供条件を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "adobe-cx-coworker-connectors-nov04",
+      "theme": "AI",
+      "title": "Adobeの顧客対応AI、外部のAI基盤から利用可能に",
+      "summary": "Adobeは米国時間11月4日、顧客体験の業務に使うCX Enterprise Coworkerを、Anthropic、Google、Microsoft、OpenAIなどのAI基盤に連携したと発表した。顧客データやマーケティングの業務を既存のAIツールから扱う企業向けの発表だ。",
+      "whyItMatters": "企業が既存の環境でAIを使うには、ツールを切り替える手間とデータの管理を両方考える必要がある。",
+      "impact": "マーケティング担当者は、現在使っているAI基盤で必要な機能が使えるかを確認できる。",
+      "caution": "連携先ごとに利用条件があり、一般向けのチャット契約ですぐ使えるという発表ではない。",
+      "references": [
+        {
+          "name": "Adobe",
+          "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で発表日と連携先、企業向けの用途を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "japan-real-wages-sep2026",
+      "theme": "日本経済",
+      "title": "9月の実質賃金が2.2％増　9カ月連続のプラス",
+      "summary": "厚生労働省が11月6日に公表した9月の毎月勤労統計の速報では、物価を考慮した実質賃金が前年同月比2.2％増えた。従業員5人以上の事業所で、1人当たりの現金給与総額は31万1409円と4.6％増えた。",
+      "whyItMatters": "給与が増えても物価が同じだけ上がれば購買力は改善しない。今回は物価を差し引いた指標も増加した。",
+      "impact": "自身の生活への影響は、給与明細の手取りの変化と、食費など実際の支出の伸びを比べると分かりやすい。",
+      "caution": "速報値であり、業種や雇用形態ごとの実感には差がある。",
+      "references": [
+        {
+          "name": "厚生労働省（e-Stat）",
+          "url": "https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=dataset&stat_infid=000031971218",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で9月分の速報資料と調査の範囲を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "FNNプライムオンライン",
+          "url": "https://www.fnn.jp/articles/-/1147124",
+          "publishedAt": "2026-11-06T09:20:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で現金給与総額と実質賃金の伸びを確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "msad-insurer-customer-breaches-nov06",
+      "theme": "日本経済",
+      "title": "損保3社の顧客情報が流出、合わせて71万件超",
+      "summary": "11月6日、あいおいニッセイ同和損保、三井住友海上、三井ダイレクト損保で、契約者向けサイトや見積もりサイトへの不正アクセスを受けた情報流出が明らかになった。報道がまとめた流出件数は3社で71万件余りで、連絡先などが対象に含まれる。",
+      "whyItMatters": "契約や見積もりに使った情報が流出すると、保険会社を装う連絡が本物か見分けにくくなる。",
+      "impact": "契約中の人や見積もりを取った人は、メール中のリンクではなく、各社の公式サイトから該当範囲を確認したい。",
+      "caution": "件数の合計は重複を除いた人数とは限らず、対象項目は各社・利用状況で異なる。",
+      "references": [
+        {
+          "name": "TBS NEWS DIG",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3068731?display=1&mwplay=1",
+          "publishedAt": "2026-11-06T19:05:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で3社名、対象サービスと件数の報道を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "FinTech Journal",
+          "url": "https://www.sbbit.jp/article/fj/188156",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報でうち損保大手2社の契約者ページ被害を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "etax-service-restored-nov05",
+      "theme": "日本経済",
+      "title": "e-Taxが再開　不審な通信を受けた点検が完了",
+      "summary": "国税庁は11月5日、電子申告・納税システムe-Taxの利用を再開した。4日に不審な通信を検知して機器を点検し、必要な対応と安全性の確認を終えたとしている。停止を伝えた前の便から、電子手続きが再びできるようになったことが新しい。",
+      "whyItMatters": "申告・納税に使う全国の仕組みで、利用者が手続きを再開できるかに直接関わる。",
+      "impact": "停止中に送信できなかった場合は、再開後に受信通知や提出状況を確かめてから必要な手続きを進めたい。",
+      "caution": "再開の発表だけで個別の申告の受付や期限延長が確定するわけではない。",
+      "references": [
+        {
+          "name": "国税庁",
+          "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20261104_mentenansu.htm",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で停止の経緯と再開の発表を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "ITmedia NEWS",
+          "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002897/",
+          "publishedAt": "2026-11-05T12:29:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で再開の時刻と経緯を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "nikkei-close-3643-fall-nov06",
+      "theme": "株式投資",
+      "title": "日経平均が3643円安、6万円を割り込む",
+      "summary": "11月6日の東京市場で日経平均は前日比3643円13銭安の5万7434円77銭で取引を終えた。下落率は5.96％で、半導体関連などが売られた。前便で伝えた米国市場の急落に続き、日本市場でも大きな下げが確認された。",
+      "whyItMatters": "一部の個別株だけでなく主要指数の大幅下落となり、日本株全体への投資にも影響する日になった。",
+      "impact": "日本株の投信を持つ人は、自分の商品の連動指数と値動きの差を確認できる。",
+      "caution": "一日の下落から今後の相場を決めつけることはできない。",
+      "references": [
+        {
+          "name": "日本経済新聞社",
+          "url": "https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261106&idx=nk225",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で日経平均の日付と当日値を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "株探",
+          "url": "https://s.kabutan.jp/news/n202611061433/",
+          "publishedAt": "2026-11-06T15:30:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で終値、下落幅と下落率を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-stocks-mixed-rebound-nov06",
+      "theme": "株式投資",
+      "title": "ナスダックは反発、週間では3.4％安",
+      "summary": "11月6日の米市場でナスダック総合は前日比1.1％上昇し、S&P500も0.3％上昇した。ダウ工業株30種平均は0.5％下落。前日の急落後に一部の指数は反発したが、ナスダックは週を通しては3.4％安だった。",
+      "whyItMatters": "反発した日だけを見ると、一週間でどれだけ値下がりしたかを見落としやすい。",
+      "impact": "米国株の投信では、指数ごとの違いに加えて、為替を含めた基準価額の動きも確認できる。",
+      "caution": "反発は下落局面の終わりを意味しない。",
+      "references": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/806f71d95105bc7efbc760b194dd8cad",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で主要指数の日次と週間の騰落を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で反発と週間下落を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "nintendo-halfyear-ordinary-profit-nov05",
+      "theme": "株式投資",
+      "title": "任天堂の上期経常利益が27.4％増",
+      "summary": "任天堂が11月5日に発表した2026年4〜9月の連結決算では、経常利益が前年同期比27.4％増の約3006億円となった。経常利益の通期計画は4300億円で、上期の実績と通期の見通しは別の数字だ。",
+      "whyItMatters": "経常利益には本業以外の損益も含まれるため、営業利益や販売状況と合わせて読むと変化を把握しやすい。",
+      "impact": "ゲーム事業の動向を追う際は、年末商戦を含む下期の販売実績も今後の確認点になる。",
+      "caution": "上期の数字から通期の達成や株価は判断できない。",
+      "references": [
+        {
+          "name": "任天堂（決算短信掲載）",
+          "url": "https://disclosure.catr.jp/companies/47673/49547/tdnet/4c12a/791968",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で決算短信の発表日と対象期間を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "株探",
+          "url": "https://s.kabutan.jp/news/k202611050071/",
+          "publishedAt": "2026-11-05T15:30:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で経常利益と通期計画を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-payrolls-oct2026",
+      "theme": "国際情勢",
+      "title": "米10月の雇用が16万5000人増、失業率4.1％",
+      "summary": "米労働統計局が11月6日に公表した10月の雇用統計では、農業部門を除く雇用者数が前月から16万5000人増えた。失業率は4.1％だった。雇用者数と失業率は異なる調査から集計される。",
+      "whyItMatters": "米国の雇用は消費の持続力や、中央銀行が物価と景気をどう評価するかを考える材料になる。",
+      "impact": "日本では米金利や為替を通じて、輸入品の価格や外貨建て資産の円換算額に影響が及ぶ場合がある。",
+      "caution": "雇用者数は後日改定され得る。単月の結果で次の政策判断は決まらない。",
+      "references": [
+        {
+          "name": "米労働統計局",
+          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+          "publishedAt": "2026-11-06T08:30:00-05:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で雇用者数と失業率の公式統計を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/us-job-growth-beats-expectations-october-unemployment-rate-falls-41-2026-11-06/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で公表値を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "china-us-russia-summit-talks-nov06",
+      "theme": "国際情勢",
+      "title": "米中ロ首脳会談、中国が関係国との調整を認める",
+      "summary": "中国外務省は11月4日の会見で、米中ロの3首脳による会談を巡り、関係国と連絡を取っていると説明した。AP通信は11月6日、トランプ米大統領が核軍備管理について協議する意向を示していることも伝えた。",
+      "whyItMatters": "米ロ間の核軍備管理に中国を含めた首脳協議が開かれるかは、主要国の安全保障を考える材料になる。",
+      "impact": "日本にとっては、核軍備やウクライナを巡る協議がどの枠組みで進むのかが今後の注目点になる。",
+      "caution": "会談の開催や日時、議題の合意まで確認されたわけではない。",
+      "references": [
+        {
+          "name": "中国外務省",
+          "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/202611/t20261104_12053240.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で会見で関係国との連絡を認めたことを確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/685503bde099612212fb9d6f716422e4",
+          "publishedAt": "2026-11-06T22:52:27Z",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で11月6日の報道で調整状況と米側の関心を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "japan-cyber-emergency-reserve-nov06",
+      "theme": "日本政治",
+      "title": "政府、サイバー緊急対策に予備費約100億円",
+      "summary": "政府は11月6日の関係閣僚会議で、相次ぐサイバー攻撃を受けた緊急対策を議論した。首相は同日の閣議で、直ちに必要な対策に約100億円の予備費を充てたと説明し、被害拡大の防止や、情報集約を速める仕組みの検討を指示した。",
+      "whyItMatters": "通信や金融の障害が連鎖する場合、事業者から国への報告と、被害を受けた人への連絡の速さが重要になる。",
+      "impact": "企業やサービス利用者にとっては、事故時の連絡先や報告の手順がどう整うかが今後の焦点になる。",
+      "caution": "予備費の措置と、法改正や報告制度の検討は別段階。",
+      "references": [
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/105/actions/202611/06kaigi_cyber.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で公開検索で取得した会見本文の予備費と対策の柱を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "首相官邸（閣議案件）",
+          "url": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026110601.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で予備費使用の閣議決定を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "okinawa-policy-council-held-nov06",
+      "theme": "日本政治",
+      "title": "沖縄政策協議会を13年ぶりに開催",
+      "summary": "11月6日、政府と沖縄県が沖縄政策協議会を開いた。共同通信によると開催は13年ぶりで、高市首相は基地負担軽減に向け、2027年度予算編成などで対応を検討するよう関係閣僚に指示した。",
+      "whyItMatters": "開催予定を伝えた前便から進み、政府と県が実際に会合を開いて今後の対応を協議した。",
+      "impact": "基地周辺の住環境や地域振興にどうつながるかは、政府と県が示す具体策で確認できる。",
+      "caution": "予算額や普天間飛行場の返還日は、この会合で決まったわけではない。",
+      "references": [
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/105/actions/202611/06kyougikai.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で公開検索で確認できた開催日と首相の出席を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "共同通信（熊本日日新聞）",
+          "url": "https://www.kumanichi.com/articles/2054731",
+          "publishedAt": "2026-11-06T09:24:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で開催間隔と予算検討の指示を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "japan-middle-east-shipping-mission-extension-nov06",
+      "theme": "日本政治",
+      "title": "中東の日本関係船舶を巡る自衛隊活動を延長",
+      "summary": "政府は11月6日、中東地域を航行する日本関係船舶の安全確保に向けた取り組みの一部変更を閣議決定した。防衛省によると、自衛隊の艦船や航空機を使った情報収集などの活動期間を2027年11月19日まで延長した。",
+      "whyItMatters": "中東の航行状況は、日本向けの燃料や物資の輸送にも関わる。",
+      "impact": "船会社や荷主にとって、政府が航行に関する情報収集を継続することは運航判断の材料になる。",
+      "caution": "今回の決定は活動期間の延長であり、航行の安全が保証されたわけではない。",
+      "references": [
+        {
+          "name": "防衛省",
+          "url": "https://www.mod.go.jp/j/approach/defense/m_east/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で活動の目的と延長期限を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026110601.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で11月6日の閣議決定を照合を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "anan-award-sixtones-keytolit-nov06",
+      "theme": "芸能ニュース",
+      "title": "SixTONESとKEY TO LITがananの授賞式へ",
+      "summary": "11月6日、SixTONESとKEY TO LITが14日のanan AWARDに登壇すると明らかになった。授賞式は雑誌の公式YouTubeで無料生配信を予定し、個別の賞の名称や内容は当日に発表される。",
+      "whyItMatters": "音楽や映像作品などで活動するグループの登壇を、会場の外からも見られる。",
+      "impact": "視聴する人は、14日の開始時刻と公式配信の案内を確認できる。",
+      "caution": "出演者や配信の詳細は変更される場合がある。",
+      "references": [
+        {
+          "name": "ORICON NEWS",
+          "url": "https://www.oricon.co.jp/news/2491306/full/",
+          "publishedAt": "2026-11-06T18:36:00+09:00",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で登壇グループ、授賞式の日付と無料配信を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "otokotomodachi-theatrical-release-nov06",
+      "theme": "芸能ニュース",
+      "title": "松岡茉優と成田凌の映画『男ともだち』が公開",
+      "summary": "三島有紀子監督の映画『男ともだち』が11月6日に全国公開された。松岡茉優と成田凌が出演し、疎遠になっていた友人同士が7年ぶりに再会するところから、二人の関係が動き出す。",
+      "whyItMatters": "長く離れていた友人と再会したときの距離感を描く、出演者と監督の新作だ。",
+      "impact": "邦画を観に行く際の候補にできる。地域によって上映館や開始時刻は異なる。",
+      "caution": "上映期間と回数は劇場ごとの案内で確認したい。",
+      "references": [
+        {
+          "name": "ハピネットファントム・スタジオ",
+          "url": "https://happinet-phantom.com/lineup/2518/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で公開日、出演者、再会を描く設定を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "grotesqqque-anime-theatrical-release-nov06",
+      "theme": "芸能ニュース",
+      "title": "CloverWorks制作の長編アニメが劇場公開",
+      "summary": "CloverWorksが制作を手がけたオリジナルアニメ映画『GROTESQQQUE -グロテスク-』が11月6日に公開された。一つの長編を複数の作品で構成しており、新千歳空港国際アニメーション映画祭でも制作背景を紹介するプログラムが組まれた。",
+      "whyItMatters": "テレビシリーズの続編とは異なる、アニメ制作会社によるオリジナルの劇場企画だ。",
+      "impact": "アニメ映画を探している人は上映館を確認でき、制作に関心があれば映画祭の案内も参考にできる。",
+      "caution": "映画祭の企画と一般の劇場上映は別で、日程や参加方法も異なる。",
+      "references": [
+        {
+          "name": "CloverWorks",
+          "url": "https://cloverworks.co.jp/works/grotesqqque/?doing_wp_cron=1783652701.9480280876159668750",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で公開日と制作クレジットを確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "新千歳空港国際アニメーション映画祭",
+          "url": "https://airport-anifes.jp/programs/mo-gtq/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で全国公開日と制作紹介プログラムを確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "iran-uae-diplomatic-contact-nov06",
+      "theme": "国際情勢",
+      "title": "イランとUAEの外相が電話協議、核協議案も検討",
+      "summary": "UAE外務省は11月6日、アブドラ外相がイランのアラグチ外相と電話で協議したと公表した。同日、AP通信は、イランが核計画を巡る提案を検討していると報じた。周辺国との接触と、米国との交渉の進展は別の段階にある。",
+      "whyItMatters": "中東の緊張が続く中、周辺国も関与する外交の動きは、海上輸送のリスクを考える手がかりになる。",
+      "impact": "日本の燃料輸入に関わる地域のため、交渉の動きに加え、実際の航行や供給の状況を確認したい。",
+      "caution": "外相間の電話や提案の検討は、米イランの合意や交渉再開の確定を意味しない。",
+      "references": [
+        {
+          "name": "UAE外務省",
+          "url": "https://www.mofa.gov.ae/en/search?keyword=iran",
+          "publishedAt": null,
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で外相間の電話協議の公表を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/53ed5d271b9aef6f880aebc133ea6a55",
+          "publishedAt": "2026-11-06T22:14:38Z",
+          "accessedAt": "2026-11-06T23:11:04Z",
+          "usage": "facts-only",
+          "reviewNote": "公開情報で核計画を巡る提案の検討についての報道を確認。必要な事実のみを使い、本文・見出し・画像は転載していない。"
+        }
+      ]
+    }
+  ]
+}
