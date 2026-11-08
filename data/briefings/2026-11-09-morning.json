@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "id": "2026-11-09-morning",
+  "issueDate": "2026-11-09",
+  "cutoffAt": "2026-11-08T23:06:56Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "plamo3-translate-open-weights-nov05",
+      "theme": "AI",
+      "title": "PFN、端末内で動かせる翻訳AIのモデルを公開",
+      "summary": "Preferred Networksは11月5日、翻訳に特化したPLaMo 3 Translateのモデル重みを公開した。日本語・英語を含む53言語に対応し、4種類のサイズが用意された。アプリに組み込むことで、クラウドを経由せず端末上で翻訳できる。",
+      "whyItMatters": "文章を外部の翻訳サーバーに送らずに処理できる選択肢が増える。回線が不安定な場所での利用や、端末内に情報をとどめたい業務でも検討しやすい。",
+      "impact": "Web制作やアプリ開発では、対応する端末で速度と翻訳品質を試し、想定する利用環境に合うサイズを選べる。",
+      "caution": "無償利用には収入・売上に関する条件などがある。組み込みや再配布の前にライセンスを確認したい。",
+      "references": [
+        {
+          "name": "Preferred Networks",
+          "url": "https://www.preferred.jp/ja/news/pr20261105",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、公開日、対応言語、モデルのサイズと利用条件を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "mistral-studio-managed-agents-nov05",
+      "theme": "AI",
+      "title": "Mistral Studio、企業向けAIエージェントの構築機能を追加",
+      "summary": "Mistralは11月5日付の更新情報で、企業向け開発基盤Studioの公開プレビューを案内した。同社が運用を担うエージェントや、複数の処理を組み合わせるワークフローを使い、社内のデータやシステムにつないだアプリを構築できる。",
+      "whyItMatters": "試作品を本番で運用するには、モデルの回答だけでなく、誰がどのデータにアクセスし、何が実行されたかを管理する必要がある。",
+      "impact": "開発チームは小規模な業務で試し、外部サービスとの接続権限や運用ログを確かめてから適用範囲を広げられる。",
+      "caution": "プレビュー機能や提供形態は変わる可能性がある。既報の基盤モデル公開とは別の更新。",
+      "references": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/build-with-studio/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、Studioのエージェント、ワークフローと提供形態を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Mistral Docs",
+          "url": "https://docs.mistral.ai/resources/release-notes?trk=article-ssr-frontend-pulse_little-text-block",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、11月5日付の公開プレビューと更新内容を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "amazon-alexa-shopping-text-nov06",
+      "theme": "AI",
+      "title": "Amazon、買い物AIにテキストメッセージで頼める機能",
+      "summary": "Amazonは米国時間11月6日、買い物用AIのAlexa for Shoppingをテキストメッセージで使える機能を発表した。商品を探す、カートを組む、購入する、配送状況を確認するといった操作を頼める。米国の一部利用者への招待から始めた。",
+      "whyItMatters": "商品を探すだけでなく購入の操作にも関わるため、注文内容や数量、価格をどこで確認するかが大切になる。",
+      "impact": "対応する場合は、よく買う日用品を探す手間を減らせる一方、配送先や購入の承認手順を事前に確かめたい。",
+      "caution": "米国での段階提供で、日本での開始は確認していない。",
+      "references": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、買い物操作と米国での招待制を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-news-today-top-stories-company",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、11月6日の公式ニュース一覧を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "shizuoka-west-quake-aichi-nov08",
+      "theme": "日本経済",
+      "title": "静岡県西部で地震、愛知・知多市で震度5強",
+      "summary": "11月8日午前1時4分ごろ、静岡県西部を震源とする地震があり、愛知県知多市で最大震度5強を観測した。気象庁によるとマグニチュードは暫定5.7で、津波の心配はない。東海道新幹線では始発から減速運転による遅れが出たと報じられた。",
+      "whyItMatters": "強い揺れがあった地域では、道路や建物、生活インフラの状況が場所ごとに異なる。気象庁は地震発生から1週間程度、同程度の揺れに注意するよう呼びかけた。",
+      "impact": "通勤や通学の前に、鉄道各社と自治体の最新案内を確認したい。揺れが強かった地域では倒れやすい家具や落下物にも気をつけたい。",
+      "caution": "運行の遅れは8日朝の報道時点。現在も続いていることを示すものではない。",
+      "references": [
+        {
+          "name": "気象庁",
+          "url": "https://www.jma.go.jp/jma/press/2611/08a/202611080305.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、発生時刻、規模、震度、津波と注意事項を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "FNNプライムオンライン",
+          "url": "https://www.fnn.jp/articles/-/1148268",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、東海道新幹線の減速運転による遅れを確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "teket-data-disclosure-ticket-stoppage-nov08",
+      "theme": "日本経済",
+      "title": "電子チケットteketで情報流出、購入や表示に影響",
+      "summary": "11月8日、電子チケットサービスteketへの不正アクセスで顧客情報の一部が流出したことが公表された。サービスを使う主催者の案内によると、氏名・メールアドレスのほか、一部ではチケットの発券用コードも対象に含まれる。",
+      "whyItMatters": "チケット購入だけでなく、購入済みチケットを当日どう提示するかにも関わる。サービス停止中の受付方法は、主催者によって異なる。",
+      "impact": "近日中に参加予定の公演がある場合は、主催者の公式サイトで入場方法や代替販売を確認したい。パスワードなどを尋ねる不審な連絡にも注意したい。",
+      "caution": "影響件数は初報時点で調査中。個別のチケットの扱いは主催者の案内を優先したい。",
+      "references": [
+        {
+          "name": "京都モダン建築祭",
+          "url": "https://kyoto.kenchikusai.jp/2026/11/08/teket-2/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、公表日と流出項目、調査状況を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "かわさきジャズ",
+          "url": "https://www.kawasakijazz.jp/news/detail.php?id=471",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、購入と購入済みチケット表示への影響を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "biccamera-group-arara-exposure-nov02",
+      "theme": "日本経済",
+      "title": "ビックカメラグループ、メール配信委託先で情報流出のおそれ",
+      "summary": "ビックカメラグループは11月2日付で、メール配信委託先への不正アクセスにより、グループで約1490万件の情報が対象となる可能性を公表した。委託先で扱うメールアドレスなどが対象で、グループの発表ではクレジットカード情報は含まれない。",
+      "whyItMatters": "普段使う小売店の名前が不審なメールに使われても、過去の利用経験があると本物に見えることがある。既報の委託先事案について、別の利用企業で判明した影響だ。",
+      "impact": "ポイント失効やアカウント確認を促す連絡があっても、本文中のリンクではなく公式アプリやサイトを開いて確認したい。",
+      "caution": "約1490万件は対象となる情報の件数で、漏えいが確定した利用者数ではない。",
+      "references": [
+        {
+          "name": "コジマ（ビックカメラグループ公表）",
+          "url": "https://www.kojima.net/corporation/ir/pdf/release20261102_3.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、公表日、対象件数とカード情報の扱いを確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "ITmedia NEWS",
+          "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002866/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、グループの範囲と漏えい可能性を照合を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "isuzu-halfyear-operating-profit-nov06",
+      "theme": "株式投資",
+      "title": "いすゞの上期営業利益が22％増、1281億円に",
+      "summary": "いすゞ自動車が11月6日に発表した4〜9月期決算では、売上収益は前年同期比6％増の約1兆7300億円、営業利益は22％増の1281億円だった。販売台数が減る一方、価格対応や原価低減、為替の影響などが利益を支えた。",
+      "whyItMatters": "台数が減っても、価格や原価、為替によって利益が増えることがある。商用車メーカーの決算では販売台数と採算の変化を分けて見る必要がある。",
+      "impact": "自動車関連企業を比較する際は、地域別の販売と為替の影響を確認すると、増益の背景が分かりやすい。",
+      "caution": "上期の結果で、通期や今後の株価を予測するものではない。",
+      "references": [
+        {
+          "name": "いすゞ自動車（決算短信掲載）",
+          "url": "https://disclosure.catr.jp/companies/8595f/49149/tdnet/3bf79/792341",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、決算の公表日と対象期間を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Response.jp",
+          "url": "https://response.jp/article/2026/11/06/418700.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、売上と営業利益、増益要因を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "mitsui-fudosan-halfyear-earnings-nov06",
+      "theme": "株式投資",
+      "title": "三井不動産の上期営業利益は19.5％減、賃貸などは増益",
+      "summary": "三井不動産が11月6日に発表した4〜9月期決算では、売上高が前年同期比10.2％減、営業利益は19.5％減の1761億円だった。前年同期にあった物件売却の反動などが影響した一方、賃貸と施設営業の事業利益は上期として過去最高だった。",
+      "whyItMatters": "不動産会社では、物件売却の時期によって全体の数字が動くことがある。賃貸や施設営業の利益を分けて読むと、事業ごとの変化を把握しやすい。",
+      "impact": "不動産株を調べるときは、物件売却などによる変化と、賃貸収益の動きを区別して決算を確認できる。",
+      "caution": "前年同期との比較で、下期も同じ傾向が続くとは限らない。",
+      "references": [
+        {
+          "name": "三井不動産",
+          "url": "https://www.mitsuifudosan.co.jp/corporate/ir/library/news/2026/pdf/news_261106.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、会社の決算概要、数値とセグメント別の説明を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "israel-eisenkot-government-mandate-nov08",
+      "theme": "国際情勢",
+      "title": "イスラエルでアイゼンコット氏が組閣交渉へ",
+      "summary": "10月27日の選挙で明確な議会多数が生まれなかったイスラエルで、ヘルツォグ大統領は野党のガディ・アイゼンコット氏に新政権の組閣を委ねた。11月8日の報道では、同氏は幅広い勢力の参加を目指している。",
+      "whyItMatters": "組閣に必要な支持を集められるかで、選挙後の政治の進み方が変わる。ガザや周辺国を巡る政策にも関係する人選だ。",
+      "impact": "日本から中東情勢を追う場合は、組閣交渉の進展と、実際に決まる外交・安全保障政策を分けて見る必要がある。",
+      "caution": "大統領の指名は組閣交渉を始める段階で、新首相や連立の確定ではない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-rival-eisenkot-seeks-wide-government-path-power-uncertain-2026-11-08/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、指名と幅広い連立を目指す方針を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/bec07675825bee5895315e2ea1cb5751",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、大統領の指名と選挙結果を照合を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "saudi-aramco-riyadh-building-damage-nov08",
+      "theme": "国際情勢",
+      "title": "サウジ首都で迎撃後に破片、アラムコの建物が被害",
+      "summary": "サウジアラビアのエネルギー省によると、11月8日、首都リヤドで攻撃の迎撃に伴う破片が落下し、国営石油会社サウジアラムコの事務施設に被害が出た。同省の説明では、この建物で負傷者や死者は報告されていない。",
+      "whyItMatters": "エネルギー関連企業の建物が被害を受けた事実は、中東の緊張がどこに及んでいるかを知る材料になる。",
+      "impact": "日本は中東から原油を輸入するため、事務施設への被害と、原油の生産や積み出しへの実際の影響を分けて確認したい。",
+      "caution": "今回確認したのは事務施設の被害で、原油供給が止まったという発表ではない。",
+      "references": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/090d96e25872f5c63e105b9dd3e5dc60",
+          "publishedAt": "2026-11-08T10:05:15Z",
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、迎撃とリヤドの建物被害を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/",
+          "publishedAt": "2026-11-08T14:20:14Z",
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、サウジ政府の被害説明を照合を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-white-house-miller-chief-of-staff-nov06",
+      "theme": "国際情勢",
+      "title": "米大統領首席補佐官、ミラー氏に交代へ",
+      "summary": "米ホワイトハウスは11月6日、トランプ大統領がスージー・ワイルズ氏の後任の首席補佐官にスティーブン・ミラー氏を指名したと発表した。ミラー氏は副首席補佐官を務めており、11月9日の就任が予定されている。",
+      "whyItMatters": "大統領と政権内の調整を担うポストの交代で、中間選挙後の政権運営を追う材料になる。",
+      "impact": "日本との関係では、通商や安全保障の個別方針がどのように示されるかが今後の確認点になる。",
+      "caution": "人事発表によって個別の政策変更が決まったわけではない。",
+      "references": [
+        {
+          "name": "米ホワイトハウス",
+          "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、首席補佐官の人事発表を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/stephen-miller-trump-chief-of-staff-susie-wiles/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、就任予定日と交代する役職を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "motegi-paris-g7-cyber-agenda-nov08",
+      "theme": "日本政治",
+      "title": "茂木外相がパリのG7会合へ、イタリアはサイバー攻撃の協議に言及",
+      "summary": "外務省は11月7日、茂木外相が8日から11日の日程でフランスを訪問し、G7外相会合に出席すると発表した。8日にはイタリアのタヤーニ外相が、最近のサイバー攻撃を会合で協議するとの見通しを示したと報じられた。",
+      "whyItMatters": "複数国に関わるサイバー攻撃では、各国が被害情報をどう共有し、どう対応を調整するかが論点になる。",
+      "impact": "日本の企業に関係する具体策があるかは、会合後の声明や国内当局の案内で確認できる。",
+      "caution": "出席と議題の見通しを伝えるもので、G7の合意や攻撃主体の確定ではない。",
+      "references": [
+        {
+          "name": "外務省",
+          "url": "https://www.mofa.go.jp/fp/pc/pageite_000001_01906.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、茂木外相の訪仏日程とG7会合への出席を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/g7-ministers-discuss-recent-cyber-attacks-italy-says-2026-11-08/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、イタリア外相が説明した協議の見通しを確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "gennai-agents-safety-standard-nov06",
+      "theme": "日本政治",
+      "title": "政府職員向けのAIエージェントを順次導入、利用基準も公表",
+      "summary": "デジタル庁は11月6日、政府のAI利用環境「源内」で、約18万人の政府職員を対象にエージェント機能の提供を始めると公表した。まず対話型の機能を各府省庁へ順次導入し、より高度なエージェントを構築する環境は12月ごろの導入を目指す。",
+      "whyItMatters": "質問に答えるだけでなく複数の作業を行うAIでは、誰が権限を管理し、出力や操作を確認するかが重要になる。デジタル庁は利用者、管理者、開発者ごとの基準も公表した。",
+      "impact": "自治体や民間の導入担当者は、操作範囲や確認手順の設計を検討する際に、公開された基準を参考にできる。",
+      "caution": "対象人数は導入対象の規模。全員が同時に利用を始めたわけではない。",
+      "references": [
+        {
+          "name": "デジタル庁",
+          "url": "https://www.digital.go.jp/policies/genai/agent-safety-standard",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、提供対象、段階導入と役割別の基準を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "komeito-food-tax-upper-house-position-nov08",
+      "theme": "日本政治",
+      "title": "食料品の減税案、公明代表は参院での賛否を留保",
+      "summary": "公明党の岡本三成代表は11月8日放送の番組で、衆院を通過した飲食料品の消費税減税関連法案への対応について、参院での審議を見て判断する考えを示した。衆院では反対しており、参院での賛成を否定しなかったことが新たな動きだ。",
+      "whyItMatters": "衆院通過後は、少数与党の参院でどの党がどの条件を求めるかが、法案の扱いを左右する。",
+      "impact": "家計や店舗に関係する税率の変更は、政党の発言と、国会で成立した制度を分けて確認したい。",
+      "caution": "11日の参院審議入りが予定されているが、公明党の賛成や法案成立は決まっていない。",
+      "references": [
+        {
+          "name": "共同通信（熊本日日新聞）",
+          "url": "https://kumanichi.com/articles/2055501",
+          "publishedAt": "2026-11-08T13:23:00+09:00",
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、11月8日の岡本代表発言と参院の日程を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000545774.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、法案の衆院通過と野党の対応を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "vivant-film-theatrical-announcement-nov08",
+      "theme": "芸能ニュース",
+      "title": "ドラマ『VIVANT』が映画に、12月4日公開",
+      "summary": "堺雅人が主演するTBS系ドラマ『VIVANT』の映画化が、11月8日の第2期最終回に合わせて発表された。映画は12月4日に劇場公開される予定で、作品の公式サイトにも公開日が掲載された。",
+      "whyItMatters": "テレビシリーズを追ってきた視聴者に、同じ作品の新しい展開を劇場で楽しむ機会ができる。",
+      "impact": "観に行く予定なら、最寄りの劇場が公開する上映回やチケット販売の案内を確認できる。",
+      "caution": "上映時間や販売方法は劇場ごとの案内を確認したい。",
+      "references": [
+        {
+          "name": "東宝（映画公式サイト）",
+          "url": "https://vivant.toho-movie.jp/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、映画の公開日を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "シネマトゥデイ",
+          "url": "https://www.cinematoday.jp/news/N0157871",
+          "publishedAt": "2026-11-08T22:04:00+09:00",
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、映画化の発表日と公開日を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "perfume-nocchi-official-announcement-nov08",
+      "theme": "芸能ニュース",
+      "title": "Perfumeののっち、渋谷謙人との結婚を公表",
+      "summary": "Perfumeののっちが俳優の渋谷謙人と結婚したと、所属事務所のアミューズが11月8日に公式サイトで発表した。同日の公開報道でも、所属事務所による発表が確認された。",
+      "whyItMatters": "音楽グループで活動するアーティストと俳優について、所属事務所が公に確認した知らせ。",
+      "impact": "今後の出演や作品の予定を追う場合は、それぞれの公式発表を確認できる。",
+      "caution": "今回の発表は、グループや個人の活動予定の変更を知らせるものではない。",
+      "references": [
+        {
+          "name": "アミューズ",
+          "url": "https://www.amuse.co.jp/info/20261108/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、所属事務所による発表の事実と日付を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        },
+        {
+          "name": "TBS NEWS DIG",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3070054?display=1",
+          "publishedAt": "2026-11-08T11:15:00+09:00",
+          "accessedAt": "2026-11-08T23:06:56Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料または公開検索で確認できた範囲で、公式発表の事実を照合を確認した。確認した事実だけを自分の言葉で記し、本文・見出し・画像は転載していない。"
+        }
+      ]
+    }
+  ]
+}
