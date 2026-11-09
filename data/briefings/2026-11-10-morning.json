@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "id": "2026-11-10-morning",
+  "issueDate": "2026-11-10",
+  "cutoffAt": "2026-11-10T08:07:51+09:00",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "claude-fable-mythos-52-nov09",
+      "theme": "AI",
+      "title": "Claudeがコードや研究向けの5.2モデルを発表",
+      "summary": "Anthropicは11月9日、Claude Fable 5.2とClaude Mythos 5.2を発表した。コード開発、金融分析、科学研究など、複数の手順を要する作業を想定したモデルだ。",
+      "whyItMatters": "複雑な作業をAIに任せるとき、モデルごとの利用条件と安全対策が選定に直結する。",
+      "impact": "既存のClaudeで時間がかかる作業があれば、アクセスできるモデルで同じ課題を試し、出力の検証に要する時間まで比べられる。",
+      "caution": "利用条件はモデルによって異なる。開発者向け資料は、例外的な許可がない場合は30日のデータ保持が必要だとしている。",
+      "references": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表の公開範囲で両モデルの名称と用途を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Claude Platform Docs",
+          "url": "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開技術資料でデータ保持の条件を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-ember-nov09",
+      "theme": "AI",
+      "title": "Meta、AIが繰り返す作業向けに小型モデルを提供",
+      "summary": "Metaは11月9日、小型モデルMuse Emberを開発者向けのMeta Model APIで提供し始めた。外部ツールの呼び出しや情報の抽出など、AIエージェントが繰り返す処理を想定している。",
+      "whyItMatters": "一つの業務に何度もAIを呼び出す仕組みでは、個々の処理の費用と待ち時間が全体に響く。",
+      "impact": "問い合わせの振り分けや定型データの抽出に使う場合、処理ごとに精度と費用を測り、難しい作業だけ別モデルに回す構成を検討できる。",
+      "caution": "機密情報を渡す前にデータの扱いを確認し、長い入力を含む実運用の費用を別途見積もる。",
+      "references": [
+        {
+          "name": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表の公開本文で用途とAPIでの提供を確認。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "google-maps-ai-studio-nov09",
+      "theme": "AI",
+      "title": "Google AI Studioで地図を使うアプリの試作が可能に",
+      "summary": "Googleは11月9日、Google AI StudioからGoogle Maps Platformを使えるようにしたと発表した。地図や場所の情報を扱うアプリを、同じ開発画面から試作できる。試作向けの枠はAPIごとに1日100回まで。",
+      "whyItMatters": "地図を組み込む初期設定にかかる手間が減り、画面や使い方を早い段階で試せる。",
+      "impact": "店舗案内や訪問先の地図など、地図付きのサイトを提案する際に、動く見本を用意する選択肢が増える。",
+      "caution": "試作と一般公開では利用条件が異なる場合がある。公開前に利用枠、課金、地図データの表示要件を確認する。",
+      "references": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式ブログの公開範囲で統合発表と試作用途を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Google for Developers",
+          "url": "https://developers.google.com/maps/ai/ai-studio",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開技術資料で地図連携と試作時の利用枠を確認。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "nitori-customer-data-nov09",
+      "theme": "日本経済",
+      "title": "ニトリの顧客情報に流出のおそれ、上限は3762万件",
+      "summary": "ニトリホールディングスは11月9日、不正アクセスにより個人・法人の会員情報や一部の注文情報などが最大3762万件流出した可能性があると発表した。ログインパスワードとクレジットカード情報は対象外としている。",
+      "whyItMatters": "連絡先や注文に関する情報が悪用されると、実際の買い物に似せた偽の連絡を見分けにくくなる。",
+      "impact": "購入や会員登録に心当たりがある場合、返金や再配達の案内はメール内のリンクを開く前に公式サイトで確かめたい。",
+      "caution": "3762万件は影響の可能性がある最大件数で、流出が確認された人数ではない。",
+      "references": [
+        {
+          "name": "ニトリホールディングス",
+          "url": "https://www.nitorihd.co.jp/news/2026.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式の発表一覧で該当する告知の掲載を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Impress Watch",
+          "url": "https://www.watch.impress.co.jp/docs/news/2154952.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で発表日、対象の範囲、カード情報などの除外を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "docomo-mydocomo-partial-return-nov09",
+      "theme": "日本経済",
+      "title": "My docomoが一部再開、オンライン購入は停止続く",
+      "summary": "NTTドコモは11月9日午後3時ごろから、不正アクセスを受けて止めていたMy docomoの手続きを順次再開した。ファミリー割引や一括請求の一部手続きと、ドコモオンラインショップは停止が続いている。",
+      "whyItMatters": "契約や請求の手続きを予定していた利用者が、今できることと再開待ちの手続きを区別できる。",
+      "impact": "回線や請求をまとめる予定がある人は、手続きの種類ごとに公式の再開情報を確認してから進めるとよい。",
+      "caution": "11月9日午後5時30分時点の第四報に基づく。全面再開の時期は示されていない。",
+      "references": [
+        {
+          "name": "NTTドコモ",
+          "url": "https://www.docomo.ne.jp/info/notice/page/261109_00_m.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "第四報の公開本文で再開時刻と停止継続の手続きを確認。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "wordpress-core-kev-nov05",
+      "theme": "日本経済",
+      "title": "WordPress本体の脆弱性、サイト管理者は更新状況を確認",
+      "summary": "JPCERT/CCは11月5日の週報で、WordPressの更新処理に関わる脆弱性CVE-2026-119977に注意を促した。認証なしでコードを実行されるおそれがあり、米CISAは悪用が確認された脆弱性の一覧に掲載している。",
+      "whyItMatters": "企業サイトや通販サイトが改ざんされると、閲覧者への被害や営業への影響が広がり得る。",
+      "impact": "WordPressの管理画面で本体のバージョンを確認する。自動更新を設定していても、実際に更新が適用されたかを確認したい。7.1系では7.1.4が修正版として案内されている。",
+      "caution": "11月5日付の注意情報を再点検した。修正版は利用中の系列に応じて開発元の案内で確認する。",
+      "references": [
+        {
+          "name": "JPCERT/CC",
+          "url": "https://www.jpcert.or.jp/wr/2026/wr261105.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開週報で影響と米CISAの一覧への掲載を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "WordPress.org",
+          "url": "https://wordpress.org/news/2026/10/wordpress-7-1-4/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式告知でセキュリティ修正版と更新方法を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "カナダ・サイバーセキュリティセンター",
+          "url": "https://www.cyber.gc.ca/en/alerts-advisories/wordpress-security-advisory-av26-1117",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開の注意情報で悪用確認の一覧への追加日と修正版を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "nikkei-close-rebound-nov09",
+      "theme": "株式投資",
+      "title": "日経平均が1340円高、前週末の下落から反発",
+      "summary": "11月9日の東京市場で日経平均株価は前週末より1340円73銭高い5万8775円50銭で取引を終えた。上昇率は約2.3％だった。6営業日ぶりの上昇だった。",
+      "whyItMatters": "急落後は、反発の大きさと、それまでの下落をどの程度戻したかを分けて見る必要がある。",
+      "impact": "国内株の投資信託を持つ人には市場全体の動きを見る手掛かりになる。指数と保有商品の値動きは一致しないことがある。",
+      "caution": "終値は11月9日の実績で、反発が続くことを示すものではない。",
+      "references": [
+        {
+          "name": "日経平均プロフィル",
+          "url": "https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261109&idx=nk225",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "指数の公式日次情報で11月9日の終値を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "OANDA証券",
+          "url": "https://www.oanda.jp/lab-education/market_news/mn_1042944_202611091539/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開の市況記事で上昇幅と反発までの日数を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "softbank-9434-halfyear-outlook-nov09",
+      "theme": "株式投資",
+      "title": "通信のソフトバンク、上期の増収増益を受け通期予想を引き上げ",
+      "summary": "ソフトバンク株式会社は11月9日、2027年3月期上期の売上高が約3兆7987億円、営業利益が約6421億円だったと発表した。通期予想は売上高7兆9000億円、営業利益1兆1600億円に引き上げた。",
+      "whyItMatters": "上期の増収率と営業増益率には差があり、売上の伸びがどの程度利益に残ったかが今後の決算の焦点となる。",
+      "impact": "通信事業に加え、法人向けサービスや金融事業など、部門別に増収と利益への寄与を確認する材料になる。",
+      "caution": "証券コード9434の決算。通期の数値は会社予想で、確定した実績ではない。",
+      "references": [
+        {
+          "name": "ソフトバンク",
+          "url": "https://www.softbank.jp/corp/ir/documents/presentations/fy2026/q2_earnings_summary/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式IRで決算期と業績予想を引き上げた事実を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "ケータイ Watch",
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2154848.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開決算報道で対象会社と業績数値を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-indexes-close-rebound-nov09",
+      "theme": "株式投資",
+      "title": "米主要3指数がそろって2％超上昇、原油は下落",
+      "summary": "米国の11月9日の取引で、S&P500は約2.3％、ダウ工業株30種平均は約2.2％、ナスダック総合は約2.7％上昇した。前週に下落した株式が買い戻される一方、原油価格は下がった。",
+      "whyItMatters": "米国株全体が大きく動いた日は、日本の株式市場や海外資産を組み入れた投資信託にも影響が及び得る。",
+      "impact": "円建ての海外株投信を持つ場合は、米株指数の動きとあわせて為替の変化も見ると値動きを整理しやすい。",
+      "caution": "指数の変動率は丸めた。株高と原油安が同じ日に起きたことだけで、今後の方向は判断できない。",
+      "references": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/f7ec9680fc858e3c2505913e7b3a54e2",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事の終値一覧で米主要3指数の騰落を確認。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "cop31-antalya-opens-nov09",
+      "theme": "国際情勢",
+      "title": "COP31がトルコで開幕、気候対策の実行を協議",
+      "summary": "国連の気候変動会議COP31が11月9日、トルコのアンタルヤで始まった。会期は20日までで、各国が気候対策をどのように進めるかや、対策に必要な資金を議論する。",
+      "whyItMatters": "国際的な合意の進み方は、脱炭素に取り組む企業の投資や、災害に備える途上国への資金支援に関わる。",
+      "impact": "日本の企業や自治体にとっては、排出削減への投資や気候災害への備えを考えるうえで、会期中の合意内容が判断材料になる。",
+      "caution": "開幕時点の報道。最終合意や各国の新たな義務が決まったわけではない。",
+      "references": [
+        {
+          "name": "国連気候変動枠組条約事務局",
+          "url": "https://unfccc.int/cop31",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式日程で会場と会期を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-open-turkey-with-climate-goals-under-pressure-war-ai-2026-11-09/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:51+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道の範囲で会議の開幕と交渉の背景を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-abu-dhabi-security-guarantees-nov09",
+      "theme": "国際情勢",
+      "title": "ウクライナ和平協議、アブダビで安全の保証が議題に",
+      "summary": "米国が仲介するロシアとウクライナの協議を、11月10日からアラブ首長国連邦のアブダビで開く予定だと9日に報じられた。停戦後の安全をどう保証するかが主要な議題になる。",
+      "whyItMatters": "戦闘を止める条件に加え、合意が破られた場合にどの国がどう対応するかが和平の持続性に関わる。",
+      "impact": "日本にとっても、協議の行方は対ロシア政策やウクライナ復興支援を見通す材料になる。",
+      "caution": "会合前に判明した議題であり、領土や安全の保証について当事国が合意したという情報ではない。",
+      "references": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で開催予定日、会場、安全保証の議題を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-showing-flexibility-territory-us-official-says-2026-11-09/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道の範囲で会合日程と安全保証の議題を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-qatar-iran-mediation-nov09",
+      "theme": "国際情勢",
+      "title": "米大統領とカタール首相が協議と報道、イランとの仲介続く",
+      "summary": "米国のトランプ大統領とカタールの首相兼外相が11月9日に会談し、イランとの交渉について話し合ったと報じられた。カタールは米国とイランの間で提案を伝えており、戦闘終結の条件や核問題を巡る隔たりが残っている。",
+      "whyItMatters": "仲介が進むかは、湾岸の船舶の安全やエネルギー輸送の見通しに関わる。",
+      "impact": "日本でも、原油や液化天然ガスの調達、輸送費への影響を見るうえで、会談後に何が公表されるかが焦点となる。",
+      "caution": "会談の実施は報道に基づく。停戦の成立や航路の安全確保は確認されていない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-qatars-prime-minister-iran-diplomacy-faces-hurdles-2026-11-09/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で会談予定と仲介の経緯を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "カタール外務省",
+          "url": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/11/03/advisor-to-prime-minister--official-spokesperson-for-ministry-of-foreign-affairs--qatar-continues-its-efforts-to-bridge-gap-between-washington--tehran",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "11月3日の公式説明で米イラン間の仲介方針を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611090440",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "Axiosに基づく公開続報で会談の実施と議題を確認。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "g7-paris-first-session-nov09",
+      "theme": "日本政治",
+      "title": "G7外相、北朝鮮の暗号資産窃取への共同対処を確認",
+      "summary": "11月9日にパリで開かれたG7外相会合の初回協議で、茂木外相は北朝鮮の核・ミサイルや拉致などへの連携を呼びかけた。各国外相は暗号資産窃取を含むサイバー活動に共同で対処する必要性を示した。",
+      "whyItMatters": "事前に示されていた議題に加え、日本が何を提起し、G7がどこで認識を共有したかが明らかになった。",
+      "impact": "暗号資産の窃取対策と拉致問題の即時解決を国際協議でどう継続するか、日本外交の進展を追う手掛かりになる。",
+      "caution": "初回協議の概要であり、新たな制裁や国内制度の導入が決まったという発表ではない。",
+      "references": [
+        {
+          "name": "外務省",
+          "url": "https://www.mofa.go.jp/mofaj/fp/pc/pageit_000001_00028.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式の会合概要で日本側の提起とG7の共通認識を確認。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "japan-vietnam-critical-minerals-nov09",
+      "theme": "日本政治",
+      "title": "日越首脳、重要鉱物とベトナムの発電事業で協力",
+      "summary": "高市首相とベトナムのトー・ラム書記長兼国家主席は11月9日に会談した。重要鉱物を巡る協力を進め、日本企業が参画するLNG・ガス火力発電事業の早期実現を目指すことで一致した。",
+      "whyItMatters": "重要鉱物の調達先を広げる動きと、電力需要が増えるベトナムでの事業協力が同じ会談で進んだ。",
+      "impact": "日本の製造業では原材料の供給網、エネルギー企業では現地発電事業の具体化が今後の注目点になる。",
+      "caution": "首脳間で確認した協力方針。個別の契約成立や発電所の稼働時期は別途確認が必要。",
+      "references": [
+        {
+          "name": "外務省",
+          "url": "https://www.mofa.go.jp/mofaj/s_sa/sea1/vn/pageit_000001_00016.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "会談の公式発表で重要鉱物と発電事業に関する合意を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "共同通信／熊本日日新聞",
+          "url": "https://www.kumanichi.com/articles/2055896",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道の範囲で日付と両分野の協力を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "house-proportional-seats-bill-draft-nov09",
+      "theme": "日本政治",
+      "title": "衆院比例の31議席削減案、自民・維新・国民民主が取りまとめ",
+      "summary": "自民党、日本維新の会、国民民主党は11月9日、衆院の比例代表を31議席減らす法案を取りまとめた。比例議席の配分方式も見直す内容で、3党は週内の提出を目指している。",
+      "whyItMatters": "議席の総数だけでなく、票を議席へ換算する仕組みが変われば、同じ得票でも各党の議席配分が変わり得る。",
+      "impact": "有権者にとっては、どの地域で比例枠が減るか、区割り見直しといつ同時に実施されるかが確認点になる。",
+      "caution": "3党の法案段階であり、国会で成立した制度ではない。施行時期は確定していない。",
+      "references": [
+        {
+          "name": "共同通信／熊本日日新聞",
+          "url": "https://kumanichi.com/articles/2055847",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で3党、削減数、配分方式と施行想定を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000546440.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で法案の取りまとめと提出方針を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "godzilla-minus-zero-north-america-nov09",
+      "theme": "芸能ニュース",
+      "title": "『ゴジラ-0.0』、北米の公開週末に3160万ドルを記録",
+      "summary": "東宝は11月9日、『ゴジラ-0.0』が北米の週末興行ランキングで初登場1位になったと発表した。現地の11月6日から8日までの興行収入は、先行上映分を含め約3160万ドルだった。",
+      "whyItMatters": "国内での公開実績に続き、日本の実写作品が北米でも公開直後から広く観客を集めたことが数字に表れた。",
+      "impact": "前作や他の日本映画の成績と比べるときは、上映館数と先行上映分を含むかどうかも見ると規模をつかみやすい。",
+      "caution": "北米の初週末の数字で、累計や全世界の興行収入ではない。",
+      "references": [
+        {
+          "name": "AV Watch",
+          "url": "https://av.watch.impress.co.jp/docs/news/2154863.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:51+09:00",
+          "usage": "facts-only",
+          "reviewNote": "東宝発表に基づく公開記事で北米順位と集計条件を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "シネマトゥデイ",
+          "url": "https://www.cinematoday.jp/news/N0157887",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:51+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で北米の首位と興収額を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "hoshino-hirayasumi-opening-nov09",
+      "theme": "芸能ニュース",
+      "title": "星野源の新曲がアニメ『ひらやすみ』のオープニングに",
+      "summary": "星野源の新曲が、真造圭伍の漫画を原作とするテレビアニメ『ひらやすみ』のオープニングに決まった。星野の公式サイトなどが11月9日に発表した。",
+      "whyItMatters": "阿佐ヶ谷での暮らしを描く漫画がアニメになる中で、作品の入り口となる音楽の担当が明らかになった。",
+      "impact": "原作や星野源の音楽に関心がある人にとって、放送・配信の情報を追うきっかけになる。",
+      "caution": "今回の発表は楽曲の起用について。曲の配信日などは公式の案内を確認したい。",
+      "references": [
+        {
+          "name": "星野源オフィシャルサイト",
+          "url": "https://www.hoshinogen.com/news/detail/?id=124",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式ニュースの11月9日付告知で起用を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "Mikiki",
+          "url": "https://mikiki.tokyo.jp/articles/-/46628",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で新曲の起用と作品情報を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "nhk-watanabe-new-year-drama-nov09",
+      "theme": "芸能ニュース",
+      "title": "渡辺謙がNHKの2027年元日時代劇で主演",
+      "summary": "NHKの正月時代劇『復讐の追憶』が、2027年1月1日午後9時から総合とBSP4Kで放送される。11月9日の発表によると、主演は渡辺謙で、吉村昭の『敵討』を原作に幕末の事件を描く。",
+      "whyItMatters": "年始の特別編成で放送される作品の放送日と主演が公表され、視聴予定を立てられる。",
+      "impact": "渡辺謙の出演作や吉村昭の歴史小説に関心がある人は、原作と映像で事件の描き方を見比べられる。",
+      "caution": "放送日時は発表時点の予定。見逃し配信の有無は別途確認が必要。",
+      "references": [
+        {
+          "name": "ステラnet",
+          "url": "https://www.steranet.jp/articles/128530",
+          "publishedAt": null,
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で番組の制作発表と放送予定を確認。事実のみ参照し、表現・画像は転載していない。"
+        },
+        {
+          "name": "MANTANWEB",
+          "url": "https://mantan-web.jp/article/20261109dog00m200069000a.html",
+          "publishedAt": "2026-11-09T18:40:00+09:00",
+          "accessedAt": "2026-11-10T08:07:36+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で主演、原作、放送日時を照合。事実のみ参照し、表現・画像は転載していない。"
+        }
+      ]
+    }
+  ]
+}
