@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "id": "2026-11-12-morning",
+  "issueDate": "2026-11-12",
+  "cutoffAt": "2026-11-12T08:10:33+09:00",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "deepl-aure-voice-nov11",
+      "theme": "AI",
+      "title": "DeepLの音声翻訳、会話中の話し方の変化にも対応",
+      "summary": "DeepLは11月11日、リアルタイム音声翻訳に使うモデル「Aure」を発表した。従来は会話の冒頭で得た声の特徴を基にしていたが、新モデルは話し続ける間に変わる速度や強弱も翻訳音声に反映するという。日本語を含む8言語が対象で、DeepL Voiceの会議用・対面用機能と音声APIに適用される。",
+      "whyItMatters": "外国語の会議では言葉が伝わっても、どの部分が重要か、相手がどの程度強く意見を述べているかまでは伝わりにくいことがある。声の変化を反映する試みは、この言葉以外の情報を補う狙いがある。",
+      "impact": "海外の取引先との打ち合わせなどで試す場合は、同じ内容を話したときに訳語と話し方がどれだけ保たれるかを確認したい。契約条件や金額は声だけで理解したつもりにならず、文書でも確認すると行き違いを減らせる。",
+      "caution": "対応言語と機能はDeepLの発表による。翻訳の正確さや、すべての会話で意図を再現できることを保証するものではない。",
+      "references": [
+        {
+          "name": "DeepL",
+          "url": "https://www.deepl.com/ja/press-release/aure-voice-ai-model",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式公開発表で提供先と対応言語、従来モデルからの変更点を確認。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "adobe-firefly-assistant-graph-nov10",
+      "theme": "AI",
+      "title": "Fireflyの制作機能を拡張、作業の下書きや手順の再利用を支援",
+      "summary": "Adobeは米国時間11月10日、Fireflyの制作機能拡張を発表した。ベータ版のFirefly AI Assistantには、制作に着手する前に計画を立てたり、使うモデルを選んだりする機能を加える。別のベータ機能Firefly Graphでは、AIモデルと制作ツールをつないだ手順を組み立て、繰り返し使えるようにする。",
+      "whyItMatters": "前日に扱ったGoogleとのアプリ連携とは別に、Adobe自身の制作画面でどこまで作業を組み立てられるかが具体化した。素材を一度作るだけでなく、同じ要件に沿って何種類か作るときの確認や修正の手順にも関わる。",
+      "impact": "ブログ用画像や広告バナーを複数サイズで作る場合、素材選びから書き出しまでの作業を分けて試すと、どこまで時間が短くなるかを判断しやすい。文字の誤りやブランドに合うかどうかは、出力をそのまま使わず確認したい。",
+      "caution": "発表にはベータ版を含む。利用地域、契約条件、個々の機能の提供状況は製品ごとに確認が必要。",
+      "references": [
+        {
+          "name": "Adobe",
+          "url": "https://news.adobe.com/news/2026/11/adobe-firefly-expands",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表の公開検索本文でFireflyのベータ機能と計画・モデル選択を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "Adobe",
+          "url": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "別の公式発表の公開範囲でFirefly Graphの用途を確認。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "amazon-jftc-commitment-nov11",
+      "theme": "日本経済",
+      "title": "アマゾンの出品表示を見直しへ、公取委が改善計画を認定",
+      "summary": "公正取引委員会は11月11日、アマゾンジャパンが提出した確約計画を認定した。公取委は、他の通販サイトの最安値を基準に、条件を満たす出品を購入画面で目立たせる仕組みが、出品者に値下げを促していた疑いを調べていた。計画には表示の条件を見直す措置や、第三者による実施状況の監視が含まれる。",
+      "whyItMatters": "販売サイトの目立つ場所に載る条件が他店の価格と結び付くと、出品者はどのサイトでいくらで売るかを自由に決めにくくなることがある。確約手続きは、事業者が申し出た改善策を公取委が審査し、競争への懸念を解消する仕組みだ。",
+      "impact": "通販事業者は、目立つ位置に表示される条件や価格設定のルールが実際にいつ変わるかを確認したい。購入者は表示上のおすすめと自分にとっての総額を分け、送料やポイントを含めて比較するとよい。",
+      "caution": "改善計画の認定であり、独占禁止法違反を認定した処分ではない。認定によって商品の価格が一律に変わるわけでもない。",
+      "references": [
+        {
+          "name": "公正取引委員会",
+          "url": "https://www.jftc.go.jp/houdou/pressrelease/2026/nov/261111_daigo.amazon.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表の公開検索本文で認定、競争上の懸念と実施状況の監視を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "時事通信／nippon.com",
+          "url": "https://www.nippon.com/ja/articles/-/57277",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で出品価格条件の変更と認定手続きを照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "docomo-5gsa-restored-nov11",
+      "theme": "日本経済",
+      "title": "ドコモの5G SA障害が復旧、11日は約9時間利用しづらく",
+      "summary": "NTTドコモは11月11日、5G SAの音声通話・データ通信・SMSが利用しづらくなった障害が午後7時17分に完全復旧したと発表した。障害の発生は午前10時34分。5G SAは、端末と通信網の両方で5Gを使う方式の一つで、今回の発表は携帯サービス全体が停止したという内容ではない。",
+      "whyItMatters": "携帯回線の障害は連絡だけでなく、外出先の地図や決済、本人確認コードの受け取りにも影響する。朝便で以前取り上げたオンラインショップやMy docomoの停止とは、影響するサービスが異なる。",
+      "impact": "11日の同じ時間帯に通信が不安定だった場合は、端末だけの問題と決めつける前に、契約先の障害情報と照合するとよい。復旧後も使えない場合は、事業者の現在の案内を確認したうえでサポートに相談する。",
+      "caution": "11日夜の公式発表で復旧を確認した。再発の可能性や原因について、この情報だけから結論は出せない。",
+      "references": [
+        {
+          "name": "NTTドコモ",
+          "url": "https://www.docomo.ne.jp/info/network/kanto/pages/261111_13_m.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "復旧の公式告知の公開検索本文で発生・復旧時刻と影響した通信サービスを確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "NTTドコモビジネス",
+          "url": "https://www.ntt.com/about-us/information/emginfo_20261111_002.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "法人向け公式告知で19時17分の完全復旧を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-november-security-update-nov11",
+      "theme": "日本経済",
+      "title": "マイクロソフト月例更新、WindowsやOfficeの適用状況を確認",
+      "summary": "マイクロソフトは米国時間11月10日、WindowsやOfficeなどに対する11月の月例セキュリティ更新を公開した。JPCERT/CCは11日に注意喚起し、修正対象にはOutlookの認証情報が漏れるおそれのある問題も含まれると案内した。",
+      "whyItMatters": "仕事で使うメールやパソコンは、長く起動したままで更新や再起動が後回しになることがある。更新が配信されたかと、自分の端末に反映されたかは別に確認する必要がある。OSとOfficeを異なる仕組みで更新している環境では、片方だけで確認を終えないようにしたい。",
+      "impact": "自分が管理する端末ではWindows UpdateとOfficeの更新状況を確認し、必要なら作業を保存して再起動する。学校や職場の端末は管理者の案内に従う。対応する更新は、利用中の製品や版ごとの公式一覧で確かめる。",
+      "caution": "更新対象は製品・バージョンにより異なる。すべてのWindows端末やOutlook利用者が被害を受けたという発表ではない。",
+      "references": [
+        {
+          "name": "Microsoft MSRC",
+          "url": "https://www.microsoft.com/en-us/msrc/blog/2026/11/202611-security-update",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "月例更新の公式公開情報で日付とOutlookを含む対象製品を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "JPCERT/CC",
+          "url": "https://www.jpcert.or.jp/english/at/2026/at260035.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "注意喚起の公開検索本文で利用者への影響と更新案内を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "nissan-h1-operating-profit-nov11",
+      "theme": "株式投資",
+      "title": "日産の上期営業損益が黒字に、純損益は赤字が続く",
+      "summary": "日産自動車は11月11日、2026年4～9月期の連結営業利益が800億円だったと発表した。前年同期より1077億円改善し、営業段階では黒字に転じた。一方、最終的な当期純損益は435億円の赤字だった。会社は構造改革に伴うコスト削減などを営業損益の改善要因に挙げた。",
+      "whyItMatters": "営業利益は本業の採算を見る指標で、純損益には営業段階の後に計上する費用なども反映される。一方が黒字でも、会社全体の最終結果が黒字とは限らない。再建の進み具合を知るには、両方の数字を期間をそろえて見る必要がある。",
+      "impact": "自動車メーカーを比較する場合は、一時的な費用削減で改善した部分と、販売台数や価格の変化による改善を分けると読みやすい。次は、主要市場の販売と営業利益率、資金繰りがどう推移するかが確認点になる。",
+      "caution": "4～9月期の累計実績。7～9月期だけの数字や通期の最終利益とは異なる。",
+      "references": [
+        {
+          "name": "日産自動車",
+          "url": "https://global.nissannews.com/ja-JP/releases/261111-01-j?origin=channel-NNG1418",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式決算発表の公開検索本文で期間、営業利益、純損失を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/6a735ad8d55dd27b156d7c24baf630fb",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道の範囲で中間期の赤字縮小と会社の見通しを照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-range-nov10",
+      "theme": "株式投資",
+      "title": "AnthropicがIPOの仮条件を開示、1株70～78ドル",
+      "summary": "Anthropicは米国時間11月10日、SEC（米証券取引委員会）に提出した上場登録書の修正で、新規株式公開の想定価格を1株70～78ドルと示した。公開予定の株式は新規発行分と既存株主が売る分を合わせて8億2500万株。上限価格なら売出総額は手数料などを引く前で約644億ドルになる。",
+      "whyItMatters": "上場を目指すこと自体はすでに公表されていたが、今回は価格帯と株数が示され、公開規模を計算できるようになった。売出総額には既存株主が受け取る分も含まれるので、全額が会社の資金調達になるわけではない。",
+      "impact": "AI企業の上場を追う場合は、売出総額、会社が受け取る手取り、上場後の株式全体の評価額を分けて見ると数字を混同しにくい。次に確認するのは最終価格と実際の上場日、上場後に開示される業績だ。",
+      "caution": "公開登録書にある仮条件。報道された別の価格や増額案を決定扱いしていない。売出価格・日程は変更され得る。",
+      "references": [
+        {
+          "name": "SEC EDGAR／Anthropic",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開登録書の検索本文で修正書の価格帯を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で仮条件と売出額の範囲を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-cpi-oct2026-nov10",
+      "theme": "株式投資",
+      "title": "米10月CPIは前月比0.4％上昇、総合の前年比は公表なし",
+      "summary": "米労働統計局は米国時間11月10日、10月の消費者物価指数（CPI）が季節調整後で前月比0.4％上昇したと公表した。9月は0.6％上昇だった。食品とエネルギーを除く指数は10月に0.3％上昇。前年10月は政府の予算失効の影響で調査データが欠け、総合指数の前年同月比は公表されなかった。",
+      "whyItMatters": "物価が前月からどれだけ上がったかと、1年前よりどれだけ上がったかは別の指標だ。前年比の欄が空いているのは、物価の上昇がなかったためではなく、比較対象がないため。利上げ観測を報じる記事でも、まずどの期間の変化を指すかを確かめたい。",
+      "impact": "米国株や外貨建て資産を持つ人にとっては、米金利の見通しや為替を考える材料になる。ただし、物価発表だけで次の利上げが決まるわけではない。FRBの実際の決定や雇用の状況と合わせて確認したい。",
+      "caution": "10月分の統計。前月比は季節調整済みで、利上げや株価の方向を断定する数字ではない。",
+      "references": [
+        {
+          "name": "米労働統計局",
+          "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+          "publishedAt": "2026-11-10T08:30:00-05:00",
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表で月次の総合・コア指数と前年比が公表されない理由を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us/us-consumer-prices-rise-above-expectations-october-2026-11-10/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道の範囲で10月の米物価公表を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-house-hegseth-referral-vote-nov10",
+      "theme": "国際情勢",
+      "title": "米下院が国防長官の弾劾決議案を委員会へ、賛成211票",
+      "summary": "米下院は現地時間11月10日夕（日本時間11日朝）、ヘグセス国防長官の弾劾決議案を委員会に付託する動議を、211対204で可決した。前日までに報じられていた手続き上の採決の結果だ。決議案は下院本会議での訴追採決に進まなかった。\n\n提案した共和党のマッシー議員は、イランでの軍事行動と議会の承認を巡る問題などを挙げた。長官は訴追の動きを批判し、トランプ大統領は長官を支持した。採決は、これらの主張の真偽を裁判のように判断したものではない。",
+      "whyItMatters": "米国の弾劾では、下院が訴追するかを判断し、訴追した場合に上院が審理する。今回は下院が委員会に送ることを決めた段階で、長官を罷免する票でも上院が無罪と判断した票でもない。戦争を始めたり続けたりする権限を誰がどこまで持つかという争点は、今回の採決結果とは別に残る。",
+      "impact": "米国の軍事政策を追う際は、議会の手続きと政権の実際の作戦判断を分けて見たい。今後は、付託先での扱い、別の決議案の提出、軍事行動を巡る議会の監視がどう進むかが確認点になる。今回の一票で今後の議会の調査や外交政策が確定したわけではない。",
+      "caution": "211対204は付託動議の票数。弾劾訴追そのものの賛否を示す票数ではない。",
+      "references": [
+        {
+          "name": "米下院事務局",
+          "url": "https://clerk.house.gov/evs/2026/roll317",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開採決記録で日付、動議の種類、決議案番号と賛否を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us/us-house-votes-derail-impeachment-defense-secretary-hegseth-2026-11-10/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で付託による訴追見送りと対立の背景を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-russia-prisoner-swap-principle-nov11",
+      "theme": "国際情勢",
+      "title": "ウクライナとロシアが捕虜交換で原則合意、人数は調整へ",
+      "summary": "米国が仲介したアブダビでの協議を受け、11月11日、ウクライナとロシアが大規模な捕虜交換で原則合意したと米側が明らかにした。前回の朝便で扱った協議の開催から、人道面で具体的な進展があった。人数は今後詰める段階で、交換がすでに実施されたわけではない。",
+      "whyItMatters": "捕虜の帰還は本人や家族に直接関わる成果になり得る。一方、捕虜交換の合意は停戦や領土問題の決着と別のものだ。人道上の合意がまとまっても、戦闘停止や合意を守る仕組みには別途交渉が必要になる。",
+      "impact": "次の確認点は、交換の人数と日程が示され、実際に帰還が行われるかどうかだ。停戦や復興支援を考える際は、捕虜交換の発表だけで戦況や制裁が変わったとみなさず、交渉の次の段階を見たい。",
+      "caution": "合意は捕虜交換に関するもの。具体的な人数、実施日、包括的な停戦合意は確認していない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で原則合意と人数未確定、他の争点が残ることを確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-putin",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "現地取材の公開報道で米側の発表と今後の人数調整を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "eu-digital-fairness-proposal-nov11",
+      "theme": "国際情勢",
+      "title": "EUがネット取引の消費者保護案、解約や無料体験の表示を改善へ",
+      "summary": "欧州委員会は11月11日、オンライン取引の消費者保護を強めるデジタル公正法案を公表した。無料体験から意図せず有料契約に移る問題や、定期契約の解約が分かりにくい問題に対処する。購入を急がせる虚偽の表示など、利用者を不利な選択に誘導する画面設計も対象にしている。",
+      "whyItMatters": "料金や解約方法が分かりにくいと、利用者は契約時に正しく比較できず、事業者の競争にも影響する。今回の案は商品の内容だけでなく、申し込みや解約までの画面や案内を消費者保護の観点から扱う。",
+      "impact": "EUの消費者にサービスを提供する日本企業には、契約画面や通知の設計を見直す必要が生じる可能性がある。Web制作でも、利用者が価格・更新日・解約条件を見つけやすいかという観点は参考になる。日本国内に同じ義務が直ちに生じるわけではない。",
+      "caution": "欧州委員会が示した法案。欧州議会やEU理事会での審議があり、最終的な内容や適用時期は未確定。",
+      "references": [
+        {
+          "name": "欧州委員会",
+          "url": "https://commission.europa.eu/news-and-media/news/making-your-online-experience-fairer-2026-11-11_en",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式説明の公開検索本文で提案日と定期契約・画面表示に関する項目を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "欧州委員会",
+          "url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "法案の公式資料一覧と説明で提案段階を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "upper-house-vote-disparity-ruling-nov11",
+      "theme": "日本政治",
+      "title": "最高裁が2025年参院選を「違憲状態」と判断、選挙は有効",
+      "summary": "最高裁大法廷は11月11日、2025年7月の参議院選挙を巡る訴訟で、選挙区の一票の価値に著しい不均衡があったと判断した。議員1人当たりの有権者数の差は最大3.13倍だった。選挙の無効を求める訴えは退けられ、選挙の効力は維持された。\n\n有権者側は、選挙区によって一票の価値が大きく異なることが憲法に反すると訴えた。大法廷は不均衡を問題視した一方、選挙までに定数配分を変えなかったことが国会の裁量の限界を超えたとはいえないとした。",
+      "whyItMatters": "「違憲状態」は、選挙制度に憲法上の問題が生じるほどの不均衡があるという判断だ。今回の判決では、そのことと、定数配分規定が違憲になったか、選挙を無効にするかを分けている。問題が指摘されたからといって、投票結果が直ちに取り消されるわけではない。",
+      "impact": "次の焦点は、国会が次回の参院選に向けて、選挙区や議席の配分をどう見直すかだ。人口に応じた票の平等と、地域の声を議会に届ける制度をどう両立するかが課題になる。議員の定数や選挙区は、今後の法改正の内容を確認する必要がある。",
+      "caution": "判決は2025年7月の参院選の選挙区を対象とする。制度改正の内容や時期を確定した判決ではない。",
+      "references": [
+        {
+          "name": "山形県選挙管理委員会",
+          "url": "https://www.pref.yamagata.jp/910001/kensei/senkyo/press/20261111-iinchodanwa.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式談話の公開範囲で11日付の最高裁判決と選挙に関する対応を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "共同通信／熊本日日新聞",
+          "url": "https://www.kumanichi.com/articles/2056595",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で格差3.13倍と違憲状態の判断を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000546952.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "独立した公開報道で選挙無効請求が退けられたことを照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "food-tax-upper-house-committee-agreement-nov11",
+      "theme": "日本政治",
+      "title": "食料品の減税法案、参院で審議開始　13日に首相出席の質疑へ",
+      "summary": "食料品の消費税減税と支援金を巡る法案は、11月11日の参院本会議で審議に入った。高市首相は、支援金の対象者と金額は決まっていないと説明した。自民党と立憲民主党は、13日に特別委員会で首相が出席して質疑を行うことで合意した。\n\n法案は2027年4月から2年間、対象となる食料品の税率を1％に下げる内容。野党からは支援金の対象を広げることや、住民税の減税を含む修正を求める意見が出ている。",
+      "whyItMatters": "前日までの本会議の日程調整から、実際の質疑と委員会の日程合意に進んだ。争点は減税そのものだけでなく、減税期間後にどの層をどの方法で支えるかにもある。制度の対象と金額が未定なら、税率の数字だけで家計負担の全体像は分からない。",
+      "impact": "13日の質疑では、対象となる所得層、支給額、財源に関する政府の説明と、野党の修正提案が確認点になる。食料品の買い物に影響する税率も、法案が成立してからの実施時期と対象品目を見て判断する必要がある。",
+      "caution": "衆院通過後、参院での審議段階。13日は質疑の予定で、採決や成立を決めたものではない。",
+      "references": [
+        {
+          "name": "TBS NEWS DIG",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3079219?display=1&mwplay=1",
+          "publishedAt": "2026-11-11T18:50:00+09:00",
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "11日付の公開報道で本会議の質疑、首相答弁、13日の日程合意を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000547000.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "独立した公開報道で首相出席の委員会質疑の合意を照合。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "日本時事新聞",
+          "url": "https://jpjj.jp/articles/food-tax-bill-upper-house-plenary/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で審議の段階と法案の適用期間・税率案を確認。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "lp-gas-kerosene-aid-coordination-nov11",
+      "theme": "日本政治",
+      "title": "LPガス・灯油の負担軽減へ、政府は地方交付金での対応を調整",
+      "summary": "高市首相は11月11日の町村議会議長全国大会で、LPガスや灯油の利用者への支援を、重点支援地方交付金で行う方向で調整していると述べた。都市ガスなどに対する電気・ガス料金支援だけでは届かない利用者の負担を軽くする狙いがある。",
+      "whyItMatters": "交付金は、自治体が地域ごとの事情に合わせた対策を実施するために、国から財源を受け取る仕組みだ。冬の灯油需要やガスの利用状況は地域によって異なるため、国が支援を調整すると表明しても、全国の世帯が同じ金額を同じ時期に受け取るとは限らない。",
+      "impact": "LPガスや灯油を使う家庭は、政府の今後の方針に加え、自治体の予算や実施案内で対象・金額・手続きを確認したい。請求額から差し引く方式か、申請して受け取る方式かによっても、必要な行動が変わる。",
+      "caution": "首相が示した調整方針。対象、支援額、開始時期が全国一律に決まったという発表ではない。",
+      "references": [
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/105/actions/202611/11taikai.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式の公開検索本文で11日の発言と交付金による調整を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000547019.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道でLPガス・灯油への支援が検討段階であることを照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "fns-kayosai-second-lineup-nov12",
+      "theme": "芸能ニュース",
+      "title": "FNS歌謡祭に23組追加、スピッツは2週とも出演へ",
+      "summary": "12月2日と9日に放送予定の『2026FNS歌謡祭』について、11月12日朝までに第2弾の出演者23組が公表された。スピッツは5年ぶりに番組に出演し、両夜に登場する。初日にはMrs. GREEN APPLEが出演し、2日目にはKEY TO LITがデビュー日に歌唱する予定だ。",
+      "whyItMatters": "初回の出演者発表から、両夜にまたがる出演や番組内の企画が追加で分かった。同じ出演者でも夜によって披露する内容が異なることがあるため、出演者の名前だけでなく放送日ごとの案内を見ると整理しやすい。",
+      "impact": "見たい出演者が決まっている場合は、公式サイトで12月2日と9日のどちらに出るかを確認できる。出演する時間帯は公表後に確認すると、視聴や録画の予定を立てやすい。",
+      "caution": "出演と企画は発表時点の予定。詳細な出演時刻はこの発表では確認していない。",
+      "references": [
+        {
+          "name": "フジテレビ",
+          "url": "https://www.fujitv.co.jp/FNS/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "11月12日更新の公式ページで両夜の日程と追加出演・企画を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "ORICON NEWS",
+          "url": "https://www.oricon.co.jp/news/2492265/",
+          "publishedAt": "2026-11-12T06:00:00+09:00",
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で追加23組と12日朝の告知を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "back-number-heroine-streams-nov11",
+      "theme": "芸能ニュース",
+      "title": "冬の定番曲「ヒロイン」、オリコン集計で5億再生を超える",
+      "summary": "オリコンが11月11日に発表した週間ストリーミングランキングで、back numberの「ヒロイン」の累積再生数が5億回を超えた。同バンドでは、この集計で5億回に達した曲は6曲目。最新の週間集計は11月2日から8日までで、5億回はその一週間ではなく累計の数字だ。",
+      "whyItMatters": "新曲が短期間で注目を集める動きとは別に、以前に発表された曲が長く聴かれることも配信時代のヒットの一つだ。今回の数字は、冬のCM曲として知られた作品が公開後も聴かれてきた規模を示す材料になる。",
+      "impact": "作品の人気を比べるときは、週間順位、累積再生数、再生された期間を分けて見ると違いが分かる。冬の音楽を探している人には、近年の新曲と長く聴かれてきた曲を合わせて楽しむきっかけになる。",
+      "caution": "オリコンの集計。全サービスの再生や、聴いた人数を示す数字ではない。",
+      "references": [
+        {
+          "name": "ORICON NEWS",
+          "url": "https://www.oricon.co.jp/news/2491934/full/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "集計主体の公開記事で発表日・集計期間・累積再生の到達点を確認。事実のみ参照し、表現・画像を転載していない。"
+        },
+        {
+          "name": "CDJournal",
+          "url": "https://www.cdjournal.com/news/back-number/131041",
+          "publishedAt": null,
+          "accessedAt": "2026-11-12T08:10:33+09:00",
+          "usage": "facts-only",
+          "reviewNote": "同じオリコン集計に基づく公開記事で対象曲と到達点を照合。事実のみ参照し、表現・画像を転載していない。"
+        }
+      ]
+    }
+  ]
+}
