@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "id": "2026-11-14-morning",
+  "issueDate": "2026-11-14",
+  "cutoffAt": "2026-11-14T08:10:10+09:00",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "amazon-jp-alexa-shopping-nov12",
+      "theme": "AI",
+      "title": "Amazonの買い物AIがAlexaに、価格履歴も会話で確認",
+      "summary": "Amazonは11月12日、日本の買い物支援AI「Rufus」を「Alexa for Shopping」に改称し、買い物アプリとAmazon.co.jpで提供すると発表した。候補商品の仕様やレビューの傾向を比較し、商品によっては過去30日や90日の価格推移を確認できる。",
+      "whyItMatters": "同じジャンルの商品を何ページも開いて比較する手間を減らせる。セール中の表示価格だけでは分からない、以前の価格との違いも確認材料になる。",
+      "impact": "比較結果は候補を絞るのに使い、購入前は販売元、送料、保証、返品条件などを商品ページで照合したい。価格履歴が見つかっても、同じ容量や付属品の構成かを確認すると比較しやすい。",
+      "caution": "価格や在庫は変動する。AIが示した価格や条件を購入時の確定条件とみなさない。",
+      "references": [
+        {
+          "name": "Amazon Japan",
+          "url": "https://www.aboutamazon.jp/news/retail/alexa-for-shopping-ai-assistant",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開発表で日本向け提供先、改称、価格履歴と比較機能を確認。画面画像や本文は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "ai-shift-call-review-nov12",
+      "theme": "AI",
+      "title": "電話応対AIの改善点を通話後に検出、AI Shiftが機能追加",
+      "summary": "AI Shiftは11月12日、電話応対サービス「AI Worker VoiceAgent」に、応対を評価して改善案を示す機能を追加した。過去の通話の記録をもとに、説明が足りなかったやり取りなどを見つけ、運用担当者が修正を検討できるようにする。",
+      "whyItMatters": "電話窓口の自動化では、導入前に想定できなかった言い回しや質問が実運用で出る。通話を一件ずつ聞く作業の一部を減らし、どの案内から直すかを判断する材料にできる。",
+      "impact": "導入先は、AIの評価結果だけで変更せず、誤評価がないかを確かめる運用が必要になる。通話記録の保存期間と閲覧できる担当者、人に取り次ぐ条件も合わせて決めておきたい。",
+      "caution": "会社が紹介した先行事例の効果は、利用するすべての窓口に当てはまるわけではない。",
+      "references": [
+        {
+          "name": "AI Shift",
+          "url": "https://prtimes.jp/main/html/rd/p/000000223.000055962.html",
+          "publishedAt": "2026-11-12T09:40:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "企業の公開発表で追加機能と利用方法を確認。電話記録や画像・文面は利用していない。"
+        },
+        {
+          "name": "クラウド Watch",
+          "url": "https://cloud.watch.impress.co.jp/docs/news/2155826.html",
+          "publishedAt": "2026-11-13T13:00:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で11月12日の発表と評価・改善案の範囲を照合。記事表現は使用していない。"
+        }
+      ]
+    },
+    {
+      "id": "monex-account-opening-data-nov13",
+      "theme": "日本経済",
+      "title": "マネックス証券の口座開設委託先、メール最大113万件に漏えいのおそれ",
+      "summary": "マネックス証券は11月13日、外部委託先が運営する口座開設システムでの不正アクセスについて調査の中間結果を公表した。10月18日に委託先が異常を把握し、翌19日に外部からの接続を遮断。メールアドレスは最大113万件、本人確認書類などの画像は1592件が漏えいしたおそれがある。",
+      "whyItMatters": "メールアドレスには重複や入力不備、口座開設を完了しなかった人の登録分もある。現在の顧客だけの問題とは限らない。一方、会社によると残高や取引を管理するシステムは別系統で、今回の事案による不正取引や資産への影響は確認されていない。",
+      "impact": "申し込みに使ったメールに口座確認や書類再提出の連絡が来ても、メールのリンクから手続きせず、自分で公式サイトを開いて案内を確認したい。心当たりのない通知は公式窓口から照会できる。",
+      "caution": "発表は中間報告。最大113万件はメールアドレスの件数で、被害が確定した人数ではない。",
+      "references": [
+        {
+          "name": "マネックス証券",
+          "url": "https://prtimes.jp/main/html/rd/p/000000595.000005159.html",
+          "publishedAt": "2026-11-13T18:12:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "会社の公開配信で検知日、調査対象、件数の区分と取引への影響を確認。個人情報や資料の文面は転載していない。"
+        },
+        {
+          "name": "INTERNET Watch",
+          "url": "https://internet.watch.impress.co.jp/docs/news/2156446.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開見出し・記事情報で対象システムと件数を照合。取得できない本文は使用していない。"
+        }
+      ]
+    },
+    {
+      "id": "winter-energy-reserve-approved-nov13",
+      "theme": "日本経済",
+      "title": "冬の光熱費支援に予備費、12月使用分から値引き",
+      "summary": "政府は11月13日、冬のエネルギー負担を抑えるため、2026年度の中東情勢対応予備費から計約6500億円を使うことを閣議決定した。電気と都市ガスに約5200億円、LPガスや灯油などを支援できる地方交付金に1300億円を配分する。電気と都市ガスは12月から翌年2月までの使用分が対象になる。",
+      "whyItMatters": "これまでの調整に続き、今回は予備費の支出が決まった。電気・都市ガスは使用量に応じた料金の値引きで、地方交付金は自治体が地域の事情に合わせて支援に使う。このため値引きや給付が全国で同じ形になるとは限らない。",
+      "impact": "電気・都市ガスを使う家庭は使用月と請求月を区別して明細を確認したい。LPガスや灯油が主な暖房の家庭は、自治体で始まる支援の条件や申請の有無を確認するとよい。",
+      "caution": "一律の現金給付ではない。ガソリン補助の継続予算は今回の支出決定とは別。",
+      "references": [
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026111301.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開検索情報で11月13日の予備費使用決定を確認。閣議資料の表現は転載していない。"
+        },
+        {
+          "name": "TBS CROSS DIG",
+          "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3083265?display=1",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で配分と対象を照合。映像・記事表現は利用していない。"
+        },
+        {
+          "name": "資源エネルギー庁",
+          "url": "https://www.denkigas-gekihenkanwa.go.jp/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式案内と電力事業者の公表を照合し、電気・都市ガスの対象となる使用月を確認。図表の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "lottery-account-reset-reopen-nov13",
+      "theme": "日本経済",
+      "title": "宝くじ公式サイトが再開、不正ログインは4436アカウント",
+      "summary": "11月4日から5日に起きた宝くじ公式サイトなどへの不正ログインを受け、発売元の自治体は13日、調査結果と再開を公表した。4436アカウントに不正ログインがあり、うち4133件で本人の意図しないパスワード変更が確認された。公式サイトとアプリは13日朝に再開した。",
+      "whyItMatters": "11日の発表では一部会員への影響が示されていたが、13日は確認件数と再開時期が明らかになった。サイトを利用できるようになっても、以前の認証情報の使い回しによる危険が消えるわけではない。",
+      "impact": "利用を再開する際は、普段使っている公式サイトやアプリからパスワード再設定の案内を確認したい。他サービスで同じものを使っている場合は、そちらも別々のパスワードに変更する。",
+      "caution": "不正ログイン数とパスワード変更数は別。すべての会員に同じ被害があったという発表ではない。",
+      "references": [
+        {
+          "name": "横浜市",
+          "url": "https://www.city.yokohama.lg.jp/city-info/zaisei/shisai-takarakuji-kifu/takarakuji/notice20261113.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "発売元自治体の公開案内を検索結果で確認。本文未取得部分は使わず、公開報道と照合した。"
+        },
+        {
+          "name": "Impress Watch",
+          "url": "https://www.watch.impress.co.jp/docs/news/2156159.html",
+          "publishedAt": "2026-11-13T11:38:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で不正ログインの件数、再開とパスワードの取り扱いを照合。文面・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "japan-megabanks-annual-forecasts-nov13",
+      "theme": "株式投資",
+      "title": "3メガバンク、2027年3月期の利益予想をそろって上方修正",
+      "summary": "三菱UFJ、三井住友、みずほの各フィナンシャルグループは11月13日、通期の純利益予想を引き上げた。2027年3月期は三菱UFJが2兆8000億円、三井住友が1兆9000億円、みずほが1兆6000億円を見込む。",
+      "whyItMatters": "融資や金利収益は業績を支える一方、7～9月期だけを比べると、三菱UFJとみずほは増益、三井住友は減益だった。前年にあった株式売却益など、一度限りの要因があるため、全社の見通し引き上げと各社の四半期損益は別に読む必要がある。",
+      "impact": "銀行の決算では、利益総額だけでなく、貸出で得る収益、預金に支払う利息、返済が難しくなった貸出への備えを確認すると、金利環境の変化の影響を理解しやすい。",
+      "caution": "通期の数字は会社予想。7～9月の実績や、預金・住宅ローン金利の変更とは別。",
+      "references": [
+        {
+          "name": "ロイター",
+          "url": "https://www.reuters.com/markets/asia/smfg-second-quarter-profit-falls-10-raises-annual-earnings-forecast-2026-11-13/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で3行の通期予想、四半期実績と前年の一時要因を確認。表現・画像は使用していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000547650.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で3社が中間決算で通期純利益予想を引き上げたことを照合。映像・文面は利用していない。"
+        }
+      ]
+    },
+    {
+      "id": "rakuten-q3-net-loss-nov13",
+      "theme": "株式投資",
+      "title": "楽天の1～9月期は赤字幅縮小、7～9月だけでは赤字が拡大",
+      "summary": "楽天グループが11月13日に発表した2026年12月期第3四半期決算では、1～9月の連結最終損益は736億円の赤字となり、前年同期の1512億円の赤字から縮小した。一方、7～9月の3カ月だけでは、最終赤字の幅が前年同期より広がった。 同社発表では7～9月の売上収益は6971億円で前年同期比10.9％増、国際会計基準の営業利益は395億円だった。",
+      "whyItMatters": "年初からの累計が改善しても、直近3カ月も同じ方向に動いたとは限らない。また、モバイルや金融など個別事業の利益指標と、グループ全体で利息や税金などを計上した後の最終損益では見えるものが違う。",
+      "impact": "達成時期や収益性を見るには、投資負担の大きい事業の費用や資金の出入りと、金融など他事業の利益を分けて確認すると分かりやすい。次の通期決算では、累計と直近の期間の両方が比較材料になる。",
+      "caution": "最終損益は連結。累計の改善を全社黒字化と読み替えない。",
+      "references": [
+        {
+          "name": "楽天グループ",
+          "url": "https://corp.rakuten.co.jp/news/press/2026/1113_01.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式資料で発表日・決算期間と事業の区分を確認。図表は使用していない。"
+        },
+        {
+          "name": "株探",
+          "url": "https://s.kabutan.jp/news/k202611130252/",
+          "publishedAt": "2026-11-13T15:30:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開決算速報で累計最終損益と7～9月期の方向を確認。見出し・本文の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "cerebras-q3-cloud-revenue-nov12",
+      "theme": "株式投資",
+      "title": "Cerebrasの四半期売上高55％増、クラウドサービスが伸びる",
+      "summary": "米AI半導体企業Cerebrasは現地11月12日、2026年第3四半期の決算を公表した。米会計基準の売上高は2億1080万ドルで前年同期比55％増。クラウドなどのサービス売上高は1億4190万ドルだった。会社は併せて、年度の売上見通しを引き上げた。",
+      "whyItMatters": "AI計算向けの機器を提供する企業でも、機器を売る場合と処理能力をクラウド経由で提供する場合では、収益の計上や契約の仕方が異なる。今回の決算からは、クラウド利用を通じた売上が伸びたことが確認できる。",
+      "impact": "投資家は同じ会計基準で前年と比べたうえで、サービスの契約規模が実際の売上や現金収入になる時期を分けて見るとよい。同社は独自の指標も示しており、米会計基準の売上と混同しないことが大切だ。",
+      "caution": "米会計基準の実績と会社独自の指標・会社予想は区別した。株価の方向を示すものではない。",
+      "references": [
+        {
+          "name": "Cerebras投資家情報",
+          "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式決算で売上高、前年同期比、クラウド関連の内訳を確認。決算表と発言は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-supreme-court-asylum-review-nov13",
+      "theme": "国際情勢",
+      "title": "米最高裁、南部国境の難民申請制限を審理へ",
+      "summary": "米連邦最高裁は11月13日、メキシコとの国境で難民認定の申請を制限するトランプ政権の措置について、政府側の上訴を受理した。最高裁の事件記録では、政府が提示したうち二つの問いを審理する。大統領は国境管理上の必要性を理由に制限を設け、原告側は連邦法が認める申請の機会を大統領の権限で奪えないと争っている。",
+      "whyItMatters": "国境からの入国を管理する行政の権限と、議会が法律で定めた保護申請の仕組みの関係が争点だ。最高裁が事件を受理したことは、どちらの解釈が正しいかを最終判断したことを意味しない。",
+      "impact": "国境で申請を予定する人や支援団体にとっては、今後の審理日程、判決、そして当局が実務をどう変更するかが別々の確認点になる。政治的な方針表明と、裁判所の命令による法的な変化を分けて追うと分かりやすい。",
+      "caution": "記事は受理決定について。制度の有効性や個別申請の扱いを確定した判決ではない。",
+      "references": [
+        {
+          "name": "米連邦最高裁",
+          "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26-239.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "事件記録で11月13日の受理と対象の限定を確認。記録や提出書面を転載していない。"
+        },
+        {
+          "name": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/11/13/supreme-court-review-trump-policy-blocking-asylum-seekers-border/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開取得範囲で措置の対象と原告・政権の立場を確認。発言や文面は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "europe-ukraine-talks-five-country-team-nov13",
+      "theme": "国際情勢",
+      "title": "ウクライナ和平協議、欧州は5カ国とEU機関で調整へ",
+      "summary": "11月13日のダブリンでのEU非公式首脳会合で、欧州理事会のコスタ議長はウクライナ和平をめぐる欧州側の調整チームを示した。フランス、ドイツ、イタリア、ポーランドと、EUに加盟していない英国の5カ国にEU機関を加える。チームは他のEU加盟国とも連携する。",
+      "whyItMatters": "12日の報道は冬のエネルギーや人道支援についての会談だった。今回の進展は、欧州が和平外交で誰を窓口として調整するかを具体化したことにある。戦後の安全をどう支えるかは、欧州諸国自身にも関わる問題だ。",
+      "impact": "次はこのチームがどの協議に参加し、ウクライナや米国とどう調整するかが焦点になる。EUは26、27日の会合でウクライナの2027年以降の資金需要も扱うとしており、交渉への参加と資金の決定は分けて見たい。",
+      "caution": "欧州側の体制の話であり、ロシアとの停戦条件や安全保証が合意されたわけではない。",
+      "references": [
+        {
+          "name": "欧州理事会",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式会合結果で5カ国とEU機関の役割、次回会合の論点を確認。画像・演説表現は転載していない。"
+        },
+        {
+          "name": "ロイター",
+          "url": "https://www.reuters.com/world/europes-security-cannot-be-part-ukraine-peace-talks-eu-leaders-say-2026-11-13/",
+          "publishedAt": "2026-11-13T16:19:38Z",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で会合日と調整チームの構成を照合。表現や写真は利用していない。"
+        }
+      ]
+    },
+    {
+      "id": "food-tax-worker-aid-threshold-nov13",
+      "theme": "日本政治",
+      "title": "消費減税とセットの支援金、首相は就業者の半数以上を対象に検討",
+      "summary": "11月13日、参院の特別委員会で、食料品の消費税率を一時的に下げる法案と、働く中低所得者に現金を支給する制度が審議された。高市首相は、現在働いている人の半数以上が対象に入るよう、所得の上限を検討する考えを示した。政府案は2027年4月から2年間、対象の飲食料品の税率を8％から1％に下げる内容だ。",
+      "whyItMatters": "今回は、予定されていた首相出席の質疑で対象の広さについて方向が示された。公明党は対象の拡大を求めており、立憲民主党は政策の効果や財源をただした。税を下げると買い物をする人に広く影響するが、支援金は働き方や所得などの条件で対象が決まる。",
+      "impact": "家計への影響を見積もるには、参院審議の結果と、誰のどの所得を基準にするかを確認する必要がある。自分にいくら入るかは、正式な所得の上限、支援額、申請や支払いの方法が出てから判断できる。",
+      "caution": "13日は審議と首相の検討方針。具体的な所得の線引きや支給の確定を意味しない。",
+      "references": [
+        {
+          "name": "参議院",
+          "url": "https://www.sangiin.go.jp/jpn/ugoki/r8/261113.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "委員会の公表ページで11月13日の質疑を確認。写真や議事資料は転載していない。"
+        },
+        {
+          "name": "ロイター（ニューズウィーク日本版掲載）",
+          "url": "https://www.newsweekjapan.jp/articles/-/340098",
+          "publishedAt": "2026-11-13T18:56:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で首相答弁の対象割合と政府案の税率・期間を確認。直接引用なし。"
+        },
+        {
+          "name": "FNNプライムオンライン",
+          "url": "https://www.fnn.jp/articles/-/1152013",
+          "publishedAt": "2026-11-13T18:53:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で公明党の要求と首相答弁の関係を照合。本文・映像は利用していない。"
+        },
+        {
+          "name": "日本時事新聞",
+          "url": "https://jpjj.jp/articles/upper-house-food-tax-committee-nov13/",
+          "publishedAt": "2026-11-13T20:13:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で野党による財源と政策効果の質疑を照合。文面は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "kumamoto-reconstruction-fund-nov13",
+      "theme": "日本政治",
+      "title": "熊本地震の復興基金、国が520億円を措置する方針",
+      "summary": "高市首相は11月13日、令和8年熊本地震の復旧復興本部で、熊本県が設ける復興基金に特別交付税で520億円を措置すると表明した。県の復旧・復興計画に沿って、繰り返し被災した住民への支援や井戸の復旧など、地域の事情に合わせた事業を後押しする。",
+      "whyItMatters": "特別交付税は、災害など通常の財政配分だけでは対応しにくい自治体の事情に応じ、国が配分する財源だ。今回の520億円は県の基金に充てるもので、被災者全員に同額を配る仕組みではない。",
+      "impact": "被災した世帯や事業者は、県・市町村が案内する制度ごとに対象、申請期限、必要書類を確認したい。県の計画では公費で行う被災家屋の解体を2027年12月中に終える目標が示されたが、個々の工程は自治体の案内で確認が必要だ。",
+      "caution": "基金への国の措置方針と、各事業の支給条件や工事日程は別。",
+      "references": [
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/105/actions/202611/13fukkyuhonbu.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開発表で本部開催、基金への520億円と首相指示を確認。文面・写真は使用していない。"
+        },
+        {
+          "name": "防災庁",
+          "url": "https://www.bousai.go.jp/updates/r8kumamoto_jishin/hukkyuhonbu.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "復旧復興本部の資料一覧で会合を照合。資料や図の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "japan-asean-apec-trip-announced-nov13",
+      "theme": "日本政治",
+      "title": "高市首相が16日からフィリピンと中国へ、地域首脳会議に出席予定",
+      "summary": "外務省は11月13日、高市首相が16日から19日までフィリピンのマニラと中国の深圳を訪れる予定だと発表した。マニラでは東南アジア諸国連合（ASEAN）の関連首脳会議に、深圳ではアジア太平洋経済協力会議（APEC）の首脳会議に出席する。",
+      "whyItMatters": "ASEANとの会議は東南アジアとの協力を進める場で、APECは太平洋を囲む各国・地域が貿易や投資などを話し合う場だ。日本政府は東南アジアとの支援・協力を打ち出す考えを示している。多国間の会議日程と個別の首脳会談の成立は別の話になる。",
+      "impact": "会議後は、共同文書や日本政府の発表にどんな協力が載るかを確認したい。報道の段階で接触が取り沙汰されても、日中などの個別会談は両政府の発表と実際の実施を確認してから判断できる。",
+      "caution": "13日に発表されたのは訪問と出席の予定。個別会談や合意を確定した発表ではない。",
+      "references": [
+        {
+          "name": "外務省",
+          "url": "https://www.mofa.go.jp/mofaj/pageit_000001_03314.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表で訪問期間・都市・会議目的を確認。日程表や文面は転載していない。"
+        },
+        {
+          "name": "共同通信（熊本日日新聞掲載）",
+          "url": "https://www.kumanichi.com/articles/2057338",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開範囲で訪問開始と出席する首脳会議を照合。記事表現は使用していない。"
+        }
+      ]
+    },
+    {
+      "id": "kohaku-77-lineup-nov13",
+      "theme": "芸能ニュース",
+      "title": "大みそかの紅白、＝LOVEやマカロニえんぴつが初出場へ",
+      "summary": "NHKは11月13日、12月31日放送の第77回NHK紅白歌合戦の出場歌手を発表した。紅組の＝LOVEとCUTIE STREET、白組のAyumu Imazu、Aぇ! group、EBiDAN、マカロニえんぴつ、モナキが初出場する。稲葉浩志は特別企画に出演する予定。",
+      "whyItMatters": "出場歌手の発表で、今年新たに加わるグループや歌手が分かった。特別企画は紅組と白組の通常の出演枠とは扱いが異なるため、初出場の数を比較する場合はどこまで含むかを見ておきたい。",
+      "impact": "目当ての歌手がいる場合、後日発表される曲目や出演順が視聴の目安になる。出演者発表の段階では、今年のヒット曲を歌うかどうかや、出演時刻までは分からない。",
+      "caution": "11月13日の発表分。追加企画や曲目は今後の公式発表を確認したい。",
+      "references": [
+        {
+          "name": "日刊スポーツ",
+          "url": "https://www.nikkansports.com/m/entertainment/news/amp/202611130000569.html",
+          "publishedAt": "2026-11-13T13:23:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開会見報道で初出場7組と特別企画を区別して確認。写真や文面の転載なし。"
+        },
+        {
+          "name": "THE FIRST TIMES",
+          "url": "https://www.thefirsttimes.jp/news/0000918136/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文の出場者区分で初出場者と特別企画の出演者を照合。画像や一覧の複製なし。"
+        }
+      ]
+    },
+    {
+      "id": "moegara-nhk-bs-drama-premiere-nov14",
+      "theme": "芸能ニュース",
+      "title": "高橋一生主演、燃え殻のエッセーを題材にしたドラマが今夜から",
+      "summary": "燃え殻のエッセーをもとにしたドラマ『この味もまたいつか恋しくなる』の前編が11月14日午後9時からNHK BSで放送予定だ。後編は21日の同じ時間帯。主演は高橋一生で、出版社は13日に放送直前の案内を公開した。",
+      "whyItMatters": "食べものの味をきっかけに、人や出来事の記憶をたどる作品だ。10月までに公表されていたドラマ化のニュースに加え、今回は放送開始が近づき、前後編を続けて視聴できる日程を確認した。",
+      "impact": "前編と後編の間が1週間あるため、通して見る場合はどちらの日付も確認するとよい。視聴環境によっては番組表でNHK BSの放送枠を確認できる。",
+      "caution": "放送日時は公表時点の予定。再放送や見逃し配信は別途確認が必要。",
+      "references": [
+        {
+          "name": "主婦と生活社",
+          "url": "https://prtimes.jp/main/html/rd/p/000001386.000072639.html",
+          "publishedAt": "2026-11-13T08:00:00+09:00",
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "出版社の13日付の公開発表で放送日時・原作・主演を確認。画像や本文は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "winter-sonata-audible-debut-nov12",
+      "theme": "芸能ニュース",
+      "title": "『冬のソナタ』を声で描く新作、小芝風花と宮沢氷魚が主演",
+      "summary": "Audibleは11月12日、韓国ドラマ『冬のソナタ』をもとにした日本語のオーディオドラマの配信を始めた。小芝風花と宮沢氷魚が主演。全20話で、配信元は木曜日に順次話数を追加する予定を示している。",
+      "whyItMatters": "日本で広く知られたテレビ作品を、映像なしで楽しむための新制作だ。テレビ版をそのまま配信するのではなく、日本の俳優が声を担当し、SEVENTEENのJEONGHANが日本語で歌う挿入歌も新たに加わる。",
+      "impact": "一度に全話を聴けるとは限らないため、サービスで公開済みの話数と利用条件を確認したい。劇中に登場する楽曲を単独で聴きたい場合、配信元はアルバムを26日に一般配信する予定としている。",
+      "caution": "テレビ版の再放送ではない。各話や音楽の配信日時は変更される場合がある。",
+      "references": [
+        {
+          "name": "Audible／About Amazon Japan",
+          "url": "https://www.aboutamazon.jp/news/entertainment/audible-korean-content-winter-sonata",
+          "publishedAt": null,
+          "accessedAt": "2026-11-14T08:07:44+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表で日本語版の配信開始、出演、話数、音楽の予定を確認。劇中音声や画像、出演者の発言は転載していない。"
+        }
+      ]
+    }
+  ]
+}
