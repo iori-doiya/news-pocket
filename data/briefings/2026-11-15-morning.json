@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "id": "2026-11-15-morning",
+  "issueDate": "2026-11-15",
+  "cutoffAt": "2026-11-15T08:06:58+09:00",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "chatgpt-wallet-us-launch-nov13",
+      "theme": "AI",
+      "title": "ChatGPTに購入承認付きの決済機能、米国で限定提供",
+      "summary": "OpenAIは11月13日、AIが買い物を補助するChatGPT Walletを発表した。対象の米国のChatGPT Pro利用者がカードを登録し、購入ごとに承認すると、AIが対応する販売サイトで支払いを進める。加盟する決済網が実際のカード情報に代わる番号を発行する仕組みだ。",
+      "whyItMatters": "商品選びの相談から決済まで同じ流れで進められる一方、購入の承認は利用者に残る。AIが商品ページの条件を取り違える可能性はあるため、承認画面が重要になる。",
+      "impact": "利用できる場合でも、承認前に販売元、数量、配送先、送料を含む総額、返品条件を確認したい。販売事業者側も、既存の決済や不正利用対策でどう扱われるかを確かめる必要がある。",
+      "caution": "米国の一部の対象者への提供。日本での提供開始やすべての店舗で使えることは確認されていない。",
+      "references": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式発表で限定提供、購入ごとの承認とカード情報の扱いを確認。文面・画像は転載なし。"
+        },
+        {
+          "name": "OpenAI Walletプライバシー通知",
+          "url": "https://openai.com/policies/chatgpt-wallet-privacy-notice/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "米国内での利用を前提とする通知で提供地域を照合。利用規約や通知の表現は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "copilot-december-model-retirement-nov13",
+      "theme": "AI",
+      "title": "GitHub Copilotが12月にモデルを入れ替え、旧モデルの終了日を公表",
+      "summary": "GitHubは11月13日、Copilotで選べるモデルの一部を12月14日に終了すると案内した。対象にはClaude Fable 5、Gemini 3.8 Flash、Gemini 4 Argonなどが含まれる。一方、新しく選べるようになったGemini 4 Hydrogenは、旧3.8 Flashの代替候補に挙がった。",
+      "whyItMatters": "同じCopilotでもモデルが変わると、回答の傾向や作業時間が変わりうる。今回はGoogleのモデル発表とは別に、GitHubの製品上でいつ何が利用できなくなるかが示された。",
+      "impact": "旧モデルを普段のコード確認や補完に使っている場合は、終了前に同じ課題で代替モデルを試すと違いをつかめる。組織アカウントでは利用できるモデルと課金条件も確認したい。",
+      "caution": "Claude Haiku 4.5は個人向け年払い契約が終了対象の例外とされる。対応状況は契約や管理設定で異なる。",
+      "references": [
+        {
+          "name": "GitHub Changelog・提供終了案内",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式告知で終了日、候補、年払いの例外を確認。表は転載していない。"
+        },
+        {
+          "name": "GitHub Changelog・Hydrogen提供案内",
+          "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "Copilotでの新規提供を公式情報で照合。説明文は利用していない。"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-app-tools-api-nov13",
+      "theme": "AI",
+      "title": "DeepSeek、検索・ファイル・音声などを開発者向けAPIに追加",
+      "summary": "DeepSeekは11月13日、チャットアプリで使っていたウェブ検索、ファイル入力、URLの読み取り、音声認識・読み上げなどを、開発者向けAPIで利用できるようにしたと発表した。一部は単独のAPIでも利用でき、チャット画面の実装例も公開した。",
+      "whyItMatters": "自社のツールに文書確認や音声対話を組み込むとき、別々のサービスを組み合わせる以外の選択肢が増える。導入のしやすさだけでなく、応答時間、料金、送信するデータの範囲も比べる必要がある。",
+      "impact": "試す場合は公開資料などから始め、ファイルや音声を外部に送る前に、データの扱いや社内の許可範囲を確認したい。画面の実装例と、実際の運用に必要な認証や障害時の対応は分けて考えたい。",
+      "caution": "APIの提供開始についての発表。性能や料金、データ取り扱いは利用する機能の条件を確認する必要がある。",
+      "references": [
+        {
+          "name": "DeepSeek API Docs",
+          "url": "https://api-docs.deepseek.com/news/news261113/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式変更履歴で提供日と追加機能を確認。コード・文面の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "microsoft365-restoration-nov14",
+      "theme": "日本経済",
+      "title": "Microsoft 365の広域障害が復旧、滞留メールの処理も完了",
+      "summary": "日本時間11月13日未明からOutlookやTeamsなどに影響したMicrosoft 365の広域障害について、マイクロソフトは14日にサービスが回復したと伝えた。影響を受けた環境で滞っていたメールの処理も終えたとしている。",
+      "whyItMatters": "前回の朝便では影響が続いていたが、今回は業務サービスの復旧と、メールの滞留解消まで確認できた。サービスにつながるようになった時点と、遅れていた業務連絡が相手に届く時点にはずれが生じうる。",
+      "impact": "障害中に送った連絡は、送信済みや配信不能の通知を確認してから再送すると重複を避けやすい。大学や職場でまだ接続できない場合は、組織の障害情報や問い合わせ窓口を確認したい。",
+      "caution": "復旧時刻の案内はサービスや組織によって異なる。障害中の個々の送信結果を保証するものではない。",
+      "references": [
+        {
+          "name": "東京工科大学",
+          "url": "https://emg.teu.ac.jp/archives/3956",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "大学の公開案内でマイクロソフトが14日に全面復旧を報告したことを確認。文面は転載なし。"
+        },
+        {
+          "name": "ロイター",
+          "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "更新後の公開報道でOutlook、Teamsなどの復旧を照合。原文・画像は利用していない。"
+        }
+      ]
+    },
+    {
+      "id": "muji-card-data-briefing-nov12",
+      "theme": "日本経済",
+      "title": "無印良品の情報流出、過去に保管したカード番号も調査対象",
+      "summary": "無印良品を展開する良品計画は11月12日の会見で、不正アクセスの影響について説明した。従来は顧客の識別に使っていたカード番号の記録が、利用をやめた後も十分に削除されず残っていたと報じられた。会社は以前から公式アプリ利用者などに情報が流出した可能性を知らせており、ネットストアの再開時期は会見時点で示していない。",
+      "whyItMatters": "現在の運用で不要になった情報も、古いシステムに残れば事故時の対象になりうる。今回の会見は、停止中のサービスの状況に加え、過去の保存データがなぜ影響しうるのかを会社が説明した点が新しい。",
+      "impact": "利用者は良品計画とカード発行会社の案内を区別して確認したい。利用明細に心当たりのない決済があれば、メールに書かれた番号やリンクに頼らず、カード会社の公式窓口に照会する。",
+      "caution": "公表されたのは流出の可能性。対象者全員のカードが不正利用されたという意味ではない。",
+      "references": [
+        {
+          "name": "良品計画",
+          "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1109_01",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "企業の公式案内で事案と調査の位置付けを確認。文面や個別データは使っていない。"
+        },
+        {
+          "name": "FNNプライムオンライン",
+          "url": "https://www.fnn.jp/articles/FNN/1151324",
+          "publishedAt": "2026-11-13T06:00:00+09:00",
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開された会見報道で旧データの保管と削除について確認。発言・写真は転載なし。"
+        },
+        {
+          "name": "クレディセゾン",
+          "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "カード発行元によるMUJI Card利用者向けの公式案内を確認。表現は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "vertical-drama-subscription-complaints-nov14",
+      "theme": "日本経済",
+      "title": "縦型ショートドラマで解約相談、支払い先の確認が手がかりに",
+      "summary": "11月14日、共同通信はスマートフォンで見る縦型ショートドラマの有料サービスについて、解約ができないなどの相談が国民生活センターに200件を超えて寄せられたと報じた。外国語の画面で手続きが分からなかったり、案内が見つからなかったりする例があるという。",
+      "whyItMatters": "短い動画をすぐ見られる仕組みと、視聴料金を払う契約は別に確認できる。サービスを使わなくなっても契約が残れば、更新時に料金が発生することがある。",
+      "impact": "契約前に料金と自動更新、解約方法を確認したい。すでに請求がある場合は領収メールや明細を見て、アプリストア経由かサービスのサイト経由かを確かめる。手続きが分からない場合は消費生活相談窓口も使える。",
+      "caution": "件数は共同通信が報じた相談数。すべての縦型ドラマサービスで問題が起きたという意味ではない。",
+      "references": [
+        {
+          "name": "共同通信（熊本日日新聞掲載）",
+          "url": "https://www.kumanichi.com/articles/2057884",
+          "publishedAt": "2026-11-14T21:00:00+09:00",
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開検索情報と同報道の公開範囲で相談件数・内容を確認。全文の転載なし。"
+        },
+        {
+          "name": "日刊スポーツ",
+          "url": "https://www.nikkansports.com/general/news/202611140001237.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "同じ報道内容の公開範囲で事実を再確認。独立した件数調査としては扱っていない。"
+        }
+      ]
+    },
+    {
+      "id": "us-indexes-weekly-gain-friday-drop-nov13",
+      "theme": "株式投資",
+      "title": "米株は週末にハイテク安、ナスダックは週間で上昇",
+      "summary": "米国時間11月13日の株式市場で、ハイテク株が多いナスダック総合指数は0.9％下落し、S&P500は0.4％下落した。一方、ダウ工業株30種平均は0.1％高だった。週全体ではナスダックが2.3％、S&P500が2.5％上昇した。",
+      "whyItMatters": "1日ではハイテク株が売られても、週前半の値上がりで週間成績はプラスになる場合がある。対象銘柄や指数の重みが違うため、ダウとナスダックの方向がそろわないこともある。",
+      "impact": "米株型の投信を円で持つ場合は、指数だけでなく為替が評価額に影響する。短い値動きで長期傾向を判断する前に、比較している期間と指数を確認するとよい。",
+      "caution": "騰落率は現地13日の値と同日までの週間値。将来の値動きを示さない。",
+      "references": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/12c1e8155fb85c3c7b09e058ed6d3c74",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "市場の公開報道で指数の騰落と期間を確認。表現と画像は転載なし。"
+        },
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で日次・週間騰落を照合。閲覧制限のある本文は利用していない。"
+        }
+      ]
+    },
+    {
+      "id": "japanpost-h1-recurring-profit-nov13",
+      "theme": "株式投資",
+      "title": "日本郵政の上期経常利益は25％増、通期計画は維持",
+      "summary": "日本郵政は11月13日、2027年3月期の中間連結決算を発表した。4～9月期の経常利益は前年同期比で約25％増え、7～9月の3カ月では約5％増だった。通期の計画は据え置いた。",
+      "whyItMatters": "上半期の増益幅と直近3カ月の増益幅には違いがある。日本郵政グループには郵便・物流に加えて金融などの事業があり、グループ全体の損益だけでは各事業で何が変わったかは分からない。",
+      "impact": "決算を読むときは、期間をそろえた比較に加え、金融部門と郵便・物流部門を分けて確認すると分かりやすい。次回は通期計画の変更の有無と、事業別の利益が判断材料になる。",
+      "caution": "経常利益の増減であり、売上や最終利益の増減とは区別が必要。",
+      "references": [
+        {
+          "name": "日本郵政",
+          "url": "https://www.japanpost.jp/news/pressrelease/20261113_01/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式決算発表ページで発表日と対象期間を確認。資料を転載していない。"
+        },
+        {
+          "name": "株探",
+          "url": "https://s.kabutan.jp/news/k202611130438/",
+          "publishedAt": "2026-11-13T15:30:00+09:00",
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開決算速報で増益幅と計画据え置きを確認。文面は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-china-russia-shenzhen-summit-plan-nov14",
+      "theme": "国際情勢",
+      "title": "米中ロの首脳会談を深圳で計画、米側は核軍縮を議題に",
+      "summary": "米ホワイトハウスは、トランプ大統領が中国の習近平国家主席、ロシアのプーチン大統領と11月19日に中国・深圳で会談する計画を明らかにしたと、ロイターとAPが14日に報じた。アジア太平洋経済協力会議（APEC）の機会を使い、米側は核軍縮を取り上げる意向だという。",
+      "whyItMatters": "APECは経済協力の会議だが、首脳が同じ場所に集まる機会には別の外交協議も開かれる。米側が示した議題は会談前の意向であり、参加国の間で既に条件が合意されたことを示さない。",
+      "impact": "会談の実施後は、各国の公式発表や共同文書に何が書かれたかを比べたい。三者会談の発表と二国間会談の有無は別に確認が必要だ。",
+      "caution": "報道時点の計画。軍縮の合意や条約が成立したという発表ではない。",
+      "references": [
+        {
+          "name": "ロイター",
+          "url": "https://www.reuters.com/world/china/trump-meet-putin-xi-china-white-house-says-2026-11-14/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で米側が示した日程と議題を確認。表現・写真は使用していない。"
+        },
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/5fe92253ef38100bae913834a9b74d72",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で会談計画と発表主体を照合。本文の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "us-faa-flights-recovery-nov14",
+      "theme": "国際情勢",
+      "title": "米航空の一斉停止解除後も欠航や遅れ、当局が復旧状況を説明",
+      "summary": "米連邦航空局（FAA）は11月13日に全国規模で航空便の出発を一時止め、その後解除した。米運輸省は14日、航空管制の通信に関わる障害と空域の復旧について説明した。航空会社側では停止解除後も多数の欠航や遅延が残ったと、ロイターが報じた。",
+      "whyItMatters": "出発の制限が解けても、予定していた空港に機材や乗務員がそろうまで時間がかかる。航空管制の復旧と、個々の便が元の予定に戻ることは異なる。",
+      "impact": "米国内便に乗る人や米国経由で移動する人は、最初の便だけでなく乗り継ぎも含めて、航空会社のアプリや公式案内で確認したい。便が取り消された場合は振り替えや払い戻しの条件を航空会社へ確認する。",
+      "caution": "当局が措置を解除したことは、個別の便の出発を保証しない。原因の詳細は当局の調査を待つ。",
+      "references": [
+        {
+          "name": "米運輸省",
+          "url": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "14日の当局発表で全国的な停止と復旧対応を確認。発言の転載なし。"
+        },
+        {
+          "name": "ロイター",
+          "url": "https://www.reuters.com/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で停止解除の翌日まで欠航・遅延が続いたことを照合。記事・図表は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "alaska-governor-ap-call-nov14",
+      "theme": "国際情勢",
+      "title": "米アラスカ州知事選、APが民主党候補に当選確実",
+      "summary": "AP通信は11月14日、米アラスカ州知事選で民主党のジョナサン・クライス＝トムキンズ氏が勝利すると判定した。地元の公共放送によると、集計の進展に伴い、同氏は有権者が最初に選んだ候補として50％超を得る見通しとなった。",
+      "whyItMatters": "州の選挙では候補者に順位を付けて投票する。第1希望だけで過半数に到達した場合は、下位候補への票を次の希望先へ移す段階が不要になる。今回は知事選で、同日に争われた米連邦上院の議席とは別の結果だ。",
+      "impact": "知事は州政府を率いるため、選挙後の政策や予算は州議会との調整や引き継ぎを経て具体化する。次に州選挙当局の認証と、新政権の方針を確認したい。",
+      "caution": "当選確実は報道機関による判定。州による正式な結果認証とは異なる。",
+      "references": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/c7e7176b233d5078e5c297da639e4471",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で当選確実の対象が知事選であることを確認。文面・画像の転載なし。"
+        },
+        {
+          "name": "Alaska Public Media",
+          "url": "https://alaskapublic.org/news/politics/elections/2026-11-13/alaska-elects-democrat-jonathan-kreiss-tomkins-governor",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "地元報道で第1希望の票の集計状況を照合。原文は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "senior-medical-copayment-talks-nov13",
+      "theme": "日本政治",
+      "title": "70歳以上の医療費負担、自民・維新が窓口負担の見直しを協議",
+      "summary": "自民党と日本維新の会は11月13日、社会保障改革の実務者協議で、70歳以上の人が医療機関の窓口で支払う割合の見直しを議論した。維新は現役世代の保険料負担を減らす狙いで、現在原則2割の70～74歳も含め、原則3割とするよう求めていると報じられた。",
+      "whyItMatters": "窓口負担を増やすと、受診した人の支払いは増える。保険料がどれほど変わるかは、窓口以外の費用を国や自治体と保険がどう分担するかにも左右される。財務省の資料は、低所得者が必要な受診を続けられるよう配慮することを前提に挙げている。",
+      "impact": "実際の影響を知るには、所得に応じた区分、対象の年齢、負担上限や配慮措置、変更時期がどう決まるかを確認する必要がある。与党の協議で案が出た段階では、医療機関での支払いは変わらない。",
+      "caution": "実務者の協議と政党の提案。政府決定、法案成立、施行とは区別する。",
+      "references": [
+        {
+          "name": "読売新聞（ライブドア掲載）",
+          "url": "https://news.livedoor.com/article/detail/32814548/",
+          "publishedAt": "2026-11-14T05:00:00+09:00",
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で実務者協議の開催と維新の主張を確認。文面の転載なし。"
+        },
+        {
+          "name": "財務省・財政制度等審議会資料",
+          "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261104/01.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "資料の低所得者への配慮と負担見直しの記述を確認。審議会資料と政党の提案を区別した。"
+        }
+      ]
+    },
+    {
+      "id": "political-funds-oversight-talks-nov13",
+      "theme": "日本政治",
+      "title": "政治資金3法案は採決見送り、監視機関の制度設計は前進",
+      "summary": "衆院政治改革特別委員会は11月13日、継続審議中の政治資金関連3法案を質疑した。与党は質疑後の採決と、衆院定数削減法案の審議入りを提案したが、野党と折り合わず採決を見送った。一方、与野党は政治資金を監視する第三者機関の制度設計を具体化することで合意したと共同通信が報じた。",
+      "whyItMatters": "監視機関を設置する方向は2024年成立の法律に盛り込まれていたが、詳しい制度は別の法律に委ねられていた。今回進んだのは制度を具体化する協議で、審議中の3法案が可決されたわけではない。",
+      "impact": "監視機関がどの情報を調べられるか、委員の選び方や国会からの独立性をどうするかが、政治資金の透明性を判断する材料になる。今後の条文や採決日程を確認したい。",
+      "caution": "採決見送りと監視機関の具体化合意は別々の動き。監視機関の発足日は未確定。",
+      "references": [
+        {
+          "name": "共同通信（熊本日日新聞掲載）",
+          "url": "https://www.kumanichi.com/articles/2057513",
+          "publishedAt": "2026-11-13T18:07:00+09:00",
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で採決見送り、与野党の提案・合意と以前の法律との関係を確認。文面は転載していない。"
+        },
+        {
+          "name": "毎日新聞（StartHome掲載）",
+          "url": "https://home.kingsoft.jp/news/news/mainichi/20261113k0000m010258000c.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開検索情報で別報道による採決見送りを照合。取得できない本文は使用していない。"
+        }
+      ]
+    },
+    {
+      "id": "fukushima-hosono-visit-nov14",
+      "theme": "日本政治",
+      "title": "細野復興相が福島第一原発を視察、廃炉作業の安全確保を求める",
+      "summary": "細野復興大臣は11月14日、就任後初めて福島第一原子力発電所を訪れた。福島テレビによると、東京電力に作業員が安全に作業できる環境を整えるよう求めた。テレビ朝日は、2051年までの廃炉目標について、大臣が技術上の課題を挙げたと報じた。",
+      "whyItMatters": "廃炉は設備を撤去するだけでは終わらず、作業の安全確保と長期間の進捗確認を要する。大臣が既存の目標に言及したことは、新しい期限や工事の決定を意味しない。",
+      "impact": "地元にとっては作業が安全に進むことと、工程の変更が十分に説明されることが大切だ。今後は政府と東京電力の公表する工程や、現場の作業がどこまで進んだかを確認したい。",
+      "caution": "14日の視察と発言を扱う。廃炉の完了時期が確認されたという意味ではない。",
+      "references": [
+        {
+          "name": "福島テレビ",
+          "url": "https://www.fukushima-tv.co.jp/localnews/2026/11/2026111400000004.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で視察先と作業員の環境に関する要請を確認。映像・文面は利用していない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000547886.html",
+          "publishedAt": "2026-11-14T20:04:00+09:00",
+          "accessedAt": "2026-11-15T08:02:04+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で就任後初の視察と廃炉目標への言及を照合。発言は引用していない。"
+        }
+      ]
+    },
+    {
+      "id": "m1-semifinal-announcement-stream-nov14",
+      "theme": "芸能ニュース",
+      "title": "M-1の準決勝進出30組、11月21日夜にTVerで発表へ",
+      "summary": "11月14日、大会公式は『M-1グランプリ2026』の準決勝に進む30組を、11月21日午後8時ごろからTVerの特設ページで発表すると案内した。準決勝は12月3日。今回の発表は通過者の顔ぶれではなく、結果が公開される日時と視聴方法に関するものだ。 準々決勝で敗れた組を対象に、視聴者投票で1組が復活する枠の実施も決まった。",
+      "whyItMatters": "決勝に出る組はさらに先の準決勝で決まる。大会の段階を押さえておくと、応援するコンビがどの時点まで進んだかを追いやすくなる。",
+      "impact": "発表を見たい人は21日夜にTVerの大会ページを確認できる。結果だけを知りたい場合は、大会公式の日程・結果ページでその後に確認するとよい。",
+      "caution": "時刻は発表時点の予定。準決勝に進むコンビはまだ発表されていない。",
+      "references": [
+        {
+          "name": "M-1グランプリ公式",
+          "url": "https://www.m-1gp.com/news/detail.html?id=648",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "14日の公開告知で準決勝進出発表と視聴者投票による復活枠の日程を確認。文面は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "expelled-from-paradise-sequel-opening-nov14",
+      "theme": "芸能ニュース",
+      "title": "『楽園追放』の新作が劇場公開、14日に舞台あいさつも",
+      "summary": "アニメ映画『楽園追放 心のレゾナンス』が11月13日に公開され、14日には公開を記念した舞台あいさつが行われた。公式サイトは一部の劇場での中継も案内し、映画専門媒体が上映後のイベントを報じた。",
+      "whyItMatters": "既存の『楽園追放』シリーズを劇場で見られる新作で、公開週末には現地以外の劇場の観客にもイベントを見られる機会が設けられた。",
+      "impact": "通常上映を見たい場合は近隣の劇場の上映時間を確認できる。14日の舞台あいさつは通常上映の一部ではなく、対象回が決まっていた。",
+      "caution": "舞台あいさつは14日の実施分。以降の上映に同じ内容が付くわけではない。",
+      "references": [
+        {
+          "name": "映画公式サイト",
+          "url": "https://rakuen-tsuiho-r.com/event/greeting/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開日と14日の舞台あいさつ・中継の案内を確認。資料・画像は転載していない。"
+        },
+        {
+          "name": "CINEMA FACTORY",
+          "url": "https://www.cinema-factory.jp/2026/11/14/118658/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-15T08:06:25+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で14日の舞台あいさつの実施を確認。出演者の発言や写真は転載していない。"
+        }
+      ]
+    }
+  ]
+}
