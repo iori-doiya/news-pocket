@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "id": "2026-11-20-morning",
+  "issueDate": "2026-11-20",
+  "cutoffAt": "2026-11-20T08:47:22+09:00",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "gpt62-astra-sol-release-2026",
+      "theme": "AI",
+      "title": "GPT‑6.2 AstraとSolが登場、Work・CodexとAPIで専門作業を支援",
+      "summary": "OpenAIは11月17日、GPT‑6.2 AstraとSolを発表した。複雑な専門業務向けのAstraと、日常的な複数段階の作業を効率よく進めるSolという位置付け。ChatGPT Work、Codex、APIでの提供が案内されている。未掲載だった重要発表として、20日に公式情報を確認して取り上げる。",
+      "whyItMatters": "開発だけでなく、文書・表計算・スライドなど仕事の成果物を作る能力の更新が中心。モデル名の変更に加え、使う場所と作業内容を確認したい。",
+      "impact": "Web制作や資料作成では、普段の課題で出力を比較する判断材料になる。提供状況や利用枠はプランと画面の案内で確認できる。",
+      "caution": "17日の発表。通常のChatに一律追加されたという意味ではない。性能は提供元の評価で、当サイトで実測していない。",
+      "references": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "OpenAI モデルリリースノート",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "gemini4-neon-release-2026",
+      "theme": "AI",
+      "title": "GoogleがGemini 4 Neonを発表、複雑な開発と資料分析を効率化",
+      "summary": "Googleは11月18日、Gemini 4 Neonを発表した。ソフトウェア開発、知識を扱う仕事、科学分野の複数段階の処理を対象とする。GeminiアプリのGoogle AI Pro・Ultra向けや、Antigravity、Gemini APIなどで順次提供する。",
+      "whyItMatters": "高速な日常作業向けのHydrogenと、大きな難題向けのCarbonの間で、深い処理と効率の両立を狙うモデル。新しいAIを選ぶ際は同社内の役割の違いも材料になる。",
+      "impact": "PDFや表計算、コードを扱う作業で試す候補になる。すでに有料プランを使う人は、モデル選択画面への追加と利用上限を確認したい。",
+      "caution": "18日の発表。順次提供のため全アカウントへの同時到着は保証されない。速さや精度は独自検証していない。",
+      "references": [
+        {
+          "name": "Google 公式発表",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "web-stack-security-nov19-2026",
+      "theme": "日本経済",
+      "title": "PHP・WordPress・nginxに修正版、Web運営者は稼働版の確認を",
+      "summary": "PHP開発元は11月19日、セキュリティ修正版8.5.13、8.4.28、8.3.37、8.2.36を公開した。18日にはWordPress 7.1.5、nginxの1.30.7・1.31.9も公開され、それぞれ脆弱性を修正している。Web事業者や店舗のサイトにも関わるため、運営上の確認事項としてまとめる。",
+      "whyItMatters": "PHPの今回の重大な問題には、標準でない設定や一般的でない構成を必要とするものがある。10月のPHP2Shellと同じ範囲の危険があると一括りにせず、各製品の対象条件を確認する必要がある。",
+      "impact": "WordPressの更新表示、レンタルサーバー側のPHP・nginxの対応案内を確認したい。管理を委託している場合は、対象か、修正が適用済みかを担当者に照会する材料になる。",
+      "caution": "3製品は別々の問題。すべてのサイトが侵害されたという意味ではない。配布元による修正の取り込み状況も確認する。",
+      "references": [
+        {
+          "name": "PHP開発元",
+          "url": "https://www.php.net/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "WordPress公式",
+          "url": "https://wordpress.org/news/2026/11/wordpress-7-1-5-release/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "nginx開発元",
+          "url": "https://nginx.org/en/security_advisories.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "IPA",
+          "url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式の公開検索表示で事前警告と対象構成の留保を確認。公開後の版は開発元で照合。文章や図版は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "rakuten-sec-report-order-nov19",
+      "theme": "日本経済",
+      "title": "楽天証券の情報流出問題、金融庁が報告を求める命令",
+      "summary": "楽天証券は11月19日、金融庁から報告徴求命令を受けたと発表した。17日公表の不正アクセス問題では、最大約447万口座で氏名や住所、出金先口座などが、別に最大約1125万口座で顧客コードやログインIDが漏えいした可能性がある。",
+      "whyItMatters": "報告徴求は、当局が事実関係や原因、再発防止策などの説明を求める手続き。処分内容や被害がすべて確定したという意味とは異なる。",
+      "impact": "利用者は公式サイトから自分に関する案内と対策を確認したい。便乗した連絡にも注意し、メール中のリンクから認証情報を入力せず、普段の正規窓口を使うことが重要となる。",
+      "caution": "件数は可能性のある最大値で、実際の流出確定人数ではない。個々の口座被害は確認していない。",
+      "references": [
+        {
+          "name": "楽天証券",
+          "url": "https://www.rakuten-sec.co.jp/web/info/info20261117-02.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式公開表示で告知日と対象情報を確認。一部にエラー表示もあり、全機能を読んだ扱いにはしない。本文・画像は転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000549144.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "jama-material-standardization-nov19",
+      "theme": "日本経済",
+      "title": "国内自動車メーカーが部材共通化へ、鉄・樹脂・配線から検討",
+      "summary": "日本自動車工業会は11月19日、素材や部品の一部をメーカー間で共通化する取り組みを発表した。まず鉄、樹脂、ワイヤーハーネスを対象に、規格や評価基準の統一を進める方針。部品業界とも連携する。",
+      "whyItMatters": "メーカーごとの仕様に合わせる負担を減らし、供給網の競争力を高める狙いがある。国内の裾野が広い産業で、調達や開発の進め方に関わる動きとなる。",
+      "impact": "部品メーカーには対応する規格や評価方法が今後の確認点になる。消費者向けの車両価格がすぐ下がると決まったものではなく、実際の対象拡大や採用時期を見たい。",
+      "caution": "共通化の方針発表。すべてのメーカー・部品が統一済みとはしていない。",
+      "references": [
+        {
+          "name": "日本自動車工業会",
+          "url": "https://www.jama.or.jp/release/press_conference/2026/3908/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式の公開検索表示で19日の会見、対象3分野と供給網強化の説明を確認。動画は視聴扱いにせず、転載なし。"
+        },
+        {
+          "name": "朝日新聞 公開部分",
+          "url": "https://smart.asahi.com/v/article/ASVCM2S9MVCMULFA01BM.php",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開された冒頭で対象分野と方針を照合。有料部分は利用せず、見出し・本文・写真は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "jt-russia-loss-nov19",
+      "theme": "株式投資",
+      "title": "JTがロシア子会社の支配喪失で巨額損失、通期予想を赤字へ",
+      "summary": "JTは11月19日、ロシアの連結子会社7社を連結範囲から外すことに伴い、約1兆3770億円の損失を計上する見込みと発表した。2026年12月期の純損益予想は、従来の6620億円の黒字から7240億円の赤字へ修正された。",
+      "whyItMatters": "海外事業では売上だけでなく、事業を実際に支配できるかが連結決算に大きく影響する。今回の損失は、通常の商品の販売成績だけでは説明できない要因として読む必要がある。",
+      "impact": "株主は修正後の業績と配当の会社資料を合わせて確認したい。損失の規模から将来の株価や売買判断を一方向に決めるものではない。",
+      "caution": "会社の見通しであり確定した通期決算ではない。会計上の損失と同額の現金流出を意味するとは限らない。",
+      "references": [
+        {
+          "name": "JT公式資料",
+          "url": "https://www.jti.co.jp/investors/library/press_releases/pdf/2026/20261119_02.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式PDFの公開検索表示で子会社7社、損失見込みと予想修正を確認。PDF全文を読了した扱いにせず、表や文章の転載なし。"
+        },
+        {
+          "name": "共同通信 神戸新聞掲載",
+          "url": "https://www.kobe-np.co.jp/news/latest/zenkoku.shtml",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開一覧の記事部分で19日の発表、損失額と修正前後の純損益を照合。文章・写真は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-pricing-nov2026",
+      "theme": "株式投資",
+      "title": "AnthropicがIPO価格を83ドルに決定、Claude開発企業の資金調達",
+      "summary": "Anthropicは米国時間11月18日、株式公開の価格を1株83ドル、公開株式数を9億8000万株と発表した。19日にナスダックで売買を始める予定と案内していた。Reutersは公開規模を約813億ドルと報じた。",
+      "whyItMatters": "AIモデル開発企業が市場から巨額の資金を調達する動き。会社が売る株式と既存株主が売る株式があり、公開総額がすべて会社に入るわけではない。",
+      "impact": "投資家にはAI分野の資金需要と事業開示を確認する材料になる。公開価格、初値、現在の市場価格は別なので取り違えないようにしたい。",
+      "caution": "18日の価格決定を扱う。初値・終値・日本の各証券会社での取扱いは今回確認していない。買い推奨ではない。",
+      "references": [
+        {
+          "name": "Anthropic公式発表",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式の公開検索表示で価格、株数、取引開始予定と売出主体を確認。取得ページの表示範囲に限り、文章転載なし。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で価格と公開規模を照合。制限本文は利用せず、独自の少数事実の説明のみ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-market-nov19-close",
+      "theme": "株式投資",
+      "title": "日経平均は419円高、TOPIXは下落し指数で方向が分かれる",
+      "summary": "11月19日の東京市場で日経平均株価は前日比419円93銭高の5万9444円21銭で終えた。一方、TOPIXは1.53ポイント安の3822.47。日経平均の上昇が、市場全体で一様に株価が上がったことを示す日ではなかった。",
+      "whyItMatters": "日経平均とTOPIXでは対象とする銘柄や計算方法が異なる。主要指数が違う方向に動く日は、指数の数字だけで保有資産全体の状態を判断しにくい。",
+      "impact": "投資信託の比較では、自分の商品がどの指数に連動するかを確認する材料になる。19日の終値の記録で、20日の相場や将来のリターンの予測ではない。",
+      "caution": "19日の取引終了時点。値動きの原因を単一の材料に断定せず、個別売買は推奨しない。",
+      "references": [
+        {
+          "name": "岩井コスモ証券",
+          "url": "https://www.iwaicosmo.co.jp/investment/market/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "19日の公開市況で日経平均とTOPIXの終値を照合。投資推奨部分は採用せず、数字のみ独自記述。"
+        }
+      ]
+    },
+    {
+      "id": "us-china-russia-peace-declaration-nov19",
+      "theme": "国際情勢",
+      "title": "米中ロ首脳が初の3者会談、核戦争回避を確認も軍縮計画は示さず",
+      "summary": "トランプ米大統領、中国の習近平国家主席、ロシアのプーチン大統領は11月19日、深圳で初の3者会談を行った。中国とロシアが公表した平和宣言では核戦争を起こしてはならないと再確認したが、Reutersによると具体的な軍備管理協議の計画発表には至らなかった。",
+      "whyItMatters": "米国政治の観点では、大統領による外交方針の表明と、拘束力のある軍縮の合意・実施を分けて見る必要がある。首脳対話の実現だけで核兵器の削減が決まったわけではない。",
+      "impact": "日本を含む関係国には今後の安全保障協議が重要になる。次に確認したいのは、対象兵器、検証の方法、協議日程などが具体化するかであり、今回の宣言だけから結論は出せない。",
+      "caution": "宣言の公表主体は中国・ロシア。核削減条約の締結やウクライナ停戦の成立とはしていない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/jp/world/taiwan/YBQOKP6ZO5IUDNCOVC5PUHAAAQ-2026-11-19/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_international/articles/000549115.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "icj-rohingya-judgment-nov19",
+      "theme": "国際情勢",
+      "title": "ICJがロヒンギャ迫害を集団殺害と認定、ミャンマーの国家責任が焦点",
+      "summary": "国際司法裁判所（ICJ）は11月19日、ミャンマーのロヒンギャ迫害を巡る訴訟で、ジェノサイドに当たるとの判決を言い渡した。2017年の治安部隊による行為などが対象で、ガンビアが提訴していた。Reutersと共同通信の公開報道で確認した。",
+      "whyItMatters": "ICJは国家間の紛争を扱う国連の司法機関。今回問われた国家の責任と、個人の刑事責任を追及する国際刑事裁判所（ICC）の手続きは別のものとなる。",
+      "impact": "被害者の救済や帰還、今後の国際的な対応を見るうえで重要な判断。判決が出たことと、現地で安全や補償が実現したことは区別して、履行状況を見ていく必要がある。",
+      "caution": "裁判所原文は取得できず、複数の独立報道で判決の要点を照合。命令の細目や個人への有罪判決は断定しない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/jp/economy/XRTUC2UEV5KVLFFKEG5DVWZQ4Q-2026-11-19/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "共同通信",
+          "url": "https://kumanichi.com/articles/2059850",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "apec-shenzhen-declaration-nov19",
+      "theme": "国際情勢",
+      "title": "APECがAI活用で協力、貿易デジタル化の枠組みも公表",
+      "summary": "11月19日、深圳でAPEC首脳会議が開かれ、日本の高市首相が出席した。外務省は、貿易デジタル化の協力枠組みや雇用・繁栄に向けたデジタル技術活用の声明などが発出されたと公表。毎日新聞は、首脳宣言がAI活用と人間中心の技術革新を重視したと報じた。",
+      "whyItMatters": "21の国・地域が参加する経済協力の場で、AIを成長だけでなくデータ流出や詐欺への対応とも結び付けて扱った。新モデルの発売とは異なり、各国の政策協力の動きとして読むニュースとなる。",
+      "impact": "日本企業にはデータ流通や貿易手続きの整備が関係する。今後は共同文書が具体的な事業や国内制度にどう反映されるかが確認点となる。",
+      "caution": "声明や協力方針であり、国内の新しい義務や規制が直ちに施行されたという意味ではない。",
+      "references": [
+        {
+          "name": "外務省",
+          "url": "https://www.mofa.go.jp/mofaj/ecm/apec/pageit_000001_03339.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "政府の公開検索表示で会議日、首相出席、関連文書の発出を確認。写真・発言は転載なし。"
+        },
+        {
+          "name": "毎日新聞 公開配信",
+          "url": "https://home.kingsoft.jp/amp/news/news/mainichi/20261119k0000m030395000c",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "worker-support-income-floor-nov19",
+      "theme": "日本政治",
+      "title": "就業者向け支援金の年収下限を56万円程度へ、財務相が検討方針",
+      "summary": "片山財務相は11月19日の参院特別委員会で、就業者負担軽減支援金の対象となる年収下限を56万円程度とする方向で検討すると表明した。従来の53万円程度という説明から、最低賃金の上昇を踏まえて見直す方針。所得に応じた給付制度の設計が引き続き議論されている。",
+      "whyItMatters": "学生のアルバイトや短時間勤務を含め、働く人のどこに対象線を引くかが身近な争点となる。今回は財務相の答弁であり、個々の人の受給資格や振込日が確定したという意味ではない。",
+      "impact": "自分が対象か判断するには、最終的な所得条件、算定する年、申請方法の公表を待つ必要がある。次は国会での法案の扱いと政府の実施案内を確認したい。",
+      "caution": "検討方針と成立・施行は別。年収56万円だけで自動的に給付を受けられるとは断定しない。",
+      "references": [
+        {
+          "name": "共同通信 ライブドア掲載",
+          "url": "https://news.livedoor.com/article/detail/32855019/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "共同通信 琉球新報掲載",
+          "url": "https://ryukyushimpo.jp/kyodo/entry-5607359.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開冒頭で19日の答弁と下限方針を照合。同じ配信元のため独立した2社の裏付けとは数えない。購読部分や写真は未利用。"
+        }
+      ]
+    },
+    {
+      "id": "japan-dbs-system-delay-nov18",
+      "theme": "日本政治",
+      "title": "日本版DBSの専用システムを延期、制度開始と代替手続きを分けて確認",
+      "summary": "こども家庭庁は11月18日、日本版DBSで性犯罪歴を確認する専用システムに深刻な脆弱性が見つかり、当面システムで運用しない方針を示した。12月25日の制度開始は予定どおりとされ、書類などによる代替手段を12月初旬に示す方針。20日現在も対応が必要な未掲載情報として取り上げる。",
+      "whyItMatters": "日本版DBSは、子どもと接する仕事に関して性犯罪歴を確認する制度。法の施行日と、事業者が使う情報システムの稼働日は別で、システム延期が制度そのものの中止を意味するわけではない。",
+      "impact": "学校・保育などの事業者や就職を考える人には、確認の申請方法や必要書類が関係する。次に出る代替措置と対象事業者への正式案内を確認したい。",
+      "caution": "稼働前の問題として報道されたもの。実際に犯歴情報が流出したと確認されたニュースではない。",
+      "references": [
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000548798.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "時事通信 nippon.com掲載",
+          "url": "https://www.nippon.com/ja/articles/-/57655",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "political-funds-watchdog-target-2028",
+      "theme": "日本政治",
+      "title": "政治資金監視委を2028年4月までに、与野党が設置目標で一致",
+      "summary": "与野党8党は11月18日、政治資金監視委員会の制度設計を巡る協議で、2028年4月までの設置を目指すことで一致した。収支報告書を確認する第三者機関の具体化に向け、関連法案の作成を進める段階となる。",
+      "whyItMatters": "政治資金を監視する仕組みが政治からどれだけ独立し、疑いをどう調べるかが論点。公明・国民民主の骨子案には総務省への立ち入り検査要請が含まれ、権限の設計について議論が続いている。",
+      "impact": "政治と資金の透明性を評価するには、設置時期だけでなく委員の選び方、調査権限、結果公表の仕組みも見たい。次は実施法案の提出内容と国会の審査が確認点になる。",
+      "caution": "設置の目標時期への合意で、委員会が発足済み・実施法が成立済みという報道ではない。党の説明と独立報道を区別した。",
+      "references": [
+        {
+          "name": "時事通信 mixi掲載",
+          "url": "https://news.mixi.jp/view_news.pl?from=recent_list&id=9033347&media_id=4",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で8党の合意と未解決の制度論点を確認。文章や写真は転載しない。"
+        },
+        {
+          "name": "TBS",
+          "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3096125?display=1",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        },
+        {
+          "name": "公明党",
+          "url": "https://www.komei.or.jp/komeinews/p516017/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "協議参加者の公式公開検索表示で目標時期を照合。党の自己評価は事実扱いせず、本文・画像・発言は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "hiromi-ota-obituary-nov18",
+      "theme": "芸能ニュース",
+      "title": "太田裕美さんの死去を所属レーベルが公表、11月12日に逝去",
+      "summary": "ソニーミュージックは11月18日、歌手の太田裕美さんが闘病の末に11月12日に亡くなったと公表した。葬儀は近親者で行われたという。『木綿のハンカチーフ』などで知られる歌手の訃報として、公式告知と報道を確認した。",
+      "whyItMatters": "長年親しまれた歌手の活動に関わる大きな知らせ。実際に亡くなった12日と、発表された18日を区別し、20日の出来事として伝えない。",
+      "impact": "作品や過去の活動を振り返る際には、所属レーベルなどの正式な情報を確認できる。追悼番組や催しの開催については今回の告知では確認していない。",
+      "caution": "死去日は11月12日、公表日は18日。私生活の推測や未確認の病状の詳細は扱わない。",
+      "references": [
+        {
+          "name": "ソニーミュージック",
+          "url": "https://www.sonymusic.co.jp/artist/HiromiOta/info/588652",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式公開検索表示で死去日・告知日・葬儀実施を確認。告知文や画像は転載なし。"
+        },
+        {
+          "name": "ORICON NEWS",
+          "url": "https://www.oricon.co.jp/news/2493814/full/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "a-masso-kano-urayasu-2027",
+      "theme": "芸能ニュース",
+      "title": "Aマッソ加納が映像コント公演、1月の3日間・5公演を発表",
+      "summary": "11月19日、Aマッソ加納がプロデュースする『浦安ワンダーランド』の開催が発表された。2027年1月29～31日、東京のスタァライト劇場で全5公演を予定。遊園地を題材に映像コントと物語を組み合わせる。",
+      "whyItMatters": "テレビでの活動に加え、映像と劇場演出を組み合わせる新たな公演。実際の上演前なので、作品の出来や観客の評価はまだ判断できない。",
+      "impact": "料金は全席指定6500円で、19日から26日まで先行抽選を受け付ける案内。一般販売は12月13日からの予定なので、申し込む場合は主催側の受付条件を確認したい。",
+      "caution": "開催予定の発表。残席や当選を保証しない。抽選と先着販売の違い、変更情報は公式窓口で確認する。",
+      "references": [
+        {
+          "name": "ワタナベエンターテインメント",
+          "url": "https://www.watanabepro.co.jp/liveinfo/23050/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公式公開検索表示で会場・料金・先行期間を照合。本文や宣伝素材は転載なし。"
+        },
+        {
+          "name": "ORICON NEWS",
+          "url": "https://www.oricon.co.jp/news/2493811/full/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T08:44:58+09:00",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日付と発表内容を確認。少数の事実のみ独自に記述し、記事本文・見出し・画像・コメントは転載しない。"
+        }
+      ]
+    }
+  ]
+}
