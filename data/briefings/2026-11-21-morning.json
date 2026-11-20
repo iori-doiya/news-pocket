@@ -1,0 +1,791 @@
+{
+  "version": 1,
+  "id": "2026-11-21-morning",
+  "issueDate": "2026-11-21",
+  "cutoffAt": "2026-11-20T23:08:46Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "chatgpt-space-plus-rollout-nov20",
+      "theme": "AI",
+      "title": "ChatGPT SpaceがPlusへ拡大、共有ページやスライドを共同編集",
+      "summary": "OpenAIは11月20日、ChatGPT Spaceを18歳以上のPlus利用者へ世界で順次提供すると案内した。ChatGPTと対話しながらページやプレゼンテーションを作り、Spaceを使える相手を招待して共同編集できる。接続アプリの情報に応じてページなどを自動更新する機能も説明されている。\n\n共有先にも閲覧権限と、Spaceを利用できる対象アカウントが必要。公開リンクの提供ではなく、Free利用者は共有ページを開けない。",
+      "whyItMatters": "個人で質問して答えを得る用途から、更新を続ける資料を複数人で扱う用途への拡大。新モデルの発表とは別に、既存のChatGPTでできる作業が変わる更新となる。",
+      "impact": "授業の共同資料や制作の進行表などで試す候補になる。まずサイドバーにSpaceが届いているか、共同作業する相手も対象かを確認したい。接続情報の自動反映は権限と更新内容を確かめて使う。",
+      "caution": "20日の段階的提供開始。全アカウントで即時利用できるとは限らない。機能を実操作して性能検証したものではない。",
+      "references": [
+        {
+          "name": "OpenAI ChatGPTリリースノート",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文の11月20日項目で対象年齢・プラン・共有条件を確認。発表者の説明として記述し、文章・画面画像は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "gpt-live11-api-availability-nov20",
+      "theme": "AI",
+      "title": "GPT-Live-1.1がAPIで利用可能に、音声アプリの待機機能も追加",
+      "summary": "OpenAIは11月20日の開発者向け告知で、音声モデルGPT-Live-1.1のAPI提供を案内した。多言語の発音の一貫性、文字や数字の聞き取り、指示に沿った処理の改善を説明している。\n\nGPT-Live-1と1.1には、一定時間の無音後に処理を休止し、接続を保ったまま発話で再開するStandby設定も加わった。今回新しいのは開発者が自分のアプリへ組み込める提供で、ChatGPT Plus・Proの音声には10月15日から使われていたという。",
+      "whyItMatters": "ChatGPT本体の新モデル追加と、外部アプリ用のAPI公開を区別したい更新。会話を切らずに待てる仕組みは、電話対応や音声操作の設計で意味を持つ。",
+      "impact": "音声サービスを作る人には、聞き間違いの評価や待機中の費用を見直す材料になる。告知では待機が毎分0.02ドル、通常の稼働が0.05ドルで、裏側のモデル・ツール料金は別とされる。",
+      "caution": "改善は提供元の説明で未実測。APIはChatGPT契約とは別の料金体系。ニュースポケットの更新方式をAPIへ変更するものではない。",
+      "references": [
+        {
+          "name": "OpenAI 開発者向け公式告知",
+          "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開投稿の提供元による冒頭告知だけを確認。一般利用者の返信は根拠にせず、本文・見出しを転載しない。"
+        },
+        {
+          "name": "OpenAI モデル資料",
+          "url": "https://developers.openai.com/api/docs/models/gpt-live-1.1",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開モデル資料への案内とモデル識別子を照合。提供場所をAPIと区別し、非公開情報や有料機能にはアクセスしない。"
+        }
+      ]
+    },
+    {
+      "id": "genie4-project-api-nov2026",
+      "theme": "AI",
+      "title": "GoogleのGenie 4が対話で動く世界を生成、開発者向け提供も開始",
+      "summary": "Googleは11月18日、生成した空間を動きながら書き換えられる世界モデルGenie 4を発表した。Project Genieでは、対象のGoogle AI Ultra利用者へ順次提供し、Pro利用者には待機リストを案内している。\n\n19日にはGemini APIのInteractions APIとGoogle AI Studioからも利用できると発表。文字や画像から生成した環境で、移動しながら天候などを変更し、場面に応じた音声も生成する。18日の重要な未掲載発表を、19日の開発者向け展開と合わせて扱う。",
+      "whyItMatters": "普通の静止画・動画生成に加え、利用者の操作に応じて変わる空間を作る更新。Geminiの一般的なチャットモデルとは、用途と利用する場所が異なる。",
+      "impact": "空間デザインの試作や体験型コンテンツを考える際の候補になる。Googleは開発者向けに720p・毎秒24フレームと説明しているが、対応地域や利用枠、料金は利用画面・資料で確認する必要がある。",
+      "caution": "研究的な体験と提供元の仕様説明。日本の全利用者への提供や無料利用を確認したものではなく、物理的な正確さ・性能は未検証。",
+      "references": [
+        {
+          "name": "Google Project Genie公式発表",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で18日の発表、Ultra対象とPro待機リストを確認。自動要約欄に依存せず本文と照合し、素材を転載しない。"
+        },
+        {
+          "name": "Google 開発者向け公式発表",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で19日のAPI・AI Studio提供と主な仕様を確認。2つの提供経路を一件に統合し、文章・画像は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "japan-cpi-october2026-release",
+      "theme": "日本経済",
+      "title": "10月の物価は総合2.3％上昇、生鮮食品を除く指数は2.2％",
+      "summary": "総務省が11月20日に公表した10月の全国消費者物価指数は、総合で前年同月比2.3％上昇した。生鮮食品を除く指数と、生鮮食品・エネルギーを除く指数は、いずれも2.2％の上昇。2025年を100とする総合指数は103.1となった。",
+      "whyItMatters": "物価指数は、家計が買う商品やサービスの価格の動きをまとめた統計。上昇率が示すのは前年同月との比較で、今月すべての商品が同じ割合で値上がりしたという意味ではない。",
+      "impact": "家計では収入の伸びと普段の支出を照らし合わせる材料になる。支出の多い品目によって実感は異なるため、平均値だけで自分の負担を判断せず、固定費や食費の実額も見たい。",
+      "caution": "10月の統計を20日に発表したもの。日銀の利上げ決定や、今後の値上がりを確定させる発表ではない。",
+      "references": [
+        {
+          "name": "総務省統計局",
+          "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開結果の数値と対象月・公表日を確認。利用規約の数値データ・出典表示の扱いも確認し、図表・文章は転載しない。"
+        },
+        {
+          "name": "Reuters ニューズウィーク日本版掲載",
+          "url": "https://www.newsweekjapan.jp/articles/-/340767?display=b",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開配信の短報で総合・コアの上昇率を照合。無断転用禁止表示を確認し、配信文を転載せず事実のみ記述。"
+        }
+      ]
+    },
+    {
+      "id": "karte-restart-target-january2027",
+      "theme": "日本経済",
+      "title": "KARTEの段階的再開は1月中旬を目標に、停止期間の料金を請求せず",
+      "summary": "プレイドは11月20日、13日に発生したKARTEへの不正アクセスについて、社内の影響調査結果と再開方針を公表した。全サービスの停止が続くなか、構造面を含むシステム改善と第三者検証を行い、2027年1月中旬からの段階的再開を目指す。\n\n11月分と停止期間中の該当利用料金は請求しないと決定した。キャッシュ領域については内容を後から復元できず、個別にどのデータが読まれたかをすべて示せるわけではないと説明している。",
+      "whyItMatters": "顧客向けの計測・配信などを支えるサービスの停止が長期化する見通しで、利用企業の業務と、その顧客への説明に広く関係する。発生を繰り返すだけでなく、20日に示された復旧時期と料金対応が新しい情報。",
+      "impact": "導入企業は再開を前提に待つだけでなく、当面の代替運用や利用者への通知を検討する材料になる。消費者は自分が利用する企業の正式告知で対象情報を確認し、便乗メールのリンクから認証情報を入力しないようにしたい。",
+      "caution": "1月中旬は目標で確約ではない。社内調査の完了は、すべての個別漏えい・二次被害が確定したことを意味しない。",
+      "references": [
+        {
+          "name": "プレイド公式発表",
+          "url": "https://plaid.co.jp/news/20261120/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式の公開検索表示で調査の限界、再開目標、料金対応を確認。直接取得はエラーとなり全文読了とは扱わない。文章・画像は転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000549508.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で停止継続と利用企業への影響を照合。未確定の流出人数を合算せず、本文・写真は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "php-services-maintenance-followup-nov20",
+      "theme": "日本経済",
+      "title": "PHP対応でチケットなどのサービスに一時影響、再開状況は提供元で確認を",
+      "summary": "PHP修正版の19日夜の公開を受け、チケットやゲームなど複数のサービスが一時停止して対応したと、20日に報道された。イープラスはスマチケ、QRチケット、Streaming+の一時休止を告知していたが、今回確認した公式案内では全サービス再開としている。\n\nIPAも20日、修正済みの版と利用環境の確認を求める情報を公開した。前日便の修正版紹介から進んだ、利用サービスへの実際の影響と対応上の留意点を伝える。",
+      "whyItMatters": "Webサービスの安全対策は、運営者だけでなく予約・入場・配信を使う人にも影響する。停止があったことだけで侵害や個人情報流出が確認されたわけではなく、安全確保のための停止と区別が必要。",
+      "impact": "利用者は公演当日などの前に受取・表示の正規案内を確認したい。Web運営者はPHPの版だけで判断せず、設定や機能ごとの対象条件、サーバー会社の修正適用状況を照会する材料になる。",
+      "caution": "イープラスは確認時点で再開済み。他社の現在の稼働状況まで一律に断定しない。IPAは既定設定なら全脆弱性の影響がないとは判断しないよう注意している。",
+      "references": [
+        {
+          "name": "IPA",
+          "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "20日の公式公開本文で修正と影響条件の留保を確認。前日便の版数紹介を単純再掲せず、新しい注意点を独自記述。"
+        },
+        {
+          "name": "イープラス公式サポート",
+          "url": "https://support-qa.eplus.jp/hc/ja/articles/64500175402777",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で休止対象と全サービス再開の表示を確認。正確な再開時刻は確認できず記載しない。告知文や画像は転載なし。"
+        },
+        {
+          "name": "ITmedia NEWS",
+          "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003357/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "20日9時16分の記事の公開検索表示で複数サービスの一時停止を確認。本文取得では該当箇所を確認できず、全文読了とはしない。転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-market-nov20-close",
+      "theme": "株式投資",
+      "title": "日経平均は3007円安、TOPIXも3.88％下落",
+      "summary": "11月20日の東京株式市場で、日経平均株価は前日比3007円56銭安の5万6436円65銭となった。下落率は5.06％。TOPIXも148.25ポイント安の3674.22で、3.88％下落した。前日便で扱った19日の終値から大きく下げ、今回は両指数がそろって下落した。",
+      "whyItMatters": "一部の値がさ株だけの動きか、市場全体にも売りが広がっているかを見るうえで、複数の指数の確認が役立つ。NQNの公開市況は、AI・半導体関連を含む幅広い銘柄への売りを伝えている。",
+      "impact": "日本株の投資信託などを持つ人には、連動指数と保有比率を確認する材料となる。1日の下落から将来を決めつけず、必要資金の時期と許容できる値動きを整理することが大切になる。",
+      "caution": "20日の取引終了時点の記録。相場下落の原因を一つに断定せず、個別銘柄の売買を推奨しない。",
+      "references": [
+        {
+          "name": "NQN 野村證券の公開市況",
+          "url": "https://advance.quote.nomura.co.jp/meigara/nomura2/qsearch.exe?F=users/nomura/tse",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で20日の終値・前日比を確認。データベースの再配信や図表転載は行わず、当日の少数の市場事実のみ独自記述。"
+        },
+        {
+          "name": "日本経済新聞社 日経平均プロフィル",
+          "url": "https://indexes.nikkei.co.jp/nkave/archives/data?list=225",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "19・20日の終値を照合。指数の利用案内と権利表示を確認し、履歴表の複製・大量配信をせず少数事実に限定。"
+        }
+      ]
+    },
+    {
+      "id": "us-market-nov20-close",
+      "theme": "株式投資",
+      "title": "米ナスダックが5％超下落、S&P500も高値から10％超の下げ",
+      "summary": "米国時間11月20日の株式市場で、ナスダック総合指数は約5.3％、S&P500は約3.7％、ダウは約1.9％下落した。ReutersとAPは、S&P500とダウがそれぞれ過去の終値高値から10％を超える下落となったと報じた。",
+      "whyItMatters": "高値から10％以上下げる局面は一般に「調整」と呼ばれるが、これは過去の価格との比較であり、下落の終点や次の反発を示す指標ではない。AI関連株への売りが広がったことが報じられている。",
+      "impact": "米国株の指数連動商品を持つ人には、対象指数と為替の双方が評価額に関係する。日本時間21日朝に確認した米国20日の結果で、次の営業日の日本市場が同じ割合で動くと予測するものではない。",
+      "caution": "終値ベースの概数。下落理由の見解は市場報道であり、個別企業の価値や将来の株価を断定しない。",
+      "references": [
+        {
+          "name": "Reuters 米株終値報道",
+          "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "更新された公開検索表示で3指数の下落率と調整入りを確認。日中の速報値と終値を区別し、文章・画像は転載しない。"
+        },
+        {
+          "name": "AP 米主要指数結果",
+          "url": "https://apnews.com/article/c10b797a17c2acf37924d834efebe135",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "米20日21時30分UTCの公開配信で概数を独立照合。表の再配信や投資推奨は行わず、少数の数値事実のみ記述。"
+        }
+      ]
+    },
+    {
+      "id": "h3-mhi-launch-transfer-nov20",
+      "theme": "株式投資",
+      "title": "H3の一部形態は三菱重工が打ち上げ実施者に、1月の11号機から",
+      "summary": "JAXAと三菱重工は11月20日、LE-9エンジンType1Aを使うH3ロケットの「22形態」で、三菱重工が法律上の打ち上げ実施者も担うことで合意したと発表した。メインエンジン2基、補助ブースタ2本の構成を指す。\n\n三菱重工は11号機で情報収集衛星を2027年1月11日に打ち上げる予定と案内。他の機体形態などは段階的な移行を計画している。",
+      "whyItMatters": "三菱重工はすでに打ち上げ輸送サービスを提供していたが、法律上の実施者はJAXAだった。単に新しい打ち上げ日が決まっただけでなく、企業が担う責任範囲が変わる点が事業を見る材料となる。",
+      "impact": "宇宙事業の動向を追う際は、担当範囲、実際の打ち上げ、今後の他形態への移行を確認したい。今回の発表だけで、同社の利益増加額や株価の方向は判断できない。",
+      "caution": "打ち上げは予定で未実施。H3の全形態が一括で移管済みという意味ではなく、業績への定量的影響は未確認。",
+      "references": [
+        {
+          "name": "JAXA",
+          "url": "https://www.jaxa.jp/press/2026/11/20261120-1_j.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開発表で移行対象と従来の役割分担を確認。製品説明文や図版は転載せず少数事実を記述。"
+        },
+        {
+          "name": "三菱重工",
+          "url": "https://www.mhi.com/jp/news/261120.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開発表で11号機の予定日と実施者を照合。株価予測や投資推奨へ転用せず、画像・本文は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "us-funding-deadline-iran-nov20",
+      "theme": "国際情勢",
+      "title": "米政府の予算期限は12月11日、イラン戦費を巡り与野党が対立",
+      "summary": "Reutersは米国時間11月20日、連邦政府の資金を確保する議会協議が、イランとの戦争に使う予算などを巡って難航していると報じた。現在の資金手当ては12月11日まで。政権は国防費の追加を要求し、民主党内では戦費を制限するため強硬姿勢を取るか、政府機能の停止を避けるかで立場が分かれる。",
+      "whyItMatters": "政府閉鎖とは、予算が成立せず一部の行政業務が停止・縮小すること。大統領の要求だけで支出は決まらず、議会による予算の承認が必要になる。通常の上院手続きで合意を進めるには党派を超える賛成が重要となり、今は交渉段階にある。",
+      "impact": "米国の行政サービスや職員、政府と取引する事業者に関係する。日本への具体的な停止影響はまだ確定していない。次は短期間の延長予算か、年度分の予算法案か、どの範囲の合意が期限までに成立するかを見たい。",
+      "caution": "政府閉鎖が起きたというニュースではない。戦費への賛否と閉鎖への賛否も同じではなく、民主党内にも閉鎖反対の立場がある。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/congress-struggles-avert-us-shutdown-iran-war-divides-lawmakers-2026-11-20/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で期限・協議の段階・党内の立場の違いを確認。直接取得はエラーで、全文読了と記録しない。独自記述のみ。"
+        },
+        {
+          "name": "米議会調査局の公開報告書",
+          "url": "https://www.everycrsreport.com/files/2026-09-17_R49353_23c606391f06ea931ebe02a8ffd1e374d807cca9.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "米議会調査局報告書の公開検索表示で、現行つなぎ予算の12月11日期限を照合。過去資料を新たな議決とは扱わず、PDFの文章・表は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "us-overseas-datacenter-tax-threat-nov20",
+      "theme": "国際情勢",
+      "title": "トランプ氏が海外データセンターへの課税方針を表明、制度の詳細は未確認",
+      "summary": "トランプ米大統領は米国時間11月20日の記者会見で、米企業が国外にデータセンターを建設する場合に重い税を課す考えを述べた。ReutersとAPの公開報道で確認した。米国内にAIの計算基盤を集め、中国との競争力を保つという政権の考えが背景にある。",
+      "whyItMatters": "データセンターはAIだけでなく、通信の遅延を抑えるため利用者の近くにも設けられる。国内への投資を求める政権の方針と、電力・水・地域負担を懸念する住民側の問題が並存している。",
+      "impact": "米企業の海外設備投資に関わる発言だが、日本の施設が具体的にどう扱われるかは確認できていない。次に見るべきは、課税対象、税率、開始時期、法律や行政措置など実施の根拠が正式に示されるかどうかとなる。",
+      "caution": "大統領の方針表明で、課税が成立・施行されたとは確認していない。日本向けサービスの終了や料金上昇が決まったものでもない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開配信の会見報道で発言と背景を確認。発言を施行済みの政策と区別し、引用文・写真は転載しない。"
+        },
+        {
+          "name": "AP Greenwich Time掲載",
+          "url": "https://www.greenwichtime.com/business/article/us-tech-companies-build-ai-data-centers-countries-22541823.php",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で会見内容と地域の負担を巡る論点を独立照合。記事の論調・発言をコピーせず、少数事実の独自説明に限定。"
+        }
+      ]
+    },
+    {
+      "id": "cop31-fossil-finance-overtime-nov20",
+      "theme": "国際情勢",
+      "title": "COP31が延長交渉に、化石燃料と途上国支援の文言が焦点",
+      "summary": "トルコのアンタルヤで開かれている国連気候変動会議COP31は、現地11月20日、化石燃料や資金支援を巡る対立で予定を超えて交渉を続けたとReutersが報じた。最終合意の案から化石燃料の使用を減らす表現が外れ、各国の立場の違いが残っている。",
+      "whyItMatters": "COPは各国が温暖化対策を交渉する会議で、案の公表と各国による採択は別。化石燃料の利用をどう減らすかに加え、被害への備えに必要な費用を誰が負担するかが重要な争点となる。",
+      "impact": "エネルギー政策や企業の脱炭素投資を追ううえで、最終文書の内容は確認したい材料。日本の家計負担が直ちに変わると決まったわけではない。採択文書、資金目標、実施計画の有無を次に見たい。",
+      "caution": "確認時点の交渉状況。合意案の記述を採択済みと扱わず、今後の結論は未確認。",
+      "references": [
+        {
+          "name": "Reuters KELO掲載",
+          "url": "https://kelo.com/2026/11/20/cop31-climate-talks-spill-into-overtime-as-nations-quarrel-over-fossil-fuels/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開配信で20日の延長交渉と主要争点を確認。交渉参加者の評価を事実に置き換えず、文章・写真は転載しない。"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/43a5aa99d97cf290a77a14b09ed025b6",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で合意案の段階と温暖化対策の論点を独立照合。最終決定を確認したとはせず、報道表現は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "japan-land-permission-committee-nov20",
+      "theme": "日本政治",
+      "title": "重要施設周辺の土地取引を許可制へ、改正案が衆院委で可決",
+      "summary": "衆院内閣委員会は11月20日、安全保障上重要な施設周辺などの土地取引に事前許可制を導入する改正案を賛成多数で可決した。共同通信によると、対象区域や不許可の判断基準を明確にするよう政府へ求める付帯決議も採択した。\n\n案は、一定の重要施設の周囲約1000メートルや無人の国境離島などを規制区域とし、外国政府・外国軍関係者などへの所有権移転を制限する内容。委員会での採決であり、法律が成立した段階ではない。",
+      "whyItMatters": "政府は安全保障上の危険に備える必要性を説明する一方、審議では憲法上の財産権や、思想信条などへの過剰な調査を避ける仕組みが問われた。賛成した会派からも歯止めを求める声が出ており、安全保障か権利保障かという二者択一では読めない。",
+      "impact": "対象地域の土地所有者や取引関係者には、区域指定と許可の条件が重要になる。次は衆院本会議と参院の審議、成立する場合の施行時期・具体的な判断基準を確認したい。現在の取引への適用を一律に断定できない。",
+      "caution": "衆院委員会可決と法律成立・施行は別。衆院公式の審議経過ページには結果欄が未反映で、採決結果は20日の報道による。",
+      "references": [
+        {
+          "name": "共同通信 デイリースポーツ掲載",
+          "url": "https://round.gslb.daily.co.jp/society/politics/2026/11/20/0021054441.shtml",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開配信で委員会可決、付帯決議、権利保障の論点を確認。独自の構成で制度段階を説明し、文章・発言・写真は転載しない。"
+        },
+        {
+          "name": "衆議院 議案審議経過",
+          "url": "https://www.shugiin.go.jp/Internet/itdb_gian.nsf/html/gian/keika/1DE36CA.htm",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開表示で議案名、提出者、付託を照合。審査結果等の欄は未記載だったため、可決や施行の一次確認済みとは記録しない。"
+        }
+      ]
+    },
+    {
+      "id": "foreign-agent-registration-outline-nov20",
+      "theme": "日本政治",
+      "title": "外国政府のための政治活動に届け出を求める案、政府が制度概要を提示",
+      "summary": "政府は11月20日の有識者会議で、外国政府などのために日本の選挙や政策へ影響を与える活動をする個人・団体について、届け出と内容公表を求める制度の概要案を示した。指示や依頼に基づく活動、外国政府の利益を図る目的、公務員への接触や情報発信などの行為を要件として検討している。\n\n身分を偽ったり相手を威迫したりして不当に干渉する行為への罰則も検討対象。報道によると、政府は来年の通常国会への法案提出を目指している。",
+      "whyItMatters": "外国からの不透明な影響を明らかにする狙いと、表現・政治活動を過度に制約しない制度設計の両立が焦点となる。「外国代理人」は国籍だけを指す言葉ではなく、どのような関係・目的・行為を対象にするかを確認する必要がある。",
+      "impact": "政治活動や情報発信に関わる団体には、最終的な対象要件と届け出先、情報の公表範囲が重要になる。会議では国会への報告など民主的な統制も論点に挙がった。次は骨子案、実際に提出される法案、国会審議での歯止めを見たい。",
+      "caution": "政府の検討案で、届け出義務や罰則が施行されたわけではない。対象者への個別の法的判断や、特定団体が代理人だとの推測はしない。",
+      "references": [
+        {
+          "name": "内閣官房 有識者会議一覧",
+          "url": "https://www.cas.go.jp/jp/seisaku/intelligent_features_kyoka/index.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開検索表示で20日の第3回会議を確認。直接取得は404で、会議資料全文を読んだ扱いにはしない。転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000549458.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で対象活動と法案提出目標を確認。権利表示を確認し、表現・写真の転載や特定記事全文の要約を行わない。"
+        },
+        {
+          "name": "日テレNEWS NNN ライブドア掲載",
+          "url": "https://news.livedoor.com/article/detail/32865313/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で3要件と国会への報告を巡る論点を独立照合。直接取得ではエラーとなり、全文読了とは記録しない。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-swindlers-next-series-nov2026",
+      "theme": "芸能ニュース",
+      "title": "『地面師たち』の新シリーズが制作へ、綾野剛・豊川悦司が再び主演",
+      "summary": "Netflixは『地面師たち』の新シリーズ制作を発表した。綾野剛と豊川悦司が再び主演し、大根仁が監督・脚本を担当。2027年にNetflixで世界独占配信する予定と、11月20日朝の報道で伝えられた。原作は新庄耕の『地面師たち クラスター』となる。",
+      "whyItMatters": "前作で広く知られた人物や制作陣が続くシリーズの新しい動き。単なる出演者の発言や噂ではなく、制作と配信年を伴う発表として取り上げる。",
+      "impact": "前作を見た人には次の作品を待つ手がかりになる。具体的な配信日や話数は今回の確認範囲では分からず、視聴の予定を立てる際は今後の正式案内を確認したい。",
+      "caution": "Netflix公式ページは11月19日表記、国内報道は20日発表としているため両日を区別。配信開始済みではなく、コメントや作品画像は転載しない。",
+      "references": [
+        {
+          "name": "Netflix公式発表",
+          "url": "https://about.netflix.com/ja/news/tokyo-swindlers-new-season-announcement",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開検索表示で制作と続投者を確認。直接取得はエラーで、告知文全文や画像を利用したとは扱わない。"
+        },
+        {
+          "name": "日刊スポーツ",
+          "url": "https://www.nikkansports.com/m/entertainment/news/202611190001038_m.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "20日6時の公開配信で配信年・原作・主要制作陣を照合。発言引用や宣伝素材は採用せず、少数事実を独自記述。"
+        }
+      ]
+    },
+    {
+      "id": "sakurada-thursday-drama-jan2027",
+      "theme": "芸能ニュース",
+      "title": "桜田ひより主演の新ドラマ、1月からフジ木曜22時に放送へ",
+      "summary": "フジテレビの公開情報サイトは11月20日、2027年1月期の木曜劇場で、桜田ひより主演の『この世は戦う価値がある』を放送すると発表した。毎週木曜22時の予定で、桜田にとってゴールデン・プライム帯ドラマの初単独主演となる。こだまはつみの漫画を実写化し、脚本は倉光泰子、演出は紙谷楓が担当する。",
+      "whyItMatters": "漫画の実写化と連続ドラマの主要枠での新しい主演作という、作品に関する具体的な発表。役作りの外見だけを話題にせず、何がいつ見られるかを中心に扱う。",
+      "impact": "来期のドラマを探している人には、出演者と放送枠を確認する材料になる。初回の具体的な日付や見逃し配信の条件は、今回読んだページの範囲では確認できていない。",
+      "caution": "放送予定の発表段階。作品の出来・視聴率・未発表キャストを予測せず、原作の筋書きを詳しく再現しない。",
+      "references": [
+        {
+          "name": "フジテレビ めざましmedia",
+          "url": "https://mezamashi.media/articles/-/376550",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開第1ページで放送枠・主演・原作と制作担当を確認。後続のコメントページは読んだ扱いにせず、あらすじ・見出し・写真は転載しない。"
+        },
+        {
+          "name": "TV LIFE チバテレ掲載",
+          "url": "https://www.chiba-tv.com/plus/detail/2026112241485",
+          "publishedAt": null,
+          "accessedAt": "2026-11-20T23:05:14Z",
+          "usage": "facts-only",
+          "reviewNote": "公開された冒頭で主演と2027年1月期の予定を照合。配信記事の全文取得・転載は行わない。"
+        }
+      ]
+    }
+  ],
+  "researchLog": {
+    "candidateCount": 66,
+    "method": "国内主要・経済一覧、海外主要報道一覧、IT専門一覧、IPA・JPCERT/CCを確認した後、6テーマの個別検索と7日間の既掲載比較を実施。候補の発見と本文・一次情報の確認完了は区別する。候補数は発見段階と既掲載再点検を含み、すべて取材完了の意味ではない。",
+    "selected": [
+      {
+        "id": "chatgpt-space-plus-rollout-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "gpt-live11-api-availability-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "genie4-project-api-nov2026",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "japan-cpi-october2026-release",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "karte-restart-target-january2027",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "php-services-maintenance-followup-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "tokyo-market-nov20-close",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "us-market-nov20-close",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "h3-mhi-launch-transfer-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "us-funding-deadline-iran-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "us-overseas-datacenter-tax-threat-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "cop31-fossil-finance-overtime-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "japan-land-permission-committee-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "foreign-agent-registration-outline-nov20",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "tokyo-swindlers-next-series-nov2026",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      },
+      {
+        "id": "sakurada-thursday-drama-jan2027",
+        "reason": "新しい提供・決定・交渉・公表値または重要な続報を確認。各referencesに実際の読取範囲を記録。"
+      }
+    ],
+    "notSelected": [
+      {
+        "topic": "GPT-6.2 Astra／Sol",
+        "reason": "既掲載。11月20日便と重複するため再掲しない。"
+      },
+      {
+        "topic": "Gemini 4 Neon",
+        "reason": "既掲載。11月20日便と重複するため再掲しない。"
+      },
+      {
+        "topic": "Microsoft Code 2",
+        "reason": "11月18日便に既掲載。新しい提供事実は今回採用しない。"
+      },
+      {
+        "topic": "Qwen4-Max",
+        "reason": "11月17日便に既掲載。公式ブログは今回は読める行がなく、追加確認済みとはしない。"
+      },
+      {
+        "topic": "Microsoft Perception一般提供",
+        "reason": "公式11月17日発表と国内20日報道を確認。重要だがAI上限3件の比較で、より新しい提供拡大と新モデルを優先して未掲載。"
+      },
+      {
+        "topic": "Mac版Geminiのcomputer use",
+        "reason": "ITmedia20日の一覧で候補発見。米国先行の詳細な公式条件確認は未了、既存AI新機能として調査候補に留める。"
+      },
+      {
+        "topic": "Google宇宙AI基盤とBlue Origin",
+        "reason": "ITmedia20日一覧で候補確認。2029年計画で、今回の直接利用できる更新より優先度を下げた。"
+      },
+      {
+        "topic": "OpenAI MedChemBench",
+        "reason": "公式20日一覧で確認。研究評価の発表で、一般利用の新モデル提供とは分けて不採用。"
+      },
+      {
+        "topic": "OpenAI Performance Factory",
+        "reason": "公式19日一覧。内部技術の解説で、今回の主要機能公開を優先。"
+      },
+      {
+        "topic": "OpenAIとLe Figaro提携",
+        "reason": "公式18日一覧。日本の利用者向けの具体的な新しい利用条件を確認できず優先度を下げた。"
+      },
+      {
+        "topic": "Anthropic IPO完了",
+        "reason": "公式20日検索表示で確認。資金調達の続報だが19日価格発表は既掲載、今回は市場全体とH3の企業事業変更を優先。"
+      },
+      {
+        "topic": "Mistral Studio",
+        "reason": "公式一覧の最新は11月5日。7日間の新着とは数えず不採用。"
+      },
+      {
+        "topic": "xAI GrokBot",
+        "reason": "公式一覧で11月11日項目を確認。7日間の新着とは数えず不採用。"
+      },
+      {
+        "topic": "DeepSeek APIツール",
+        "reason": "公式ページと11月15日便で照合。既掲載のため不採用。"
+      },
+      {
+        "topic": "Metaの公式更新一覧",
+        "reason": "取得できた一覧は直近11月の確認に不十分。全社の新情報なしとは判断しない。"
+      },
+      {
+        "topic": "KARTE導入各社の情報漏えい",
+        "reason": "各社報道を候補比較。同一基盤の被害を何件にも分割せず、プレイドの20日再開方針に統合。"
+      },
+      {
+        "topic": "Peachの情報漏えい",
+        "reason": "テレビ朝日20日の公開情報で候補確認。日本経済上限3件で、物価・KARTE・Web運営と利用者への広い影響を優先し未掲載。"
+      },
+      {
+        "topic": "デジタル庁GSSファイル共有漏えいの可能性",
+        "reason": "20日の一次発表とINTERNET Watch等で照合。重要だが日本経済上限3件との比較で未掲載。非AIの問題をAIに分類せず、報告対象。"
+      },
+      {
+        "topic": "ハンコヤドットコム決済情報",
+        "reason": "ITmedia20日一覧で候補確認。個別の対象と対処の一次確認が未了、未掲載。"
+      },
+      {
+        "topic": "Airターミナル6の脆弱性",
+        "reason": "JPCERT/CC20日のJVN一覧で確認。詳細な影響条件の検証が未了、未掲載。"
+      },
+      {
+        "topic": "Node-REDの悪意あるフロー",
+        "reason": "JPCERT/CC19日の重要情報で候補確認。個別環境への影響の追加取材が必要、未掲載。"
+      },
+      {
+        "topic": "OpenJDKの脆弱性",
+        "reason": "IPA・JPCERT/CC18日の一覧。重大候補として再点検したが詳細の対象条件確認未了、未掲載。"
+      },
+      {
+        "topic": "ImageMagick関連の脆弱性",
+        "reason": "JPCERT/CC週報18日一覧で候補確認。詳細な一次条件の確認未了、未掲載。"
+      },
+      {
+        "topic": "WordPress 7.1.5",
+        "reason": "11月20日便に既掲載。今回は修正版の単純な再掲をしない。"
+      },
+      {
+        "topic": "nginxの修正版",
+        "reason": "11月20日便に既掲載。新しい影響を確認できず再掲しない。"
+      },
+      {
+        "topic": "Microsoft製品の月例修正",
+        "reason": "IPA・JPCERT/CC一覧を再点検。11日公表のものを今日の新情報とはしない。"
+      },
+      {
+        "topic": "2026年産米の収穫見込み",
+        "reason": "20日の国内主要一覧で候補確認。詳細な統計取材は未了、物価全体の公表を優先。"
+      },
+      {
+        "topic": "大型マグロ漁獲枠",
+        "reason": "20日の国内主要一覧で候補確認。家計への直接価格効果は未確認、重要度比較で不採用。"
+      },
+      {
+        "topic": "日本とサウジの原油備蓄合意",
+        "reason": "20日の総合一覧で候補確認。具体的な条件照合は未了、未掲載。"
+      },
+      {
+        "topic": "大学生内定率73.0％",
+        "reason": "厚労省20日の一次発表を確認。10月1日時点・前年比0.4ポイント低下。日本経済上限3件で未掲載、今後も就職関連として追う。"
+      },
+      {
+        "topic": "タマホームの保険請求問題",
+        "reason": "総合一覧で候補発見。疑惑と認定を区別するため裏付け不足では掲載しない。"
+      },
+      {
+        "topic": "JTのロシア事業損失",
+        "reason": "11月20日便に既掲載。株価反応だけで独立した再掲をしない。"
+      },
+      {
+        "topic": "楽天証券への財務相発言",
+        "reason": "ITmedia20日一覧。報告徴求は前日便に既掲載、発言のみの続報で件数を増やさない。"
+      },
+      {
+        "topic": "文科相への辞任要求",
+        "reason": "20日の主要一覧で候補確認。重要決定と直接関係する新事実の詳細照合が不十分で不採用。"
+      },
+      {
+        "topic": "衆院比例定数の法案審議",
+        "reason": "11月17・18日便に既掲載。新しい採決や成立を確認できず再掲しない。"
+      },
+      {
+        "topic": "日中関係についての世論調査",
+        "reason": "20日の総合一覧。政策の重要な決定・進展を優先して不採用。"
+      },
+      {
+        "topic": "児童虐待を巡る全国確認方針",
+        "reason": "国内政治一覧で候補発見。決定内容の一次照合が未了、未掲載。"
+      },
+      {
+        "topic": "政治資金監視委員会",
+        "reason": "11月20日便に既掲載。新たな立法結果は確認できず再掲しない。"
+      },
+      {
+        "topic": "日本版DBSのシステム延期",
+        "reason": "11月20日便に既掲載。代替手続きの確定という新事実は今回確認できず再掲しない。"
+      },
+      {
+        "topic": "米大統領の拒否権方針",
+        "reason": "Reuters20日の報道で候補確認。実際の拒否権行使ではなく、国際情勢上限3件で予算協議などを優先し未掲載。"
+      },
+      {
+        "topic": "米中ロの3者会談",
+        "reason": "11月20日便に既掲載。会談の評価だけで繰り返さない。"
+      },
+      {
+        "topic": "ロヒンギャを巡るICJ判決",
+        "reason": "11月20日便に既掲載。新しい履行事実を確認できず再掲しない。"
+      },
+      {
+        "topic": "APEC共同文書",
+        "reason": "11月20日便に既掲載。再掲しない。"
+      },
+      {
+        "topic": "M-1準決勝進出者発表の予定",
+        "reason": "11月15日便に既掲載。21日夜の予定を結果として扱わない。"
+      },
+      {
+        "topic": "太田裕美さんの訃報",
+        "reason": "11月20日便に既掲載。再掲しない。"
+      },
+      {
+        "topic": "Aマッソ加納の新公演",
+        "reason": "11月20日便に既掲載。新事実のない再掲をしない。"
+      },
+      {
+        "topic": "PERFECT DAYSの再上映",
+        "reason": "映画ニュース一覧で候補確認。今回は新シリーズ・来期ドラマの正式発表を優先。"
+      },
+      {
+        "topic": "VIVANT出演者のSNS投稿",
+        "reason": "芸能一覧で候補確認。作品の重大な新発表ではなく不採用。"
+      },
+      {
+        "topic": "韓国大学入試とAI不正疑惑",
+        "reason": "IT一覧で候補発見。詳細の確認が不十分で重大な疑惑を断定しない。"
+      },
+      {
+        "topic": "北日本などの荒天",
+        "reason": "11月18日便に掲載済み。最新の警報・被害の具体的な新事実を確認しないまま再掲しない。"
+      }
+    ],
+    "officialAiChecked": [
+      {
+        "url": "https://openai.com/news/",
+        "result": "公式一覧取得。GPT-6.2は既掲載。"
+      },
+      {
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "result": "公式本文取得。20日Space、19日モバイル更新を確認。"
+      },
+      {
+        "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "result": "公式本文取得。17日GPT-6.2のAPI更新は既掲載。"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "result": "18日の本文取得。19日のAPI提供も取得し一件化。"
+      },
+      {
+        "url": "https://www.anthropic.com/news",
+        "result": "公式一覧取得。IPO関連を比較。全製品の更新なしとは断定しない。"
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+        "result": "17日の公式本文取得。AI上限3件の比較で未掲載。"
+      },
+      {
+        "url": "https://about.fb.com/news/",
+        "result": "公式一覧は取得したが見えた範囲は7月中心。直近更新を網羅確認できたとはしない。"
+      },
+      {
+        "url": "https://x.ai/news",
+        "result": "公式一覧取得。見えた最新11日項目は7日間の外。"
+      },
+      {
+        "url": "https://mistral.ai/news/",
+        "result": "公式一覧取得。見えた最新11月5日。"
+      },
+      {
+        "url": "https://qwen.ai/blog",
+        "result": "ページに読める行がなく未確認。Qwen4-Maxは17日便と比較。"
+      },
+      {
+        "url": "https://www.deepseek.com/",
+        "result": "公開ページ取得。APIツールは既掲載。"
+      }
+    ],
+    "coverageGaps": "Meta直近一覧、Qwen本文、Gemini Mac新機能の公式詳細等は未確認。全社の新情報がないという意味ではない。日本経済上限のためGSS、Peach、内定率等を未掲載。重要度を再比較したうえで広い物価・停止と漏えい・Web対策を採用。",
+    "rightsReview": "特定記事全文の要約・本文画像見出しのコピー・制限回避・RSS大量取得は行わず、公開された少数事実のみ独自記述。統計局の利用規約では数値データと出典記載を確認。放送局の権利表示と転載禁止、各ページの権利表示を確認し、全文要約許諾とはしない。個別の全文転載許諾や包括ライセンスは取得していない。取得できなかった規約ページを確認済みにはしない。",
+    "rightsPagesRead": [
+      "https://www.stat.go.jp/info/riyou.html",
+      "https://www.tv-asahi.co.jp/rights/",
+      "https://policies.google.com/terms?hl=ja",
+      "https://openai.com/policies/terms-of-use/"
+    ],
+    "unavailable": [
+      "一部Reuters記事の直接取得（公開検索表示で確認）",
+      "プレイド20日発表の直接取得（公式公開検索表示で確認）",
+      "Netflix発表の直接取得（公式公開検索表示と国内報道を照合）",
+      "内閣官房一覧の直接取得404（公開検索表示で開催を確認）",
+      "ITmedia規約ページの直接取得",
+      "Netflix規約ページの直接取得"
+    ]
+  }
+}
