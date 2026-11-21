@@ -1,0 +1,866 @@
+{
+  "version": 1,
+  "id": "2026-11-22-morning",
+  "issueDate": "2026-11-22",
+  "cutoffAt": "2026-11-21T23:13:58Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "japan-security-documents-draft-nov21",
+      "theme": "日本政治",
+      "title": "安保3文書改定で原潜導入が論点、検討方針の記載を調整と報道",
+      "summary": "読売新聞は11月21日、政府が12月の安全保障3文書改定で、原子力潜水艦の導入の是非を検討し結論を得る方針を盛り込む方向で調整していると報じた。共同通信も20日に政府素案の内容を報道した。文書は日本の防衛方針や装備整備の基礎となるが、今回は関係者取材に基づく案の報道で、導入の決定ではない。",
+      "whyItMatters": "国の安全保障と今後の予算配分に関わる重要な論点。関連して核兵器を持たず、作らず、持ち込ませずとする非核三原則も議論されている。TBSの21日の取材では、維新側が「持ち込ませず」の検討を求める一方、自民側には現行原則の見直しに否定的な立場があり、与党内でも一致していない。",
+      "impact": "次は有識者の報告、与党協議、政府が正式に決める改定文書を確認したい。検討開始、装備の導入、必要予算の成立はそれぞれ別の段階であり、費用・運用体制・安全管理がどう説明されるかも重要になる。",
+      "caution": "政府素案そのものは取得できていない。原潜に関する検討と核兵器の保有を同じ決定として扱わず、未決定の制度変更を断定しない。",
+      "references": [
+        {
+          "name": "読売新聞 ライブドア掲載",
+          "url": "https://news.livedoor.com/article/detail/32866462/",
+          "publishedAt": "2026-11-20T20:00:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で21日の調整方針と未確定の書きぶりを確認。関係者取材による報道と明示し、見出し・写真・表現は転載しない。"
+        },
+        {
+          "name": "TBS NEWS DIG",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3102737?display=1",
+          "publishedAt": "2026-11-20T21:00:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開第1ページで21日の与党内の立場の違いと非核三原則の説明を照合。後続ページの読了とはせず発言は引用しない。"
+        },
+        {
+          "name": "共同通信 神戸新聞掲載",
+          "url": "https://www.kobe-np.co.jp/news/zenkoku/compact/202611/0021056261.shtml",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "20日の公開検索表示で政府素案に関する報道を照合。公表済みの正式文書を確認したとは記録せず、文章・画像は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "us-proxy-vote-quorum-ruling-nov20",
+      "theme": "国際情勢",
+      "title": "米控訴裁が下院の代理投票に違憲判断、当面の差し止めは限定",
+      "summary": "米第5巡回区控訴裁判所は11月20日、新型コロナ流行時の下院の代理投票を巡り、2022年の歳出法の成立手続きに憲法上の問題があると判断した。Reutersによると、妊娠中の労働者を保護する法律の一部をテキサス州に執行しないよう命じた差し止めを維持した。",
+      "whyItMatters": "争点は「定足数」、つまり議会が議決するために必要な出席人数の数え方。多数意見は議員の物理的な出席を必要としたが、反対意見は憲法にない条件を加えたと批判する。議会の手続きと裁判所の審査権限がぶつかる重要な司法判断となる。",
+      "impact": "直接の救済対象はテキサス州への特定規定の執行であり、歳出法全体が全国で一斉に無効になったという意味ではない。次は上訴の有無と、判断がどこまで適用されるかについて裁判所が示す内容を確認したい。",
+      "caution": "控訴裁の判断と最高裁の確定判断は別。個別の労働者の権利や雇用主の義務を、この短報だけで判断しない。",
+      "references": [
+        {
+          "name": "米第5巡回区控訴裁判決 Justia掲載",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca5/24-10386/24-10386-2026-11-20.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "判決の公開検索表示で事件番号・20日の判断・妊娠労働者法に関する争点を照合。直接取得は失敗し、全文読了とは扱わない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/us-house-unconstitutionally-passed-spending-bill-2022-court-rules-2026-11-21/",
+          "publishedAt": "2026-11-21T02:02:59Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索配信で判断、反対意見、差し止めの限定範囲を確認。少数事実を独自に記述し、判決や報道の文言は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "kobe-nonresident-condo-tax-proposal-nov20",
+      "theme": "日本政治",
+      "title": "神戸市が都心マンションの非居住住宅に新税案、所有者が対象に",
+      "summary": "神戸市は11月20日更新の市会資料に、都心マンション非居住住宅税の条例案を掲載した。都心機能誘導地区内にあるマンションの非居住住宅の所有者を対象に、住宅の価値と立地・床面積に応じた税額を合算する案。読売新聞は21日、市が27日の市議会への提出を予定していると報じた。",
+      "whyItMatters": "自治体が条例で独自に設ける税の案で、投資目的などで使われていない住戸の活用を促す狙いがある。全国の空き家や賃貸住宅に一律に新税がかかる話ではなく、地域・用途・例外規定を確認する必要がある。",
+      "impact": "対象地域の所有者は、非居住の定義や事業利用などの減免条件が今後の確認点となる。借り手の家賃への転嫁や住宅価格の下落が決まったわけではない。次は議会の審議と採決、正式な施行日の案内を見たい。",
+      "caution": "条例案で未施行。市の一次資料では施行日は規則で定めるとしており、報道の導入目標年を確定日として記載しない。",
+      "references": [
+        {
+          "name": "神戸市会 議案一覧",
+          "url": "https://www.city.kobe.lg.jp/z/shikaijimukyoku/giann_etc/r8/11gatsukekka.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文の第70号議案で対象、税額構成、減免と施行日の定め方を確認。結果欄は未記載で、成立済みとは扱わない。"
+        },
+        {
+          "name": "読売新聞 ライブドア掲載",
+          "url": "https://news.livedoor.com/article/detail/32866996/",
+          "publishedAt": "2026-11-20T21:55:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で20日の案取りまとめと27日の提出予定を照合。制度を自分の言葉で説明し、記事・見出し・画像は転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "poland-airspace-nato-response-nov21",
+      "theme": "国際情勢",
+      "title": "ポーランド領空への飛来物を巡りNATOが連帯、23日に協議予定",
+      "summary": "ポーランドが11月20日にロシアによる領空侵犯を発表したことを受け、NATOのルッテ事務総長は21日、同国防衛への関与を強調した。Reutersは、飛来物3つはミサイル2発と無人機1機とみられるとするポーランド側の説明を伝えている。",
+      "whyItMatters": "ウクライナでの戦争がNATO加盟国の安全に波及する危険に関わる。飛来物の確認と、意図的な攻撃だったかの判断は別で、当事国の説明を確定した国際調査の結論と同一視しないことが重要になる。",
+      "impact": "Reutersによると北大西洋理事会は23日に協議する予定。次は飛来物の特定、被害の公式確認、同盟側が決める具体的な防空対策を見たい。日本が直ちに何らかの対応を義務付けられたというニュースではない。",
+      "caution": "飛来物の種類は暫定的な説明。事務総長の防衛方針の表明を、軍事行動の開始決定として扱わない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/nato-will-defend-every-inch-polish-territory-rutte-says-2026-11-21/",
+          "publishedAt": "2026-11-21T14:03:21Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索配信でポーランド側の暫定説明、21日の発言と協議予定を確認。PAPを基にした報道と区別し、文章・写真は転載なし。"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/world/allies-stand-with-poland-after-airspace-breach-by-russia-nato-chief/4133047",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示でNATO側の連帯表明を照合。意図についての分析は採用せず、独自の少数事実の説明に限定。"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-weapons-un-mandate-nov21",
+      "theme": "国際情勢",
+      "title": "自律型兵器の国際ルールを2028年へ協議、法的拘束力は未定",
+      "summary": "ジュネーブでの国連の自律型兵器を巡る協議は11月21日、今後2年間で新しいルールを検討する方向で合意したとReutersが報じた。人による監視が少ない、またはない状態で標的を選んで攻撃する兵器が対象。法的拘束力のある規制を採用するかは決まらなかった。",
+      "whyItMatters": "規制の必要性を訴える国々と、米国・ロシア・イスラエルなど慎重な国との対立が残る。AIの新製品とは別に、軍事利用の責任と人間による統制をどこまで国際的に義務付けるかという問題となる。",
+      "impact": "次は交渉の具体的な対象と、拘束力を持つ条約・議定書に進むかどうかを見たい。今回の合意だけで兵器が禁止されたり、各国で新しい罰則が施行されたりしたわけではない。",
+      "caution": "交渉継続の合意と規制条約の採択は別。国連の最終文書全文は取得できておらず、結論は公開報道による確認。",
+      "references": [
+        {
+          "name": "Reuters Investing.com掲載",
+          "url": "https://www.investing.com/news/world-news/states-agree-toun-talks-aiming-to-regulate-killer-robots-by-2028-5043189",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索配信で21日の協議結果と拘束力が未定な点を確認。直接取得は失敗。少数の事実を独自記述し、記事表現を転載しない。"
+        },
+        {
+          "name": "DW",
+          "url": "https://amp.dw.com/en/killer-robots-talks-at-un-end-with-no-legally-binding-ban/a-80008584",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で法的拘束力を伴う禁止に至らなかった点を照合。配信元情報の重なりを独立した一次確認とは数えず、転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "peach-cuenote-disclosure-nov20",
+      "theme": "日本経済",
+      "title": "Peachが約900万件の情報漏えいを公表、便乗した連絡に注意",
+      "summary": "Peach Aviationは11月20日、委託先のメール配信サービスCuenote FCへの不正アクセスにより、顧客情報899万7106件が漏えいしたと公表した。氏名やメールアドレス、旅程などが対象。同社はカード・パスポート情報は含まれず、航空機の運航や予約への影響はないと説明している。",
+      "whyItMatters": "多くの利用者に関わる公表で、件数と実人数は同じとは限らない。攻撃が起きたのは10月18日で、今回の日付は新たに明らかにした公表日として区別する。",
+      "impact": "同社は20日から対象者への連絡を順次行うとしている。利用者は正規サイトの告知を確認し、会社を装ったメールやSMSで支払いや認証情報を求められてもリンク先をうのみにしないようにしたい。",
+      "caution": "20日の重要な未掲載情報。二次被害は同社が公表時点で未確認としており、個々の利用者の漏えい状況は確認していない。",
+      "references": [
+        {
+          "name": "Peach Aviation 公式PDF",
+          "url": "https://www.flypeach.com/application/files/3617/9515/4415/20261120_INFO_JP.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公式PDFの公開検索表示で公表日、対象件数・情報と運航への影響を確認。個人データそのものにはアクセスせず、PDF文章は転載なし。"
+        },
+        {
+          "name": "関西テレビ FNNプライムオンライン",
+          "url": "https://www.fnn.jp/articles/-/1156414",
+          "publishedAt": "2026-11-20T07:50:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開報道で件数、通知と便乗連絡への注意を照合。顧客情報や写真は取得・転載せず、少数事実だけ独自に記述。"
+        }
+      ]
+    },
+    {
+      "id": "gss-file-sharing-disclosure-nov20",
+      "theme": "日本経済",
+      "title": "政府共通のファイル共有で漏えいの可能性、外部通信を遮断",
+      "summary": "デジタル庁は11月20日、政府機関などが使うガバメントソリューションサービス（GSS）のファイル共有で、一部ファイルが外部に漏えいした可能性があると公表した。正規の共有相手以外によるアクセスを7月30日から11月12日までの間に確認し、12日にサービスを停止した。",
+      "whyItMatters": "行政と外部の事業者の間でも会議資料などを共有する仕組みで、情報管理と業務継続に関わる。個人情報が含まれる可能性もある一方、すべてのファイルや政府システム全体が流出したと確認されたわけではない。",
+      "impact": "関係する組織は対象資料や通知、代替の受け渡し方法について正式な案内を確認したい。一般利用者が漏えいファイルを探す必要はなく、調査の続報と対象範囲の具体化が次の確認点となる。",
+      "caution": "発生日ではなく20日の公表を扱う。個別の資料や個人情報を取得せず、漏えいの可能性と確定した被害を区別する。",
+      "references": [
+        {
+          "name": "デジタル庁",
+          "url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で期間、検知、通信遮断と調査継続を確認。コピーライトポリシーの出典・加工表示を確認し、独自解説として作成。"
+        },
+        {
+          "name": "INTERNET Watch",
+          "url": "https://internet.watch.impress.co.jp/docs/news/2158375.html",
+          "publishedAt": "2026-11-20T10:48:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で20日の公表と対象サービスを照合。二次利用規定の転載禁止を確認し、表現・画像を利用せず事実のみ記述。"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-todo-retirement-preparation-nov2026",
+      "theme": "日本経済",
+      "title": "Microsoft To Doアプリが来年6月終了へ、個人用はPlanner対象外",
+      "summary": "Microsoftの公式サポートは、To DoのWeb・各OS向けアプリを2027年6月30日に終了すると案内している。職場・学校向けはPlannerを案内するが、既存のタスクやリストは自動移行しない。11月19～20日の報道で広く伝えられた未掲載案件として、今回公式説明を確認した。",
+      "whyItMatters": "個人用MicrosoftアカウントにはPlannerが提供されず、Microsoft 365 Personal・Familyの利用者も別の管理方法を考える必要がある。仕事や学習の予定管理に使っている場合、単なる名称変更では済まない。",
+      "impact": "公式は終了前にデータの書き出し方法を案内するとしている。まず必要なリストや共有の使い方を整理し、手順が出たら保存範囲と移行先の受け入れ条件を確認したい。書き出せることと他アプリへそのまま取り込めることは別。",
+      "caution": "6月30日はアプリの終了日。基盤サービスやAPIは別の時期で、同日に全データが削除されるとの意味ではない。公式ページの最初の公表日時は確認できていない。",
+      "references": [
+        {
+          "name": "Microsoft 公式サポート",
+          "url": "https://support.microsoft.com/en-us/planner/to-do-to-planner",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で終了日、個人用の対象外、自動移行なし、API時期の区別を確認。案内文や画面画像は転載しない。"
+        },
+        {
+          "name": "INTERNET Watch",
+          "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2158124.html",
+          "publishedAt": "2026-11-20T03:07:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "20日の公開本文で報道時期を照合。論評は採用せず公式のより細かい説明を優先。二次利用規定を確認し転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "gemini-mac-computer-use-nov19",
+      "theme": "AI",
+      "title": "GeminiがMac操作を支援する機能を提供、米国の有料個人向けから",
+      "summary": "Googleは11月19日、Mac版Geminiアプリに、ファイル・アプリ・Webをまたぐ操作を行うcomputer use機能を導入すると発表した。別の背景ウィンドウで動作し、利用者は操作の様子を確認して停止できる。重要な操作には承認を求めるという。",
+      "whyItMatters": "新しいモデル名の発表とは別に、AIが画面を操作して仕事を進める機能の拡大。未掲載だった19日の発表を、利用できる条件とともに取り上げる。",
+      "impact": "提供開始は米国・英語で、18歳以上の個人アカウントのGoogle AI Plus・Pro・Ultraが対象。Apple Silicon搭載、macOS Sequoia 15.0以降が必要となる。日本で直ちに使えるとの案内ではないため、地域とアプリ側の提供状況を先に確認したい。",
+      "caution": "段階的な提供。操作能力や安全性を実測したものではなく、Web上のログインや支払いを無条件に任せられるという意味ではない。",
+      "references": [
+        {
+          "name": "Google 公式発表",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "本文と脚注で19日の発表、操作の承認、対象地域・プラン・端末条件を確認。生成要約ではなく本文を照合し画像・文章は転載なし。"
+        },
+        {
+          "name": "Google Gemini リリースノート",
+          "url": "https://gemini.google/release-notes/?a289adb9_page=2",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で19日のMac操作機能と承認が必要な場面を照合。一般提供と全地域への提供を混同せず、転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-dots-plus-business-rollout-nov2026",
+      "theme": "AI",
+      "title": "ChatGPTのdotsがPlusの一部にも拡大、継続作業を担うAI",
+      "summary": "OpenAIの公式ヘルプは、継続的な作業を扱うエージェントdotsをChatGPT Plusの一部利用者へ順次提供すると案内している。19日のBusiness更新では、米国の対象Business Standardメンバーへの提供も案内。20日に報道されたPlus展開を含め、今回条件を確認した。",
+      "whyItMatters": "一度質問して答えを受け取るだけでなく、接続したアプリなどを使って継続的に作業する機能の広がり。前日便の共同資料を作るSpaceや音声モデルAPIとは用途が異なる。",
+      "impact": "公式ではPlusは18歳以上の対象者へ段階的に提供し、EEA・英国・スイスは対象外としている。Business Standardは米国の対象メンバーがワークスペース内で個人用dotを1つ作れ、利用上限がある。自分のアカウントに届いているか確認したい。",
+      "caution": "全Plusへの一斉提供ではない。作業範囲とアプリ権限は利用者が決める。プラン変更時の扱いなど案内に細かな条件があるため、契約変更前に公式情報を確認する。",
+      "references": [
+        {
+          "name": "OpenAI dots公式ヘルプ",
+          "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文でPlusの段階提供、地域、年齢とBusiness Standardの条件を確認。機能や権限を自分で変更せず、告知表現は転載なし。"
+        },
+        {
+          "name": "OpenAI Businessリリースノート",
+          "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "19日の公開更新で米国Business Standardへの提供と利用上限を照合。通常ChatやAPIへのモデル追加とは区別し、転載なし。"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-dots-chatgpt-plus-test-business-standard",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "20日の公開検索表示でPlus展開の報道時期を照合。公式ヘルプの対象条件を優先し、記事や画面画像は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-perception-general-availability-nov17",
+      "theme": "AI",
+      "title": "Microsoftが防御・調査・修復のAIを連携するPerceptionを一般提供",
+      "summary": "Microsoftは11月17日、セキュリティ向けのMicrosoft Perceptionを一般提供すると発表した。攻撃を模擬するエージェント、警告を調査するエージェント、修復するエージェントを連携させる仕組み。過去7日間の未掲載の主要な提供開始として取り上げる。",
+      "whyItMatters": "単独のチャット回答ではなく、企業の防御業務を複数のAIで進めるサービスの動き。重要な新サービスをモデル更新と別の軸で確認するために採用した。",
+      "impact": "運用側がルールを定め、影響の大きい操作は人が承認する設計と説明されている。導入を検討する組織は、接続範囲、承認条件、費用の見積もりを確認する材料になる。一般消費者向けCopilotに一律追加された機能ではない。",
+      "caution": "一般提供の説明はPerceptionについて。周辺の発表には試験提供もあり全機能を同じ段階と扱わない。価格・地域の詳細と実利用の効果は今回未確認。",
+      "references": [
+        {
+          "name": "Microsoft Security Blog",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開本文で17日の一般提供、3種のエージェントと高影響操作の承認を確認。提供元の説明と明示し性能実証とはしない。文章・画像は転載なし。"
+        },
+        {
+          "name": "Microsoft Tech Community",
+          "url": "https://techcommunity.microsoft.com/blog/perception-blog/whats-new-with-microsoft-perception-at-ignite-2026/4571834?WT.mc_id=M365-MVP-5003693",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開検索表示で一般提供と運用機能を照合。同社の効果測定を第三者評価とせず、表現・図表を転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-sec-accounting-report-nov20",
+      "theme": "株式投資",
+      "title": "NVIDIAの会計処理をSECが調査とReuters報道、不正認定とは別",
+      "summary": "Reutersは米国時間11月20日、複数の関係筋の話として、米証券取引委員会（SEC）がNVIDIAの会計処理を調査していると報じた。調査開始時期や具体的な会計上の問題は確認できておらず、SECはコメントを控え、同社のコメントも得られていないとしている。",
+      "whyItMatters": "SECは米国の証券市場を監督する当局。決算数値を見るだけでなく、会社の情報開示をどう検証するかに関わるニュースとなる。前回の同社決算や市場全体の下落から進んだ報道として扱う。",
+      "impact": "次は会社の正式な開示と当局の公表、調査の対象や結果が明らかになるかを確認したい。調査の報道だけで会計不正を認定したり、その企業への投資判断を一方向に決めたりすることはできない。",
+      "caution": "匿名関係者に基づくReuters報道。公式の不正認定や処分を確認したものではない。BloombergもReutersを引用しており独立した裏付けとは数えない。",
+      "references": [
+        {
+          "name": "Reuters ニューズウィーク日本版掲載",
+          "url": "https://www.newsweekjapan.jp/articles/-/340923",
+          "publishedAt": "2026-11-20T19:44:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索配信で調査の焦点と未確認部分、当局・企業の反応を確認。直接取得は失敗し全文読了とは記録しない。権利を留保し文章・写真は転載なし。"
+        },
+        {
+          "name": "Bloomberg TBS掲載",
+          "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3102909?display=1",
+          "publishedAt": "2026-11-20T20:28:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示でReutersを引用した報道であることと反応を照合。同じ情報源を二重の独立確認とせず、独自記述に限定。"
+        }
+      ]
+    },
+    {
+      "id": "intuit-mailchimp-sale-agreement-nov19",
+      "theme": "株式投資",
+      "title": "IntuitがMailchimp売却で合意、完了は2027年初めを予定",
+      "summary": "Intuitは米国時間11月19日の決算発表で、メール配信・マーケティングサービスMailchimpをBending Spoonsへ約36億8000万ドルで売却する契約を締結したと公表した。規制当局の承認などを条件に、2027年初めの取引完了を見込む。",
+      "whyItMatters": "Web制作や店舗の顧客向け配信にも使われるサービスの事業主体に関わる重要な発表。未掲載だった19日の契約を再点検し、現在も確認する意味のある企業再編として採用した。",
+      "impact": "利用企業は今後のサービスや契約条件の正式案内を確認する材料になる。ただし、売却契約だけで料金改定や機能の終了が決まったわけではない。投資面では契約締結と取引完了、売却代金の使い方を分けて見たい。",
+      "caution": "完了前の取引で予定どおり実行される保証はない。業績・株価の上昇や、サービス利用者への即時の変更を断定しない。",
+      "references": [
+        {
+          "name": "Intuit公式発表 Business Wire掲載",
+          "url": "https://www.businesswire.com/news/home/20261119334005/en/Intuit-Reports-First-Quarter-Results-and-Enters-Agreement-to-Sell-Mailchimp-to-Bending-Spoons",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "会社の公開発表本文で契約、対価と承認条件・完了予定を確認。19日の元発表として明記し、決算表・説明文・画像を転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "m1-semifinal-qualifiers-nov21",
+      "theme": "芸能ニュース",
+      "title": "M-1準決勝へ30組が進出、敗退組から追加1組を選ぶ仕組みも",
+      "summary": "『M-1グランプリ2026』は11月21日、準決勝へ進む30組を発表した。真空ジェシカ、ヤーレンズ、ママタルトなどが進出。公式サイトでも30組の進出を案内している。ORICONの報道では、準々決勝の敗退組から動画・投票を通じて追加1組を選ぶ。",
+      "whyItMatters": "年末の主要なお笑い大会が、以前の開催日程の発表から実際の選考結果へ進んだ。出演者の私生活や噂ではなく、番組・大会の大きな進展として取り上げる。",
+      "impact": "準決勝は12月3日、決勝は12月20日の予定。準決勝進出は決勝進出の確定ではなく、次の選考結果が注目点になる。追加選出の投票に参加する場合は、公式案内で期間と方法を確認したい。",
+      "caution": "出場者の発表を独自に説明したもの。全30組の一覧、ネタ、動画や画像は転載せず、優勝予想を断定しない。",
+      "references": [
+        {
+          "name": "M-1グランプリ公式",
+          "url": "https://www.m-1gp.com/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開トップで準決勝進出30組の案内を確認。動画は視聴済みとせず、画像や出場者一覧を転載しない。"
+        },
+        {
+          "name": "ORICON NEWS BS11掲載",
+          "url": "https://www.bs11.jp/oricon-news/entertainment/2494488/",
+          "publishedAt": "2026-11-21T11:03:00Z",
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "21日20時03分の公開検索配信で選出と追加選出の仕組みを確認。直接取得は失敗し全文読了とは扱わない。転載なし。"
+        },
+        {
+          "name": "ABCマガジン",
+          "url": "https://abc-magazine.asahi.co.jp/post-92584/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "放送局の公開検索表示で準決勝・決勝の日程を照合。ページ末尾に異なる日付の表示もあり、本文と今回報道で一致する予定を採用。転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "the-bee-takahashi-withdrawal-nov21",
+      "theme": "芸能ニュース",
+      "title": "高橋一生が『THE BEE』を降板、24日以降の公演は協議中",
+      "summary": "NODA・MAPは11月21日、舞台『THE BEE』に出演していた高橋一生が降板すると発表した。13日の公演中の負傷を受け、治療と回復を優先すると説明。24日以降の公演については協議中で、決まり次第案内するとしている。",
+      "whyItMatters": "以前に伝えた17～22日の公演中止から進んだ新しい発表。主要出演者の変更と今後の公演に関わり、チケットを持つ観客には確認が必要となる。",
+      "impact": "24日以降の観劇予定者は、主催者と購入先の正式な案内で開催・出演者・払い戻しの扱いを確認したい。今回は再開日や代役が決定したとは確認できていない。",
+      "caution": "降板は21日の発表。将来の公演をすべて中止と断定せず、治療の細部や復帰時期を推測しない。",
+      "references": [
+        {
+          "name": "NODA・MAP 公式告知",
+          "url": "https://www.nodamap.com/news/thebee2026/2415/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "21日付の公式公開検索表示で降板と24日以降の協議を確認。直接取得は失敗し、全文読了とは記録しない。病状の細部や告知文・写真は転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900204916.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-21T23:13:58Z",
+          "usage": "facts-only",
+          "reviewNote": "21日の公開検索報道で発表内容と今後の公演が未決定な点を照合。表現・写真・コメントは転載せず、少数事実を独自記述。"
+        }
+      ]
+    }
+  ],
+  "researchLog": {
+    "checkedAt": "2026-11-21T23:13:58Z",
+    "candidateCount": 63,
+    "method": "国内総合・経済、Reuters・APの国際一覧を先に見渡し、6テーマと日米政治を個別検索。主要発表、IT一覧、重要アラートと過去7日分の既掲載を照合。見出しから候補化した項目と本文等を照合した採用項目を区別。",
+    "generalLists": [
+      "https://kumanichi.com/news/zenkoku/main?c=92619697908483575&page=101",
+      "https://kumanichi.com/news/zenkoku/economy",
+      "https://www.reuters.com/world/",
+      "https://apnews.com/world-news",
+      "https://www.itmedia.co.jp/news/archive/2611",
+      "https://www.itmedia.co.jp/aiplus/archive/2611",
+      "https://www.ipa.go.jp/security/",
+      "https://www.jpcert.or.jp/",
+      "https://eiga.com/news/20261121/"
+    ],
+    "aiOfficialChecks": [
+      {
+        "provider": "OpenAI",
+        "urls": [
+          "https://openai.com/news/",
+          "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "https://help.openai.com/en/articles/9624314-model-release-notes"
+        ],
+        "scope": "公開一覧とリリース項目を確認。GPT-6.2・Space・GPT-Liveの既掲載を照合し、dotsの未掲載展開を採用。"
+      },
+      {
+        "provider": "Google/DeepMind",
+        "urls": [
+          "https://blog.google/innovation-and-ai/",
+          "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+        ],
+        "scope": "公開一覧とMac操作機能の本文・脚注を確認。Genie4・Neonは既掲載。"
+      },
+      {
+        "provider": "Anthropic",
+        "urls": [
+          "https://www.anthropic.com/news"
+        ],
+        "scope": "公開ニュース一覧を確認。IPO更新を候補化。新モデルがないとの網羅的断定はしない。"
+      },
+      {
+        "provider": "Microsoft",
+        "urls": [
+          "https://blogs.microsoft.com/",
+          "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/"
+        ],
+        "scope": "公式一覧とPerception本文を確認。Code 2の既掲載と別のサービス提供開始を採用。"
+      },
+      {
+        "provider": "Meta",
+        "urls": [
+          "https://about.fb.com/news/"
+        ],
+        "scope": "11月の公開一覧を確認。Science、Muse関連などを候補化。Muse条件の公式照合は未完了。"
+      },
+      {
+        "provider": "xAI",
+        "urls": [
+          "https://x.ai/news"
+        ],
+        "scope": "公開一覧を確認。16日の導入事例は新モデル発表とは扱わない。"
+      },
+      {
+        "provider": "Mistral",
+        "urls": [
+          "https://mistral.ai/news"
+        ],
+        "scope": "公開一覧を確認。表示されたStudioの発表は5日で対象外。"
+      },
+      {
+        "provider": "DeepSeek",
+        "urls": [
+          "https://www.deepseek.com"
+        ],
+        "scope": "公式公開ページの表示を確認。10月の更新を新発表とはしない。"
+      },
+      {
+        "provider": "Qwen",
+        "urls": [
+          "https://qwen.ai/blog"
+        ],
+        "scope": "本文の取得不足。未調査部分を新情報なしとは記録しない。"
+      }
+    ],
+    "limitations": [
+      "NHKとYahooの一覧は取得制限で確認できず。ほかの国内総合・経済一覧を使用。",
+      "一部出典は検索の公開表示で確認し、直接取得ではエラー。各referencesのreviewNoteに範囲を記載。",
+      "NATOと国連の今回の最終一次文書は十分取得できず、公開報道の帰属を明示して記載。",
+      "11月19日のGitHub朝便は404。存在する15～18・20～21日便と公開APIの既掲載を照合。"
+    ],
+    "rightsReview": {
+      "scope": "本文・画像・見出しの複製や全文要約の許諾とは扱わず、少数の事実と独自の背景説明・出典リンクに限定。利用規約と権利表示を確認し、制限本文・有料本文・一般投稿の噂を根拠にしない。",
+      "checkedPages": [
+        "https://www.digital.go.jp/copyright-policy",
+        "https://www.mhlw.go.jp/chosakuken/index.html",
+        "https://openai.com/policies/terms-of-use/",
+        "https://policies.google.com/terms?hl=ja",
+        "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright",
+        "https://www.thomsonreuters.com/en/policies/copyright",
+        "https://www.watch.impress.co.jp/guide/index.htm",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/faq.html"
+      ],
+      "unavailablePages": [
+        "https://www.oricon.co.jp/copyright/",
+        "https://news.tv-asahi.co.jp/terms/"
+      ],
+      "note": "取得できない規約を読了とはしない。公開の権利留保を前提に保護される表現を利用せず、事実のみを独自構成で記述。"
+    },
+    "selected": [
+      {
+        "id": "japan-security-documents-draft-nov21",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "us-proxy-vote-quorum-ruling-nov20",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "kobe-nonresident-condo-tax-proposal-nov20",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "poland-airspace-nato-response-nov21",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "autonomous-weapons-un-mandate-nov21",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "peach-cuenote-disclosure-nov20",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "gss-file-sharing-disclosure-nov20",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "microsoft-todo-retirement-preparation-nov2026",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "gemini-mac-computer-use-nov19",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "chatgpt-dots-plus-business-rollout-nov2026",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "microsoft-perception-general-availability-nov17",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "nvidia-sec-accounting-report-nov20",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "intuit-mailchimp-sale-agreement-nov19",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "m1-semifinal-qualifiers-nov21",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      },
+      {
+        "id": "the-bee-takahashi-withdrawal-nov21",
+        "decision": "published",
+        "reason": "公開情報の照合、重要性・実用変化、既掲載との差分を確認。詳細は当該記事のreferences。"
+      }
+    ],
+    "discarded": [
+      {
+        "topic": "GPT-6.2 Astra/Sol",
+        "decision": "not-published",
+        "reason": "11月17日の主要発表は20日便に掲載済み。新しい提供差分を確認できず再掲しない。"
+      },
+      {
+        "topic": "Gemini 4 Neon",
+        "decision": "not-published",
+        "reason": "18日の主要発表は20日便に掲載済み。"
+      },
+      {
+        "topic": "Genie 4",
+        "decision": "not-published",
+        "reason": "18日の発表と19日のAPI追加は21日便に統合掲載済み。"
+      },
+      {
+        "topic": "GPT-Live-1.1 API",
+        "decision": "not-published",
+        "reason": "20日のAPI提供は21日便に掲載済み。"
+      },
+      {
+        "topic": "ChatGPT Space Plus",
+        "decision": "not-published",
+        "reason": "20日の段階提供は21日便に掲載済み。"
+      },
+      {
+        "topic": "ChatGPT Live Dictation",
+        "decision": "not-published",
+        "reason": "18日の機能更新を候補化。dotsと他社の未掲載重要機能を優先しAI上限3件で見送り。"
+      },
+      {
+        "topic": "ChatGPT Health米国提供",
+        "decision": "not-published",
+        "reason": "19日のリリースノートで候補化。地域・用途の限定と他候補の実用変化を比較し見送り。"
+      },
+      {
+        "topic": "OpenAI MedChemBench",
+        "decision": "not-published",
+        "reason": "20日の研究発表を公式一覧で確認。一般利用の主要提供開始を優先。"
+      },
+      {
+        "topic": "OpenAI Performance factory",
+        "decision": "not-published",
+        "reason": "19日の公式一覧で候補化。新モデル・主要機能との比較で優先度を下げた。"
+      },
+      {
+        "topic": "Meta Science公開",
+        "decision": "not-published",
+        "reason": "20日の公式ニュース一覧で候補化。製品提供条件を十分確認できず採用しない。"
+      },
+      {
+        "topic": "Meta Muse無料メール機能",
+        "decision": "not-published",
+        "reason": "ITmedia AI+の20日一覧で候補化。公式での条件照合が不足し採用しない。"
+      },
+      {
+        "topic": "Meta広告ランキングのAIエージェント",
+        "decision": "not-published",
+        "reason": "18日の公式技術発表を候補化。主に内部の設計・導入で、利用者が使える主要機能を優先。"
+      },
+      {
+        "topic": "xAI accounting導入例",
+        "decision": "not-published",
+        "reason": "16日の公式一覧で候補化。主要な新モデル発表とは区別し導入事例として見送り。"
+      },
+      {
+        "topic": "Mistral AI Studio",
+        "decision": "not-published",
+        "reason": "公式ニュースの直近表示は5日。7日間の対象外。"
+      },
+      {
+        "topic": "DeepSeek V4.1 Flash",
+        "decision": "not-published",
+        "reason": "公式ページの更新は10月17日。今回の新着とは扱わない。"
+      },
+      {
+        "topic": "Qwen公式ブログ",
+        "decision": "not-published",
+        "reason": "ページ本文を十分取得できず、更新なしとは判断しない。既掲載のQwen4 Maxと区別。"
+      },
+      {
+        "topic": "AWS Quickフロー・Web・エージェント",
+        "decision": "not-published",
+        "reason": "20日の専門報道と公式更新履歴から候補化。該当発表の詳細照合が不足し見送り。"
+      },
+      {
+        "topic": "Tencent WorkBuddy",
+        "decision": "not-published",
+        "reason": "独立AI報道から候補化。提供元・利用条件の確認不足で見送り。"
+      },
+      {
+        "topic": "Cairn AI新サービス",
+        "decision": "not-published",
+        "reason": "独立AI報道から候補化。正式提供条件の確認不足で見送り。"
+      },
+      {
+        "topic": "KARTE復旧方針",
+        "decision": "not-published",
+        "reason": "20日の料金・1月再開目標は21日便に掲載済み。"
+      },
+      {
+        "topic": "PHP・WordPress・nginx修正",
+        "decision": "not-published",
+        "reason": "20日便で公開、21日便でサービス影響を掲載済み。今回の単純再掲をしない。"
+      },
+      {
+        "topic": "OpenJDKアラート",
+        "decision": "not-published",
+        "reason": "IPAとJPCERT/CCの18日の重要情報で候補化。日本経済の3件上限で漏えい・終了案内を優先。対象製品利用者は公式アラート継続確認が必要。"
+      },
+      {
+        "topic": "Airターミナル6脆弱性",
+        "decision": "not-published",
+        "reason": "JPCERT/CCの20日の一覧で候補化。対象と影響の本文照合が不足し採用しない。"
+      },
+      {
+        "topic": "Ruijie製品脆弱性",
+        "decision": "not-published",
+        "reason": "JPCERT/CCの19日の一覧で候補化。対象の広さと実影響を十分照合できず見送り。"
+      },
+      {
+        "topic": "来春卒の内定率73.0%",
+        "decision": "not-published",
+        "reason": "20日公表の文科省・厚労省資料で数値と調査時点を確認。日本経済上限3件で影響範囲と対処が必要な候補を優先。"
+      },
+      {
+        "topic": "家賃の上昇報道",
+        "decision": "not-published",
+        "reason": "21日の一般報道から候補化したが元のアットホーム統計は10月26日公表。新事実と扱わず除外。"
+      },
+      {
+        "topic": "国内CPI10月",
+        "decision": "not-published",
+        "reason": "20日の公表は21日便に掲載済み。"
+      },
+      {
+        "topic": "Anthropic上場・2日目相場",
+        "decision": "not-published",
+        "reason": "価格決定は20日便、市場全体の20日終値は21日便。数字の不一致もあり個別終値の追加は見送り。"
+      },
+      {
+        "topic": "H3民間移行",
+        "decision": "not-published",
+        "reason": "20日の公式発表は21日便に掲載済み。"
+      },
+      {
+        "topic": "JTロシア損失",
+        "decision": "not-published",
+        "reason": "19日の予想修正は20日便に掲載済み。"
+      },
+      {
+        "topic": "東京株20日終値",
+        "decision": "not-published",
+        "reason": "21日便に掲載済み。土曜日の21日を新しい取引日とはしない。"
+      },
+      {
+        "topic": "米株20日終値",
+        "decision": "not-published",
+        "reason": "21日便に掲載済み。"
+      },
+      {
+        "topic": "COP31延長",
+        "decision": "not-published",
+        "reason": "21日の追加報道も確認。締切まで採択済みの新しい最終合意は確認できず、前日便の延長交渉を再掲しない。"
+      },
+      {
+        "topic": "バーレーンへの攻撃",
+        "decision": "not-published",
+        "reason": "21日のReuters報道で候補化。国際情勢上限3件で司法判断・NATO・国連協議を優先。攻撃の帰属と被害範囲は当事者発表の段階。"
+      },
+      {
+        "topic": "ロシア貨物船への無人機攻撃",
+        "decision": "not-published",
+        "reason": "21日のReuters見出しから候補化。独立照合不足、国際情勢上限で見送り。"
+      },
+      {
+        "topic": "カタール代表団テヘラン訪問",
+        "decision": "not-published",
+        "reason": "21日報道の当事者説明を候補化。交渉の具体的な決定を確認できず見送り。"
+      },
+      {
+        "topic": "米政府予算期限",
+        "decision": "not-published",
+        "reason": "20日の協議状況は21日便に掲載済み。"
+      },
+      {
+        "topic": "米データセンター課税方針",
+        "decision": "not-published",
+        "reason": "20日の発言は21日便に掲載済み。"
+      },
+      {
+        "topic": "米政府契約の情報開示と議会監視",
+        "decision": "not-published",
+        "reason": "CNN米政治一覧で候補化。命令本文と具体的範囲の一次照合が未了で採用しない。"
+      },
+      {
+        "topic": "公明党の自民系推薦方針",
+        "decision": "not-published",
+        "reason": "21日の国内政治一覧で候補化。党の決定資料を十分照合できず掲載しない。"
+      },
+      {
+        "topic": "文科相の交代論",
+        "decision": "not-published",
+        "reason": "21日の政治一覧で候補化。交代決定を確認できず、発言だけで枠を埋めない。"
+      },
+      {
+        "topic": "土地取引規制の委員会可決",
+        "decision": "not-published",
+        "reason": "20日の委員会可決は21日便に掲載済み。"
+      },
+      {
+        "topic": "外国代理人制度案",
+        "decision": "not-published",
+        "reason": "20日の概要提示は21日便に掲載済み。"
+      },
+      {
+        "topic": "斉藤和義の公演延期",
+        "decision": "not-published",
+        "reason": "19日の公表を候補化。直近の主要大会と舞台の新しい進展を優先。"
+      },
+      {
+        "topic": "Khakiの解散",
+        "decision": "not-published",
+        "reason": "21日の芸能検索で候補化。全国的な影響・他候補との比較で優先度を下げた。"
+      },
+      {
+        "topic": "Creepy Nuts映画イベント",
+        "decision": "not-published",
+        "reason": "21日の芸能一覧から候補化。発言・イベント中心のため主要大会の決定を優先。"
+      },
+      {
+        "topic": "映画の予告・キャンペーン",
+        "decision": "not-published",
+        "reason": "21日の映画ニュース一覧で候補比較。宣伝素材・小規模な更新で水増ししない。"
+      },
+      {
+        "topic": "リーマン予想のAI解決主張",
+        "decision": "not-published",
+        "reason": "21日の総合一覧で候補化。主張と独立検証を区別し未確認として除外。"
+      }
+    ]
+  }
+}
