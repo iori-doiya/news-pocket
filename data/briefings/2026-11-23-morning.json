@@ -1,0 +1,1098 @@
+{
+  "version": 1,
+  "id": "2026-11-23-morning",
+  "issueDate": "2026-11-23",
+  "cutoffAt": "2026-11-22T23:17:08Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "japan-hepatitis-b-claim-extension-20261120",
+      "theme": "日本政治",
+      "title": "B型肝炎給付金の請求期限を2032年まで延長、改正法が公布",
+      "summary": "集団予防接種の注射器の連続使用によるB型肝炎感染者らを救済する給付金について、請求期限を2027年3月31日から2032年3月31日へ延ばす改正法が11月20日に公布された。内閣が提出し、衆議院は11月6日、参議院は13日に可決した。厚生労働省の概要は施行日を「公布の日」としている。国会でこれから検討する提案ではなく、成立・公布まで進んだ変更だ。",
+      "whyItMatters": "給付金を受けるには、対象となる感染経路などを確認し、国との訴訟・和解等の手続きを進める必要がある。厚労省は救済対象を最大約45万人と見込む一方、2026年3月末の提訴者は約14万9千人としており、未請求者がなお多いことを延長の背景に挙げている。期限を知らなかった人や資料の準備に時間がかかる人にも関わる変更だ。",
+      "impact": "対象となり得る本人や家族には、請求に向けた準備期間が5年長くなる。ただし、期限が延びただけで全てのB型肝炎感染者に給付される制度へ変わったわけではない。今後確認したいのは、厚労省の更新された案内での対象要件、必要資料、相談窓口と個別の手続きだ。医療機関や支援窓口にも周知が求められる。",
+      "caution": "元の成立日は11月13日、公布日は20日。今日成立した法律ではない。個々の受給資格や請求時期は、公式案内・専門の相談窓口で確認してほしい。",
+      "references": [
+        {
+          "name": "衆議院：第222回国会・閣法9号の審議経過",
+          "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE34CE.htm",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開の議案経過表を読み、内閣提出、両院可決日、11月20日公布・法律88号を確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "厚生労働省：特定B型肝炎給付金法改正案の概要",
+          "url": "https://www.mhlw.go.jp/content/001757322.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開PDFの抽出本文を読み、2032年3月31日への延長、救済・提訴者数と公布日施行を照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "us-house-democrats-258-projection-20261122",
+      "theme": "国際情勢",
+      "title": "米下院選、民主党の獲得見通しが258議席に　来年の政策審議を左右",
+      "summary": "米中間選挙の下院選で、11月22日にノースカロライナ州の接戦区について民主党候補の勝利が報じられ、同党の獲得議席は少なくとも258となった。ReutersはAPの判定を伝え、ABC Newsも再集計後の勝利見通しを報道している。下院の定数は435で、Reutersの報道時点では4選挙区が未判定だった。これは2027年に始まる次の議会の勢力図であり、今日から新議会が発足したわけではない。",
+      "whyItMatters": "下院で安定した多数を得れば、予算や税制などの法案をどの内容で審議するか、政権を調べる委員会をどう運営するかに大きく関わる。選挙結果は大統領の交代を意味せず、トランプ政権と民主党が法案・予算をめぐってどう折り合うかが次の焦点になる。報道機関による当選判定と、州当局の結果確定も区別して見る必要がある。",
+      "impact": "医療費、家計負担、政府支出などをめぐる審議の主導権が変わり得る。ただし、下院の多数だけで法律が成立することはない。通常の立法には上院との調整と大統領の署名が必要で、拒否権が使われる場合もある。日本への新たな関税や安全保障措置が、この議席増だけで決まったわけではない。",
+      "caution": "258議席は報道時点の判定に基づく。残る開票・結果認証、新議会での議長選出、実際の法案と予算交渉を順に確認したい。",
+      "references": [
+        {
+          "name": "Reuters：ノースカロライナ州の結果と下院の議席見通し",
+          "url": "https://www.reuters.com/world/us/north-carolina-win-gives-democrats-biggest-us-house-majority-since-early-1990s-2026-11-22/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文の258議席、AP判定、未判定4区という少数の事実を確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "ABC News：ノースカロライナ州での再集計結果",
+          "url": "https://abcnews.com/Politics/democrat-chuck-hubbard-wins-recount-north-carolina-us/story?id=138362634",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得できた公開本文の当選判定・再集計結果を照合。後の直接再取得はエラーとなり、未読部分は根拠にしない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "米下院：法律が成立するまでの手続き",
+          "url": "https://www.house.gov/the-house-explained/the-legislative-process",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公式の立法手続き説明を読み、両院での審議と大統領の署名・拒否権を背景情報として確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "cop31-main-decisions-collapse-20261122",
+      "theme": "国際情勢",
+      "title": "COP31、主要合意文書をまとめられず閉幕　脱化石燃料と資金で隔たり",
+      "summary": "トルコで開かれた国連気候変動会議COP31は11月22日、主要な政治合意をまとめられず閉幕した。国連気候変動枠組条約事務局長は、両議長が主導した決定に関して合意に至らなかったと説明した。Reutersは、化石燃料からの移行の扱いや気候資金などで参加国の隔たりが埋まらなかったと報じた。一方、公正な移行に関する交渉などでは決定もあり、会議の全成果が失われたという意味ではない。",
+      "whyItMatters": "COPは各国が温室効果ガス削減や気候資金を調整する場だ。化石燃料への依存をどう減らすかと、その費用を誰が負担するかは、エネルギー価格と産業投資に直結する。文書の不足を問題視する側と資金・負担配分を重視する側の距離が残り、実施に向けた共通の道筋を示せるかが問われる。",
+      "impact": "日本企業や自治体にとっても、脱炭素投資の計画では国際交渉と各国の具体的な制度を分けて確認する必要がある。今回の不一致だけで既存の国際目標や国内制度が失効するわけではない。次は採択された個別決定の内容と、COP32へ持ち越される論点・各国の履行策を確認したい。",
+      "caution": "20日の交渉延長から進んだ22日の最終結果。主要文書の不成立と、成立した個別決定を混同しない。",
+      "references": [
+        {
+          "name": "UNFCCC：COP31閉会時の事務局長発言",
+          "url": "https://unfccc.int/news/un-climate-change-executive-secretary-simon-stiell-remarks-at-the-closing-plenary-of-cop31",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開の閉会発言全文を読み、主要決定の不一致と公正な移行等の決定があったことを確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "Reuters：COP31の閉幕と合意不成立",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "22日更新の公開本文を読み、最終結果と対立点を国連の発言に照合。URL中の21日を最終結果の日付とは扱わない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "poland-three-kh101-findings-20261122",
+      "theme": "国際情勢",
+      "title": "ポーランド落下物は3発とも巡航ミサイル　検察の調査で初期説明が変化",
+      "summary": "11月20日にポーランドへ飛来した落下物について、ルブリンの検察は22日、3地点で見つかった残骸がいずれもロシアの巡航ミサイルKh-101だったとする調査結果を示した。Reutersと現地公共ラジオの報道を照合した。初期には2発のミサイルと1機のドローンの可能性が伝えられており、今回の調査で物体の識別が具体化した。残骸の詳しい鑑定は続く。",
+      "whyItMatters": "NATO加盟国に何が飛来したかは、防空と同盟国間の対応を判断する基礎になる。単に同じ領空侵犯のニュースが続いているのではなく、ミサイルの数と種類に関する新しい確認だ。ロシアによるウクライナ攻撃が周辺国へ及ぼす危険を、物証と政治的な評価に分けて見る必要がある。",
+      "impact": "ポーランドと同盟国は残骸の分析や防空対応をもとに次の措置を検討することになる。日本に直ちに新たな制度変更が生じたという情報ではないが、欧州の安全保障上の緊張を理解する重要な続報だ。NATOでの協議と検察の追加鑑定を確認したい。",
+      "caution": "飛来は20日、今回の調査発表は22日。物体の識別が進んだことから、攻撃の意図や同盟国の軍事対応まで断定はできない。",
+      "references": [
+        {
+          "name": "Reuters：ポーランド検察のミサイル調査結果",
+          "url": "https://www.reuters.com/world/three-russian-missiles-flew-into-poland-friday-prosecutors-say-2026-11-22/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文のルブリン検察による3発のKh-101との説明を確認。初期のドローン推定との違いを抽出。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "Radio Lublin：3地点の残骸に関する検察発表",
+          "url": "https://radio.lublin.pl/2026/11/szczatki-pociskow-w-trzech-lokalizacjach-prokuratura-podsumowala-dzialania-sluzb/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文の検察報道官の説明と鑑定継続を読み、Reutersの識別結果と照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "rokkatei-card-fraud-followup-20261121",
+      "theme": "日本経済",
+      "title": "六花亭の流出問題、不正利用1件を確認　対象者へカード再発行を要請",
+      "summary": "六花亭は11月21日の続報で、オンラインショップへの不正アクセスに関し、カード情報に加えて氏名・住所・電話番号・メールアドレスも流出した可能性を公表した。20日にカードの不正利用1件を確認したという。対象は10月21日21時から11月18日11時までに入力された情報。同社は対象カードの発行会社へ連絡し、再発行を依頼するよう求めている。",
+      "whyItMatters": "決済情報をサーバーへ保存していなくても、改ざんされた画面で入力時に盗み取られる可能性があるという事案だ。贈答品などを通販で買った人の家計と安全に直接関わる。被害の可能性があるという段階から、不正利用を確認し対処を求める段階へ進んだ点が重要になる。",
+      "impact": "対象期間に利用した人はカード裏面の正式な窓口で再発行を相談し、利用明細を確認してほしい。個人情報を使った偽の連絡にも注意が必要だ。Web制作者にとっても、決済情報を保存しない設計だけで安心せず、購入画面や外部プログラムの改ざんを検知する運用が課題になる。",
+      "caution": "不正利用確認は20日、追加公表は21日。全対象者の被害確定ではない。見舞金等を装う連絡にカード番号や暗証番号を渡さない。",
+      "references": [
+        {
+          "name": "六花亭：オンラインショップ不正アクセスの第二報",
+          "url": "https://www.rokkatei.co.jp/news/info/20261121-25796/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開の第二報を読み、対象期間、追加の流出可能項目、不正利用確認日と公式の再発行要請を確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "共同通信・熊本日日新聞：六花亭の不正利用確認",
+          "url": "https://kumanichi.com/articles/2060612",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開報道を読み、不正利用確認と21日の発表を公式続報に照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "openjdk-base64-security-update-20261118",
+      "theme": "日本経済",
+      "title": "Javaの重大な欠陥、条件により外部コード実行の恐れ　業務ソフトも確認を",
+      "summary": "JPCERT/CCとJVNは11月18日、OpenJDKなどのJava実行環境で、Base64というデータ表現の処理に関する重大な脆弱性CVE-2026-114938を注意喚起した。条件がそろうと情報漏えいや任意のコード実行につながる可能性がある。問題となる高速処理は特定のx86-64 CPU機能に依存し、JPCERT/CCはARM64のJavaは影響しないと説明している。利用する配布元の修正版を確認する必要がある。",
+      "whyItMatters": "JavaはWebシステムだけでなく、業務アプリに同梱されている場合もある。OSや手元のJavaを更新しただけで、全ての業務ソフトが対策済みになるとは限らない。公表は18日だが、未対応の環境では現在も確認と更新が必要なため、サービス運営や就業先のシステム管理に関わる問題だ。",
+      "impact": "管理者は使っているJavaの配布元・版、CPU条件、アプリに含まれる実行環境を洗い出し、各ベンダーの案内に沿って更新や緩和策を判断したい。委託先へ保守を任せている場合も、対象の有無と対策状況を確認できる。今回の情報だけで、自分のサイトに侵入が起きたとは判断できない。",
+      "caution": "18日の公表を今日の新規発生とは扱わない。全CPU・全Java環境が同条件で危険という意味ではなく、適用条件と修正版は配布元ごとに確認する。",
+      "references": [
+        {
+          "name": "JPCERT/CC：JavaのBase64処理に関する注意喚起",
+          "url": "https://www.jpcert.or.jp/newsflash/2026111801.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文を読み、対象配布元、AVX-512 VBMI等の成立条件、ARM64の扱いと対策案内を確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "JVN：JVNVU99608534",
+          "url": "https://jvn.jp/vu/JVNVU99608534/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開の脆弱性情報を読み、CVE番号、影響とアップデートの必要性を照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "japan-graduate-job-offers-october-20261120",
+      "theme": "日本経済",
+      "title": "来春卒業の大学生、10月の内定率73.0％　前年同期を0.4ポイント下回る",
+      "summary": "文部科学省と厚生労働省は11月20日、2027年3月卒業予定者を対象にした就職内定状況を公表した。大学生の内定率は10月1日時点で73.0％となり、前年同期より0.4ポイント低下した。大学・短大・高専・専修学校から抽出した112校、計6,250人を調べた結果だ。今日の就職状況を示す数字ではなく、採用シーズン途中の10月時点の調査になる。",
+      "whyItMatters": "就職活動の進み具合を把握する材料になる一方、全国の学生全員を数えた集計ではない。大学の就職相談員と新卒応援ハローワークが連携して支援を続けると両省は説明している。内定の有無で焦りやすい時期こそ、集計値と個人の選択を分けて考えることが大切だ。",
+      "impact": "就活中の学生は、応募先の追加や面接の振り返りを大学のキャリア支援窓口で相談するきっかけにできる。企業側にも採用活動を見直す材料になる。ただし、0.4ポイントの変化だけから採用市場全体が急に悪化した、希望する業界への就職が難しくなったとまでは言えない。",
+      "caution": "公表日は20日、調査基準日は10月1日。学部・地域・就職希望の違いがあり、個人の合否や現在の内定率を予測する数字ではない。",
+      "references": [
+        {
+          "name": "文部科学省：令和8年度卒業予定者の就職内定状況",
+          "url": "https://www.mext.go.jp/b_menu/toukei/chousa01/naitei/kekka/k_detail/1422624_00029.htm",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開統計ページの内定率、前年同期差、対象校・人数、調査時期と方法を読み確認。省庁の数値をもとに独自説明。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "gemini-free-task-mode-20261117",
+      "theme": "AI",
+      "title": "Geminiのタスク実行を日本でも無料展開　相談から予約・作業の代行へ",
+      "summary": "Googleは11月17日、Geminiに予約や買い物などの作業を任せるタスク機能を、日本を含む複数国で無料展開すると発表した。Geminiアプリで会話からタスクへ切り替え、必要なサービスとの連携を許可して使う。基盤にはGemini 4 Hydrogenを用いるが、この更新は新モデル名だけの発表ではなく、利用者が作業を依頼できる範囲の拡大だ。一部の高度な機能やメール・SMS経由の操作は米国から提供される。",
+      "whyItMatters": "回答を読んで自分で操作する使い方から、予定や購入手続きに関わる操作をAIへ任せる使い方へ進む。Googleは重要な操作の前に確認を求める設計や、利用者専用の隔離環境を説明している。新しい機能を試すときは、何をできるかと同じくらい、どの情報・権限を渡すかが重要になる。",
+      "impact": "日本の利用者も対応アカウントでタスク表示や提供範囲を確認できる。予定整理などから試し、支払い・送信・予約の最終内容は自分で点検したい。日本で機能全体が米国と同じ条件になったとは限らず、外部サービス側の料金や地域制限まで無料になるという意味ではない。",
+      "caution": "元の発表は17日。段階的提供で、米国先行機能もある。公式説明に基づく紹介であり、実アカウントで予約・決済や安全性を検証したものではない。",
+      "references": [
+        {
+          "name": "Google：Geminiの無料タスク機能の発表",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開発表の本文と対象国・段階的提供・操作確認の記述を確認。AI生成の紹介欄だけでなく本文の提供条件を照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "Impress Watch：Geminiのタスク遂行機能",
+          "url": "https://www.watch.impress.co.jp/docs/news/2157422.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文を読み、日本での無料提供、利用場所、17日発表と米国先行部分を公式発表に照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "aws-quick-chat-flows-20261120",
+      "theme": "AI",
+      "title": "AWS Quick、会話から業務フローを作成・修正　日本語対応も追加",
+      "summary": "AWSは11月20日、業務向けAI「AWS Quick」で、会話を通じてフローを作り、実行・修正できる機能を発表した。フローは複数の作業をつなぐ処理で、エージェント、道具、業務データを組み合わせる。公式ブログはWeb画面の更新や複数エージェントの連携に加え、日本語などの対応言語追加も説明している。一般消費者向けの新しい基盤モデルの発表ではない。",
+      "whyItMatters": "仕事の手順を自然言語で伝え、複数のシステムをまたぐ定型作業へ組み立てられる点が実用上の変化だ。途中に規則に基づく確認処理を入れられるという。単発のチャット回答より継続した業務に近づく一方、連携先の権限設定や誤った処理を止める仕組みも必要になる。",
+      "impact": "導入済みの企業では、日本語による操作や定型フロー作成の選択肢が増える。採用する際は、利用可能な地域、管理者の設定、接続先へのアクセスと料金を確認したい。発表ではQuickを提供する地域で利用可能としており、誰でも無条件に無料で使えるという案内ではない。",
+      "caution": "20日の公式発表。利用プラン・地域・契約により条件が異なる。処理結果や業務上の正確さを実運用で検証した記事ではない。",
+      "references": [
+        {
+          "name": "AWS：Quickのフローとチャット機能の更新",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開の新機能発表を読み、会話による作成・実行・修正と提供地域の条件を確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "AWS公式ブログ：Quickの業務フロー・Web画面・エージェント連携",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文を読み、エージェント連携と日本語追加を一次発表に照合。コードや図版は使用しない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-free-email-20261120",
+      "theme": "AI",
+      "title": "Museの専用メールを無料利用者にも拡大　送信権限と情報連携を点検したい",
+      "summary": "ITmediaは11月20日、MetaのAIエージェント「Muse」で、無料ユーザーも専用メールアドレスを取得できるようになったとする発表を報じた。メールで指示を送り、予定調整などのやり取りを任せる使い方が広がる。提供市場やアカウントごとの展開条件には注意したい。Metaの公式説明でも、利用者が連携アプリを選び、重要な操作を監督する仕組みが示されている。",
+      "whyItMatters": "AIへ問い合わせるだけでなく、他人との連絡を代行させる機能は、仕事や生活の実際の手続きに関わる。送信先や内容を誤れば相手にも影響するため、便利さと権限の範囲を一緒に確認する必要がある。個人の受信箱全体を連携することと、AI専用アドレスへ必要なメールだけを渡すことも区別したい。",
+      "impact": "予定調整などを試す場合は、送信内容・宛先・連携済みサービスを確認し、機密情報を不用意に渡さない運用が重要になる。別件としてNebuSecは20日、Museから会話等を取り出せた研究結果を公表し、公開時までに対策済みと説明した。これは実利用者の漏えいが確認されたという発表ではない。",
+      "caution": "20日の提供拡大。対応市場・アカウントで提供状況を確認したい。脆弱性の対策済み説明は研究者側の公表であり、全ての安全性を保証するものではない。",
+      "references": [
+        {
+          "name": "ITmedia AI＋：Muse専用アドレスの無料提供",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003372/",
+          "publishedAt": "2026-11-20T16:52:00+09:00",
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開の第1ページ本文を読み、20日の発表、無料利用者への拡大と注意点を確認。公式Xの未取得投稿を読んだ扱いにはしない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "Meta：Museの利用と操作管理の説明",
+          "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "17日の公式公開本文から、連携先の選択と操作確認の仕組みを背景として確認。このページで20日の無料アドレス条件を確認したとはしない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "NebuSec：Museの情報保護に関する研究",
+          "url": "https://nebusec.ai/research/meta-muse-credential-exposure/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "20日公表の公開本文を読み、研究環境での情報取得と公開前の対策済み説明を確認。攻撃手順・コードは転載しない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "tata-steel-tubes-colors-sale-20261122",
+      "theme": "株式投資",
+      "title": "タタ・スチール、鋼管事業などを最大2800億ルピーで売却へ",
+      "summary": "タタ・スチールは11月22日、鋼管事業とTata Steel Colorsの直接・間接保有分全てを、APL Apollo Tubesへ現金で売却する取引を公表した。Reutersによると総額は最大2800億インドルピーで、規制当局の承認などが条件となる。2件の取引は互いに条件付きで、同時に完了する予定と説明されている。契約・承認の段階であり、売却完了の発表ではない。",
+      "whyItMatters": "鉄鋼会社の事業構成と資金配分が変わる取引だ。投資家が見るべきなのは売却額だけでなく、残る事業の収益構造と、承認・実行までの条件になる。同日に出た別の買収観測と、今回会社が示した売却内容を混ぜずに確認したい。",
+      "impact": "両社の投資家や取引先には、移管対象、売却資金の使途、統合作業の影響を点検する材料になる。日本の鉄鋼関連企業への影響や株価の方向は、この発表だけでは決まらない。以後の取締役会・取引所開示と規制手続きを確認する必要がある。",
+      "caution": "22日の会社発表に基づく売却案件。最大額と確定受取額は同じではない。個別株の売買を勧める情報ではない。",
+      "references": [
+        {
+          "name": "Reuters：タタ・スチールの事業売却",
+          "url": "https://www.reuters.com/world/india/tata-steel-nears-deal-acquire-majority-stake-apl-apollo-tubes-moneycontrol-2026-11-22/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で売却対象、最大2800億ルピー、承認条件を確認。本文中の未確認の別の買収観測は採用しない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "タタ・スチール：NSEの取締役会決議開示",
+          "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_22112026191002_Board_Outcome_signed.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得できた会社開示の本文から鋼管事業譲渡の取締役会承認を照合。PDFの直接再取得は失敗し、未取得部分を読んだ扱いにはしない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-private-placement-close-20261120",
+      "theme": "株式投資",
+      "title": "Anthropic、上場時の資金調達を完了　大手技術企業から別途260億ドル",
+      "summary": "Anthropicは11月20日、新規株式公開と同時に行った私募増資の完了を発表した。私募は特定の投資家へ株式を販売する仕組みで、Google、Microsoft、NVIDIAなど7社による購入総額は約260億ドル。同社のIPOによる受取額は手数料等を引く前で約916億ドルと説明している。18日の公開価格決定から、調達取引の完了へ進んだ続報だ。",
+      "whyItMatters": "生成AI企業への大規模な資金供給が実際に完了したことを示す。IPO全体の金額には既存株主の売却も含まれるため、発行会社へ入る資金と区別する必要がある。資金提供企業が半導体・クラウド分野にもまたがる点は、AI産業の投資関係を理解する材料になる。",
+      "impact": "投資家は調達資金の使途、今後の費用、設備・計算資源への支出と収益の関係を開示で確認したい。大手企業が参加した事実は、将来の利益や株価上昇の保証ではない。出資と製品販売・調達の条件を同じものとして扱わないことも大切だ。",
+      "caution": "20日の完了発表。総額は控除前で、私募分とIPO分、会社受取分と既存株主の売却分を区別する。売買推奨ではない。",
+      "references": [
+        {
+          "name": "Anthropic：IPOと同時私募の完了発表",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公開本文の20日完了、私募260億ドル、IPO会社受取916億ドルと控除前という条件を確認。18日の価格決定記事とは新事実を区別。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-export-compliance-bessent-20261122",
+      "theme": "株式投資",
+      "title": "米財務長官、NVIDIAに輸出管理の回答をなお要求　調査の行方が焦点",
+      "summary": "ベッセント米財務長官は11月22日、NVIDIAの中国向け半導体販売をめぐり、政権は会社側からなお説明を必要としていると述べた。Reutersは、暫定経営陣や取締役、弁護士と連絡を取っているとの発言を報じた。今回の発言は、調査で違法行為が確定した、罰金や新たな販売禁止が決まったという発表ではない。",
+      "whyItMatters": "先端半導体企業では、製品の需要に加えて輸出管理を守る体制が事業継続の条件になる。政権の説明要求が続いていることは、企業統治と規制リスクを把握する材料だ。先日の会計問題に関する報道とは論点が異なり、今回は販売管理について誰が説明責任を負うかが焦点となる。",
+      "impact": "投資家や半導体の取引先は、会社の正式回答、規制当局の判断、実際の販売・調達条件を分けて確認したい。長官の発言だけから今後の売上額や株価の方向を決めつけることはできない。日本向け供給が新たに停止されたという情報でもない。",
+      "caution": "22日の長官発言を伝える続報。調査・疑惑と認定済みの違反を区別し、個人に関する未確定の主張は取り上げない。売買推奨ではない。",
+      "references": [
+        {
+          "name": "Reuters配信・Yahoo Finance：NVIDIAへの説明要求",
+          "url": "https://ca.finance.yahoo.com/news/us-seeks-answers-nvidias-sale-175253893.html/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "取得できた公開本文を読み、22日の長官発言、会社側との接触と説明要求の段階を確認。人物の私生活や未確定の疑惑は採用しない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "CBS News：11月22日の財務長官インタビュー",
+          "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開で取得できたインタビュー該当発言から、政権がなお回答を求めているという一点だけを照合。発言の転載はしない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "utaoya-kikuchi-drama-announcement-20261122",
+      "theme": "芸能ニュース",
+      "title": "菊池風磨、来年1月の日テレ水曜ドラマで主演　初の父親役へ",
+      "summary": "日本テレビは11月22日、2027年1月期の水曜午後10時枠で、菊池風磨が主演する連続ドラマ『うたおや』を放送すると発表した。脚本は岡田惠和が担当し、菊池は初めて父親役を演じる。新年の地上波連続ドラマの主演と制作体制が明らかになった。放送開始前の作品発表で、視聴率や作品の評価が出たというニュースではない。",
+      "whyItMatters": "timeleszとしての活動に加え、地上波連続ドラマでの新しい役どころが決まった。主演俳優と脚本家、放送枠が明らかになる段階は、作品を追う視聴者が視聴予定を立てる基礎情報になる。本人コメントや物語の筋を長く転載せず、決定した制作情報を押さえたい。",
+      "impact": "視聴者は来年1月の番組編成で水曜夜の新作として確認できる。今後の追加キャスト、初回放送日、配信先の正式案内が次の確認点だ。現時点の発表だけで、全話の配信条件や見逃し視聴の料金まで決まったとは扱わない。",
+      "caution": "22日の発表。放送は2027年1月期の予定で、開始済みではない。画像・台詞・ストーリー本文は転載していない。",
+      "references": [
+        {
+          "name": "日本テレビ：『うたおや』主演・放送発表",
+          "url": "https://www.ntv.co.jp/utaoya/articles/62117zy351tg5mu7h0jt.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得できた公式公開発表の主演・放送枠・脚本の範囲を確認。直接取得で表示されなかった本文を読んだ扱いにはしない。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "映画.com：菊池風磨主演の新ドラマ",
+          "url": "https://eiga.com/news/20261122/1/",
+          "publishedAt": "2026-11-22T05:00:00+09:00",
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文から22日発表、来年1月の水曜22時枠、初の父親役という制作上の事実を照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    },
+    {
+      "id": "hinatazaka-archive-single-announcement-20261121",
+      "theme": "芸能ニュース",
+      "title": "日向坂46、19枚目シングルを1月20日発売　新体制の発表はこれから",
+      "summary": "日向坂46は11月21日、19枚目のシングル『アーカイブ』を2027年1月20日に発売すると公式に告知した。ORICONは、同日の神戸でのツアー初日に発表されたと報じている。公式案内では収録内容の詳細は後日とし、メンバーの配置を示すフォーメーションは11月29日深夜の番組で発表する予定だ。新曲名と発売日の決定、未発表の部分を分けて捉えたい。",
+      "whyItMatters": "全国的に活動するグループの次の音楽作品が正式に決まり、年末の公演から来年のリリースへつながる動きになる。発売告知と、センターや参加メンバーの決定を一緒にした憶測は避ける必要がある。購入特典だけの小さな更新ではなく、新作そのものの発表が核となる。",
+      "impact": "ファンは発売日を確認したうえで、今後公表される収録曲と参加体制を待つことになる。予約時には商品形態や販売店ごとの条件を自分で確認したい。発表予定の番組については深夜表記のため、実際の視聴日・時間を番組表で確認すると分かりやすい。",
+      "caution": "元の告知は21日、報道は22日。フォーメーションは確認締切時点で未発表。売上予測や未確認のセンター情報は扱わない。",
+      "references": [
+        {
+          "name": "日向坂46公式：19thシングル発売の告知",
+          "url": "https://www.hinatazaka46.com/s/official/news/detail/R00602?ima=0000",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文を読み、21日告知、2027年1月20日発売、収録詳細は後日、フォーメーション発表予定を確認。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        },
+        {
+          "name": "ORICON NEWS：ツアー初日の新作発表",
+          "url": "https://www.oricon.co.jp/news/2494563/full/?anc=284",
+          "publishedAt": null,
+          "accessedAt": "2026-11-22T23:10:24Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得できた公開本文から、21日のツアー初日に新作を発表したことを公式告知と照合。 本文・見出し・画像の転載は行わず、少数の事実のみ利用。"
+        }
+      ]
+    }
+  ],
+  "researchLog": {
+    "scope": "国内外の総合・経済一覧を先に横断し、6テーマ、日本政治・米国政治、AI主要各社、IT重要アラートを個別調査。通常24～48時間と別に過去7日間の未掲載重大事項を点検。候補一覧は見出し確認のみ・未取得・既掲載も含み、全件の本文確認を意味しない。",
+    "baseline": {
+      "branch": "main",
+      "readPaths": [
+        "docs/ニュースの選定方針.md",
+        "docs/ChatGPTの毎日更新・運用手順.md",
+        "src/briefings.mjs",
+        "data/briefings/2026-11-16-morning.json",
+        "data/briefings/2026-11-17-morning.json",
+        "data/briefings/2026-11-18-morning.json",
+        "data/briefings/2026-11-20-morning.json",
+        "data/briefings/2026-11-21-morning.json",
+        "data/briefings/2026-11-22-morning.json"
+      ],
+      "absentPaths": [
+        "data/briefings/2026-11-19-morning.json"
+      ],
+      "public": "公開/api/articlesをクラウドブラウザで読み、22日便15件を確認。検索経由の取得失敗をサイト障害とは扱わない。",
+      "checkedHead": "e4eed13f93cdb9ad557db3b50b8e8f21ac7fc9ee"
+    },
+    "listsChecked": [
+      {
+        "url": "https://kumanichi.com/news/zenkoku/main?c=92619697908483575&page=58",
+        "status": "public-list-or-headlines-read",
+        "note": "22日の主要国内外見出し"
+      },
+      {
+        "url": "https://kumanichi.com/news/zenkoku/economy",
+        "status": "public-list-or-headlines-read",
+        "note": "国内経済・企業・市場一覧"
+      },
+      {
+        "url": "https://www.reuters.com/world/",
+        "status": "public-list-or-headlines-read",
+        "note": "22日の主要国際見出し"
+      },
+      {
+        "url": "https://news.tv-asahi.co.jp/news_politics/9.html",
+        "status": "public-list-or-headlines-read",
+        "note": "国内政治一覧"
+      },
+      {
+        "url": "https://www.itmedia.co.jp/news/archive/2611",
+        "status": "public-list-or-headlines-read",
+        "note": "IT専門媒体の公開一覧"
+      },
+      {
+        "url": "https://www.itmedia.co.jp/aiplus/archive/2611",
+        "status": "public-list-or-headlines-read",
+        "note": "新興サービスを含むAI専門報道一覧"
+      },
+      {
+        "url": "https://www.ipa.go.jp/security/",
+        "status": "public-list-or-headlines-read",
+        "note": "PHP・nginx・Java等の重要情報一覧"
+      },
+      {
+        "url": "https://www.jpcert.or.jp/",
+        "status": "public-list-or-headlines-read",
+        "note": "Java・PHP・ネットワーク製品等の重要情報一覧"
+      },
+      {
+        "url": "https://eiga.com/news/20261122/",
+        "status": "public-list-or-headlines-read",
+        "note": "22日の映画・映像情報一覧"
+      }
+    ],
+    "aiOfficialChecks": [
+      {
+        "provider": "OpenAI",
+        "urls": [
+          "https://openai.com/news/",
+          "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "https://help.openai.com/en/articles/9624314-model-release-notes"
+        ],
+        "status": "public-lists-read",
+        "note": "ニュース・ChatGPT・モデルノートを個別確認。GPT-6.2等の既掲載と比較。13日のWallet、研究と実用機能の区別を確認。"
+      },
+      {
+        "provider": "Google / DeepMind",
+        "urls": [
+          "https://blog.google/innovation-and-ai/",
+          "https://blog.google/feed/",
+          "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/"
+        ],
+        "status": "partial-list-and-individual-announcements-read",
+        "note": "トップはナビゲーション中心のため完全な最新一覧とは扱わない。公開Feed画面・個別本文で補完。RSS未取得。17日の日本向け無料タスクを未掲載の重大機能として採用。"
+      },
+      {
+        "provider": "Anthropic",
+        "urls": [
+          "https://www.anthropic.com/news",
+          "https://www.anthropic.com/news/ipo-close"
+        ],
+        "status": "public-list-and-announcement-read",
+        "note": "9日のモデル紹介を本日の新発表としない。20日の資金調達完了は株式投資。"
+      },
+      {
+        "provider": "Microsoft",
+        "urls": [
+          "https://blogs.microsoft.com/"
+        ],
+        "status": "public-list-read",
+        "note": "Ignite・Code 2・Perceptionの既掲載と比較。"
+      },
+      {
+        "provider": "Meta",
+        "urls": [
+          "https://about.fb.com/news/",
+          "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/"
+        ],
+        "status": "public-list-and-background-read",
+        "note": "無料メール拡大はITmedia公開本文で確認。公式Xは未取得。17日の公式記事では操作管理を背景確認。20日のNebuSec公表で対策済み研究を照合。"
+      },
+      {
+        "provider": "xAI",
+        "urls": [
+          "https://x.ai/news"
+        ],
+        "status": "public-list-read",
+        "note": "11日のGrok Bot 1は期間外。16日の導入事例より広い機能変化を優先。"
+      },
+      {
+        "provider": "Mistral",
+        "urls": [
+          "https://mistral.ai/news/"
+        ],
+        "status": "public-list-read",
+        "note": "5日のStudio等は期間外。"
+      },
+      {
+        "provider": "DeepSeek",
+        "urls": [
+          "https://www.deepseek.com/"
+        ],
+        "status": "public-homepage-read",
+        "note": "10月17日のV4.1 Flashの案内を新発表と扱わない。"
+      },
+      {
+        "provider": "Qwen",
+        "urls": [
+          "https://qwen.ai/blog"
+        ],
+        "status": "body-not-retrieved",
+        "note": "取得失敗を新情報なしと扱わない。4 Maxは17日便掲載済み。"
+      },
+      {
+        "provider": "AWS",
+        "urls": [
+          "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/"
+        ],
+        "status": "public-announcements-read",
+        "note": "20日のフローと日本語対応を公式本文で確認。"
+      }
+    ],
+    "rightsReview": {
+      "checkedAt": "2026-11-22T23:17:08Z",
+      "termsRead": [
+        "https://www.mhlw.go.jp/chosakuken/index.html",
+        "https://policies.google.com/terms?hl=ja",
+        "https://aws.amazon.com/terms/",
+        "https://www.itmedia.co.jp/info/rule/",
+        "https://www.watch.impress.co.jp/guide/",
+        "https://www.reuters.com/info-pages/terms-of-use/",
+        "https://www.thomsonreuters.com/en/terms-of-use",
+        "https://www.anthropic.com/legal/consumer-terms"
+      ],
+      "note": "公開取得範囲・著作権表示・取得できた規約を照合。転載や翻訳要約の許諾とは扱わず、記事・見出し・画像・コードを配信しない。少数の事実から独自に説明し、事実・当事者の主張・評価を区別。facts-onlyは転載ライセンスを意味しない。厚労省の出典表示条件に従い出典名・URLを付して独自説明。NTV guideと旧Reutersagency規約URLは未取得。有料本文、制限回避、RSS大量取得は使わない。"
+    },
+    "finalCrossCheck": "目標到達後も主要一覧・重要アラートと候補を照合。Gemini17日の重大機能をAPIプレビューより優先。国際3件は米下院の新結果、COP31最終結果、ポーランド新鑑定。未掲載重大候補と未照合を候補記録で区別。日本政治は実質的影響のある給付期限改正1件、芸能は確定した主要新作2件とし、日程・発言や小さな更新で埋めない。",
+    "candidates": [
+      {
+        "topic": "B型肝炎給付金の請求期限を2032年まで延長、改正法が公布",
+        "decision": "published",
+        "articleId": "japan-hepatitis-b-claim-extension-20261120",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "米下院選、民主党の獲得見通しが258議席に　来年の政策審議を左右",
+        "decision": "published",
+        "articleId": "us-house-democrats-258-projection-20261122",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "COP31、主要合意文書をまとめられず閉幕　脱化石燃料と資金で隔たり",
+        "decision": "published",
+        "articleId": "cop31-main-decisions-collapse-20261122",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "ポーランド落下物は3発とも巡航ミサイル　検察の調査で初期説明が変化",
+        "decision": "published",
+        "articleId": "poland-three-kh101-findings-20261122",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "六花亭の流出問題、不正利用1件を確認　対象者へカード再発行を要請",
+        "decision": "published",
+        "articleId": "rokkatei-card-fraud-followup-20261121",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "Javaの重大な欠陥、条件により外部コード実行の恐れ　業務ソフトも確認を",
+        "decision": "published",
+        "articleId": "openjdk-base64-security-update-20261118",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "来春卒業の大学生、10月の内定率73.0％　前年同期を0.4ポイント下回る",
+        "decision": "published",
+        "articleId": "japan-graduate-job-offers-october-20261120",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "Geminiのタスク実行を日本でも無料展開　相談から予約・作業の代行へ",
+        "decision": "published",
+        "articleId": "gemini-free-task-mode-20261117",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "AWS Quick、会話から業務フローを作成・修正　日本語対応も追加",
+        "decision": "published",
+        "articleId": "aws-quick-chat-flows-20261120",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "Museの専用メールを無料利用者にも拡大　送信権限と情報連携を点検したい",
+        "decision": "published",
+        "articleId": "meta-muse-free-email-20261120",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "タタ・スチール、鋼管事業などを最大2800億ルピーで売却へ",
+        "decision": "published",
+        "articleId": "tata-steel-tubes-colors-sale-20261122",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "Anthropic、上場時の資金調達を完了　大手技術企業から別途260億ドル",
+        "decision": "published",
+        "articleId": "anthropic-ipo-private-placement-close-20261120",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "米財務長官、NVIDIAに輸出管理の回答をなお要求　調査の行方が焦点",
+        "decision": "published",
+        "articleId": "nvidia-export-compliance-bessent-20261122",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "菊池風磨、来年1月の日テレ水曜ドラマで主演　初の父親役へ",
+        "decision": "published",
+        "articleId": "utaoya-kikuchi-drama-announcement-20261122",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "日向坂46、19枚目シングルを1月20日発売　新体制の発表はこれから",
+        "decision": "published",
+        "articleId": "hinatazaka-archive-single-announcement-20261121",
+        "reason": "新事実・続報または過去7日間の重大な未掲載情報。確認範囲と元の発表日を各記事・出典記録に明記。"
+      },
+      {
+        "topic": "日本の安保3文書と原潜の与党議論",
+        "decision": "not-published",
+        "reason": "既掲載の20～21日の素案・議論から新たな決定を確認できず。発言だけを分割しない。"
+      },
+      {
+        "topic": "神戸市の空室税案",
+        "decision": "not-published",
+        "reason": "22日便に掲載済み。新たな決定を確認していない。"
+      },
+      {
+        "topic": "公明党の税制提言・発言",
+        "decision": "not-published",
+        "reason": "21日の報道を候補化したが公式の新たな決定・実質的進展の照合が不足。"
+      },
+      {
+        "topic": "普天間負担軽減の年内会合",
+        "decision": "not-published",
+        "reason": "22日の会合予定の報道。具体的な負担軽減の決定ではなく優先度を下げた。"
+      },
+      {
+        "topic": "枝野氏の復党に関する発言",
+        "decision": "not-published",
+        "reason": "22日の政治一覧で候補化。発言中心で政策影響の大きい決定を優先。"
+      },
+      {
+        "topic": "特別児童扶養手当関連法案",
+        "decision": "not-published",
+        "reason": "議案検索で18日の動きを確認。本文・対象範囲の確認不足で不採用。"
+      },
+      {
+        "topic": "GPSストーカー規制に関する法案",
+        "decision": "not-published",
+        "reason": "18日の政治一覧にあり候補化。今回の成立・施行等の新たな進展までは確認できていない。"
+      },
+      {
+        "topic": "外国代理人制度案",
+        "decision": "not-published",
+        "reason": "21日便掲載済みの20日の概要から新事実なし。"
+      },
+      {
+        "topic": "土地取引規制法案の委員会可決",
+        "decision": "not-published",
+        "reason": "21日便に掲載済み。新事実のない再掲を避ける。"
+      },
+      {
+        "topic": "年収の壁・社会保障の新制度",
+        "decision": "not-published",
+        "reason": "主要政治・経済検索で比較。確認できた既掲載案件と一般解説を新規記事にしない。"
+      },
+      {
+        "topic": "米国予算の期限",
+        "decision": "not-published",
+        "reason": "21日便掲載済みの20日の予算問題。新たな成立・施行を確認していない。"
+      },
+      {
+        "topic": "米株主総会の委任状・定足数判決",
+        "decision": "not-published",
+        "reason": "22日便に掲載済み。今回の新事実なし。"
+      },
+      {
+        "topic": "アイオワの鉛処理・陸軍緊急権限と司法命令",
+        "decision": "not-published",
+        "reason": "22日のReuters公開本文を確認。重要だが国際情勢3件を、議会勢力・COP最終結果・ポーランドの新鑑定に優先配分。未掲載案件として残す。"
+      },
+      {
+        "topic": "イエメンのフーシ派によるサウジ製油所攻撃主張",
+        "decision": "not-published",
+        "reason": "国際一覧で候補化。今回の独立した被害確認が不足し、主張を確定事実にしない。"
+      },
+      {
+        "topic": "インドネシア工場火災",
+        "decision": "not-published",
+        "reason": "22日の主要国際一覧で多数の犠牲者の見出しを確認。詳細な出典照合が未完了、未掲載の重大候補として記録。"
+      },
+      {
+        "topic": "キーウへのロシア攻撃",
+        "decision": "not-published",
+        "reason": "22日の主要国際一覧で死者の見出しを確認。詳細照合不足。既掲載の戦争一般説明で埋めない。"
+      },
+      {
+        "topic": "コンゴのエボラ・紛争",
+        "decision": "not-published",
+        "reason": "22日の国際一覧で候補化。個別の現状と公的資料の照合は未完了。"
+      },
+      {
+        "topic": "リビア沖のロシア船爆発",
+        "decision": "not-published",
+        "reason": "22日のReuters一覧で候補化。ドローン攻撃との当事者の推定を断定しない。"
+      },
+      {
+        "topic": "タイのミャンマー向け化学物質輸出",
+        "decision": "not-published",
+        "reason": "22日の国際一覧で候補化。詳細の独立照合が不足。"
+      },
+      {
+        "topic": "米中の軍事AIにおける人間関与",
+        "decision": "not-published",
+        "reason": "20日のReuters報道を確認。首脳会談の関連する既掲載案件と比較し、国際の3件を優先。"
+      },
+      {
+        "topic": "ICANの核被害者救済提言",
+        "decision": "not-published",
+        "reason": "22日の総合一覧で候補化。提言段階で実施決定ではない。"
+      },
+      {
+        "topic": "韓国教育相辞任",
+        "decision": "not-published",
+        "reason": "22日の総合一覧で候補化。今回の国際3件の広い影響を優先。"
+      },
+      {
+        "topic": "Peachの情報漏えい",
+        "decision": "not-published",
+        "reason": "22日便掲載済みの20日発表。再掲しない。"
+      },
+      {
+        "topic": "GSSの情報流出",
+        "decision": "not-published",
+        "reason": "22日便掲載済み。新たな確認済み進展なし。"
+      },
+      {
+        "topic": "Microsoft To Doの終了",
+        "decision": "not-published",
+        "reason": "22日便掲載済みの20日の告知。新しい決定のない再掲を避ける。"
+      },
+      {
+        "topic": "PHPの重大脆弱性",
+        "decision": "not-published",
+        "reason": "IPA・JPCERT/CCの一覧と既掲載を照合。20日便に掲載済みの19日の更新、同じ修正版案内を再掲しない。"
+      },
+      {
+        "topic": "nginxの重大脆弱性",
+        "decision": "not-published",
+        "reason": "IPA・JPCERT/CC一覧に19日の注意喚起を確認。PHP関連の既掲載と比較し、Javaの未掲載重大警告を優先。新しい対策完了と偽らない。"
+      },
+      {
+        "topic": "WordPressへの波及・運営者の更新対応",
+        "decision": "not-published",
+        "reason": "PHP関連の既掲載と重複。同日だけ更新した再掲はしない。"
+      },
+      {
+        "topic": "Airターミナル6の脆弱性",
+        "decision": "not-published",
+        "reason": "JPCERT/CCの20日の一覧で候補化。詳細な対象・修正確認不足。"
+      },
+      {
+        "topic": "Siemens製品の脆弱性",
+        "decision": "not-published",
+        "reason": "JPCERT/CCの20日の一覧で候補化。利用範囲の照合不足で掲載しない。"
+      },
+      {
+        "topic": "Ruijieの脆弱性",
+        "decision": "not-published",
+        "reason": "JPCERT/CCの19日の一覧で候補化。個別の重大度と対策は未確認。"
+      },
+      {
+        "topic": "WinBirdのXSS",
+        "decision": "not-published",
+        "reason": "JPCERT/CCの19日の一覧で候補化。広範な影響の確認が足りない。"
+      },
+      {
+        "topic": "デルタ航空の手荷物システム障害",
+        "decision": "not-published",
+        "reason": "22日のCBS公開検索で復旧・多数の遅延を確認。日本経済3件は直接のカード対処、Java更新、就職統計を優先。対象便・日本発着への波及は未照合。"
+      },
+      {
+        "topic": "Microsoftの先週の障害に関する22日の説明",
+        "decision": "not-published",
+        "reason": "CBSの番組紹介・公開検索で候補化。原因・対策の詳細照合が不足。未確認のまま侵害事件としない。"
+      },
+      {
+        "topic": "高所得者数に関する23日朝の報道",
+        "decision": "not-published",
+        "reason": "国内経済一覧で候補化。2024年の数字で、統計の新たな公表日を確認できず。"
+      },
+      {
+        "topic": "11月20日の東京・米国株終値",
+        "decision": "not-published",
+        "reason": "21日便掲載済み。休場日を新しい相場変動として扱わない。"
+      },
+      {
+        "topic": "IntuitのMailchimp売却",
+        "decision": "not-published",
+        "reason": "22日便掲載済みの19日の発表。"
+      },
+      {
+        "topic": "ABBロボティクス・ソフトバンク売却の代替IPO案",
+        "decision": "not-published",
+        "reason": "20日のReuters報道と11月6日のソフトバンク公開資料の中国当局禁止を確認。IPOは関係者情報による検討で、決定ではない。新しい当局者説明があるNVIDIAなどを優先。"
+      },
+      {
+        "topic": "OpenAI GPT-6.2 Astra / Sol",
+        "decision": "not-published",
+        "reason": "公式ニュース、ChatGPT・モデルリリースノートを個別確認。17日のモデル発表は20日便に掲載済み。"
+      },
+      {
+        "topic": "OpenAI GPT-Live 1.1のAPI",
+        "decision": "not-published",
+        "reason": "20日の発表を21日便に掲載済み。ChatGPT本体の新提供と混同しない。"
+      },
+      {
+        "topic": "ChatGPT Space Plus",
+        "decision": "not-published",
+        "reason": "20日の更新は21日便掲載済み。"
+      },
+      {
+        "topic": "ChatGPT dotsのPlus・Business対応",
+        "decision": "not-published",
+        "reason": "19～20日の更新は22日便掲載済み。"
+      },
+      {
+        "topic": "ChatGPTの音声入力更新",
+        "decision": "not-published",
+        "reason": "18日のリリースノートで候補化。広くタスク実行を変えるGoogle、AWS、Metaの更新を優先。"
+      },
+      {
+        "topic": "ChatGPT Wallet",
+        "decision": "not-published",
+        "reason": "公式の元の発表は13日。16日の報道日と混同せず、7日間の対象外として今回不採用。"
+      },
+      {
+        "topic": "OpenAIのPerplexity and Intelligence研究",
+        "decision": "not-published",
+        "reason": "22日の公式一覧で候補化。新モデル・提供開始ではない研究で、実用上の大きな機能変化を優先。"
+      },
+      {
+        "topic": "OpenAI MedChemBench",
+        "decision": "not-published",
+        "reason": "20日の公式一覧で候補化。専門研究の評価情報で一般業務に広い更新を優先。"
+      },
+      {
+        "topic": "OpenAI Performance Factory / Codex sandbox解説",
+        "decision": "not-published",
+        "reason": "19・18日の公式一覧で候補化。主に説明・技術解説で、新しい一般提供と偽らない。"
+      },
+      {
+        "topic": "Gemini Neon",
+        "decision": "not-published",
+        "reason": "18日の発表を20日便掲載済み。"
+      },
+      {
+        "topic": "GeminiのMac操作",
+        "decision": "not-published",
+        "reason": "19日の機能を22日便掲載済み。"
+      },
+      {
+        "topic": "Genie 4のProject・API提供",
+        "decision": "not-published",
+        "reason": "18～19日の提供を21日便掲載済み。"
+      },
+      {
+        "topic": "Gemini API Tool Retrieval",
+        "decision": "not-published",
+        "reason": "19日の公式本文と20日のImpress報道を確認。プレビューのAPI機能。未掲載の17日の日本向け無料タスク実行の影響を優先し、AI3件上限で不採用。"
+      },
+      {
+        "topic": "Google Connected Appsの米国小売・金融連携",
+        "decision": "not-published",
+        "reason": "20日の公式本文を確認。米国向けの展開で、17日の日本を含む大きなタスク機能を優先。"
+      },
+      {
+        "topic": "Gemini Go",
+        "decision": "not-published",
+        "reason": "18日発表・19日報道を確認。低メモリ端末向け。今回のAI3件と比較して不採用。"
+      },
+      {
+        "topic": "GeminiとGoogle Wallet",
+        "decision": "not-published",
+        "reason": "公式の元の発表は13日。7日間の対象外。"
+      },
+      {
+        "topic": "Anthropic Fable / Mythos 5.2",
+        "decision": "not-published",
+        "reason": "公式ニュース一覧を確認。紹介されている9日の発表を新モデルの本日発表とは扱わない。"
+      },
+      {
+        "topic": "Microsoft Code 2 / Ignite",
+        "decision": "not-published",
+        "reason": "17日の主要発表は18日便に掲載済み。"
+      },
+      {
+        "topic": "Microsoft Perception一般提供",
+        "decision": "not-published",
+        "reason": "17日の更新を22日便掲載済み。"
+      },
+      {
+        "topic": "Meta MuseのMarketplace出品",
+        "decision": "not-published",
+        "reason": "21日の独立サイト一覧で発見。公式の提供条件が未確認で、確認済みのメール拡大を優先。"
+      },
+      {
+        "topic": "Meta Museの研究上の脆弱性",
+        "decision": "not-published",
+        "reason": "NebuSecの20日一次発表を確認。メール機能の記事の影響・注意点へ短く統合し、別記事で水増ししない。"
+      },
+      {
+        "topic": "Metaの音声・Direct messaging",
+        "decision": "not-published",
+        "reason": "公式ニュース一覧を確認。音声の5日発表は対象外、16日のメッセージ機能をAI新モデルと偽らない。"
+      },
+      {
+        "topic": "Signalのスクリーンショット制限",
+        "decision": "not-published",
+        "reason": "21日の独立IT検索で候補化。公式告知とOS別の提供範囲は未照合。"
+      },
+      {
+        "topic": "xAI Grok Bot 1",
+        "decision": "not-published",
+        "reason": "公式一覧で11日の発表を確認。7日間の対象外。16日の会計チーム導入例も主要機能より優先度を下げる。"
+      },
+      {
+        "topic": "Mistral Studio",
+        "decision": "not-published",
+        "reason": "公式一覧の5日の発表を確認。対象期間外。"
+      },
+      {
+        "topic": "DeepSeek V4.1 Flash",
+        "decision": "not-published",
+        "reason": "公式サイトに10月17日の案内。今日の新モデルとしない。"
+      },
+      {
+        "topic": "Qwen 4 Max",
+        "decision": "not-published",
+        "reason": "17日便掲載済み。公式ブログ本文は今回取得できず、新情報なしとは断定しない。"
+      },
+      {
+        "topic": "さくらAIのGLM・DeepSeekの無料API枠",
+        "decision": "not-published",
+        "reason": "19日の独立IT一覧から候補化。利用条件の公式照合が未完了で掲載しない。"
+      },
+      {
+        "topic": "Kotoba TechnologiesとElevenLabsの買収",
+        "decision": "not-published",
+        "reason": "19日のIT一覧から候補化。新しい利用機能の確認が不足。"
+      },
+      {
+        "topic": "新興AI・TogetherのQwen提供 / OBSBOTのAIカメラ",
+        "decision": "not-published",
+        "reason": "独立IT・AI検索で候補発見。公式条件未照合または今回の3件より狭い製品更新。"
+      },
+      {
+        "topic": "Tesla FSD 15の限定提供",
+        "decision": "not-published",
+        "reason": "22日の独立報道検索で候補化。公式の対象条件を照合できていない。"
+      },
+      {
+        "topic": "京大のAI依存チェックリスト",
+        "decision": "not-published",
+        "reason": "20日の独立IT一覧で候補化。主要な新モデル・新機能を優先。"
+      },
+      {
+        "topic": "AIによるリーマン予想の解決主張",
+        "decision": "not-published",
+        "reason": "一覧の主張を候補化。独立した十分な確認がなく掲載しない。"
+      },
+      {
+        "topic": "M-1準決勝進出30組",
+        "decision": "not-published",
+        "reason": "21日の結果を22日便掲載済み。"
+      },
+      {
+        "topic": "高橋一生『THE BEE』降板",
+        "decision": "not-published",
+        "reason": "21日の告知を22日便掲載済み。"
+      },
+      {
+        "topic": "『リゼロ』第5期",
+        "decision": "not-published",
+        "reason": "22日の映画一覧に掲載されたが、元の発表は14日。報道日を新発表とせず対象期間外。"
+      },
+      {
+        "topic": "『スパイダーマン』新年公開・上映情報",
+        "decision": "not-published",
+        "reason": "18日便の新年公開情報との重複。新たな主要発表の確認なし。"
+      },
+      {
+        "topic": "『おでかけ子ザメ』第2弾",
+        "decision": "not-published",
+        "reason": "22日の映画一覧で候補化。初出・提供条件の照合不足。"
+      },
+      {
+        "topic": "『ウィッチウォッチ』第2期",
+        "decision": "not-published",
+        "reason": "22日の映画一覧で候補化。元の発表日と新規性を確認できていない。"
+      },
+      {
+        "topic": "北川景子出演ドラマの再放送",
+        "decision": "not-published",
+        "reason": "22日の映画一覧で候補化。再放送案内で今回の新作2件を優先。"
+      },
+      {
+        "topic": "Zeebraの大会関連・優勝結果",
+        "decision": "not-published",
+        "reason": "22日の芸能検索で候補化。公式結果の照合不足。"
+      },
+      {
+        "topic": "安野希世乃の結婚",
+        "decision": "not-published",
+        "reason": "22日の芸能検索で候補化。私生活中心の話題より新しい主要作品・リリースを優先。"
+      },
+      {
+        "topic": "ベストアーティストの出演情報",
+        "decision": "not-published",
+        "reason": "22日の検索で候補化したが、元の発表日と新しい追加分を十分確認できず。"
+      },
+      {
+        "topic": "たまごっち30周年",
+        "decision": "not-published",
+        "reason": "22日の総合一覧で候補化。記念日・回顧中心の話題より重要な新発表を優先。"
+      }
+    ]
+  }
+}
