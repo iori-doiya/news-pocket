@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "id": "2026-11-24-morning",
+  "issueDate": "2026-11-24",
+  "cutoffAt": "2026-11-23T23:12:42Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "gpt62-chat-rollout",
+      "theme": "AI",
+      "title": "GPT-6.2がChatGPTの通常チャットへ、Work・Codexとは別の更新",
+      "summary": "OpenAIは11月23日、日常会話向けに調整したGPT-6.2 Solを、ChatGPTのChatタブへ世界で順次提供すると発表した。対象はPlus、Pro、Business、Enterprise。Enterpriseでは管理者の設定にも左右される。先週のモデル発表に続く利用場所の拡大で、今回の更新によってWorkやCodexを動かすモデルが変わるわけではない。",
+      "whyItMatters": "普段のチャットで使えるかどうかは、APIでモデルが公開されたという情報だけでは分からない。今回の発表は、通常の会話で複雑な指示や画像、Web上の情報を扱う利用者に直接関係する。改善幅の説明はOpenAI自身の評価であり、あらゆる作業で同じ結果になるという意味ではない。",
+      "impact": "有料プランの利用者は、自分の画面への展開状況と職場の管理設定を確認する段階になる。資料の読み取りや調べ物では、以前と同じ課題を試すと変化を比較しやすい。重要な数字や出典については、モデルの更新後も元資料の確認が必要だ。",
+      "caution": "段階的提供であり、全アカウントへの即時反映やFreeでの提供を約束した発表ではない。性能の数値は発表者による内部評価。",
+      "references": [
+        {
+          "name": "OpenAI・ChatGPTリリースノート",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "11月23日の公開本文で対象プラン、Chat向けSol、世界での段階的提供、Work・Codexは今回変更なしを確認。性能は会社の評価と区別し、文章・図表は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "gemini-api-file-slicing",
+      "theme": "AI",
+      "title": "Gemini API、文書や動画の必要部分を指定して処理できるように",
+      "summary": "Googleは11月23日、Gemini APIでファイルの処理範囲を細かく指定する仕組みを発表した。PDFのページや表計算のセル範囲、音声・動画の時間帯などを選び、OfficeやOpenDocumentのファイルも扱う。公式説明ではGemini 4の各モデルが対象。一般向けGeminiアプリの一律更新とは別に、開発者向けの機能として案内している。",
+      "whyItMatters": "長い資料を毎回丸ごと渡すと、関係の薄い部分まで処理したり、どこを根拠に答えたのか分かりにくくなったりする。範囲を指定できれば、必要な章だけを調べる業務ツールや、特定の映像区間を確認する仕組みを設計しやすくなる。",
+      "impact": "開発者にとっては、事前にファイルを分割する処理を減らせる可能性がある。Googleは処理した部分に応じたトークン課金を説明しているが、実際の費用はモデル、範囲、解像度などで変わる。導入時には、範囲外の情報が必要な質問を見落とさない設計も重要になる。",
+      "caution": "APIの更新。一般向けアプリで同じ操作ができるとは限らない。既存の容量等の制限は残り、会社が示す処理削減例を一般的な保証とは扱わない。",
+      "references": [
+        {
+          "name": "Google・開発者向け発表",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で対象モデル、Office等の対応、範囲指定と課金の考え方を確認。再取得時には取得エラーもあったが、先に取得できた本文の範囲で執筆。作例や画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "claude-ship-beta-github",
+      "theme": "AI",
+      "title": "Claude Shipがベータ提供、GitHubの変更をレビュー・修正・承認する仕組み",
+      "summary": "Anthropicは11月23日、Claude Shipをベータとして発表した。GitHubでの変更提案を確認するCode Reviewに、修正を進めるPR Stewardと、チームの方針に沿って承認するClaude Approvalsを組み合わせる。Team・Enterpriseが対象で、既存のCode Reviewは一般提供、新しい二つはベータ。コードを書く段階から、その後の確認・修正を支援する範囲が広がる。",
+      "whyItMatters": "AIでコードを速く作れても、テストの失敗への対応や人の確認待ちが残る。変更提案（プルリクエスト）後の作業をまとめて支援する点が新しい。誰が何を承認できるかはチームが定めるため、AIの導入と、変更を本番へ取り込む権限を同じ問題として扱わないことが重要になる。",
+      "impact": "開発チームはリポジトリごとに有効化や支出上限を設定できる。利用はトークン量による課金で、定額プラン内ですべて無料という仕組みではない。会社はまず承認を実行しない観察モードで確かめる方法を案内している。個人が使うClaude Codeの/shipと、組織のリポジトリ単位の設定も区別したい。",
+      "caution": "ベータで、見逃しや誤修正の可能性がある。PR Steward自体は承認・マージを担わず、承認方針やGitHubの保護設定が別に必要。利用できない組織構成もあるため、公式の対象条件を確認する。",
+      "references": [
+        {
+          "name": "Anthropic・Claude Ship公式発表",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:10:29Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得の公式本文で23日の発表、各機能の提供段階、対象プラン、従量課金、権限の違いを確認。直接再取得はエラー。作例・顧客談・画像は転載せず、少数事実を独自に説明。"
+        },
+        {
+          "name": "Anthropic・Claude Ship製品案内",
+          "url": "https://claude.com/product/claude-ship",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:10:29Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得の公式製品本文でもベータ、GitHub対象、観察モード、機能別の役割と課金を照合。性能の保証や実際の本番導入検証とは扱わず、製品の操作や課金は実行していない。"
+        }
+      ]
+    },
+    {
+      "id": "ideco-december-reform-check",
+      "theme": "日本経済",
+      "title": "iDeCoの12月改正まで1週間、掛金上限は勤務先の年金も含めて確認を",
+      "summary": "iDeCoなど私的年金の拠出上限引き上げと加入可能年齢の拡大は、12月1日の施行予定が迫っている。根拠は2025年6月に成立した年金制度改正で、今日新たに決まった制度ではない。厚生労働省は、一定の条件を満たす60歳以上70歳未満への加入拡大を案内している。企業年金がある人は、それらとの合計上限にも注意が必要だ。",
+      "whyItMatters": "iDeCoは自分で掛金を積み立て、老後に受け取るための制度。年齢や働き方で使える枠が異なるため、「上限が増える」という見出しだけで自分の掛金を決めると誤解しやすい。未掲載の継続案件として、施行前に自分の条件を調べる時間を確保できる点を重視した。",
+      "impact": "自営業者などの枠は国民年金基金との合計で月6万8千円から7万5千円へ広がる。一方、企業年金等がある場合の月6万2千円という上限は合計額であり、全員がiDeCoだけにその額を積み立てられるわけではない。変更を希望する人は勤務先と利用金融機関で条件・手続きを確認する必要がある。",
+      "caution": "厚労省の表記は12月1日施行予定。老齢基礎年金やiDeCoの給付を受けているか等でも条件が変わる。増額が自動で行われるとは限らず、加入・投資を一律に勧めるものではない。",
+      "references": [
+        {
+          "name": "厚生労働省・2025年の私的年金制度改正",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/2025kaisei.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "法案成立日、12月施行予定、加入年齢の条件、企業年金との合算上限を公開本文で確認。制度の事実を独自に説明し、官庁が作成した記事とは表示していない。"
+        },
+        {
+          "name": "日本年金機構・制度説明資料",
+          "url": "https://www.nenkin.go.jp/service/riyoushabetsu/nenkiniin/kenshu/7.files/shiryou02_2026.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開PDFの抽出テキストで第1号被保険者等の合算上限と12月からの7万5千円の説明を確認。図表は転載せず、今回取得できた版にない引落日等は記載しない。"
+        }
+      ]
+    },
+    {
+      "id": "optimizely-web-experimentation-incident",
+      "theme": "日本経済",
+      "title": "外部のサイト改善ツール経由で不正コード、Web運営者に影響確認の課題",
+      "summary": "Optimizelyは11月19日更新の説明で、16日にWeb Experimentationの登録処理の欠陥が悪用され、一部顧客のプロジェクトに不正なJavaScriptが入れられたと公表している。同社は当日に脆弱性を閉じ、不正コードを除去したと説明。発生当日の新事件としてではなく、利用企業による影響確認が引き続き重要な案件として取り上げる。",
+      "whyItMatters": "Webサイトに組み込む外部ツールは、自社のページ上でも動く。自社のCMSを更新しているだけでは、その外部サービス経由の問題まで確認したことにはならない。国内の事業者も、同製品を使っているかによって確認の必要性が変わるため、日本経済の業務継続に関わる情報として扱う。",
+      "impact": "同社はWeb Experimentationの顧客に影響の有無と追加案内を直接連絡したとしている。利用中の担当者は、まずその通知と自社の設定・運用記録を照合するのが判断材料になる。サイト訪問者への影響の説明は、個々の調査結果に基づいて行う必要があり、全利用サイトが被害を受けたと決めつけるべきではない。",
+      "caution": "除去・修正は会社の説明で、個々の顧客の被害調査完了を意味しない。WordPress自体の脆弱性とは別件。同製品を使っていなければ対応不要と同社は案内している。",
+      "references": [
+        {
+          "name": "Optimizely・Web Experimentationセキュリティ告知",
+          "url": "https://support.optimizely.com/hc/en-us/articles/50521849710605-Security-Advisory-Web-Experimentation-Security-Incident-Updated-November-19-2026",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:10:29Z",
+          "usage": "facts-only",
+          "reviewNote": "公開告知全文で16日の侵害と19日の更新、当日の対処、顧客通知を確認。会社の説明として帰属を明示し、別製品の事件とは混同せず、告知文・画像を転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "hankoya-card-data-incident-followup",
+      "theme": "日本経済",
+      "title": "ハンコヤドットコムのカード情報流出懸念、利用者の確認が続く　19日公表分を再点検",
+      "summary": "ハンコヤドットコムは11月19日の第2報で、カード情報8220件を含む情報が漏えいした可能性を公表した。対象のカード決済は、10月13日から11月12日にパソコンから同社サイトで行ったもの。24日朝に確認した公式案内もサービス停止・再開未定としている。未掲載の継続案件で、今日新たな侵害が起きたという意味ではない。",
+      "whyItMatters": "印鑑などの通販利用者に、利用履歴と会社の通知を照合する必要がある問題だ。同社によると、保存していたカード情報が盗まれたのではなく、決済画面が改ざんされて入力内容が外部に送られる状態だった。カード情報を保存しない運用だけで、画面の改ざんによる被害まで防げるわけではない。",
+      "impact": "同社は対象者に、カード明細を調べ、不審な利用があればカード会社に連絡するよう案内している。他サービスでも同じパスワードを使っていた場合の変更も求めている。停止中の注文や新規調達にも影響があるため、利用企業は公式案内で対応窓口と再開状況を確認したい。",
+      "caution": "漏えいの可能性と不正利用の確定は別。対象期間・範囲は調査で変わりうる。会社は電話等でカード番号や暗証番号を尋ねないと説明しており、通知を装う連絡にも注意が必要。",
+      "references": [
+        {
+          "name": "ハンコヤドットコム・11月19日の第2報",
+          "url": "https://www.hankoya.org/contents/press/20261119.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:09:35Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で公表日、対象期間・件数、会社が求める確認を読み、現在の公式案内とも照合。漏えいデータや個人の情報自体にはアクセスしていない。著作権表示を確認し文章・画像は転載しない。"
+        },
+        {
+          "name": "ハンコヤドットコム・現在の公式案内",
+          "url": "https://www.hankoya.com/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:09:35Z",
+          "usage": "facts-only",
+          "reviewNote": "24日朝の公開本文でサービス停止、再開未定、対象者の案内を確認。原告知の19日と確認日を区別し、同じ攻撃による六花亭等との因果関係は推測していない。本文の表現・画像は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike-zscaler-acquisition-agreement",
+      "theme": "株式投資",
+      "title": "CrowdStrikeがZscaler買収で合意、約439億ドルの株式交換",
+      "summary": "CrowdStrikeとZscalerは11月23日、全額を株式で支払う買収契約を発表した。公表した企業価値は約439億ドルで、Zscaler株1株に対してCrowdStrike株1.135株を交換する条件。両社の取締役会は承認しているが、株主や規制当局の承認などが残っており、買収完了ではない。",
+      "whyItMatters": "端末を守るサービスと、アプリやデータへの接続を守るサービスをまとめる大型案件だ。投資家には、買収額だけでなく、新株発行で持分の割合が変わること、統合に時間や費用がかかること、承認条件を満たせるかが重要になる。",
+      "impact": "会社側はCrowdStrikeの2028年度後半に完了する見通しを示した。同社の会計年度での表記なので、暦年の2028年後半と読み替えないよう注意が必要だ。利用企業にとっても、将来の契約や製品統合を確認する材料になるが、完了まで両社は独立して事業を続けるとしている。",
+      "caution": "合意と完了を区別する。交換価値はCrowdStrike株価で変動しうる。会社の統合効果の見込みは予測であり、株価上昇や買収成立を保証しない。",
+      "references": [
+        {
+          "name": "CrowdStrike・買収契約の公式発表",
+          "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得した公式発表本文の取引条件、承認条件、会計年度表記を確認。直接再取得はエラーのためページ全体を読んだとは扱わない。転載ではなく少数の契約事実を説明。"
+        },
+        {
+          "name": "Zscaler・買収契約の公式発表",
+          "url": "https://www.zscaler.com/press/crowdstrike-acquire-zscaler-bringing-network-security-and-zero-trust-falcon-platform",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得できた売却側の公式発表でも23日の契約と株式対価を照合。両社共同発表であり、独立した第三者評価とは扱わない。表現・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-huang-ceo-reinstatement",
+      "theme": "株式投資",
+      "title": "NVIDIAがフアン氏のCEO復帰を発表、独立取締役の調査は継続",
+      "summary": "NVIDIAは11月23日、取締役会の全会一致でジェンスン・フアン氏を社長・CEO・取締役に復帰させると発表した。一方、独立取締役による調査は続くと説明し、安全保障と輸出管理に関する委員会の新設なども示した。前日までの輸出規制をめぐる発言に対し、今回は経営体制を実際に変更する発表となる。",
+      "whyItMatters": "半導体の供給や投資計画を進める企業で、誰が経営判断を担うかが明確になった点が新しい。ただし、取締役会が復帰を決めたことと、当局の調査や輸出管理上の問題がすべて解決したことは別であり、両者を分けて読む必要がある。",
+      "impact": "株主は、復帰後の執行体制だけでなく、調査の結論、コンプライアンス体制、政府との対応が業績や販売にどう関わるかを見ていく段階になる。利用企業についても、経営人事だけから製品の供給や輸出許可が変わったと判断することはできない。",
+      "caution": "安全保障上のリスクに関する評価は取締役会の見解。復帰を無条件の潔白認定としない。株価の方向や個別の売買判断は示さない。",
+      "references": [
+        {
+          "name": "NVIDIA・取締役会の公式発表",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得した公式発表本文で全会一致の復帰、継続調査、委員会新設を確認。直接再取得はエラー。取締役会の評価と独立した認定を区別し、文章・画像は転載しない。"
+        },
+        {
+          "name": "共同通信・熊本日日新聞掲載",
+          "url": "https://kumanichi.com/articles/2061075",
+          "publishedAt": "2026-11-24T07:08:00+09:00",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で復帰発表を照合。発効日の記述に公式発表との違いがあるため、記事では23日の発表と記し、特定の発効日を断定しない。私生活情報や写真の利用なし。"
+        }
+      ]
+    },
+    {
+      "id": "zoom-q3-2027-first-dividend",
+      "theme": "株式投資",
+      "title": "Zoom、四半期売上が4.9％増、1株0.25ドルの四半期配当を開始へ",
+      "summary": "Zoomは11月23日、2027年度第3四半期の売上高が12億9060万ドルで前年同期比4.9％増えたと発表した。企業向け売上は8.6％増で、全体より伸びが大きかった。あわせて1株0.25ドルの四半期配当を始める方針を示した。対象期間は2026年10月末までの四半期で、会計年度名と暦年を区別する必要がある。",
+      "whyItMatters": "業績の伸びに加えて、利益や現金を株主にどう還元するかが変わる発表だ。配当開始は成長投資をやめるという意味ではない。企業向けの伸びが継続するか、配当と開発投資を両立する余力があるかを、今後の決算で確認する材料になる。",
+      "impact": "保有者には株主還元を見直す情報になるが、ドル建ての1株当たり配当額だけでは、購入価格に対する利回りや円での受取額は決まらない。業務で利用する企業には、収益の内訳と製品の改善を合わせて見ることが、サービスの事業基盤を考える手掛かりになる。",
+      "caution": "数値は会社発表の実績と配当方針。将来の増収や配当継続を保証しない。具体的な支払条件は会社の案内で確認し、売買推奨とはしない。",
+      "references": [
+        {
+          "name": "Zoom・2027年度第3四半期決算資料",
+          "url": "https://zoom.gcs-web.com/node/14841/pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "取得できた公式PDF本文で対象期間、売上・企業向けの増加率、四半期配当額を確認。後の再取得はエラーのため未取得部分の支払日などは加えない。表・本文の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "us-iowa-lead-detonation-appeal",
+      "theme": "国際情勢",
+      "title": "米アイオワの爆薬処理、控訴裁が実施への道を開く判断　政権・軍の対応が焦点",
+      "summary": "米アイオワ州で劣化した鉛を含む爆薬を処理する計画について、APは11月23日、連邦第8巡回区控訴裁判所が実施への道を開く判断を出したと報じた。同日、トランプ大統領は先に裁判所の了承まで待つよう軍に指示していた。軍は25日の処理を計画していたが、APによると判断後の軍のコメントは直ちには得られておらず、実施済みではない。",
+      "whyItMatters": "安全を守るために急いで処理するという軍の説明と、鉛の拡散や代替案の検討を求める環境団体の主張が対立する。裁判所は許可をめぐる訴訟で判断し、軍が現場の作業を担い、大統領が行政として指示する。それぞれの権限と、訴訟上の判断・現場での実施を分けて理解する必要がある。",
+      "impact": "現地では、今後の作業日時と当局の周知が住民の行動に直結する。大統領は次期州知事の同意にも言及しているが、裁判所の判断だけで政治上・運用上の確認がすべて済んだと読むことはできない。日本への具体的な波及は確認できていないが、米国の行政・司法と地域住民の関係を示す重要な進展だ。",
+      "caution": "APの更新を、先行する延期報道と時系列で照合した。判決文自体は未取得のため、許可の法的効力や全論点の決着までは断定しない。次は軍の実施方針と当局の住民向け通知を確認する。",
+      "references": [
+        {
+          "name": "AP・米アイオワ爆薬処理の続報",
+          "url": "https://apnews.com/article/3844c3f93affd3ea9a91fa98199bc14a",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得した更新本文に控訴裁の判断と軍の回答未取得を確認。直接表示の旧版と差があり、KWQC掲載AP続報でも新しい判断を照合。全文・写真の転載なし。"
+        },
+        {
+          "name": "KWQC掲載AP・23日の速報",
+          "url": "https://www.kwqc.com/2026/11/23/federal-appeals-court-clears-way-us-army-detonate-degraded-bomb-making-material-iowa/",
+          "publishedAt": "2026-11-23T16:51:00-06:00",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得の23日16時51分CST公開本文で新しい控訴裁判断を照合。APと同じ配信であり独立二社とは数えない。直接取得はエラー。少数事実のみ独自に説明。"
+        },
+        {
+          "name": "Reuters・大統領の先行指示",
+          "url": "https://www.reuters.com/world/us/trump-orders-us-army-pause-lead-azide-detonation-iowa-2026-11-23/",
+          "publishedAt": "2026-11-23T19:19:00Z",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開取得本文で裁判所判断を待つ大統領の指示と環境団体による提訴、軍の危険性の説明を確認。後発のAP続報を反映し、延期だけが現在の状態とは書かない。"
+        }
+      ]
+    },
+    {
+      "id": "nato-awacs-poland-deployment-decision",
+      "theme": "国際情勢",
+      "title": "NATO、ポーランドに早期警戒機を派遣へ　ミサイル事案後の新たな対応",
+      "summary": "ロイターは11月23日、NATOがポーランドへのAWACS派遣を認めたと報じた。AWACSは航空機から広い範囲を監視し、早期警戒に役立てるシステム。ポーランド側の発表に加え、NATO報道官が欧州連合軍最高司令官による承認を確認した。前日便のミサイル事案に対し、今回は監視態勢を強化する具体的な決定が加わった。",
+      "whyItMatters": "領空やその周辺で何が起きたかを早く把握できるかは、軍事的な誤判断を避けるうえでも重要になる。今回の情報は、新たなミサイル被害の発生を伝えるものではなく、同盟が事案後にどのような対応を選んだかを示している。",
+      "impact": "周辺国の安全保障では、派遣の期間、任務の内容、実際の運用開始が今後の確認点となる。日本にとっても欧州での緊張は外交・安全保障を考える背景になるが、この決定による日本の物価や部隊運用への直接の変化は確認できていない。",
+      "caution": "承認・派遣方針の報道であり、すでに任務を開始したとは断定しない。警戒監視の強化を、そのまま参戦や攻撃の決定とは読み替えない。",
+      "references": [
+        {
+          "name": "Reuters・NATO早期警戒機派遣",
+          "url": "https://www.reuters.com/business/aerospace-defense/nato-send-early-warning-system-aircraft-poland-after-missiles-incident-2026-11-23/",
+          "publishedAt": "2026-11-23T17:52:00Z",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文でポーランド側発表とNATO報道官の承認確認を照合。NATO公式サイトで今回の独立した発表ページは取得できず、報道上の当局確認として記述。表現・写真の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "tajikistan-icc-withdrawal-steps",
+      "theme": "国際情勢",
+      "title": "タジキスタンがICC離脱の手続きに着手、加盟国側は残留を要請",
+      "summary": "国際刑事裁判所（ICC）の締約国会議議長団は11月23日、タジキスタンがローマ規程から離脱するための措置を取ったことに懸念を表明し、加盟国にとどまるよう求めた。ロイターも離脱の動きを報道している。ICCは重大な国際犯罪について個人の刑事責任を扱う裁判所で、国同士の争いを扱う国際司法裁判所（ICJ）とは異なる。",
+      "whyItMatters": "加盟国の協力は、容疑者の引き渡しや捜査を進めるうえで重要だ。離脱の動きは裁判所の制度を支える国際協力に関わる。一方、離脱を表明した時点で、過去の義務や手続きがすべて消えるわけではないと締約国会議側は説明している。",
+      "impact": "今後は正式な通告と効力が生じる時点、既存の事件への協力がどう扱われるかが焦点になる。加盟国側の残留要請と、タジキスタン側の手続きの進行を分けて追う必要がある。日本への即時の制度変更を伴うニュースではないが、国際犯罪を裁く枠組みの実効性に関わる。",
+      "caution": "離脱手続きへの着手と即日の脱退完了は別。締約国会議の声明は同機関の立場であり、タジキスタン側の理由の全容や新たな効力発生日は今回確認できていない。",
+      "references": [
+        {
+          "name": "ICC締約国会議・議長団声明",
+          "url": "https://asp.icc-cpi.int/node/15938",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索で取得できた23日の公式声明本文で、離脱措置への懸念、残留要請、既存義務に関する説明を確認。直接取得はエラーのためサイト全体を読んだとは扱わず、少数事実のみ記述。"
+        },
+        {
+          "name": "Reuters・タジキスタンのICC離脱手続き",
+          "url": "https://www.reuters.com/world/asia-pacific/tajikistan-becomes-fourth-country-withdraw-icc-since-us-diplomatic-push-2026-11-23/",
+          "publishedAt": "2026-11-23T13:18:49Z",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得できた公開記事の範囲で離脱の動きを照合。後の直接取得はエラー。見出しや本文は転載せず、米国の働きかけとの因果関係を未確認のまま断定しない。"
+        }
+      ]
+    },
+    {
+      "id": "economic-security-special-account-bill-plan",
+      "theme": "日本政治",
+      "title": "経済安保の特別会計、政府が来年の法改正を目指すとの報道　財源と審議が焦点",
+      "summary": "共同通信は11月23日、政府が経済安全保障向けの特別会計について、2027年の通常国会で法改正を目指すと報じた。特別会計とは、特定の事業や財源を一般の予算と分けて管理する仕組み。複数年度の投資を支える構想は以前の政府方針にもあり、今回は実現に向けた法改正の準備を伝える続報で、制度が成立したというニュースではない。",
+      "whyItMatters": "重要な物資や技術への投資を続けるための予算の持ち方が争点になる。年度をまたいだ支出をしやすくする意義がある一方、どの事業を対象とし、効果や支出を国会がどう点検するかも重要だ。会計を新設するだけで十分な財源が生まれるわけではない。",
+      "impact": "報道では日銀のETF売却に伴う利益などを財源に見込むが、実際の規模や時期は市場環境などに左右される。企業の設備投資支援につながる可能性がある一方、家計への給付や減税が直ちに決まる話ではない。次は政府が示す法案、予算案、国会での審議を確認する段階だ。",
+      "caution": "23日の具体的な準備状況は関係者取材の報道。国会会議録で既存の構想は確認したが、新法案の全文は未取得。提出・可決・施行を混同せず、財源や対象事業の詳細は未確定として扱う。",
+      "references": [
+        {
+          "name": "共同通信・ライブドアニュース掲載",
+          "url": "https://news.livedoor.com/article/detail/32880374/",
+          "publishedAt": "2026-11-23T15:53:00+09:00",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開記事で2027年通常国会の法改正を目指す準備状況と財源構想を確認。関係者報道と政府の正式決定を区別し、独自に制度背景を説明。見出し・本文の転載なし。"
+        },
+        {
+          "name": "国会会議録・10月5日の政府方針",
+          "url": "https://kokkai.ndl.go.jp/simple/detail?current=-1&minId=122205254X00120261005",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得できた公式会議録で経済安全保障特別会計の構想を照合。10月の一次資料は既存方針の確認に限定し、11月23日の新法案提出を裏付ける資料とは扱わない。"
+        }
+      ]
+    },
+    {
+      "id": "government-disaster-backup-plan-report",
+      "theme": "日本政治",
+      "title": "首都直下地震の政府機能、首都圏外の代替拠点も検討する案との報道",
+      "summary": "共同通信は11月23日、首都直下地震に備える政府業務継続計画の見直し案で、首都圏外の代替拠点を検討する方向が盛り込まれたと報じた。業務継続計画（BCP）は、災害時にも必要な機能を続けるための準備を定めるもの。報道の段階では具体的な都市の決定や拠点の移転ではなく、代替体制の検討を進める案だ。",
+      "whyItMatters": "首都圏が広く被災した場合、政府の指示や情報発信をどこで続けるかは全国の災害対応に関わる。重要なのは施設の名前だけではなく、人員、通信、資料へのアクセス、各省庁の連携を実際に維持できるか。副首都構想と関連する議論であっても、首都を移すことが決まったとはいえない。",
+      "impact": "政府機能の継続は、自治体への支援調整や全国の事業活動の再開にも関係する。今後公表される改定内容で、首都圏内の既存拠点と圏外の候補の役割をどう分けるか、選定と整備の工程が示されるかが確認点になる。現時点で住民の避難先や自治体の役割が変わると断定はできない。",
+      "caution": "23日の見直し案は関係者取材による報道で、政府が採択・施行した計画ではない。公開済みの防災計画は背景確認に使用し、今回の案の全文や都市選定まで確認できたとは扱わない。",
+      "references": [
+        {
+          "name": "共同通信・熊本日日新聞掲載",
+          "url": "https://kumanichi.com/articles/2061060",
+          "publishedAt": "2026-11-23T21:01:00+09:00",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開取得できた記事で首都圏外の代替拠点検討という見直し案を確認。新しい案は関係者報道として明示し、都市決定とは書かない。本文・画像の転載なし。"
+        },
+        {
+          "name": "内閣府防災・6月の首都直下地震関連計画資料",
+          "url": "https://www.bousai.go.jp/jishin/syuto/pdf/syuto_keikaku_shinkyu_20260612.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開資料の取得できたテキストで政府機能継続と代替体制の既存の位置付けを背景確認。6月の資料を23日の見直し案そのものとは扱わず、図表は転載しない。"
+        }
+      ]
+    },
+    {
+      "id": "sakamoto-days-season2-january-2027",
+      "theme": "芸能ニュース",
+      "title": "SAKAMOTO DAYS第2期、2027年1月18日深夜から放送へ",
+      "summary": "テレビ東京は11月18日、アニメ『SAKAMOTO DAYS』第2期を2027年1月18日から毎週月曜深夜24時に放送すると発表した。23日の作品報道でも取り上げられているが、放送開始日の初出は18日。来年の視聴予定に関わる注目作の情報として、放送局が示した開始日時を確認した。",
+      "whyItMatters": "新シリーズの放送開始日が確定することは、視聴者が予定を立てるための具体的な変化だ。アニメには同じ作品でも放送期や配信先が分かれることがあり、第2期と前のクールの案内を区別しておくと取り違えを避けやすい。今回の公式案内は第2期に関するものだ。",
+      "impact": "「1月18日月曜の深夜24時」は、日付をまたいだ1月19日火曜0時を指す。カレンダーや録画を設定するときは、番組表の表記を確認すると取り違えを避けやすい。地上波の予定と、配信先や見逃し配信の開始条件が同じとは限らない。",
+      "caution": "23日に初めて決まったニュースではない。テレ東系列の公式予定を確認したもので、各地域・配信サービスの提供条件や今後の放送変更までは保証しない。",
+      "references": [
+        {
+          "name": "テレビ東京・SAKAMOTO DAYS新着情報",
+          "url": "https://www.tv-tokyo.co.jp/anime/sakamotodays/news/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公式の11月18日告知で第2期の開始日と曜日・時刻を確認。日付またぎは暦として説明。放送局の著作権表示を確認し、あらすじ・画像・映像は転載していない。"
+        },
+        {
+          "name": "映画.com・23日の作品報道",
+          "url": "https://eiga.com/news/20261123/13/",
+          "publishedAt": "2026-11-23T21:00:00+09:00",
+          "accessedAt": "2026-11-23T23:07:43Z",
+          "usage": "facts-only",
+          "reviewNote": "公開取得できた作品報道で放送予定を照合。報道日を新規発表日と混同せず、記事全体の要約や追加キャスト情報の分割配信は行っていない。"
+        }
+      ]
+    }
+  ],
+  "researchLog": {
+    "scope": "2026年11月24日朝。国内総合・経済、海外主要一覧を先に確認し、6テーマ・日本政治・米国政治・AI各社・ITと重要アラートを追加探索。候補は一覧で発見した段階と本文確認済みを区別。目標件数到達後も再点検しClaude Shipと国内カード問題を優先。WordPressは本文・URL一致で既掲載と再確認し再掲せず。",
+    "existingCompared": [
+      "2026-11-18-morning",
+      "2026-11-20-morning",
+      "2026-11-21-morning",
+      "2026-11-22-morning",
+      "2026-11-23-morning"
+    ],
+    "candidateCount": 76,
+    "candidateDecisions": [
+      {
+        "status": "採用",
+        "candidates": [
+          "GPT-6.2がChatGPTの通常チャットへ、Work・Codexとは別の更新",
+          "Gemini API、文書や動画の必要部分を指定して処理できるように",
+          "Claude Shipがベータ提供、GitHubの変更をレビュー・修正・承認する仕組み",
+          "iDeCoの12月改正まで1週間、掛金上限は勤務先の年金も含めて確認を",
+          "外部のサイト改善ツール経由で不正コード、Web運営者に影響確認の課題",
+          "ハンコヤドットコムのカード情報流出懸念、利用者の確認が続く　19日公表分を再点検",
+          "CrowdStrikeがZscaler買収で合意、約439億ドルの株式交換",
+          "NVIDIAがフアン氏のCEO復帰を発表、独立取締役の調査は継続",
+          "Zoom、四半期売上が4.9％増、1株0.25ドルの四半期配当を開始へ",
+          "米アイオワの爆薬処理、控訴裁が実施への道を開く判断　政権・軍の対応が焦点",
+          "NATO、ポーランドに早期警戒機を派遣へ　ミサイル事案後の新たな対応",
+          "タジキスタンがICC離脱の手続きに着手、加盟国側は残留を要請",
+          "経済安保の特別会計、政府が来年の法改正を目指すとの報道　財源と審議が焦点",
+          "首都直下地震の政府機能、首都圏外の代替拠点も検討する案との報道",
+          "SAKAMOTO DAYS第2期、2027年1月18日深夜から放送へ"
+        ]
+      },
+      {
+        "status": "既掲載・新しい事実不足",
+        "candidates": [
+          "B型肝炎請求期限改正",
+          "米下院民主258議席",
+          "COP31主要合意不成立",
+          "ポーランドのミサイル分析（派遣決定は採用）",
+          "六花亭カード問題",
+          "PHP重要更新",
+          "Java4Shell修正版",
+          "Peach漏えい",
+          "GSS関連公表",
+          "Microsoft To Do終了",
+          "ChatGPT Space Plus",
+          "Gemini無料タスク",
+          "Gemini Mac computer use",
+          "AWS Quick flows",
+          "Meta Muse無料メール",
+          "NVIDIA輸出規制発言（復帰決定は別採用）",
+          "Anthropic IPO完了",
+          "内定率73％",
+          "安保3文書原潜案",
+          "土地規制委員会",
+          "外国代理人構想",
+          "THE BEE降板",
+          "M-1準決勝進出者",
+          "ひなた坂新曲",
+          "うたおや新作",
+          "地面師新シリーズ",
+          "WordPress7.1.5（20日便のweb-stack-security-nov19-2026本文と公式URLが一致、新事実なし）"
+        ]
+      },
+      {
+        "status": "比較後不採用",
+        "candidates": [
+          "Agilent四半期決算（株式投資上限・大型買収等を優先）",
+          "OpenAI Shirudo（AI上限・Chat/Claude/Gemini APIの実用変化を優先）",
+          "Google検索Wallet連携（AI上限・今後のDrive/Gemini連携は未提供）",
+          "ダイヤモンドの功罪アニメ化（17日初出・今回の48時間新着より古い）",
+          "Gemini Canvas活用例（既存機能の使い方）",
+          "Google Hydrogen利用例",
+          "OpenAI研究開発上限の提案（決定ではない）",
+          "Claudeリーマン予想の主張（独立検証範囲が不足）",
+          "Meta科学会合（20日公表の会合）",
+          "Meta商用条件変更（今回の具体的利用影響は未精査）",
+          "電子投票導入自治体の集計",
+          "閣僚問責の検討・日程",
+          "神戸空室税案（既掲載）",
+          "普天間関連会談日程",
+          "国民クイズ追加キャスト",
+          "SMELLOCK追加キャスト",
+          "17歳のプルーフ予告編",
+          "NHK高橋真梨子出演予定",
+          "ぽかぽか放送回数",
+          "SAKAMOTO DAYS追加キャスト（同一発表に統合・分割しない）"
+        ]
+      },
+      {
+        "status": "確認不足・時期違い",
+        "candidates": [
+          "マイナビ事務職新卒採用調査（24日報道だが元は10日、今回新発表としない）",
+          "JPCERT18日週報のReact等（元の対象週は8〜14日、18日発見としない）",
+          "Chrome23日更新（公式は修正詳細追記予定、危険度の断定不可）",
+          "Ghostscript22日報道（修正の一次資料未精査）",
+          "Ruijie・WinBird・Siemens・AirTerminal6（一覧の存在のみ、影響未精査）",
+          "WordPress7.2 RC（試験版、安定版の更新と混同しない）",
+          "長野県中部23日M3.9最大震度2（今回の重要度基準未達）",
+          "東北日本海側の大雨注意（一覧上の注意情報、被害の新事実は未確認）",
+          "米シリア訓練協議（主要一覧段階）",
+          "イラン海上封鎖を巡る発言（主要一覧段階）",
+          "フランス次期選挙世論調査（一覧段階）",
+          "ガザUNRWA労組スト（一覧段階）",
+          "デンマーク住宅政策判決（一次判決未精査）",
+          "米国の対イラン再攻撃に関する報道（事実の確認不足）"
+        ]
+      }
+    ],
+    "checkedLists": [
+      {
+        "url": "https://kumanichi.com/news/zenkoku/main?c=92619697908483575&page=136",
+        "scope": "取得できた23日の国内主要見出し一覧。ルートの取得失敗と区別"
+      },
+      {
+        "url": "https://kumanichi.com/news/zenkoku/economy",
+        "scope": "経済一覧の24日朝と23日の見出し"
+      },
+      {
+        "url": "https://www.reuters.com/world/",
+        "scope": "23日の世界主要一覧。本文未精査の案件も候補として記録"
+      },
+      {
+        "url": "https://news.tv-asahi.co.jp/news_politics/",
+        "scope": "政治一覧"
+      },
+      {
+        "url": "https://www.itmedia.co.jp/news/archive/2611",
+        "scope": "24日朝までの一覧。大型買収を追加発見"
+      },
+      {
+        "url": "https://www.itmedia.co.jp/aiplus/",
+        "scope": "取得できたAI一覧と個別検索。表示された範囲外を新情報なしとは扱わない"
+      },
+      {
+        "url": "https://eiga.com/news/20261123/",
+        "scope": "23日の作品報道一覧。掲載日と公式初出を照合"
+      },
+      {
+        "url": "https://www.ipa.go.jp/security/",
+        "scope": "重要情報一覧。PHP/nginx/Java等は最近の便と照合"
+      },
+      {
+        "url": "https://www.jpcert.or.jp/",
+        "scope": "重要情報とJVN一覧。週報の日付を新規公表日と誤認しない"
+      },
+      {
+        "url": "https://wordpress.org/news/",
+        "scope": "最新一覧と18日の修正本文を確認"
+      },
+      {
+        "url": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01734282054.html",
+        "scope": "検索取得の23日公式更新案内。直接取得失敗、修正詳細追記待ち"
+      }
+    ],
+    "aiOfficialChecks": [
+      {
+        "provider": "OpenAI",
+        "urls": [
+          "https://openai.com/news/",
+          "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "https://openai.com/index/introducing-shirudo/"
+        ],
+        "result": "ニュース、ChatGPTノート、モデルノートを個別確認。23日Chat更新採用。17日のモデル発表を再掲しない。Shirudoは比較後上限で不採用"
+      },
+      {
+        "provider": "Google/DeepMind",
+        "urls": [
+          "https://blog.google/feed/",
+          "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+          "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+        ],
+        "result": "feedはナビゲーション等の取得にとどまり一覧全体確認とは扱わない。個別検索・本文で23日の開発者機能と検索連携を確認。API機能採用、検索連携は上限で不採用"
+      },
+      {
+        "provider": "Anthropic",
+        "urls": [
+          "https://www.anthropic.com/news",
+          "https://claude.com/resources/articles/introducing-claude-ship",
+          "https://claude.com/product/claude-ship"
+        ],
+        "result": "公式ニュース一覧に加え個別探索。Claude Shipを独立報道から発見して公式検索取得本文で確認、採用。直接本文の再取得は失敗。新モデルは9日初出で7日範囲外"
+      },
+      {
+        "provider": "Microsoft",
+        "urls": [
+          "https://blogs.microsoft.com/"
+        ],
+        "result": "取得できた公式一覧の最新はIgnite17日。既掲載Perception等と照合。全サービスの更新がないとは断定しない"
+      },
+      {
+        "provider": "Meta",
+        "urls": [
+          "https://about.fb.com/news/"
+        ],
+        "result": "科学会合20日更新23日、規約18日、Muse等の一覧を確認。既掲載メール機能は再掲せず、規約の影響は今回未精査"
+      },
+      {
+        "provider": "xAI",
+        "urls": [
+          "https://x.ai/news"
+        ],
+        "result": "取得一覧でGrok Bot11日等を確認、今回範囲の新モデルとは扱わない"
+      },
+      {
+        "provider": "公開モデル等",
+        "urls": [
+          "https://mistral.ai/news/",
+          "https://www.deepseek.com/",
+          "https://qwen.ai/blog"
+        ],
+        "result": "Mistral一覧とDeepSeek公開ページを確認。Mistralの2025年記事を今回の新着に混同しない。Qwenは本文0行で確認不可、新情報なしとは扱わない"
+      }
+    ],
+    "coverageAudit": "主要各社の新モデル、既存AIの重要新機能、新AIサービスの3方向を比較。日本・米国政治を別々に探索。AI3、日本経済3、株式投資3、国際情勢3、日本政治2、芸能1の15件。芸能を埋めるための小規模な話題や初出が古い記事の水増しをしない。今朝の大型買収と政治の更新を反映。",
+    "rightsReview": {
+      "mode": "facts-only",
+      "assessment": "公開取得した少数の事実を日本語で独自説明。媒体の見出し・記事本文・画像・図表・コメントを転載せず、特定記事の全文を要約する許諾を得たとは扱わない。出典の権利留保・転載制限を確認。検索インデックスで読めた範囲と直接取得失敗を区別し、有料本文や制限を回避していない。引用・記事全文・RSS・漏えい個人データの保存なし。",
+      "reviewedPages": [
+        "https://policies.google.com/terms",
+        "https://openai.com/policies/terms-of-use/",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.reuters.com/info-pages/terms-of-use/",
+        "https://www.mhlw.go.jp/chosakuken/index.html",
+        "https://www.optimizely.com/legal/website-terms-of-use",
+        "https://www.toho.co.jp/term_of_use/",
+        "https://wordpress.org/about/license/"
+      ],
+      "notes": "WordPressのソフトウェアGPL、Anthropic/OpenAIの出力の権利を、報道や発表本文の転載許諾と混同しない。官庁資料は出典を明示。テレ東とハンコヤの著作権表示も確認し、文面・画像は使用しない。"
+    },
+    "accessFailures": [
+      "公開APIは検索経路で取得エラーだがクラウドブラウザでは前日便を取得",
+      "Google feedは本文一覧取得不完全",
+      "Qwen blog本文取得不可",
+      "一部のCrowdStrike、NVIDIA、Claude Ship、ICC、Reuters、Gemini API、Zoom、KWQCの直接取得・再取得が失敗。検索取得本文や先に取得できた本文の範囲のみ利用"
+    ],
+    "notPublishedImportant": [
+      "OpenAI/Cisco Shirudo（AI上限）",
+      "Google検索Personal IntelligenceのWallet連携（AI上限）",
+      "Chrome23日更新は公式のセキュリティ詳細未追記",
+      "Ghostscriptは報道発見のみ、修正一次資料の精査未完了"
+    ],
+    "humanReview": false,
+    "correctionsDuringReview": [
+      "WordPress7.1.5を一時未掲載と判断したが、20日便本文・出典URLの照合で既掲載と判明。草稿を除外し、Optimizelyを採用。ファイル保存・公開前に修正済み。"
+    ]
+  }
+}
