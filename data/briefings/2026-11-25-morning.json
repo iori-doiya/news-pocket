@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "id": "2026-11-25-morning",
+  "issueDate": "2026-11-25",
+  "cutoffAt": "2026-11-24T23:05:51.782Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "keio-ransomware-scope-nov24",
+      "theme": "日本経済",
+      "title": "京王グループが漏えい調査結果を公表、顧客・取引先など約1063万人に可能性",
+      "summary": "京王電鉄は11月24日、9月26日に検知したサイバー攻撃の調査結果を公表した。顧客・取引先など約1063万人の情報に漏えいの可能性があり、採用応募者や従業員らは別区分で集計している。一部の採用応募者や賃貸契約者などでは漏えいが確認された。",
+      "whyItMatters": "ホテル、買い物、不動産、採用など、グループとの接点によって対象と情報の種類が異なる。数字は重複しうるため、報道の延べ人数を実人数として扱えない。",
+      "impact": "関係するサービスの通知や公式発表で対象を確認し、覚えのないカードの請求があれば発行会社へ連絡する。会社を装う連絡には、公式サイトから案内を確認するとよい。",
+      "caution": "会社公表時点でこの事案に起因する二次被害は確認されていない。個人ごとの流出の有無は集計値だけでは分からない。",
+      "references": [
+        {
+          "name": "京王電鉄",
+          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261124_newsrelease.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公式PDFで確認済みと可能性の区分・利用者案内を確認。原文・画像の転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000550264.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で公表日と集計規模を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "second-supplementary-budget-instruction",
+      "theme": "日本政治",
+      "title": "第2次補正の編成を首相が指示、災害対応などに対象を絞る方針",
+      "summary": "高市首相は11月24日の経済財政諮問会議で、片山財務相に2026年度第2次補正予算の編成を指示した。継続的な施策は当初予算で扱うことを基本とし、補正は災害対応など必要性が高い場合に絞る方針を示した。",
+      "whyItMatters": "補正予算は、成立済みの年度予算を途中で変更する手続き。何を緊急に扱うかで、復旧事業の開始時期や自治体の負担が変わりうる。",
+      "impact": "次に確認するのは政府案の金額・対象事業・財源と国会審議。地域や家計に届く具体的な支援は、その内容で判断する段階だ。",
+      "caution": "編成指示の段階。予算額や個別給付は未確定。",
+      "references": [
+        {
+          "name": "首相官邸",
+          "url": "https://www.kantei.go.jp/jp/105/actions/202611/24keizai.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "検索取得の公式発言で編成指示を確認、直接取得は失敗。原文・画像の転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000550367.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "25日朝の公開検索本文で災害対応と当初予算中心の方針を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "geibi-restructuring-bus-draft",
+      "theme": "日本経済",
+      "title": "芸備線の一部をバス中心にする案、国主導の協議で提示",
+      "summary": "11月24日、国土交通省中国運輸局は芸備線の備中神代〜備後庄原について、バスを中心とする交通への転換が適当とする骨子案を示した。国、自治体、JR西日本が参加する再構築協議会での提示で、来年3月の取りまとめが目標だ。",
+      "whyItMatters": "利用者の減った鉄道をどう維持するかという、全国の地域に共通する課題だ。運営費に加えて、通学や通院の便、乗り継ぎ、運転手確保も評価する必要がある。",
+      "impact": "沿線利用者に関わるのは、仮に転換した場合のルートや本数、運賃、費用の分担。協議で実際にどんな移動手段が確保されるかが次の焦点になる。",
+      "caution": "骨子案の対象は一部区間。廃止の決定や現在の運行変更は確認されていない。",
+      "references": [
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/900205121.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で区間・骨子案・今後の工程を確認。原文・画像の転載なし。"
+        },
+        {
+          "name": "時事通信・nippon.com",
+          "url": "https://www.nippon.com/ja/articles/-/57900",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で国の提案と取りまとめ目標を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-vessels-oil-nov24",
+      "theme": "国際情勢",
+      "title": "ホルムズ海峡で船舶被害の報告、原油は下げから反発",
+      "summary": "11月24日の取引で、北海ブレント原油先物は1バレル91.40ドルで終了し、前日より2.03ドル上昇した。ロイターによると、英国の海事情報機関UKMTOは、23日にホルムズ海峡を航行していた3隻が飛来物を受けたと24日に報告した。3隻は航行を続けたという。",
+      "whyItMatters": "中東からの燃料輸送では、被害そのものに加え、船会社が運航を続けられるかが供給を左右する。市況の反発は、供給が止まったことの確認とは別に見る必要がある。",
+      "impact": "日本の燃料費への影響は、原油相場だけでなく、運賃や為替、調達契約などでも変わる。次は航行や積み出しへの実際の影響を確認したい。",
+      "caution": "飛来物の発射主体はここでは特定しない。ガソリンの店頭価格の変化は未確定。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文でUKMTO報告と先物終値を確認。利用規約の権利留保も確認。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "china-shanghai-chen-investigation",
+      "theme": "国際情勢",
+      "title": "中国当局が上海トップを調査、政治局メンバーも対象に",
+      "summary": "中国の中央規律検査委員会と国家監察委員会は11月24日、上海市の党書記を務める陳吉寧氏が、重大な規律違反と違法行為の疑いで調査を受けていると発表した。陳氏は中国共産党の中央政治局メンバーでもある。",
+      "whyItMatters": "上海は中国の金融・経済の中枢で、市の党組織を率いる幹部への調査は地方行政だけでなく、中央の人事にも関わる。発表は調査の事実を示すが、違反の具体的内容までは示していない。",
+      "impact": "上海に関係する企業には、後任や政策方針の公表が今後の確認点になる。今回の人事調査から営業規制などの変更を予測する段階ではない。",
+      "caution": "調査と処分・刑事責任の確定は別。",
+      "references": [
+        {
+          "name": "中国中央規律検査委員会",
+          "url": "https://www.ccdi.gov.cn/toutiaon/202611/t20261124_524167.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索の公式短文で肩書と調査開始を確認、直接取得は失敗。原文・画像の転載なし。"
+        },
+        {
+          "name": "上海市政府",
+          "url": "https://www.shanghai.gov.cn/nw4411/20261124/6cfdc616e03346b58169acd131048c96.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索の自治体発表で24日の伝達を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "trump-state-case-removal-remand",
+      "theme": "国際情勢",
+      "title": "トランプ氏の州刑事事件、連邦控訴裁が移管申立ての再検討を求める",
+      "summary": "米連邦第2巡回区控訴裁は11月23日、トランプ大統領がニューヨーク州の刑事事件を連邦裁判所に移すよう求めた申立てについて、下級審に再検討を求めた。APなどが報じた。対象は業務記録の改ざんを巡り有罪評決を受けた事件で、今回の判断はどの裁判所で扱うかという手続きに関わる。",
+      "whyItMatters": "大統領側は連邦の職務との関係を主張している。裁判の場所を変える判断と、大統領の免責が認められるか、有罪判断が維持されるかは別々の論点になる。",
+      "impact": "次は連邦地裁が移管を認めるかと、州側の上訴手続きがどう進むかが焦点。今回の判断そのものによって州の有罪判断が取り消されたわけではない。",
+      "caution": "裁判所命令の原本は未取得。独立報道で一致する再検討の範囲に絞った。",
+      "references": [
+        {
+          "name": "AP・NBC New York掲載",
+          "url": "https://www.nbcnewyork.com/news/national-international/federal-appeals-court-trump-path-erasing-hush-money-conviction/6575632/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で下級審に再検討を命じた点を確認。原文・画像の転載なし。"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/legal-path-erase-donald-trump-hush-money-conviction",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索の範囲で控訴裁が移管を拒んだ下級審判断を覆した点を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "japan-icc-contribution-2027-early",
+      "theme": "日本政治",
+      "title": "日本政府、ICCの2027年分担金を年内に全額前払いへ",
+      "summary": "外務省によると、高市首相は11月24日に赤根智子・国際刑事裁判所（ICC）所長と会い、2027年分の分担金全額を2026年内に支払うと政府が決定したことを伝えた。赤根氏は日本の支援に謝意を示した。",
+      "whyItMatters": "ICCは重大な国際犯罪について個人の責任を扱う裁判所。加盟国による資金支援はその活動を支える。前日便のタジキスタンの離脱手続きとは別に、日本が具体的な資金支援を決めた点が新しい。",
+      "impact": "日本の外交姿勢を示すとともに、ICC側には翌年分の資金を早く受け取れる意味がある。今後は実際の支払いや、他の締約国を含めた財政面の対応が確認点となる。",
+      "caution": "確認したのは支払いの決定。送金の完了や新規の増額までは確認していない。",
+      "references": [
+        {
+          "name": "外務省",
+          "url": "https://www.mofa.go.jp/mofaj/ila/ila/pageit_000001_00003.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公式本文で年内支払いの決定と対象年を確認。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "ai-liability-expert-panel",
+      "theme": "日本政治",
+      "title": "AIが関わる損害の責任、政府の専門調査会が検討を開始",
+      "summary": "デジタル庁は11月24日、AI・デジタル改革推進専門調査会の初会合を開いた。共同通信によると、AIを使った行為の法的責任を検討し、来年6月の取りまとめを目指す。制度改正の成立ではなく、具体的な論点を整理する段階に入った。",
+      "whyItMatters": "AIが間違った処理を行ったとき、提供者、導入企業、操作した人のどこにどんな責任が生じるかは、契約や利用状況で変わる。ルールの見通しは利用者の救済や企業の導入判断にも関係する。",
+      "impact": "議論を見る際は、既存法で扱える範囲、追加のルールを設ける場合の対象、利用者に求める確認などが区別されているかがポイントになる。",
+      "caution": "初会合の開催と報道された取りまとめ目標。新しい賠償義務や免責は決まっていない。",
+      "references": [
+        {
+          "name": "デジタル庁",
+          "url": "https://www.digital.go.jp/councils/ai-digital-expert",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公式ページと新着の開催案内で調査会を確認。原文・画像の転載なし。"
+        },
+        {
+          "name": "共同通信・ライブドア掲載",
+          "url": "https://news.livedoor.com/article/detail/32888197/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で検討の目的と取りまとめ目標を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "ipa-vcenter-update-nov24",
+      "theme": "日本経済",
+      "title": "IPAがVMware管理製品の更新を呼びかけ、仮想サーバー運営者は対象を確認",
+      "summary": "IPAは11月24日、VMware vCenter Serverの認証に関わる脆弱性について注意情報を公開した。企業などが複数の仮想サーバーをまとめて管理する製品で、対象となる版や関連製品が示されている。",
+      "whyItMatters": "管理基盤に問題があると、そこで管理する業務システムにも影響が及びうる。通信向けの関連製品も対象に含まれるため、委託先の対応が事業継続に関わるケースもある。",
+      "impact": "情報システム担当者はIPAと開発元の案内を基に、製品系列と更新状況を照合する。管理を委託している企業は対象の有無と保守予定を確認する材料になる。",
+      "caution": "脆弱性の公表であり、特定企業の侵害やサービス停止は確認していない。",
+      "references": [
+        {
+          "name": "IPA",
+          "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で24日の注意情報、対象製品と更新案内を確認。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-equities-rebound-nov24",
+      "theme": "株式投資",
+      "title": "連休明けの日経平均は2207円高、TOPIXも反発",
+      "summary": "11月24日の東京市場で、日経平均株価は前営業日比2207円98銭高の5万8644円63銭で取引を終えた。TOPIXも90.66ポイント高の3764.88だった。20日の大幅安から、両指数とも反発した。",
+      "whyItMatters": "日経平均の上昇率は3.91％、TOPIXは2.47％。対象銘柄や算出方法が違うため、一つの指数だけで保有銘柄全体の値動きは分からない。",
+      "impact": "日本株を含む投資信託でも、連動する指数によって動きが異なる。今回の終値は、20日の下げと連休後の戻りの両方を確認する基準になる。",
+      "caution": "24日の取引結果。今後の株価や売買を勧める根拠にはしない。",
+      "references": [
+        {
+          "name": "野村證券・東証株式市況",
+          "url": "https://advance.quote.nomura.co.jp/meigara/nomura2/qsearch.exe?F=users%2Fnomura%2Ftse",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開市況で取引日と両指数の終値を確認。原文・画像の転載なし。"
+        },
+        {
+          "name": "共同通信・OANDA掲載",
+          "url": "https://www.oanda.jp/lab-education/market_news/kn_2026112401000852/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開取得範囲で日経平均の反発幅とTOPIX終値を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "dell-fy27-q3-outlook",
+      "theme": "株式投資",
+      "title": "デルの四半期売上は約2倍、通期売上見通しも引き上げ",
+      "summary": "デル・テクノロジーズは米国時間11月24日、2027年度第3四半期の売上高が549億ドルで前年同期比103％増だったと発表した。通期の売上高見通しは2020億ドル。AI向けサーバーを含むインフラ事業が伸びを支えた。",
+      "whyItMatters": "AIの普及が自社でモデルを作る企業だけでなく、サーバーやデータ保管機器を供給する企業の決算にも表れている。売上の伸びと利益・現金の伸びは別に見る必要がある。",
+      "impact": "今後の決算では、受注が実際の出荷や売上につながるか、売上拡大と利益率が両立するかが確認点になる。会計年度名は発表時点の暦年と異なる。",
+      "caution": "通期の数字は会社見通し。個別株の売買は勧めない。",
+      "references": [
+        {
+          "name": "Dell Technologies決算資料",
+          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開IR本文で四半期実績と通期会社見通しを確認。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "best-buy-fy27-q3-comps",
+      "theme": "株式投資",
+      "title": "米ベストバイの既存店などの売上は6.1％増、通期見通しを上方修正",
+      "summary": "米家電小売ベストバイは11月24日、10月31日までの四半期で比較可能な店舗・オンラインなどの売上が前年同期比6.1％増えたと発表した。通期の同指標の伸び率見通しは3.4〜4.0％へ引き上げた。",
+      "whyItMatters": "比較可能な拠点などを対象にする指標は、出店で店舗が増えた影響と既存事業の変化を見分ける材料になる。同社の米国内オンライン売上も比較可能ベースで伸びた。",
+      "impact": "年末の販売を考える際の参考になるが、この四半期は10月末まで。ブラックフライデーを含む年末商戦の実績を測るには、次の発表を待つ必要がある。",
+      "caution": "米小売1社の実績で、米国全体や日本の消費を代表するものではない。",
+      "references": [
+        {
+          "name": "Best Buy公式決算",
+          "url": "https://corporate.bestbuy.com/2026/best-buy-reports-q3-fy27-results/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開IR本文で対象期間、比較売上の伸びと通期見通しの引き上げを確認。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "zai-glm54-release",
+      "theme": "AI",
+      "title": "Z.aiの新モデルGLM-5.4、チャットと開発ツールで提供開始",
+      "summary": "Z.aiは11月23日、コードと画像入力を扱う主力モデルGLM-5.4を発表した。Z.ai Chat、開発ツールZCode、有料のGLM Coding Planで案内している。一般向けAPIとモデルの重みの公開は今後の予定とされている。",
+      "whyItMatters": "画像を読める開発向けモデルは、画面設計の画像とコードを一緒に検討する用途に関係する。モデル性能の発表と、どの入口で今使えるかは別に確認したい。",
+      "impact": "開発者は既存ツールから使う場合に対象プランと対応条件を確認する。汎用APIがすでに利用できる前提でシステムを設計するには早い。",
+      "caution": "性能の比較は開発元の評価。APIやモデルの重みの公開日、地域別の条件は未確認。",
+      "references": [
+        {
+          "name": "Z.aiモデル発表",
+          "url": "https://z.ai/blog/glm-5.4",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公式検索取得で提供先とAPI予定を確認、直接表示には本文なし。原文・画像の転載なし。"
+        },
+        {
+          "name": "PC Watch",
+          "url": "https://pc.watch.impress.co.jp/docs/news/2158757.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で発表日、画像入力と提供段階を照合。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "openai-healthcare-api-configurations",
+      "theme": "AI",
+      "title": "OpenAIが開発者向けに医療文献検索用のモデル構成を追加",
+      "summary": "OpenAIは11月24日、AstraやSolを医療分野の用途に調整した構成をResponses APIで提供すると案内した。Web検索を使う構成では専用の情報索引を検索でき、開発者が出典付きで医学的な根拠を比較するアプリなどを構築できるという。",
+      "whyItMatters": "一般のChatGPTに機能が一律追加されたニュースとは異なり、開発側が検索対象を絞った用途を作れることが変更点。根拠の確認を支援する用途と、診断を任せる用途を分ける必要がある。",
+      "impact": "導入を検討する組織は、対象となるAPIの条件と、扱う情報に応じた契約・管理条件を確認する。利用にChatGPT for Healthcareのワークスペースは必須ではないと案内されている。",
+      "caution": "API向けの設定。診断や治療の判断は扱わず、精度や料金を独自検証したものではない。",
+      "references": [
+        {
+          "name": "OpenAIモデルリリースノート",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "24日の公開本文で対象API、専用検索、ワークスペース条件を確認。原文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "four-you-shinkigeki-2027-details",
+      "theme": "芸能ニュース",
+      "title": "ふぉ〜ゆ〜と吉本新喜劇の舞台、東京・大阪の公演日程が決まる",
+      "summary": "吉本興業は11月24日、『ふぉ〜ゆ〜シン喜劇2027』の公演詳細を発表した。東京は2027年3月26日〜4月4日、大阪は4月8日〜11日。ふぉ〜ゆ〜が主演し、吉本新喜劇の出演者やジェラードンのかみちぃらも参加する。",
+      "whyItMatters": "アイドルと新喜劇の出演者が一つの作品で共演する企画で、今回の発表で首都圏と関西の観覧日程が具体化した。お笑いの舞台を普段見ている人にも接点のある公演だ。",
+      "impact": "公式発表では12月24日から窓口ごとに先行受付が順次始まる。気になる公演は会場と日程、受付対象を劇場・主催者の案内で確認できる。",
+      "caution": "先行受付の開始日は販売窓口によって異なる場合がある。公演や出演予定は公式の最新案内を参照。",
+      "references": [
+        {
+          "name": "吉本興業・公式発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000005512.000029501.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で24日発表、出演・先行受付の事実を確認。原文・画像の転載なし。"
+        },
+        {
+          "name": "IMM THEATER",
+          "url": "https://imm.theater/news/detail/86",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "劇場の公開案内で東京公演の期間を照合。原文・画像の転載なし。"
+        },
+        {
+          "name": "公演公式サイト",
+          "url": "https://4u-shinkigeki.com/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-24T23:04:39.832Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で大阪公演の日付を照合。原文・画像の転載なし。"
+        }
+      ]
+    }
+  ],
+  "researchLog": {
+    "overview": "共同通信の国内主要欄、NHKラジオの公開番組概要、経済欄・海外報道の主要記事から選定。SmartNewsのアプリトップ、NHK・Yahoo!ニュースのウェブトップは確認できず。11月18〜24日の取得できた日次便と照合。",
+    "ai": "OpenAIニュースとChat・モデルノート、Anthropic、Google、Microsoft、Meta、xAI、Mistral、DeepSeekの公式ページを確認した範囲と公開IT報道を比較。Googleフィードの本文一覧は不完全、Qwen本文なし。Claude ShipとGPT-6.2通常Chatは前日掲載。Z.aiの直接本文は表示されず、公開検索本文を利用。",
+    "omissions": "佐藤輝明の契約報道はスポーツで既存の6分類外。関文科相の問責は提出方針の段階で予算・制度案件を優先。荒天の地域別最新値、Ghostscript修正版と国内への影響は追加確認未完。PHP、WordPress、NVIDIAの復帰は既掲載。OpenAIの生物研究発表は採用外。",
+    "rights": "ReutersとOpenAIの規約、公共データ利用規約を参照し、発表・報道の少数の事実と出典リンクのみ使用。検索本文と直接取得を区別し、記事の全文、画像、表、RSSは再配信しない。"
+  }
+}
