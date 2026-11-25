@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "id": "2026-11-26-morning",
+  "issueDate": "2026-11-26",
+  "cutoffAt": "2026-11-25T23:05:17.123Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "theme": "国際情勢",
+      "id": "ustr-section301-nov25",
+      "title": "米国が日本を含む14の国・地域に関税案、日本は最大15％を検討",
+      "summary": "米通商代表部（USTR）は11月25日、製造業の過剰生産能力を巡る通商法301条の調査結果と対応案を公表した。日本製品については一部を除き最大15％の税率を検討する案で、既存の税率などの扱いも示している。",
+      "whyItMatters": "米国は各国の産業支援などが米製造業に不利益を与えていると主張する。調査結果の公表と、個々の輸入品に新税率を適用する決定は別の段階になる。",
+      "impact": "日本の輸出企業にとっては対象品目や適用除外、既存の関税との関係が重要だ。米国での販売価格や採算への影響は最終案と契約によって変わる。",
+      "caution": "15％が全品目に一律で上乗せされる決定ではない。",
+      "references": [
+        {
+          "name": "米通商代表部",
+          "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公式本文の対象国・地域と日本向け提案を確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "USTR日本向け告示案",
+          "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Japan%20FRN%20Final.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開PDFの提案と法的根拠を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "日本政治",
+      "id": "secondary-capital-timeline",
+      "title": "副首都の指定は2027年秋を想定、愛知などが候補に",
+      "summary": "11月25日に共同通信とFNNが報じた政府の案では、大規模災害時に首都機能を補う副首都について、2027年6月以降に申請を受け、同年秋に指定、2028年春に運用を始める想定だ。北海道、愛知、大阪、福岡が要件を満たすと報じられた。",
+      "whyItMatters": "7月公布の法律で枠組みができ、今回は指定までの具体的な工程が判明した。23日に報じられた政府の災害対策本部の代替拠点の検討とは、取り上げる制度と進展が異なる。",
+      "impact": "愛知を含む候補地では、自治体の申請や議会手続き、どの業務を受け持ち何を整備するかが次の焦点になる。",
+      "caution": "指定先は未決定。日程は政府案を伝える報道段階。",
+      "references": [
+        {
+          "name": "FNN",
+          "url": "https://www.fnn.jp/articles/FNN/1159197",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "政府案の日程・自治体を公開検索本文で確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "共同通信・熊本日日新聞",
+          "url": "https://www.kumanichi.com/articles/2061593",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "独立報道の検索本文で時期を照合。文面・写真は転載していない。"
+        },
+        {
+          "name": "国立国会図書館・日本法令索引",
+          "url": "https://hourei.ndl.go.jp/simple/detail?current=-1&lawId=0000171386",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公布済みの根拠法を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "日本政治",
+      "id": "important-land-lower-house-pass",
+      "title": "重要施設周辺の土地取得を許可制にする改正案、衆院本会議を通過",
+      "summary": "重要土地等調査法の改正案は11月24日、衆院本会議で可決された。自衛隊基地などの周辺で一定の土地や建物の取得を許可制とする内容。前便で扱った委員会可決から、衆院全体での議決に進んだ。",
+      "whyItMatters": "重要施設の機能を守る目的で、対象区域内の不動産取引に事前の審査を加える。安全確保と、住民・事業者の取引への影響の両方が審議の焦点になる。",
+      "impact": "対象区域に関係する買い手や事業者は、参院での審議と、成立した場合に公表される対象・申請方法・施行時期を確認したい。",
+      "caution": "衆院通過の段階。許可制がすでに始まったわけではない。",
+      "references": [
+        {
+          "name": "衆議院",
+          "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE36CA.htm",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公式議案情報で本会議可決の日付を確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "日本時事新聞",
+          "url": "https://jpjj.jp/articles/land-bo-jogmec-bills-pass-lower-house/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で改正案の内容と本会議通過を照合。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "日本政治",
+      "id": "supermarket-minimum-wage-consultation",
+      "title": "総合スーパーの業種別最低賃金、設定の必要性を国が諮問",
+      "summary": "11月25日の中央最低賃金審議会で、総合スーパーマーケットを対象とする最低賃金を決める必要があるかが諮問された。厚生労働省の議題で確認できる。金額や適用開始時期を決めた段階ではない。",
+      "whyItMatters": "最低賃金には地域単位のものと、特定の産業を対象とするものがある。今回の議題は、総合スーパーの労働条件を対象に別の最低額を設定する必要性だ。",
+      "impact": "該当店で働く人や事業者にとっては、どの店舗・職種を対象とするかや金額が次の確認点。実際の給与が変わるかは今後の結論による。",
+      "caution": "諮問は審議を求める手続き。今回の会議資料一覧から採択結果は確認していない。",
+      "references": [
+        {
+          "name": "厚生労働省",
+          "url": "https://www.mhlw.go.jp/stf/shingi/shingi-tingin_127939.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "中央最低賃金審議会の公式議題と日付を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "日本経済",
+      "id": "tower-records-leak-follow-up",
+      "title": "タワーレコード通販で会員情報約1100万件が流出、退会者も対象に",
+      "summary": "タワーレコードは11月21日、オンラインストアへの不正アクセスで会員情報約1100万件が流出したと発表した。25日のITmediaの報道によると、退会後3年以内の人の情報も含まれ、調査と安全確認のため通販サイトは停止を続けている。",
+      "whyItMatters": "会員情報を保存する通販サービスでは、現在使っている人だけでなく以前の利用者も影響を受けることがある。今回の報道で、退会していた人にも確認が必要な範囲が示された。",
+      "impact": "登録したことがある場合は、公式案内で対象と対応を確認したい。同じパスワードを他のサイトでも使っていれば、使い回しを解消することが対策になる。注文済み商品は23日から順次出荷と報じられている。",
+      "caution": "約1100万件は会社発表に基づく。ITmediaによるとクレジットカード情報は含まれていない。",
+      "references": [
+        {
+          "name": "ITmedia NEWS",
+          "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003439/",
+          "reviewNote": "公開本文で初報日、退会者の対象範囲、停止継続を確認。本文・写真は転載なし。",
+          "usage": "facts-only",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:51.768Z"
+        },
+        {
+          "name": "FNN",
+          "url": "https://www.fnn.jp/articles/-/1157552?obOrigUrl=true",
+          "reviewNote": "公開検索本文で件数と出荷再開を照合、直接取得では本文未取得。本文・写真は転載なし。",
+          "usage": "facts-only",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:51.768Z"
+        }
+      ]
+    },
+    {
+      "theme": "日本経済",
+      "id": "xserver-ghostscript-restored",
+      "title": "エックスサーバーがPDFの画像変換を再開、修正版の適用を公表",
+      "summary": "エックスサーバーは11月23日にPDFなどの画像変換を一部制限し、24日の追記で対象サービス全サーバーへの修正版の適用と制限解除を公表した。PDFを処理するGhostscriptの脆弱性への対応だった。25日には主な対策状況をまとめて案内した。",
+      "whyItMatters": "サイトのPDFから画像を生成する機能は、サイト本体とは別のサーバー側ソフトに依存する。予防措置で一時的に使えなくなった機能が戻った点が利用者にとっての変化だ。",
+      "impact": "対象サービスで変換処理が止まった場合は、再開後の処理結果を確認できる。他社や自己管理の環境では、それぞれ保守元の対策案内を確認したい。",
+      "caution": "同社対象サービスの対応。実際の侵害が発生したとの発表ではない。",
+      "references": [
+        {
+          "name": "エックスサーバー・制限解除告知",
+          "url": "https://www.xserver.ne.jp/information_detail.php?view_id=20009",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文の24日追記で修正版適用と制限解除を確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "エックスサーバー・対策状況",
+          "url": "https://www.xserver.ne.jp/news_detail.php?view_id=20018",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "25日の公式対応状況ページを照合。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "日本経済",
+      "id": "drupal-nov25-followup-fix",
+      "title": "Drupalが追加の緊急修正を公表、サイト管理者は更新状況を確認",
+      "summary": "Drupalの開発元は11月25日、アクセス権限に関わる重大な問題の追加情報と修正版を公表した。先行する修正が出た後も、特定の構成状態にあるサイトは影響を受けうるとしている。",
+      "whyItMatters": "Web制作会社や企業のサイトでは、同じCMSを使っていても、運用している系列や設定によって必要な対応が異なる。先行の対策を済ませた場合も最新の告知を確認する意味がある。",
+      "impact": "Drupalを使うサイトの管理者は、公式告知からサポート中の系列と修正適用状況を確かめ、委託先があれば対応を確認したい。",
+      "caution": "Drupalの本体に関する案内。個々のサイトで侵害が起きたことを示すものではない。",
+      "references": [
+        {
+          "name": "Drupal公式",
+          "url": "https://www.drupal.org/sa-core-2026-019",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "25日の公式検索本文で影響と追加修正を確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "カナダ・サイバーセキュリティセンター",
+          "url": "https://www.cyber.gc.ca/en/alerts-advisories/drupal-security-advisory-av26-1209",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公的機関の公開検索本文で同日の注意情報を照合。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "株式投資",
+      "id": "tokyo-nikkei-nov25",
+      "title": "日経平均は1633円安、連休明けの上昇から反落",
+      "summary": "11月25日の日経平均株価は前日比1633円01銭安の5万7011円62銭で終えた。TOPIXは18.68ポイント安の3746.20。前日の大幅高から一転した。共同通信によると半導体関連株などが売られた。",
+      "whyItMatters": "日経平均の下落率は2.78％。TOPIXより下落が大きく、指数ごとに組み入れの違いが値動きに表れた。",
+      "impact": "市場全体を把握する際は、保有商品が連動する指数と、個別業種の寄与を分けて見る材料になる。",
+      "caution": "25日の実績で今後の株価を示すものではない。",
+      "references": [
+        {
+          "name": "日経平均プロフィル",
+          "url": "https://indexes.nikkei.co.jp/nkave/archives/summary?dt=10292026&idx=nk225",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "日付表示と日経平均終値を公開検索で確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "共同通信・熊本日日新聞",
+          "url": "https://kumanichi.com/articles/2061687",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で日経平均・TOPIXを照合。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "株式投資",
+      "id": "us-equity-close-nov25",
+      "title": "米株は下げ幅縮小、S&P500とナスダックは小幅安",
+      "summary": "米国の11月25日の取引でS&P500は0.3％安、ナスダック総合は0.6％安で終了した。ダウは0.3％上昇。APによるとS&P500は一時3.2％下げたが、引けまでに下落幅を縮めた。",
+      "whyItMatters": "取引中の急落と終値で見た変化の大きさに差がある。速報で大きな下落率を見た場合も、取引が終わった時点での数字と区別したい。",
+      "impact": "米株指数に連動する円建て商品では、指数の構成や為替も値動きに関係する。翌日の値動きが決まったわけではない。",
+      "caution": "暫定の取引中数値は終値に使っていない。",
+      "references": [
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-94fdb0ecb060ec65c0b02879ce0d2d09",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で主要3指数の終値と取引中の下げを確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "Reuters・MarketScreener掲載",
+          "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-down-but-well-off-lows-as-investors-buy-bargains-ce7851d8da81ff22",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で下げ幅縮小を照合。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "株式投資",
+      "id": "hp-fy26-dividend",
+      "title": "HPの通期売上605億ドル、四半期配当は31セントへ",
+      "summary": "米HPは11月24日、2026年度の売上高が605億ドルで前年度比9.5％増だったと発表した。四半期配当は1株当たり0.31ドルに引き上げる。パソコンやプリンターを扱うHP Inc.の発表だ。",
+      "whyItMatters": "売上実績に加えて、株主還元の額も変わる。配当の変更があっても、事業別の伸びと利益率や現金の状況は別に確認が必要だ。",
+      "impact": "保有者が円で受け取る金額は為替や税の扱いでも変わる。次の決算では売上の伸びが利益や現金につながるかが確認点。",
+      "caution": "配当額だけで将来の業績や利回りは決まらない。",
+      "references": [
+        {
+          "name": "HP・投資家向け決算",
+          "url": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Full-Year-and-Fourth-Quarter-Results-Announces-Dividend-Increase/default.aspx",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公式決算本文と公式PDFで通期売上、配当額を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "国際情勢",
+      "id": "eu-russia-trade-entities",
+      "title": "EUがロシアの軍需産業に関連する15団体への貿易制限を決定",
+      "summary": "EU理事会は11月25日、ロシアの軍事・産業部門との関係を理由に、15団体に貿易上の制限を課すと発表した。ウクライナ侵攻を受けたEUの追加措置で、対象を団体単位で指定する。",
+      "whyItMatters": "制限の対象はロシアとの貿易一般ではなく、EUが示した相手や取引の範囲によって決まる。軍需産業への供給を制限する狙いがある。",
+      "impact": "欧州経由の取引に関係する企業では、相手先と製品が該当するかが確認点になる。日本の制裁制度がこの発表で自動的に変わるものではない。",
+      "caution": "具体的な取引への適用は公布資料や各当局の案内を確認。",
+      "references": [
+        {
+          "name": "EU理事会",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/russia-s-war-of-aggression-against-ukraine-eu-restricts-trade-with-15-entities-linked-to-russia-s-military-and-industrial-complex/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "25日の公式公表で対象団体数と措置を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "国際情勢",
+      "id": "ukraine-2027-financing",
+      "title": "ウクライナ大統領、来年の対外資金需要を1150億ユーロと説明",
+      "summary": "ウクライナのゼレンスキー大統領は11月24日、2027年に国外から1150億ユーロの資金支援が必要だとの見通しを示したとロイターが報じた。大統領府も地方・地域当局との会議で必要な資金の確保を課題に挙げた。",
+      "whyItMatters": "長期化する戦争で、国の支出と国外からの支援がどう釣り合うかが問題になっている。必要額の見積もりは支援国側が結んだ資金拠出の約束とは別だ。",
+      "impact": "今後は支援国や国際機関が、どの規模・条件で融資や援助を決めるかが重要になる。今回の発言から日本の新規負担は確定しない。",
+      "caution": "大統領側の資金需要の見通し。全額の確保や支払いは未確認。",
+      "references": [
+        {
+          "name": "ウクライナ大統領府",
+          "url": "https://www.president.gov.ua/en/news/zvernennya-prezidenta-do-uchasnikiv-zasidannya-kongresu-misc-107469",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公式演説の公開検索本文で会議と資金確保の位置付けを確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/finance/ukraine-needs-125-billion-external-support-2027-zelenskiy-says-2026-11-24/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索で必要額と対象年を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "AI",
+      "id": "claude-mcp-skills-beta",
+      "title": "Claudeが外部サービスから作業手順を受け取る機能を試験提供",
+      "summary": "Anthropicは11月24日、ClaudeとClaude Codeで、MCP経由で作業手順を受け取れる機能を公開ベータとして案内した。MCPはAIと外部サービスをつなぐ仕組み。Pro、Max、Ultraでは既定で有効、Teamでは管理者による有効化が必要とされる。",
+      "whyItMatters": "外部サービスにつなぐだけでなく、サービス側が作業の進め方も提供できる。データへのアクセス権と、AIに渡される作業手順の両方を把握することが重要になる。",
+      "impact": "すでに外部サービスを使っている場合は、利用中の接続先が対応しているか、管理者がどの設定を有効にしたかを確認できる。",
+      "caution": "ベータ。Enterpriseは今後の提供とされ、個別の接続先の動作は検証していない。",
+      "references": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/fr/resources/articles/skills-over-mcp-tasks-and-more",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公式本文でベータの対象、プラン別の提供条件を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "AI",
+      "id": "deepmind-humanitys-first-exam",
+      "title": "Google DeepMindがAIの回答の信頼性を測る試験を発表",
+      "summary": "Google DeepMindは11月24日、言語モデルの回答の信頼性を評価するHumanity’s First Examと、Kaggleでの企画を発表した。一般のGemini利用者に新モデルの提供を始めたという発表ではなく、回答を比較する評価の取り組みだ。",
+      "whyItMatters": "仕事でAIを使う際は、難問が解けるかだけでなく、普段の質問でどこまで安心して使えるかにも関心がある。信頼性を明示的に測る試みはモデルを選ぶ際の材料になりうる。",
+      "impact": "評価結果を見るときは、測定対象の質問、採点方法、自分がAIを使う業務との違いを確かめたい。",
+      "caution": "試験企画の発表。モデル全体の正確性や具体的な業務での改善は保証しない。",
+      "references": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公式公表で目的とKaggle企画、発表日を確認。文面・写真は転載していない。"
+        }
+      ]
+    },
+    {
+      "theme": "芸能ニュース",
+      "id": "nhk-2029-taiga-mitsunari",
+      "title": "2029年のNHK大河は石田三成が主人公、神木隆之介が主演",
+      "summary": "NHKは11月25日、2029年の大河ドラマを『三成のうた』と発表した。主人公の石田三成を神木隆之介が演じ、黒岩勉が脚本を担当する。同日の制作・主演発表会見を複数の媒体が報じた。",
+      "whyItMatters": "石田三成を主人公に据えたことが作品の新しい接点になる。関ヶ原の戦いの結果だけでなく、豊臣政権の中で三成が担った役割にも関心が広がりそうだ。",
+      "impact": "視聴者が次に確認できるのは、追加出演者や放送開始日の正式発表。現時点で分かっているのは作品名と放送年、主な制作陣だ。",
+      "caution": "作品は歴史を題材にしたドラマ。放送の具体的な日時は未確認。",
+      "references": [
+        {
+          "name": "AV Watch",
+          "url": "https://av.watch.impress.co.jp/docs/news/2159209.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索本文で発表日・作品名・主演を確認。文面・写真は転載していない。"
+        },
+        {
+          "name": "シネマトゥデイ",
+          "url": "https://www.cinematoday.jp/news/N0158159",
+          "publishedAt": null,
+          "accessedAt": "2026-11-25T23:04:21.952Z",
+          "usage": "facts-only",
+          "reviewNote": "独立した会見報道の公開検索本文で主演と脚本を照合。文面・写真は転載していない。"
+        }
+      ]
+    }
+  ],
+  "researchLog": {
+    "selection": "共同通信主要面と経済、NHKラジオ公開概要、Reuters世界面、ITmedia速報・月別一覧、芸能・映画一覧、IPA、JPCERT/CC、気象庁を確認し、日次便20〜25日と比較。SmartNewsの実際のアプリトップは未確認。",
+    "ai": "OpenAI公式発表・ChatGPT更新・モデルノート、Google/DeepMind、Anthropic、Microsoft、Meta、xAI、Mistral、DeepSeekの取得範囲と独立したAI報道を比較。Qwenは本文なし。Claude Ship、GLM-5.4、医療APIは既掲載。",
+    "rights": "公開発表と報道の事実のみ使用。Reuters規約、公共データ利用規約、ITmedia RSS条件、Google・Anthropicの権利条項を参照。全文要約許諾として扱わない。",
+    "omissions": "上限のためヴェレダ通販の漏えい可能性、米GDP改定を未掲載。介護保険料の報道は一次資料確認が残る。文科相問責は採決前。荒天は対象地域の新たな重大被害を確認できず。京王・VMwareは新事実を確認できず再掲しない。"
+  }
+}
