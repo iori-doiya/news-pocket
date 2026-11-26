@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "id": "2026-11-27-morning",
+  "issueDate": "2026-11-27",
+  "cutoffAt": "2026-11-26T23:03:32Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "mext-school-absence-fy25",
+      "theme": "日本政治",
+      "title": "小中の不登校が約35万9千人、学校外の学びの支援も課題に",
+      "summary": "文部科学省が11月26日に公表した2025年度調査で、不登校の小中学生は35万9424人だった。時事通信などは過去最多と報じた。",
+      "whyItMatters": "欠席が長期化した子どもに、学校内外で相談や学習の機会を確保できるかが問われる。",
+      "impact": "家庭や学校にとって、教育支援センターなどにつながるまでの道筋が身近な論点になる。",
+      "caution": "全国の集計。個々の児童生徒の欠席理由は一律ではない。",
+      "references": [
+        {
+          "name": "文部科学省",
+          "url": "https://www.mext.go.jp/content/20261126-mxt-jidou02-100002753_h.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公式PDFの年度別集計を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "時事通信報道の公開表示",
+          "url": "https://exbridge.jp/news/2026-11-26/2125865152046370958.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開見出しと表示で最多を照合。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "seki-censure-motion",
+      "theme": "日本政治",
+      "title": "関文科相への問責案を野党8党派が参院に提出",
+      "summary": "立憲民主党など参院の野党8党派は11月26日、関芳弘文部科学相の問責決議案を提出した。政治資金パーティーを巡る国会答弁の説明が争点になっている。",
+      "whyItMatters": "問責決議は参院が閣僚の政治的責任について意思を示す手段。野党側は答弁に問題があったと主張している。",
+      "impact": "次の焦点は参院本会議での採決と、文科相や政府が追加でどう説明するかだ。",
+      "caution": "確認締切時点では提出段階。問責決議に辞任を強制する効力はない。",
+      "references": [
+        {
+          "name": "立憲民主党",
+          "url": "https://cdp-japan.jp/news/20261126_0789",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "提出した側の発表で日付と参加党派を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "日本時事新聞",
+          "url": "https://jpjj.jp/articles/seki-mext-minister-censure-motion-submitted/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で提出と争点を照合。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "abc-fcc-license-injunction",
+      "theme": "国際情勢",
+      "title": "米連邦地裁がABC放送免許の前倒し審査を差し止め",
+      "summary": "米連邦地裁は11月25日、連邦通信委員会（FCC）がABC系列の直営局に求めていた放送免許の前倒し審査を暫定的に差し止めた。ABC側は番組を巡る報復だと主張し、FCC側は判断に反論している。",
+      "whyItMatters": "放送免許を監督する行政機関の権限と、放送局の表現の自由が争点になっている。",
+      "impact": "暫定措置で審査の進行が止まる。次は訴訟本体の判断や上級審での動きが焦点になる。",
+      "caution": "今回確認したのは暫定的な差し止め。",
+      "references": [
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/f04f6b2b1a17fc10f2da11e4fd83a9df",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で命令の段階と双方の主張を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/judge-bars-us-fcc-taking-steps-threaten-abcs-broadcast-license-2026-11-26/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で差し止めを照合。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "australia-lng-reservation-senate",
+      "theme": "国際情勢",
+      "title": "豪州の国内ガス確保法案が上院で進展、最終採決には報道差",
+      "summary": "豪州上院で11月26日、LNG輸出業者に国内向け供給を求める法案の審議が進んだ。ロイターは第2読会で賛成多数となり最終採決は2027年2月に延期と報じ、豪ABCは上院通過と報じた。",
+      "whyItMatters": "輸出の一部を国内へ回す構想で、豪州の家庭や工場向けの供給を増やす狙いがある。",
+      "impact": "豪州からLNGを調達する日本にとっては、最終条文、既存契約の扱い、適用時期が確認点になる。",
+      "caution": "報道で手続きの説明が異なるため、成立は確認していない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/australia-set-pass-law-lng-exporters-reserve-more-gas-domestic-use-2026-11-26/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で第2読会と採決延期の報道を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "豪ABC",
+          "url": "https://www.abc.net.au/news/2026-11-26/gas-reservation-scheme-set-to-pass-parliament/107430804",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で国内供給の構想と異なる手続き報道を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "us-gdp-q3-second-estimate",
+      "theme": "国際情勢",
+      "title": "米7〜9月の実質GDP、年率4.3％増へ上方改定",
+      "summary": "米商務省の経済分析局は11月25日、2026年7〜9月の実質GDPの伸び率を前期比年率4.3％に改定した。速報との差は0.9ポイントで、投資と個人消費の上方修正が主因だった。",
+      "whyItMatters": "米国の需要がどの程度伸びたかを示す基礎統計で、速報から変わった内訳にも意味がある。",
+      "impact": "米国に輸出する企業や為替市場には景気を読む材料になる。次の四半期も同じ伸びが続くかは別途確認が必要だ。",
+      "caution": "年率換算した第2次推計。前年比の伸び率ではない。",
+      "references": [
+        {
+          "name": "米経済分析局",
+          "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公式本文で改定幅と寄与項目を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "tepco-electric-relief-approval",
+      "theme": "日本経済",
+      "title": "東電の電気料金値引きに認可、冬の請求に向け手続き進む",
+      "summary": "東京電力エナジーパートナーは11月26日、政府の料金支援に伴う電気料金の特別措置について経済産業大臣の認可を受けたと発表した。",
+      "whyItMatters": "政府の支援方針が、電力会社の対象契約で値引きを行う手続きまで進んだ。",
+      "impact": "契約者は料金明細や電力会社の案内で、対象期間、契約の種類、使用量に応じた値引きを確認できる。",
+      "caution": "発表の認可対象は同社の特定小売供給約款に関わる電気料金。",
+      "references": [
+        {
+          "name": "東京電力エナジーパートナー",
+          "url": "https://www.tepco.co.jp/ep/notice/pressrelease/2026/pdf/26x4901.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公式PDFの認可日と対象を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "東京電力パワーグリッド",
+          "url": "https://www.tepco.co.jp/pg/company/press-information/information/2026/pdf/26x5601.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "送配電会社の公式公表で別の関連手続きを確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima-oyster-mortality-review",
+      "theme": "日本経済",
+      "title": "広島の養殖カキが再び大量死、専門家が餌不足の可能性を検討",
+      "summary": "広島県の養殖カキの大量死を巡り、11月26日のテレビ朝日の報道は、有識者会議で高水温に伴う餌不足の可能性が示されたと伝えた。県の調査では、一部の海域で8〜9割が死んだという。",
+      "whyItMatters": "主要産地で被害が続くと、生産者の収入や卸売・飲食店の仕入れにも影響する。",
+      "impact": "産地や時期によって出荷状況が異なるため、今後は実際の水揚げと県の支援策が焦点になる。",
+      "caution": "原因は検討段階。被害割合は報道が示した一部海域の数字。",
+      "references": [
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000550643.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で海域別の被害と会議で示された見方を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "広島県",
+          "url": "https://www.pref.hiroshima.lg.jp/site/kisyahappyou/202611-release.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公式発表一覧で有識者会議の資料を照合。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-nikkei-nov26",
+      "theme": "株式投資",
+      "title": "日経平均が487円反発、前日の下げの一部を戻す",
+      "summary": "11月26日の日経平均は前日比487円54銭高の5万7499円16銭。TOPIXは4.20ポイント高の3750.40だった。日経平均は一時の上げ幅を縮めて取引を終えた。",
+      "whyItMatters": "前日に日経平均が1600円超下げた後の反発で、終値では下落分の一部を戻した。",
+      "impact": "主要指数の上昇幅に差があり、保有する投資信託などの連動先によって同日の値動きは異なる。",
+      "caution": "26日の終値。今後の値動きや個別株の売買を示す情報ではない。",
+      "references": [
+        {
+          "name": "読売新聞・ライブドア掲載",
+          "url": "https://news.livedoor.com/article/detail/32907515/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開本文で両指数の終値を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "共同通信・熊本日日新聞",
+          "url": "https://www.kumanichi.com/articles/2062133",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で日経平均の終値と前日比を照合。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "runway-meta-praxis-executorch",
+      "theme": "AI",
+      "title": "ロボット制御モデルPraxis-1をRunwayとMetaが別の実行環境に対応",
+      "summary": "RunwayとMetaのPyTorchチームは11月25日、既存のロボット制御モデルPraxis-1がExecuTorchとNVIDIA TensorRTの組み合わせで動くようになったと発表した。",
+      "whyItMatters": "ロボット向けに導入する際、必要なソフトを減らし、対応機器への配備を簡単にする狙いがある。",
+      "impact": "ロボット開発チームは、手元のGPU、実行環境、モデルの利用条件が対応範囲に入るかを確認できる。",
+      "caution": "速度の数値は発表元の計測。新モデルや一般向け動画生成機能の発表ではない。",
+      "references": [
+        {
+          "name": "Runway・Meta PyTorchチーム",
+          "url": "https://runway.com/news/company-news/runway-meta-praxis-1-executorch",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公式本文で対応環境と既存モデルへの追加を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    },
+    {
+      "id": "sakanaction-shintakarajima-live",
+      "theme": "芸能ニュース",
+      "title": "サカナクションが「新宝島」のツアー映像を期間限定公開",
+      "summary": "サカナクションは11月26日、2025年ツアーで演奏した「新宝島」のライブ映像を期間限定で公開した。同曲を使った年末ジャンボ宝くじの新CMも同日から放映された。",
+      "whyItMatters": "広く知られる楽曲が年末のCMで使われるのに合わせ、ツアーでの演奏も公開された。",
+      "impact": "ツアーに行けなかった視聴者も、公開中は収録されたステージでの演奏を見られる。",
+      "caution": "ここでは公開終了日時は確認できていない。",
+      "references": [
+        {
+          "name": "POPSCENE",
+          "url": "https://www.popscene.jp/news/062375",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で映像とCMの開始日を確認。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        },
+        {
+          "name": "ライブドアニュース掲載記事",
+          "url": "https://news.livedoor.com/article/detail/32909121/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-26T23:03:16Z",
+          "usage": "facts-only",
+          "reviewNote": "公開検索表示で期間限定公開を照合。公開情報の事実のみ使用し、原文・画像は転載していない。"
+        }
+      ]
+    }
+  ]
+}
