@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "id": "2026-11-28-morning",
+  "issueDate": "2026-11-28",
+  "cutoffAt": "2026-11-27T23:03:58Z",
+  "producer": "ChatGPT ニュースポケット毎日更新",
+  "review": {
+    "kind": "chatgpt-web",
+    "factsChecked": false,
+    "automatedEvidenceChecked": true,
+    "originalWriting": true,
+    "sourceTermsChecked": true,
+    "noRestrictedText": true
+  },
+  "items": [
+    {
+      "id": "tokyo-cpi-nov26",
+      "theme": "日本経済",
+      "title": "東京23区の物価、生鮮食品を除いて2.9％上昇",
+      "summary": "総務省が11月27日に公表した11月中旬速報では、東京23区の生鮮食品を除く消費者物価が前年同月比2.9％上がった。10月の2.6％から伸びが広がった。",
+      "whyItMatters": "電気代などを含む指数で、家計の負担と日銀の物価判断を追う材料になる。",
+      "impact": "契約や買い物の内訳によって家庭ごとの負担は異なる。全国の統計でも同じ傾向が続くかが次の確認点だ。",
+      "caution": "東京23区の速報値。全国の上昇率とは異なる。",
+      "references": [
+        {
+          "name": "総務省統計局",
+          "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000550968.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "seki-censure-rejected",
+      "theme": "日本政治",
+      "title": "参院が関文科相の問責案を否決、賛否は4票差",
+      "summary": "参院は11月27日、関芳弘文部科学相の問責決議案を賛成120、反対124で否決した。政治資金パーティーと国会答弁を巡り、前日に野党8党派が提出していた。",
+      "whyItMatters": "閣僚の政治的責任を問う決議が、提出から採決まで進んだ。野党は答弁を問題視し、与党などは決議案に反対した。",
+      "impact": "税制などの審議日程について、与野党がどう合意するかも次の焦点になる。",
+      "caution": "採決で決まったのは決議案の否決。政治資金の問題そのものへの判断とは区別する。",
+      "references": [
+        {
+          "name": "TBS NEWS DIG",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3117512?display=1",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "テレビ朝日",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000551087.html",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "jaxa-astronaut-recruitment-preview",
+      "theme": "日本政治",
+      "title": "JAXAが宇宙飛行士候補の募集を予告、2027年4月ごろ",
+      "summary": "文部科学省とJAXAは11月27日、日本人宇宙飛行士候補の募集を2027年4月ごろに始めると予告した。学歴や専門分野は前回と同様の扱いを想定している。",
+      "whyItMatters": "月面探査も視野に、2030年代の有人宇宙活動を担う候補を育てる方針だ。",
+      "impact": "前回は学歴や専門分野を応募の条件にせず、選抜で必要な能力を評価した。応募を考える人は今後の正式要項を確認できる。",
+      "caution": "現時点は予告。応募資格や書類受付の日程の詳細は今後公表される。",
+      "references": [
+        {
+          "name": "文部科学省",
+          "url": "https://www.mext.go.jp/content/20261127-mxt_uchukai01-000053562_1.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "JAXA",
+          "url": "https://www.jaxa.jp/press/2026/11/files/20261127-1_requirement01.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "eu-ukraine-financing-december",
+      "theme": "国際情勢",
+      "title": "EUのウクライナ資金協議、27年分の結論は12月に持ち越し",
+      "summary": "EU首脳は11月26〜27日の会合で、ウクライナの2027年の資金需要への対応を協議した。コスタ欧州理事会議長は提案を24加盟国が支持したと説明し、12月に協議を続けるとした。",
+      "whyItMatters": "支援をどう調達し、どの国がどの部分を担うかは、ウクライナの来年の予算に関わる。",
+      "impact": "前便で伝えたウクライナ側の資金需要に対し、支援する側の調整が進んだ。次はEUの決定と資金を利用できる時期が焦点になる。",
+      "caution": "支持国数は議長の説明。融資の最終条件や実行は未確認。",
+      "references": [
+        {
+          "name": "欧州理事会",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/26-27/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/europe-budget-ukraine-2028-summit-costa-fd025046850b824b2e62def18408c6b6",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-nikkei-nov27",
+      "theme": "株式投資",
+      "title": "日経平均は1211円高、週末の終値は5万8711円",
+      "summary": "11月27日の東京市場で日経平均は前日比1211円95銭高の5万8711円11銭で取引を終えた。前日から続伸し、AI・半導体関連銘柄にも買い戻しが入った。",
+      "whyItMatters": "週内の大幅な下げの後、指数の反発が続いた。指数への寄与が大きい銘柄の動きが終値に反映される。",
+      "impact": "投資信託などの値動きと比べる際は、商品が連動する指数や為替の違いも関係する。",
+      "caution": "27日の終値で、今後の値動きを予測するものではない。",
+      "references": [
+        {
+          "name": "OANDA",
+          "url": "https://www.oanda.jp/lab-education/market_news/mn_1046172_202611271543/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "株探",
+          "url": "https://s.kabutan.jp/news/n202611271070/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "wall-street-black-friday-nov27",
+      "theme": "株式投資",
+      "title": "感謝祭明けの米国株は主要指数が上昇",
+      "summary": "11月27日の米株式市場で主要指数が上昇した。ロイターによると、同じ週に売られていたAI関連銘柄が持ち直し、相場を支えた。",
+      "whyItMatters": "感謝祭前の波乱を受けた週末の取引で、AI関連株の値動きが指数の方向にも影響した。",
+      "impact": "日本から指数連動商品を保有する場合は、各指数の業種構成と為替でも円換算の値動きが変わる。",
+      "caution": "休場明けの1日の値動き。翌週の相場や個別株の判断は示さない。",
+      "references": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "claude-artifacts-desktop-install",
+      "theme": "AI",
+      "title": "Claudeで作った小型ツールをMac・Windowsの独立ウィンドウへ",
+      "summary": "Anthropicは11月24日、Claudeで作った対話型の成果物をMacやWindowsにアプリとして追加できる機能を案内した。追加したツールは独自のアイコンを持ち、会話画面の外にあるウィンドウで開ける。",
+      "whyItMatters": "繰り返し使う計算ツールや試作品を、作成した会話を探し直さずに起動できる。",
+      "impact": "小さな社内ツールや試作品を再利用するときの選択肢が増える。業務データを扱う前に利用条件も確認したい。",
+      "caution": "24日の発表。オフライン動作や第三者への配布条件までは確認していない。",
+      "references": [
+        {
+          "name": "Anthropic公式発表",
+          "url": "https://claude.com/resources/articles/install-as-app",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "Claudeヘルプセンター",
+          "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app?frmapp=yes",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "kokuho-tv-two-nights",
+      "theme": "芸能ニュース",
+      "title": "映画『国宝』のテレビ初放送は正月2夜、両日とも午後9時",
+      "summary": "日本テレビは11月27日、映画『国宝』の初放送を2027年1月2日と3日の午後9時に始めると発表した。吉沢亮が主演する2025年公開の作品を、2日間に分けて放送する。",
+      "whyItMatters": "劇場で話題になった作品を家庭で見る具体的な日程が決まった。",
+      "impact": "視聴や録画を予定する場合は、1日ずつ分かれた番組表を確認するとよい。",
+      "caution": "放送日時は発表時点。見逃し配信はこの発表では確認していない。",
+      "references": [
+        {
+          "name": "日本テレビ",
+          "url": "https://kinro.ntv.co.jp/article/detail/2026112702",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "オリコンニュース・BS11掲載",
+          "url": "https://www.bs11.jp/oricon-news/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "music-station-super-live-lineup",
+      "theme": "芸能ニュース",
+      "title": "年末のMステ特番、12月25日放送と出演54組を発表",
+      "summary": "テレビ朝日は11月27日、音楽特番『ミュージックステーション SUPER LIVE 2026』を12月25日に生放送すると発表した。第一弾の出演者には54組が名を連ねた。",
+      "whyItMatters": "年末の大型音楽番組で、視聴者が出演者と放送日を確認できる段階になった。",
+      "impact": "特定の出演者を目当てに見る場合は、今後の曲目や出演時間帯の案内が確認点になる。",
+      "caution": "54組は第一弾発表時点。出演時間はここでは確認していない。",
+      "references": [
+        {
+          "name": "テレビ朝日",
+          "url": "https://post.tv-asahi.co.jp/?p=905110",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "番組公式ページ",
+          "url": "https://www.tv-asahi.co.jp/music/superlive2026/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "kagome-february-price-revision",
+      "theme": "日本経済",
+      "title": "カゴメが409品目の出荷価格を改定、来年2月納品分から",
+      "summary": "カゴメは11月24日、家庭用と業務用の食品・飲料計409品目の出荷価格を、2027年2月1日の納品分から引き上げると発表した。家庭用の引き上げ幅は食品で最大13.1％、飲料で最大14.6％。",
+      "whyItMatters": "家庭でも飲食店でも使う調味料や飲料が対象で、来年の仕入れ価格に関わる。",
+      "impact": "ケチャップや野菜飲料などを買う家庭では、商品ごとに店頭価格の動きを見る材料になる。",
+      "caution": "出荷価格の改定。店頭価格や各商品の上昇率を一律に示す数字ではない。",
+      "references": [
+        {
+          "name": "カゴメ",
+          "url": "https://www.kagome.co.jp/library/company/news/2026/img/2026112401.pdf",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    },
+    {
+      "id": "us-contractor-congress-response-order",
+      "theme": "国際情勢",
+      "title": "米政権、連邦契約企業の議会への回答に事前協議を求める",
+      "summary": "トランプ米大統領は11月20日、連邦政府の契約企業などが議会から照会を受けた際、政権側と協議するよう求める大統領令を出した。23日掲載のAP報道は、ホワイトハウスが連邦機関の議会対応にも事前承認を求めたと伝えた。",
+      "whyItMatters": "政権側は行政の機密保護を理由とし、民主党議員は議会による行政監視を妨げると反発している。",
+      "impact": "政府契約の運用と、議会が受託企業からどこまで資料を得られるかに関わる。次は契約条項への反映や議会側の対応が焦点だ。",
+      "caution": "確認したのは大統領令と政権の対応。裁判所による適法性の判断は確認していない。",
+      "references": [
+        {
+          "name": "米ホワイトハウス",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        },
+        {
+          "name": "AP・Federal News Network掲載",
+          "url": "https://federalnewsnetwork.com/contracting/2026/11/trump-orders-federal-contractors-to-check-with-white-house-before-responding-to-congress/?readmore=1",
+          "publishedAt": null,
+          "accessedAt": "2026-11-27T23:03:58Z",
+          "usage": "facts-only",
+          "reviewNote": "公開表示で公表内容または報道の事実関係を確認。本文・画像の転載なし。"
+        }
+      ]
+    }
+  ]
+}
